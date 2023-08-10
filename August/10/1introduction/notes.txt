@@ -1,0 +1,36 @@
+Internet  - connectivity between system 
+Web - one part of internet other parts ftp,smtp 
+web - sharing information
+protocol - set of rules 
+protocol example:web(http or https) ,ftp,smtp
+Home - client 
+pizza shop - server 
+road -internet 
+pizz shop - protocol - web(http)
+WEB DEVELOPMENT 
+BACKEND - NODEJS|JAVA|PYTHON
+FRONTEND - HTML,CSS,JAVASCRIPT
+DNS(DOMAN NAME SERVER) - shop name 
+IP(INTERNET protocol) -gst number
+www - world wide web 
+tcp - tranmission control protocol (information will be attached for each packet and it will assemble in final destionation)
+http or https - hyper text transfer protocol 
+hyper - link
+text - information 
+transfer - sending and receiving 
+protocol - rule 
+http information can be access with the help of browser 
+conclusion:
+internet 
+web 
+http 
+ip 
+tcp 
+frontend 
+backend 
+protocol 
+dns 
+www
+
+
+
