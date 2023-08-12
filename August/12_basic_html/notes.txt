@@ -37,3 +37,25 @@ example:
 1welcome.html 
 heading_main.html
 heading_main_section.html
+
+shortcut key in vsscode:
+to open new file 
+ctrl+n
+To save a file 
+ctrl+s
+<>-->start tags
+</> -->end tags
+//entire code please write in lower case 
+First program:
+<html> --> start 
+<body> ->To send the information 
+<h1>
+Introduction
+</h1>
+</body>
+</html>--->end
+
+to open html file in browser we need to find location of the file.
+Step to open html file 
+//right in the tab of vscode in that particular --> copy path 
+//open the browser in the url - Ctrl+v
