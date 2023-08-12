@@ -26,3 +26,14 @@ example:
 google chromse 
 bing 
 edge
+
+How to write this language?
+Any language will have extension and if you want to write in html 
+extension filename.html or filename.htm 
+//please write everything in lowercase letter 
+//always prefer extension with .html
+//filename you can alphanumeric characters
+example:
+1welcome.html 
+heading_main.html
+heading_main_section.html
