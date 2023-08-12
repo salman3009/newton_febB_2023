@@ -85,3 +85,12 @@ Practical world
 heading - <h1></h1>
 sub heading - <h2></h2>
 paragraph - <p></p>
+
+conclusion:
+1.html <html>
+2.head  <head>
+     1.title <title>
+3.body <body>
+      1.heading <h1><h2><h3><h4><h5><h6>
+      2.paragraph <p>
+      
