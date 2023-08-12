@@ -10,5 +10,19 @@ hyper - one page or one information is connected to another page or another info
 text - information 
 markup - synatx <>
 
+url
+Web page 
+website
 
-
+url: uniform resource locator:https://www.flipkart.com
+web page:
+//You will have information about content,image,video,audio,download pdf,excel,word document,ppt 
+Website:
+//combination of web page is called website.
+web browser
+//It is interface to get the information 
+//It is default supported by html compiler
+example:
+google chromse 
+bing 
+edge
