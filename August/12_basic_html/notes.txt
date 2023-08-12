@@ -74,3 +74,8 @@ answer. html provides only predefined we cannot create new tags.
 
 Paragraph 
 <p></p>
+
+
+Head tag 
+//configuration information 
+title tag - tab name 
