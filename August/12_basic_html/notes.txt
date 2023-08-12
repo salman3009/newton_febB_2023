@@ -47,15 +47,30 @@ ctrl+s
 </> -->end tags
 //entire code please write in lower case 
 First program:
-<html> --> start 
+<html> --> start tags
 <body> ->To send the information 
 <h1>
-Introduction
+Introduction ->content
 </h1>
 </body>
-</html>--->end
+</html>--->end tags
 
 to open html file in browser we need to find location of the file.
 Step to open html file 
 //right in the tab of vscode in that particular --> copy path 
 //open the browser in the url - Ctrl+v
+//Inside the browser we have html compiler 
+
+Heading tag combination:
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+Question: Can I create my own tag?
+answer. html provides only predefined we cannot create new tags.
+
+Paragraph 
+<p></p>
