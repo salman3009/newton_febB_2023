@@ -79,3 +79,9 @@ Paragraph
 Head tag 
 //configuration information 
 title tag - tab name 
+
+
+Practical world 
+heading - <h1></h1>
+sub heading - <h2></h2>
+paragraph - <p></p>
