@@ -1,0 +1,14 @@
+Basic layout:
+internet --->web(http)--->html 
+newspaper - information
+newspaper (english)---> electronic form 
+To transfer the information inside the internet we need some machine language so that both end users can able to understand.
+To share the information in web form  they have developed html 
+HTML:
+hyper text markup language 
+hyper - one page or one information is connected to another page or another information.
+text - information 
+markup - synatx <>
+
+
+
