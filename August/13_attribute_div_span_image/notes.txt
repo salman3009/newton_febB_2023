@@ -34,6 +34,8 @@ example:
 <b></b>
 <i></i>
 ===============================================
-
+div tag 
+//It is block element 
+//It is plain block element
 
 
