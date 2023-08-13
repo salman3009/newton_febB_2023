@@ -9,6 +9,13 @@ What is attributes?
 //key and value is predefined propert in attribute
 //align attribute to adjust the position of the tags 
 //values are "center" or "left" or "right"
+//whenever it is necessary we need to use this attribute
 example:
 key="value" or 'value'
 <p align="center">welcome to html</p>
+other attributes:
+id - unique identification 
+value - any alphanumeric value
+class - combination 
+value - any alphanumeric value
+
