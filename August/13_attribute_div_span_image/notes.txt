@@ -31,11 +31,18 @@ example:
 <h1></h1>
 <div></div>
 2.inline -it will alllow other element in same line 
-<b></b>
-<i></i>
+<b></b> - Content will become bold
+<i></i> - Content will become italic
+<span></span
 ===============================================
 div tag 
 //It is block element 
 //It is plain block element
+//It always start in new line
+//It will occupy entire line
+=========================================
+Each and every html tags will have default css present in it.
+==========================================
+
 
 
