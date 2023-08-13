@@ -3,3 +3,12 @@ HTML Bugs:
 //example if body tag or head tag or html tag or you forgot to close the tags it will not throw any errors and browser will get compiled those code as well
 Compiler erros 
 //You can check inside the inspect--->console
+
+What is attributes?
+//Extra information about the tags 
+//key and value is predefined propert in attribute
+//align attribute to adjust the position of the tags 
+//values are "center" or "left" or "right"
+example:
+key="value" or 'value'
+<p align="center">welcome to html</p>
