@@ -10,44 +10,50 @@ What is attributes?
 //align attribute to adjust the position of the tags 
 //values are "center" or "left" or "right"
 //whenever it is necessary we need to use this attribute
+//You can attach attribute only in opening tag. Dont add in closing tag
 example:
 key="value" or 'value'
 <p align="center">welcome to html</p>
 other attributes:
 id - unique identification 
-value - any alphanumeric value
+value - any alphanumeric value (lower case letter is preferrable)
 class - combination 
 value - any alphanumeric value
 Info:
 align attribute we have predefined value
-id and class attribute user need to defined the value
+id and class attribute developer need to defined the value
 each tags can have only one class id or align attribute 
 =====================================================
 Block And Inline 
 //html tags are divided into two types 
-1.block - It will not allow other element in the same line
+1.block - 
+-It will not allow other element in the same line
+-It always start in new line
+-It will occupy entire line
 example:
 <p></p>
-<h1></h1>
+<h1></h1>.....<h6></h6>
 <div></div>
-2.inline -it will alllow other element in same line 
+2.inline 
+-it will allow other element in same line 
+-It always continue in the same line but before tag is block means it will continue in next line 
+-It will not occupy entire line 
 <b></b> - Content will become bold
 <i></i> - Content will become italic
-<span></span
+<span></span>
 ===============================================
 div tag 
 //It is block element 
 //It is plain block element
-//It always start in new line
-//It will occupy entire line
 =========================================
 Each and every html tags will have default css present in it.
 ==========================================
 span tag 
 //It is inline element 
 //It is plain inline element 
-//It always continue in the same line but before tag is block means it will continue in next line 
-//It will not occupy entire line 
 =============================
-
+html tag 
+//<p></p>
+html element 
+//<p>Welcome to html</p>
 
