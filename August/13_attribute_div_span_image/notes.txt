@@ -43,6 +43,11 @@ div tag
 =========================================
 Each and every html tags will have default css present in it.
 ==========================================
-
+span tag 
+//It is inline element 
+//It is plain inline element 
+//It always continue in the same line but before tag is block means it will continue in next line 
+//It will not occupy entire line 
+=============================
 
 
