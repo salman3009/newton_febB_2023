@@ -18,4 +18,22 @@ id - unique identification
 value - any alphanumeric value
 class - combination 
 value - any alphanumeric value
+Info:
+align attribute we have predefined value
+id and class attribute user need to defined the value
+each tags can have only one class id or align attribute 
+=====================================================
+Block And Inline 
+//html tags are divided into two types 
+1.block - It will not allow other element in the same line
+example:
+<p></p>
+<h1></h1>
+<div></div>
+2.inline -it will alllow other element in same line 
+<b></b>
+<i></i>
+===============================================
+
+
 
