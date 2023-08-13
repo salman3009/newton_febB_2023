@@ -1,0 +1,5 @@
+HTML Bugs:
+//HTML will not provide you bugs most of the time it will take care automatically.
+//example if body tag or head tag or html tag or you forgot to close the tags it will not throw any errors and browser will get compiled those code as well
+Compiler erros 
+//You can check inside the inspect--->console
