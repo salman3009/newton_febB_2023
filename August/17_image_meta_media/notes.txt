@@ -26,9 +26,28 @@ id
 class 
 Image extension 
 //we can use .png or .jpeg or .jpg 
+//Avoid negative value for width and height 
 example:
 <img src="car.png">
 Problems if image is not coming 
 1.Check image is present in current folder 
 2.check name of the image and extension is matching with your src path
 ========================
+Media Tag:
+We have two types of media tag 
+1.audio 
+2.video 
+Two tags is present 
+<audio>
+  <source>
+</audio>
+audio or video tag attributes without values 
+1.controls 
+2.loop 
+3.autoplay 
+source tag Attributes:
+1.src 
+2.type="audio/mp3" or type="video/mp4" 
+
+
+
