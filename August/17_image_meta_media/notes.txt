@@ -25,4 +25,6 @@ id
 class 
 Image extension 
 //we can use .png or .jpeg or .jpg 
+example:
+<img src="car.png">
 ========================
