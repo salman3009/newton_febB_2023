@@ -6,8 +6,8 @@ Compiler erros
 
 What is attributes?
 //Extra information about the tags 
-//key and value is predefined propert in attribute
-//align attribute to adjust the position of the tags 
+//key and value is predefined property in attribute
+//example: align attribute to adjust the position of the tags 
 //values are "center" or "left" or "right"
 //whenever it is necessary we need to use this attribute
 //You can attach attribute only in opening tag. Dont add in closing tag
@@ -24,7 +24,7 @@ align attribute we have predefined value
 id and class attribute developer need to defined the value
 each tags can have only one class id or align attribute 
 =====================================================
-Block And Inline 
+Block And Inline (interview question)
 //html tags are divided into two types 
 1.block - 
 -It will not allow other element in the same line
@@ -56,4 +56,5 @@ html tag
 //<p></p>
 html element 
 //<p>Welcome to html</p>
+=============================
 
