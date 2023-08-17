@@ -1,0 +1,9 @@
+custom attributes:
+//Any attribute you can use it inside the html tag 
+//example 
+<p data-ts-test="block-inline-span"></p>
+Other tags:
+<button>Add</button>  --> To create button
+<input>               --> To create text box
+<sup></sup>           --> To give superscript
+<sub></sub>           --> To give subscript
