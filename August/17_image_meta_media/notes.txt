@@ -14,6 +14,7 @@ Image tag
 //To display image inside the browser we using image tag 
 //Image we don't have closing tag 
 //It is inline tag
+//inline element if you don't have space it will go to next line
 example:
 <img>
 Attributes:
