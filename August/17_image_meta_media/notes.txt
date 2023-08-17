@@ -35,16 +35,17 @@ Problems if image is not coming
 ========================
 Media Tag:
 We have two types of media tag 
+//it is html 5 feature.
 1.audio 
 2.video 
 Two tags is present 
-<audio>
+<audio> or <video>
   <source>
-</audio>
+</audio> or  </video>
 audio or video tag attributes without values 
-1.controls 
-2.loop 
-3.autoplay 
+1.controls - UI will be visible
+2.loop - repeat
+3.autoplay - it will play automatically once we open browser
 source tag Attributes:
 1.src 
 2.type="audio/mp3" or type="video/mp4" 
