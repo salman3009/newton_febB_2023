@@ -27,4 +27,7 @@ Image extension
 //we can use .png or .jpeg or .jpg 
 example:
 <img src="car.png">
+Problems if image is not coming 
+1.Check image is present in current folder 
+2.check name of the image and extension is matching with your src path
 ========================
