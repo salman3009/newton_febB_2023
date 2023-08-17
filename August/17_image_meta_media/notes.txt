@@ -1,9 +1,28 @@
 custom attributes:
 //Any attribute you can use it inside the html tag 
+//It is useful for own requirement like checking test case or some other analytics purpose.
 //example 
 <p data-ts-test="block-inline-span"></p>
 Other tags:
+Below tags are inline elements
 <button>Add</button>  --> To create button
 <input>               --> To create text box
 <sup></sup>           --> To give superscript
 <sub></sub>           --> To give subscript
+============================================
+Image tag 
+//To display image inside the browser we using image tag 
+//Image we don't have closing tag 
+//It is inline tag
+example:
+<img>
+Attributes:
+src - source - url of the image 
+alt  - alternate - suppose image is not present we it will give the content
+width - values in number - 300
+height - values in number  - 400
+id 
+class 
+Image extension 
+//we can use .png or .jpeg or .jpg 
+========================
