@@ -50,6 +50,10 @@ source tag Attributes:
 1.src 
 2.type="audio/mp3" or type="video/mp4" 
 =========================================
-
+There is no closing tag 
+1.input 
+2.img 
+3.source
+=====================================
 
 

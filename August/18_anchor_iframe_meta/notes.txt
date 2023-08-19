@@ -1,0 +1,7 @@
+Anchor tag:
+//It is used to connect from one page to another page 
+//It is inline tag 
+Attributes:
+1.href --> we need to provide filename of html 
+example:
+<a href="loan.html">Loan</a>
