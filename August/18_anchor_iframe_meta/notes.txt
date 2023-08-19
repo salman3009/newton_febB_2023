@@ -5,3 +5,16 @@ Attributes:
 1.href --> we need to provide filename of html 
 example:
 <a href="loan.html">Loan</a>
+==============================================
+iframe
+//To include more then one html file in the same page 
+//It is inline tag
+Attributes:
+1.width 
+2.height 
+3.src 
+Example:
+<iframe src="2loan.html"></iframe>
+Real time usage:
+//To integrate google map in your application
+============================================
