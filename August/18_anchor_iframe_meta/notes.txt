@@ -18,3 +18,12 @@ Example:
 Real time usage:
 //To integrate google map in your application
 ============================================
+Meta Tags 
+//Meta tags helps to increase your rank in SEO 
+//SEO - Search engine optimization 
+example:online juice shop
+<meta name="Keywords" content="fresh juice,apple,mongo,banana,orange">
+<meta name="Description" content="best for health juice,cheap juice price,less sugar juice">
+<meta charset="utf-8"> --> identification of english language 
+<meta name="viewport" content-device="device-width,initial-scale=1">
+==============================================
