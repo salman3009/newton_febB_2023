@@ -38,3 +38,10 @@ example:
 <li></li>
 </ol>
 2.unordered list
+Attributes:
+type="circle|square|disc"
+example:
+<ul>
+<li></li>
+</ul>
+==========================================
