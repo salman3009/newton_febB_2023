@@ -26,6 +26,7 @@ example:online juice shop
 <meta name="Description" content="best for health juice,cheap juice price,less sugar juice">
 <meta charset="utf-8"> --> identification of english language 
 <meta name="viewport" content-device="device-width,initial-scale=1">
+//always provide initial to 1
 ==============================================
 List 
 Two types of list 
@@ -55,3 +56,4 @@ example:
    <dt>USA</dt>
    <dd>United States of America</dd>
 <dl>
+========================================
