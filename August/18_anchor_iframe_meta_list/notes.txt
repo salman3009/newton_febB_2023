@@ -30,6 +30,7 @@ example:online juice shop
 ==============================================
 List 
 Two types of list 
+//Both ol and ul is block tags
 1.ordered list 
 Attributes:
 type="a|A|I|i|1"
