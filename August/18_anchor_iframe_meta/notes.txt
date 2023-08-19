@@ -31,8 +31,8 @@ List
 Two types of list 
 1.ordered list 
 Attributes:
-type="a|A|I|i"
-start ="2|b|II"
+type="a|A|I|i|1"
+start ="2" --> it will work only with number 
 example:
 <ol>
 <li></li>
@@ -45,3 +45,13 @@ example:
 <li></li>
 </ul>
 ==========================================
+description list 
+//Mainly it is used for full form words 
+dl - description list 
+dt - description term 
+dd - description defination 
+example:
+<dl>
+   <dt>USA</dt>
+   <dd>United States of America</dd>
+<dl>
