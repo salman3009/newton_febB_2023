@@ -15,4 +15,11 @@ Attributes:
 3.align
 4.borderColor ---> color for the border
 5.border ----->size of the border 
+Division in Table
+1.thead - all headers related column we can put inside the thead 
+2.tbody - main content we can put inside this
+3.tfoot - last column related to ending of tag 
+Purpose of Division in Table 
+1.To maintain the code readability 
+2.To apply some css styles we can make use of this division.
 ===================================
