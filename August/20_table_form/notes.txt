@@ -42,7 +42,15 @@ Inside Form Tag
  --->There is no closing tag 
  --->It is inline tag 
 2.button tag 
+   --> To create button for form submission
 3.textArea 
 4.Label Tag 
    -->To provide label for each tag.
+
+Input tag
+//We have multiple Attributes 
+1.id 
+2.class 
+3.type ="text"|"password"
+
 
