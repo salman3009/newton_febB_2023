@@ -31,3 +31,18 @@ example:
 <p>HTML is markup language and used for web development</p>
 </section>
 ==================================
+Form Tag:
+//End user is going to provide information to us 
+example
+<form>
+</form>
+Inside Form Tag 
+1.input tag
+ --->To create text box 
+ --->There is no closing tag 
+ --->It is inline tag 
+2.button tag 
+3.textArea 
+4.Label Tag 
+   -->To provide label for each tag.
+
