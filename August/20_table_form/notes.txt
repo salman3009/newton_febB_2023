@@ -1,0 +1,18 @@
+Table:
+//It consists of row and column
+//To create row we need to use tr tag 
+//To create column header we need to use th tag
+//To create column cell we need to use td tag
+example:
+<table>
+<tr>
+<th>Name</th>
+</tr>
+</table>
+Attributes:
+1.width 
+2.bgcolor -->background color 
+3.align
+4.borderColor ---> color for the border
+5.border ----->size of the border 
+===================================

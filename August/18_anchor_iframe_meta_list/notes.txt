@@ -31,6 +31,7 @@ example:online juice shop
 List 
 Two types of list 
 //Both ol and ul is block tags
+//It is block tag
 1.ordered list 
 Attributes:
 type="a|A|I|i|1"
@@ -49,6 +50,7 @@ example:
 ==========================================
 description list 
 //Mainly it is used for full form words 
+//It is block tag 
 dl - description list 
 dt - description term 
 dd - description defination 
