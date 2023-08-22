@@ -31,7 +31,7 @@ Input Tag Attributes
 2.value --> Default value 
 3.type 
 4.id - unique identification
-
+4.step="5" -->it will increment each value by 5 it will work inside the number type
 =======================
 type values 
 1.text 
