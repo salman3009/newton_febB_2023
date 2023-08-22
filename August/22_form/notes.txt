@@ -43,7 +43,7 @@ type values
 //for radio to make only one selection provide name attribute with same value.
 7.checkbox - multiple selection
 //document agree and condition single checkbox  
-
+8.number - it will allow only number
 ==========================
 Label Tag:
 Attributes
