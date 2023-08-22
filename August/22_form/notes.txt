@@ -10,7 +10,7 @@ Inside Form Tag
  --->It is inline tag 
 2.button tag 
    --> To create button for form submission
-3.textArea 
+3.textArea --> For long sentence
 4.Label Tag 
    -->To provide label for each tag.
 
@@ -32,6 +32,12 @@ Input Tag Attributes
 3.type 
 4.id - unique identification
 4.step="5" -->it will increment each value by 5 it will work inside the number type
+
+textArea Attributes 
+1.name 
+2.id 
+3.rows="4"
+4.cols="5"
 =======================
 type values 
 1.text 
