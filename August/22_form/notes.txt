@@ -41,7 +41,7 @@ type values
 5.reset
 6.radio  - anyone selection
 //for radio to make only one selection provide name attribute with same value.
-
+7.checkbox - multiple selection 
 
 ==========================
 Label Tag:
