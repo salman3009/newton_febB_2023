@@ -37,6 +37,9 @@ type values
 1.text 
 2.submit - to create submit button 
 3.email
+4.password
+5.radio 
+
 
 ==========================
 Label Tag:
@@ -45,3 +48,19 @@ Attributes
 //for in label and id in input tag 
 //both we need to provide same name so that it will get focus
 ===========================================
+What are tags present inside the form tag 
+1.input tag 
+2.button tag 
+3.label tag 
+What are attributes is present inside the input tag 
+1.type 
+2.value 
+3.id 
+4.name 
+What are attributes is present inside the label tag 
+1.for 
+What are values for input attribute?
+1.text
+2.email 
+3.submit 
+=============================================
