@@ -29,4 +29,19 @@ Inside the Form we can create button in two ways
 Input Tag Attributes 
 1.name --> to provide name 
 2.value --> Default value 
-3.type -->text
+3.type 
+4.id - unique identification
+
+=======================
+type values 
+1.text 
+2.submit - to create submit button 
+3.email
+
+==========================
+Label Tag:
+Attributes
+1.for 
+//for in label and id in input tag 
+//both we need to provide same name so that it will get focus
+===========================================
