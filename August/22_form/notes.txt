@@ -38,7 +38,9 @@ type values
 2.submit - to create submit button 
 3.email
 4.password
-5.radio 
+5.reset
+6.radio  - anyone selection
+//for radio to make only one selection provide name attribute with same value.
 
 
 ==========================
