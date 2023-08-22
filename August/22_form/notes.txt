@@ -5,7 +5,7 @@ example
 </form>
 Inside Form Tag 
 1.input tag
- --->To create text box 
+ --->To create text box,radio,check
  --->There is no closing tag 
  --->It is inline tag 
 2.button tag 
@@ -13,12 +13,6 @@ Inside Form Tag
 3.textArea --> For long sentence
 4.Label Tag 
    -->To provide label for each tag.
-
-Input tag
-//We have multiple Attributes 
-1.id 
-2.class 
-3.type ="text"|"password"
 ==============================================
 Inside the Form we can create button in two ways 
 1.button tag 
@@ -29,7 +23,7 @@ Inside the Form we can create button in two ways
 Input Tag Attributes 
 1.name --> to provide name 
 2.value --> Default value 
-3.type 
+3.type ="text"|"password"|"radio"|"checkbox"|"number"|"submit"|"reset"
 4.id - unique identification
 4.step="5" -->it will increment each value by 5 it will work inside the number type
 
@@ -73,3 +67,14 @@ What are values for input attribute?
 2.email 
 3.submit 
 =============================================
+HTML validation attributes 
+1.required 
+2.minlength 
+3.maxlength 
+4.min 
+5.max
+=======================================
+Form tag attributes:
+1.id 
+2.name 
+3.action --> link for next page
