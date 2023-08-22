@@ -68,7 +68,7 @@ What are values for input attribute?
 3.submit 
 =============================================
 HTML validation attributes 
-1.required 
+1.required  ---> mandatory
 2.minlength 
 3.maxlength 
 4.min 
@@ -78,3 +78,4 @@ Form tag attributes:
 1.id 
 2.name 
 3.action --> link for next page
+===================================
