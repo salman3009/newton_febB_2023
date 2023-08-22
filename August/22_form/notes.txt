@@ -1,0 +1,32 @@
+Form Tag:
+//End user is going to provide information to us 
+example
+<form>
+</form>
+Inside Form Tag 
+1.input tag
+ --->To create text box 
+ --->There is no closing tag 
+ --->It is inline tag 
+2.button tag 
+   --> To create button for form submission
+3.textArea 
+4.Label Tag 
+   -->To provide label for each tag.
+
+Input tag
+//We have multiple Attributes 
+1.id 
+2.class 
+3.type ="text"|"password"
+==============================================
+Inside the Form we can create button in two ways 
+1.button tag 
+<button>Submit</button>
+2.submit tag 
+<input type="submit">
+============================================
+Input Tag Attributes 
+1.name --> to provide name 
+2.value --> Default value 
+3.type -->text
