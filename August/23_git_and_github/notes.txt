@@ -1,0 +1,22 @@
+What is Git and Github 
+git is the version control helps to communicate with cloud system for push and pull the data.
+github cloud repository to store code 
+Alternate to github 
+example:bigbucket,gitlab
+============================
+Software to be installed in our local system 
+1.https://git-scm.com/downloads
+2.Setup for github signup
+============================================
+Technical terms
+1.repo or repository - complete project
+2.clone - copy of this repository in your local system
+3.push 
+4.pull 
+5.add 
+6.commit 
+==============================================
+Taking pull from repo 
+1.git clone url 
+2.git pull 
+==========================================
