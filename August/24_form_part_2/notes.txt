@@ -23,3 +23,12 @@ fieldset
 <legend>Header Information</legend>
 </fieldset>
 ================================
+Form tag 
+1.input 
+2.label 
+3.button 
+4.textarea 
+5.select or dropdown -it is alternative for radio and checkbox
+Attribute 
+mulitple --> to make multiple selection
+======================================
