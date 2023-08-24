@@ -1,7 +1,7 @@
 HTML validation attributes 
 1.required  ---> mandatory
 2.minlength -->minimum length we need to provide in number.
-3.maxlength 
-4.min 
-5.max
+3.maxlength  --->maximum length we need to provide in number. Textbox will stop typing once maximum is reached
+4.min ---> It can be used with type="number"
+5.max ---> It can be used with type="number"
 ==============================
