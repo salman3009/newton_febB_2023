@@ -2,8 +2,8 @@ HTML validation attributes
 1.required  ---> mandatory
 2.minlength -->minimum length we need to provide in number.
 3.maxlength  --->maximum length we need to provide in number. Textbox will stop typing once maximum is reached
-4.min ---> It can be used with type="number"
-5.max ---> It can be used with type="number"
+4.min ---> It can be used with type="number" or type="range"
+5.max ---> It can be used with type="number" or type="range"
 ==============================
 New types values
 1.date or date picker 
@@ -30,5 +30,5 @@ Form tag
 4.textarea 
 5.select or dropdown -it is alternative for radio and checkbox
 Attribute 
-mulitple --> to make multiple selection
+multiple --> to make multiple selection
 ======================================
