@@ -6,7 +6,7 @@ HTML validation attributes
 5.max ---> It can be used with type="number"
 ==============================
 New types values
-1.date 
+1.date or date picker 
 
 2.url 
 
