@@ -5,3 +5,16 @@ HTML validation attributes
 4.min ---> It can be used with type="number"
 5.max ---> It can be used with type="number"
 ==============================
+New types values
+1.date 
+
+2.url 
+
+3.color 
+
+4.range 
+Attributes 
+min 
+max
+
+==========================
