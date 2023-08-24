@@ -1,0 +1,7 @@
+HTML validation attributes 
+1.required  ---> mandatory
+2.minlength -->minimum length we need to provide in number.
+3.maxlength 
+4.min 
+5.max
+==============================
