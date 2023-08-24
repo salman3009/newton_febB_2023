@@ -17,3 +17,9 @@ Attributes
 min 
 max
 ==========================
+fieldset
+//It will make alignment with border and will provide header information.
+<fieldset>
+<legend>Header Information</legend>
+</fieldset>
+================================
