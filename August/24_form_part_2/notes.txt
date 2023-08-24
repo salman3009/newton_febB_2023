@@ -7,14 +7,13 @@ HTML validation attributes
 ==============================
 New types values
 1.date or date picker 
-
+//to provide date pop up
 2.url 
-
+//To give proper url we can use this
 3.color 
-
+//To pick color 
 4.range 
 Attributes 
 min 
 max
-
 ==========================
