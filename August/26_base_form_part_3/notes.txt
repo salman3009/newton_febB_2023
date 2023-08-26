@@ -1,0 +1,5 @@
+Base Tag 
+//To have common url in your website and other tags can continue from there
+Attribute:
+href -->prefix url we can provide 
+==================================
