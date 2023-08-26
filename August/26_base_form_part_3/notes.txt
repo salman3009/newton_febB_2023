@@ -4,9 +4,10 @@ Attribute:
 href -->prefix url we can provide 
 ==================================
 Input tag attributes:
-1.Readonly 
-2.Disabled
-3.placeholder 
-4.Autofocus 
-5.autocomplete 
+1.Readonly -->it will make the text none editable
+2.Disabled -->User cannot able to use this information
+3.placeholder -->extra information for user to type the data inside the text 
+4.Autofocus -->it will make text box or other input field focused with blue border and active cursor
+5.autocomplete -->it will decide whether to take existing information from browser to display it or not 
+       1.autocomplete="on|off"
 ===============================
