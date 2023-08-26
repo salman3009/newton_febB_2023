@@ -13,7 +13,22 @@ Input tag attributes:
 ===============================
 Others tags inside the form 
 1.datalist
-    //It will provide suggestion to the user for existing keywords that is already available we can select anyone from there or we can new value as well.
+    //It will provide suggestion to the user for existing keywords that is already available we can select anyone from there or we can enter new value as well.
     //input tag and datalist is connected with input tag with list attribute and datalist with id attribute  
+example:
+<input list="browsers" type="text" name="browser" id="browser">
+            <datalist id="browsers">
+                <option value="edge"></option>
+                <option value="firefox"></option>
+            </datalist>
 2.optgroup 
+    //It is used to group select tag option to some category
+    //It is just information to user to understand the segregation of each group in better way
+example:
+ <select>
+                <optgroup label="India">
+                    <option value="delhi">Delhi</option>
+                    <option value="mumbai">Mumbai</option>
+                </optgroup>
+  </select>              
 3.output tag 
