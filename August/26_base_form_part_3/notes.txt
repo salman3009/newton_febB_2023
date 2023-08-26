@@ -11,3 +11,9 @@ Input tag attributes:
 5.autocomplete -->it will decide whether to take existing information from browser to display it or not 
        1.autocomplete="on|off"
 ===============================
+Others tags inside the form 
+1.datalist
+    //It will provide suggestion to the user for existing keywords that is already available we can select anyone from there or we can new value as well.
+    //input tag and datalist is connected with input tag with list attribute and datalist with id attribute  
+2.optgroup 
+3.output tag 
