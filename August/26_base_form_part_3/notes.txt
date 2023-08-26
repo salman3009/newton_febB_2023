@@ -3,3 +3,10 @@ Base Tag
 Attribute:
 href -->prefix url we can provide 
 ==================================
+Input tag attributes:
+1.Readonly 
+2.Disabled
+3.placeholder 
+4.Autofocus 
+5.autocomplete 
+===============================
