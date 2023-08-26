@@ -32,3 +32,8 @@ example:
                 </optgroup>
   </select>              
 3.output tag 
+   //It is used to bind the final value from type="range" so that user can understand what is the range they have selected from the given slided. It will provide values in number.
+example:
+<input type="range" min="100" max="1000" onchange="myRange.value=this.value">
+<output name="myRange"></output>
+===============================================            
