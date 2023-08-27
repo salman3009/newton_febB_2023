@@ -52,7 +52,8 @@ New semantic tags
 7.figure and figcaption  --> image
 8.details and summary --> list 
 9.footer 
-
+//To maintain the code readability
+//It also helps SEO 
 Non-semantic elements 
 1.Tag which don't have any meaning 
 1.div 
