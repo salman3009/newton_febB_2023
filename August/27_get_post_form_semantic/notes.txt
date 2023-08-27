@@ -1,0 +1,20 @@
+Get And Post 
+//Inside the form tag we have different attributes:
+1.id 
+2.name 
+3.action --> url to move next page 
+4.method="get/post" 
+method='get'
+1.Data will travel in the url 
+2.this data is called query string parameter 
+3.this method is called get 
+4.few of symbols will get converted for url encoding
+5.data is not secure once we travel in url 
+6.default method will taken as get if we dont provide method attribute
+
+query string parameter:
+?useremail=akash%40gmail.com&userpassword=12345
+useremail and userpassword that is key 
+akash%40gmail.com and 12345 that is value 
+& for separation between email and password 
+? query string parameter 
