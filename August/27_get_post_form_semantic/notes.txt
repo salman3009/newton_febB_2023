@@ -31,3 +31,30 @@ method="post"
 To see this data 
 right click --->inspect-->network-->all-->file name(click)-->payload
 ============================================
+Conclusion:
+get --> url
+post --> body
+http --> url part and body part
+url format --> query string
+body format --> form data
+==============================================
+Semantic Elements 
+1.Tag will have some meaning 
+<h1></h1> --> heading 
+<p></p> --> paragraph 
+New semantic tags 
+1.nav  --> for indication of navigation links
+2.aside --> sidebar information
+3.main  --> main body section
+4.header 
+5.section ---> multiple division in main section
+6.article 
+7.figure and figcaption  --> image
+8.details and summary --> list 
+9.footer 
+
+Non-semantic elements 
+1.Tag which don't have any meaning 
+1.div 
+2.span 
+======================================
