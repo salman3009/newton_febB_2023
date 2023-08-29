@@ -44,11 +44,11 @@ Semantic Elements
 <p></p> --> paragraph 
 New semantic tags 
 1.nav  --> for indication of navigation links
-2.aside --> sidebar information
+2.aside --> any information outside of main tag 
 3.main  --> main body section
 4.header 
 5.section ---> multiple division in main section
-6.article 
+6.article   ---> muiltiple division like section but similar comparision
 7.figure and figcaption  --> image
 8.details and summary --> list 
 9.footer 
@@ -59,3 +59,10 @@ Non-semantic elements
 1.div 
 2.span 
 ======================================
+Mostly used semantic elements:
+1.nav 
+2.footer 
+3.main 
+4.section 
+5.header
+=======================================
