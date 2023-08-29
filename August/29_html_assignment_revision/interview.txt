@@ -17,36 +17,39 @@ language - programming language
 How many section in html?
 //Two section 
 //Head Section
-      //title tag 
+      //title tag --->1
       //link tag 
       //style tag 
       //script tag 
-      //meta tag  
+      //meta tag  --->2
 //Body Section 
-       //heading tag 
+       //heading tag -->1
        //table tag 
-       //paragrapha tag 
-       //form tag 
+       //paragraph tag -->2
+       //form tag -->3
        //list tag 
 
 What is Doctype in html?
 //To mention version of html 
 //currently default it will take latest version of html 
-//latest version of html 5 
+//latest version of html is 5 
+to represent html 5 version below is the syntax:
+<!Doctype html>
 
 what is attribute in html? 
 //It is extra information about the tag 
 //src,href,width,height,class,id 
-What is the attribute in image or anchor or p or h1?
+
+What is the attribute in image or anchor or p or h1 is common?
 //class,id,name
 
 How you will move from one page to another page?
 //anchor tag 
 //Inside the anchor tag we need to provide href link 
 //If you want to open in the new tab we need to use target attribute with _blank 
-//If you want to open in the same page need to use anything it is default.
+//If you want to open in the same page need to use nothing.
 
-HTML is divided into two elements: 
+HTML tag is divided into two types: 
 (i)block element - It will not allow next tag in the same line
 (ii)inline element - It will allow multiple tag in the same line 
 
@@ -57,7 +60,6 @@ Example:
 
 Inline element:
 <span> tag - plain inline element 
-img tag 
 input tag 
 anchor tag 
 li tag 
@@ -70,7 +72,7 @@ Why div is used in many places in reactjs or other application?
 what is Meta tag?
 //meta tag will be available inside the head section 
 //google search keyword or description will match with your meta tag 
-//metag tag will increase the rank in SEO
+//meta tag will increase the rank in SEO
 //SEO - search engine optimization
 syntax:
 example:
@@ -124,7 +126,7 @@ what is iframe or How you will include more then one html in the same page
 How you will create rows inside the table?
 tr tag 
 
-How you will create heading or cell indie te table?
+How you will create heading or cell inside te table?
 th tag and td tag 
 
 what is rowspan  and colspan in table?
@@ -158,23 +160,20 @@ validation:
 13.required -- mandatory something you need to type.
 14.maxlength --> you can use with textbox
 15.minlength--> you can use with textbox
-16.min --------> you can use with type="number"
-17.max -------> you can use with type="number"
+16.min --------> you can use with type="number" or type="range"
+17.max -------> you can use with type="number" or type="range"
 18.pattern --> regular expression
 19.email ---> type="email" 
 
 What are the value for type attribute 
 1.text 
 2.password 
-3.dob 
-4.file 
+3.date  
 5.radio 
 6.checkbox 
-7.hidden 
-8.submit 
-9.reset
-10.image
-11.url 
+7.submit 
+8.reset
+
 
 Form can be submitted in two ways:
 Inside the Form tag we have attribute 
@@ -189,8 +188,7 @@ Query string parameter.
 //sensitive information we cannot send in the url.
 //enctype - x-www-form-urlencoded
 
-2.POSt --> Data will travel in the body section of 
-http:
+2.POST --> Data will travel in the body section of http.
 //it will travel in the form of key and value pair.
 fullName:"salman"
 address:"India"
