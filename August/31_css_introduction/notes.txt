@@ -61,6 +61,8 @@ Pros and Cons:
 3.style tag we can use multiple times in single html file 
 4.external css file also we can create multiple file and we can attach to single html file.
 5.always add style tag and external css in head tag it is best approach
+6.Dont use any attribute style provided by html. write everything from css.
+
 =====================================================
 html file running position:
 1.code will run from top to bottom 
@@ -68,5 +70,12 @@ html file running position:
 Entire duration of our css class I will internal style sheet because it will make easy to understand
 for realtime project will start using external stylesheet.
 =============================================
+Basic Selectors:
+1.element selector 
+2.class selector 
+4.id selector 
+5.grouping selector 
+6.universal selector 
+============================================
 
 
