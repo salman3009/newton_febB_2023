@@ -14,9 +14,11 @@ style=" color:red;"
 ===================================================
 extension for css --> .css 
 Three ways of writing css 
+
 1.inline 
  //css is written directly inside the html tag 
  <p style="color:red;">Welcome to css</p>
+
 2.internal 
 //We are writing css separately inside the style tag but within the html file.
 //you can put style tag anywhere inside the html file.
@@ -27,8 +29,19 @@ p
     color:red;
 }
 </style>
-3.external
 
+3.external
+//css is written separately in different file 
+//we need to provide .css extension 
+//we need to link css and html file 
+//you can place link tag anywhere but head tag is the best approach
+example:
+<link href="global.css" rel="stylesheet" >
+syntax:
+global.css 
+p{
+    color:red;
+}
 
 ====================================
 user agent stylesheet
