@@ -94,6 +94,13 @@ Basic Selectors:
         color:red;
     }
 5.grouping selector 
+     //combination of all selectors 
+     //element selector + class selector + id selector ....
+     //each seletor will be separated by comma (,)
+example:
+  .theme,p{
+    color:red;
+  }
 6.universal selector 
 ============================================
 
