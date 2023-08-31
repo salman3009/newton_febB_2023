@@ -75,6 +75,7 @@ Basic Selectors:
     //It will target the particular element inside the html 
     //we need to use html tag name 
     //Drawbacks:It will apply for all the tags
+
 2.id selector 
     //unique style for particular tag we need to apply 
     //we need to add id attribute in html tag 
@@ -84,6 +85,14 @@ Basic Selectors:
         color:red;
     }
 4.class selector 
+    //most used selector in entire css 
+    //we need to add class attribute in html tag 
+    //to access in css we need to use symbol . and name of the class.
+    //class attribute please added in html tag whenever it is required.
+    example:
+    .theme{
+        color:red;
+    }
 5.grouping selector 
 6.universal selector 
 ============================================
