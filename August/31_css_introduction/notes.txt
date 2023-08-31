@@ -102,6 +102,11 @@ example:
     color:red;
   }
 6.universal selector 
+     //it will apply for all tags 
+example:
+     *{
+        color:red;
+     }
 ============================================
 
 
