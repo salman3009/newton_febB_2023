@@ -3,6 +3,7 @@ Cascading style sheets
 //It will help for presentation purpose.
 //without html we cannot do css.
 Syntax:
+selector
 { --> curly braces
     color:red;  -->property-->(color)key-->(red)value 
 }
@@ -16,8 +17,16 @@ Three ways of writing css
 1.inline 
  //css is written directly inside the html tag 
  <p style="color:red;">Welcome to css</p>
-
 2.internal 
+//We are writing css separately inside the style tag but within the html file.
+//you can put style tag anywhere inside the html file.
+example:
+<style>
+p
+{
+    color:red;
+}
+</style>
 3.external
 
 
