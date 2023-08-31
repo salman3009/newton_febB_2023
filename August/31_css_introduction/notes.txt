@@ -1,0 +1,21 @@
+CSS:
+Cascading style sheets 
+//It will help for presentation purpose.
+//without html we cannot do css.
+Syntax:
+{ --> curly braces
+    color:red;  -->property-->(color)key-->(red)value 
+}
+: --> segregation between key and value
+; -->end of the statement
+Syntax for inline style 
+style=" color:red;"
+===================================================
+extension for css --> .css 
+Three ways of writing css 
+1.inline 
+ //css is written directly inside the html tag 
+ <p style="color:red;">Welcome to css</p>
+
+2.internal 
+3.external
