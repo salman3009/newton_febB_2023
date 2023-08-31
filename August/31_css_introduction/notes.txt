@@ -19,3 +19,14 @@ Three ways of writing css
 
 2.internal 
 3.external
+
+
+====================================
+user agent stylesheet
+//This style is given by default by html.
+//we can able to overwrite this css.
+=========================================
+hexadecimal color:
+//best way to apply color 
+//#1b3bf0 --> It consists of #symbol after that 6character with alphnumeric value.
+==============================================
