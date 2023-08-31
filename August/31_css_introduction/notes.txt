@@ -72,8 +72,18 @@ for realtime project will start using external stylesheet.
 =============================================
 Basic Selectors:
 1.element selector 
-2.class selector 
-4.id selector 
+    //It will target the particular element inside the html 
+    //we need to use html tag name 
+    //Drawbacks:It will apply for all the tags
+2.id selector 
+    //unique style for particular tag we need to apply 
+    //we need to add id attribute in html tag 
+    //to access in css we need to use symbol # and name of id 
+    example: 
+    #heading{
+        color:red;
+    }
+4.class selector 
 5.grouping selector 
 6.universal selector 
 ============================================
