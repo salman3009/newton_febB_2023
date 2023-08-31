@@ -52,3 +52,21 @@ hexadecimal color:
 //best way to apply color 
 //#1b3bf0 --> It consists of #symbol after that 6character with alphnumeric value.
 ==============================================
+Pros and Cons:
+1.always tried to avoid inline style
+2.best approach for writing css is external stylesheet 
+       -html and css will have separate file. 
+       - Code maintainability 
+       - code readibility
+3.style tag we can use multiple times in single html file 
+4.external css file also we can create multiple file and we can attach to single html file.
+5.always add style tag and external css in head tag it is best approach
+=====================================================
+html file running position:
+1.code will run from top to bottom 
+========================================
+Entire duration of our css class I will internal style sheet because it will make easy to understand
+for realtime project will start using external stylesheet.
+=============================================
+
+
