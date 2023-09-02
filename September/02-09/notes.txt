@@ -46,3 +46,15 @@ Shorhand margin padding property:
   margin:50px 100px;
 //50px top and bottom 
 //100px left and right 
+
+Center alignment 
+To move content in center 
+text-algin:center 
+To move entire tag in center 
+margin:auto;
+
+Combinator Selector: relationship between two tags 
+1.descendant (space) - parent/child/grandchild
+2.child (>) - parent-child
+3.adjacent sibling (+) - brother/sister/first tag
+4.general sibling (~)  - brother /sister/all tag
