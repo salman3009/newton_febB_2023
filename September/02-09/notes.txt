@@ -1,0 +1,10 @@
+Box Modal:
+//Every tag in html will have box modal 
+//It consists of four properties 
+1.width*height 
+2.padding 
+3.border 
+4.margin 
+//To make alignment in the page. It play very important role.
+CSS Unit:
+1px - 1inch
