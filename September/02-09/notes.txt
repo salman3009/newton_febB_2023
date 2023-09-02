@@ -28,3 +28,10 @@ h1{
 5px --> thickness of border 
 solid --> to style border (solid,dotted,double)
 red -->color of the border 
+3.padding 
+//It will adjust the content within the width and height 
+//It will helps to move the position top,bottom,left,right 
+//Whenever we give padding the width and height will get increase to avoid that we need to use box-sizing:border-box 
+example:
+box-sizing:border-box;
+padding:60px;
