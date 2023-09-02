@@ -8,3 +8,23 @@ Box Modal:
 //To make alignment in the page. It play very important role.
 CSS Unit:
 1px - 1inch
+1.width * height 
+//Each tag we can provide width and height in px 
+//It is not mandatory to provide width and height for all tags 
+//Whenever is needed we can apply either width or height or both 
+example:
+h1{
+    width:200px;
+    height:100px;
+}
+2.border 
+//Surrounding place of tags with can apply border 
+//border will surround around the width and height 
+//It consists of three values 
+example:
+h1{
+    border:5px solid red; 
+}
+5px --> thickness of border 
+solid --> to style border (solid,dotted,double)
+red -->color of the border 
