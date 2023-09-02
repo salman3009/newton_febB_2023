@@ -41,3 +41,8 @@ padding:60px;
 //All the tags will move their position 
 example:
 margin:20px;
+
+Shorhand margin padding property:
+  margin:50px 100px;
+//50px top and bottom 
+//100px left and right 
