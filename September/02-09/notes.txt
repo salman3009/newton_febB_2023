@@ -56,5 +56,6 @@ margin:auto;
 Combinator Selector: relationship between two tags 
 1.descendant (space) - parent/child/grandchild
 2.child (>) - parent-child
-3.adjacent sibling (+) - brother/sister/first tag
-4.general sibling (~)  - brother /sister/all tag
+3.general sibling (~)  - brother /sister/all tag
+4.adjacent sibling (+) - brother/sister/first tag
+
