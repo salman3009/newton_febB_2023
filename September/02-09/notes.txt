@@ -35,3 +35,9 @@ red -->color of the border
 example:
 box-sizing:border-box;
 padding:60px;
+4.margin 
+//It will move the entire box from left to right or top to bottom 
+//It will not overwrite other tags 
+//All the tags will move their position 
+example:
+margin:20px;
