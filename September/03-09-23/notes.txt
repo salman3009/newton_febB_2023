@@ -34,12 +34,20 @@ selectors::selection{
 }
 ===================================================
 background-image
+
 1.background-image 
 example:
 background-image:url('car.png');
 2.background-size 
+
 3.background-repeat 
+example:
+background-repeat:no-repeat;
+background-repeat:repeat-x; --> horizontal direction
+background-repeat:repeat-y; --->vertical direction
+
 4.background-position 
+
 ====================================================
 
 
