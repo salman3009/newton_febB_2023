@@ -47,7 +47,17 @@ background-repeat:repeat-x; --> horizontal direction
 background-repeat:repeat-y; --->vertical direction
 
 4.background-position 
+left top 
+left center 
+left bottom 
 
+right top 
+right center 
+right bottom 
+
+center top 
+center center 
+center bottom 
 ====================================================
 
 
