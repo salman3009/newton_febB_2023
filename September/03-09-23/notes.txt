@@ -26,4 +26,10 @@ selectos::after{
     content:"language";
 }
 3.selection(::selection)
+//It is use to highlight the content of the web page.
+example:
+selectors::selection{
+    background-color:yellow;
+    color:red;
+}
 
