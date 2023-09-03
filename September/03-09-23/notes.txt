@@ -81,8 +81,9 @@ Psuedo class general
 4.nth-last-child (li:nth-last-child(2n))
 
 =============================================
-Psuedo-class-anchor 
-1.link-(a:link)
-2.active-(a:active)
-3.visited-(a:visited)
-4.hover -(a:hover)
+Psuedo-class-anchor - (mainly in anchor tag)
+1.link-(a:link)  --> currently newly link elements
+2.active-(a:active) -->once you press the mouse button
+3.visited-(a:visited) -->already you have visited the page
+4.hover -(a:hover) -->mouse over
+======================================================
