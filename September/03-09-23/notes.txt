@@ -39,6 +39,9 @@ background-image
 example:
 background-image:url('car.png');
 2.background-size 
+background-size:50px 50px; -->width height 
+background-size:cover; --> it will cover entire banner 
+
 
 3.background-repeat 
 example:
