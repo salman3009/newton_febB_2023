@@ -32,4 +32,12 @@ selectors::selection{
     background-color:yellow;
     color:red;
 }
+===================================================
+background-image
+1.background-image 
+2.background-size 
+3.background-repeat 
+4.background-position 
+====================================================
+
 
