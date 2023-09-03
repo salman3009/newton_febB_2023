@@ -10,4 +10,15 @@ Box Modal:
 //To move the entire content in the web page we need margin 
 //To apply border around width and height border property.
 //padding to align content inside the width. To make it work we need to border-box:"box-sizing"
+//spacing outside the border is margin and spacing inside the border is padding
+=====================================================
+Psuedo-elements:
+1.before(::before)
+//It will add contend from css to html before the text of that particular tag.
+example:
+selectors::before{
+    content:"welcome";
+}
+2.after(::after)
+3.selection(::selection)
 
