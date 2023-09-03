@@ -35,9 +35,31 @@ example:
      *{
         color:red;
      }
+    
      
 Combinator Selector: relationship between two tags 
 1.descendant (space) - parent/child/grandchild
 2.child (>) - parent-child
 3.general sibling (~)  - brother /sister/all tag
 4.adjacent sibling (+) - brother/sister/first tag
+
+Psuedo-elements:
+1.before(::before)
+//It will add contend from css to html before the text of that particular tag.
+example:
+selectors::before{
+    content:"welcome";
+}
+2.after(::after)
+//It will add content from css to html after the text of that particular tag.
+example:
+selectos::after{
+    content:"language";
+}
+3.selection(::selection)
+//It is use to highlight the content of the web page.
+example:
+selectors::selection{
+    background-color:yellow;
+    color:red;
+}
