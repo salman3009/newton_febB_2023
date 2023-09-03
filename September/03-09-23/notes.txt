@@ -85,5 +85,5 @@ Psuedo-class-anchor - (mainly in anchor tag)
 1.link-(a:link)  --> currently newly link elements
 2.active-(a:active) -->once you press the mouse button
 3.visited-(a:visited) -->already you have visited the page
-4.hover -(a:hover) -->mouse over
+4.hover -(a:hover) -->mouse over. we can use in any tags
 ======================================================
