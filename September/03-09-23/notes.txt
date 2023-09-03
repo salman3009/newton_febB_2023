@@ -20,5 +20,10 @@ selectors::before{
     content:"welcome";
 }
 2.after(::after)
+//It will add content from css to html after the text of that particular tag.
+example:
+selectos::after{
+    content:"language";
+}
 3.selection(::selection)
 
