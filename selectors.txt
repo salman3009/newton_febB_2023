@@ -1,0 +1,43 @@
+Basic Selectors:
+1.element selector 
+    //It will target the particular element inside the html 
+    //we need to use html tag name 
+    //Drawbacks:It will apply for all the tags
+
+2.id selector 
+    //unique style for particular tag we need to apply 
+    //we need to add id attribute in html tag 
+    //to access in css we need to use symbol # and name of id 
+    example: 
+    #heading{
+        color:red;
+    }
+4.class selector 
+    //most used selector in entire css 
+    //we need to add class attribute in html tag 
+    //to access in css we need to use symbol . and name of the class.
+    //class attribute please added in html tag whenever it is required.
+    example:
+    .theme{
+        color:red;
+    }
+5.grouping selector 
+     //combination of all selectors 
+     //element selector + class selector + id selector ....
+     //each seletor will be separated by comma (,)
+example:
+  .theme,p{
+    color:red;
+  }
+6.universal selector 
+     //it will apply for all tags 
+example:
+     *{
+        color:red;
+     }
+     
+Combinator Selector: relationship between two tags 
+1.descendant (space) - parent/child/grandchild
+2.child (>) - parent-child
+3.general sibling (~)  - brother /sister/all tag
+4.adjacent sibling (+) - brother/sister/first tag

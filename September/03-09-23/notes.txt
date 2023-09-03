@@ -1,0 +1,13 @@
+Box Modal:
+1.width*height 
+2.padding -(left,right,top,bottom)
+3.border -(left,right,top,bottom)
+4.margin -(left,right,top,bottom)
+//Any tags in html you will have default width and height.
+//Basic unit is px.
+//text-align:center
+//If you have given some user defined width we need to use two propery text-align:center and margin:auto;
+//To move the entire content in the web page we need margin 
+//To apply border around width and height border property.
+//padding to align content inside the width. To make it work we need to border-box:"box-sizing"
+
