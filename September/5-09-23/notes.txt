@@ -86,5 +86,9 @@ selector{
     overflow:auto;
 }
 =========================================
-white-space
-
+white-space:nowrap
+//It will make all the content in single line 
+selectors{
+    white-space:nowrap;
+}
+=========================================
