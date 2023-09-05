@@ -63,6 +63,12 @@ selectors::selection{
     background-color:yellow;
     color:red;
 }
+4marker(::marker)
+//To apply color for list tag
+example:
+selectors::marker{
+    color:red;
+}
 
 Psuedo-class:
 

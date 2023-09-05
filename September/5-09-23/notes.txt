@@ -1,0 +1,7 @@
+Psuedo-elements:
+1.marker(::marker)
+//To apply color for list tag
+example:
+selectors::marker{
+    color:red;
+}
