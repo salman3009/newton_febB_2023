@@ -92,3 +92,10 @@ selectors{
     white-space:nowrap;
 }
 =========================================
+text-overflow:ellipsis
+//It will provide three dots at the end of the sentence.
+//It is used with the combination of following properties:
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+==================================================
