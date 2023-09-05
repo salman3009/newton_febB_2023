@@ -31,4 +31,8 @@ selectors{
 //1px --> content will move from left to right 
 //2px -->content will move from top to bottom
 
+2.example:mutli color
+selectors{
+    text-shadow:1px 2px blue,2px 4px indigo;
+}
 2.box-shadow
