@@ -5,3 +5,12 @@ example:
 selectors::marker{
     color:red;
 }
+2.first-line(::first-line)
+//to target first line of a given paragraph or content 
+example:
+selectors::first-line{
+    color:blue;
+}
+Other css Properties:
+1.text-transform:"uppercase"
+2.

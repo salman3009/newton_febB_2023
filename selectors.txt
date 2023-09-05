@@ -69,7 +69,13 @@ example:
 selectors::marker{
     color:red;
 }
-
+5.
+first-line(::first-line)
+//to target first line of a given paragraph or content 
+example:
+selectors::first-line{
+    color:blue;
+}
 Psuedo-class:
 
 Psuedo-class-basic 
