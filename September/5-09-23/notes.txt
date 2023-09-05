@@ -45,3 +45,11 @@ selectors{
 //5px --> blur shadow
 
 2.box-shadow
+//To apply shade around the width*height 
+
+1.example: single shadow
+selector{
+    box-shadow:5px 4px gold;
+}
+5px --> left to right 
+4px --> top to bottom 
