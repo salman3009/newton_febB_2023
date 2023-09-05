@@ -57,3 +57,8 @@ selector{
 selector{
     box-shadow:5px 4px gold,10px 15px green, 15px 20px red;
 }
+
+3.example: blur 
+selector{
+    box-shadow:5px 4px 10px gold;
+}
