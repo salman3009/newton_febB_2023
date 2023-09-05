@@ -62,3 +62,12 @@ selector{
 selector{
     box-shadow:5px 4px 10px gold;
 }
+5px horizontal offset 
+4px vertical offset 
+10px blur radius 
+
+4example inset 
+//shadow will come at the left-top
+selector{
+    box-shadow:5px 4px 10px inset
+}
