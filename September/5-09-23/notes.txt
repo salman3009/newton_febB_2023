@@ -13,4 +13,6 @@ selectors::first-line{
 }
 Other css Properties:
 1.text-transform:"uppercase"
-2.
+//To make content in uppercase
+2.line-height:35px;
+//To increase line height between up and down content
