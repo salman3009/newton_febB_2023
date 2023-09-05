@@ -81,3 +81,10 @@ overflow
 3.auto;
 //Whenever scroll is needed then browser will provide scroll.
 4.visible 
+example:
+selector{
+    overflow:auto;
+}
+=========================================
+white-space
+
