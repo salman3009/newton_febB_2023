@@ -16,3 +16,6 @@ Other css Properties:
 //To make content in uppercase
 2.line-height:35px;
 //To increase line height between up and down content
+3.font-family:cursive;
+//We have some predefined font inside the browser.
+//If we need our own font we need to develop from google font.
