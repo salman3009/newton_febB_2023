@@ -19,3 +19,16 @@ Other css Properties:
 3.font-family:cursive;
 //We have some predefined font inside the browser.
 //If we need our own font we need to develop from google font.
+========================================================
+Shadow:
+1.text-Shadow
+//to apply shadow for the given text with double color
+
+1.example:Single color
+selectors{
+    text-shadow:1px 2px blue;
+}
+//1px --> content will move from left to right 
+//2px -->content will move from top to bottom
+
+2.box-shadow
