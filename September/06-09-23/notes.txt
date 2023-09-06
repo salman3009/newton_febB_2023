@@ -6,3 +6,20 @@ step1:Creating new repository inside the github?
           --always provide in small case 
           --Multiple words use underscore in between
     -->Select the checkbox readme file
+    -->click on create_repository button 
+Step 2: 
+     --> copy the https url 
+     --> go to your system any location: git clone url 
+step 3: Adding files in our repository
+     -->Please create new files or folder or copy and paste it inside the repository
+     -->Few commands need to be followed for pushing the code 
+            cmd:git add .
+            cmd:git commit -m "code"
+            cmd:git push
+
+1.git add .
+//It make files ready to stage 
+2.git commit -m "your own message"
+//giving message before pushing the code 
+3.git push 
+//it will push your entire code in github 
