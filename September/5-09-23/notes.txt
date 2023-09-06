@@ -78,7 +78,7 @@ overflow
 //It will hide the content
 2.scroll 
 //Default scroll will be attached.
-3.auto;
+3.auto
 //Whenever scroll is needed then browser will provide scroll.
 4.visible 
 example:

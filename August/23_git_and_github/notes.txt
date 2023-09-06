@@ -19,4 +19,6 @@ Technical terms
 Taking pull from repo 
 1.git clone url 
 2.git pull 
+everyday 
+git pull
 ==========================================
