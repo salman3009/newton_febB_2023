@@ -1,0 +1,14 @@
+Difference between Background and Background-color?
+//Both are same property 
+==========================================
+Color types:
+color:red;
+color:#ffff;
+color:rgb(1,123,1);
+===============================================
+rgb color with  opacity property:
+Inside the rgb color will have four values 
+(r,g,b,a)
+a stand for opacity 
+opacity - 0.1 to 1 
+=========================================
