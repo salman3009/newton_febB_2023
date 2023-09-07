@@ -27,3 +27,6 @@ font-family with multiple values:
 If you don' have box-sizing:border-box?
 //padding will work separately.
 ==============================================
+Psuedo-class-basic 
+1.focus(input:focus)
+2.required(input:required)
