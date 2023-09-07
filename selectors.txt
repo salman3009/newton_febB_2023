@@ -12,7 +12,7 @@ Basic Selectors:
     #heading{
         color:red;
     }
-4.class selector 
+3.class selector 
     //most used selector in entire css 
     //we need to add class attribute in html tag 
     //to access in css we need to use symbol . and name of the class.
@@ -21,7 +21,7 @@ Basic Selectors:
     .theme{
         color:red;
     }
-5.grouping selector 
+4.grouping selector 
      //combination of all selectors 
      //element selector + class selector + id selector ....
      //each seletor will be separated by comma (,)
@@ -29,7 +29,7 @@ example:
   .theme,p{
     color:red;
   }
-6.universal selector 
+5.universal selector 
      //it will apply for all tags 
 example:
      *{
@@ -105,9 +105,18 @@ li[attribute]{
   color:red;
 }
 2.attribute with matching value selector 
+//specific value matches will apply 
+example:
+input[attribute="text"]{
+    border:10px solid green;
+}
+li[attribute="1"]{
+  color:red;
+}
 3.attribute with starting value (^)
 4.attribute with ending value ($)
 5.attribute anywhere matching value (*)
 6.attribute selector with pipe symbol - (|)
 7.attribute selector with tilde symbol(~)
 
+totally: 31 selectors - Interview : 10 important selectors
