@@ -93,3 +93,21 @@ Psuedo class general
 2.nth-child (li:nth-child(2n))
 3.nth-of-type 
 4.nth-last-child (li:nth-last-child(2n))
+
+Attributes Selector:
+1.general attribute selector 
+//It will apply for any html tag element.
+example:
+input[attribute]{
+    border:10px solid green;
+}
+li[attribute]{
+  color:red;
+}
+2.attribute with matching value selector 
+3.attribute with starting value (^)
+4.attribute with ending value ($)
+5.attribute anywhere matching value (*)
+6.attribute selector with pipe symbol - (|)
+7.attribute selector with tilde symbol(~)
+

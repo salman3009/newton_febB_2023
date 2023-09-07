@@ -30,3 +30,5 @@ If you don' have box-sizing:border-box?
 Psuedo-class-basic 
 1.focus(input:focus)
 2.required(input:required)
+===========================================
+Attributes Selectors:
