@@ -141,11 +141,18 @@ li[attribute|="ac"]{
 }
 <li id="ac-lag">details</li>
 7.attribute selector with tilde symbol(~)
-
+//anywhere in the text it should be separate keyword 
+example:
+li[attribute~="ac"]{
+  color:red;
+}
+<li id="two ac"></li>
+===========================================================
 totally: 31 selectors - Interview : 10 important selectors
 symbol:
 ^ - caret - (start)
 $ - dollar - (end)
 * asterisk - (anywhere)
 | pipe - (word with hyphen)
-~ tilde 
+~ tilde - (separate)
+==========================================
