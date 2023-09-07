@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+            input:required{
+                border:5px solid red;
+            }
+            input:valid{
+                border:5px solid grey;
+            }
+            input:focus{
+               background-color: yellow;
+            }
+        </style>
+
+    </head>
+    <body>
+        <form>
+            FullName:<input type="text" name="fullName" required>
+            <br><br>
+            LastName:<input type="text" name="lastName" required>
+            <br><br>
+            <input type="submit">
+
+        </form>
+    </body>
+</html>
