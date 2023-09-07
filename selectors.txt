@@ -121,6 +121,11 @@ li[attribute^="ac"]{
 }
 
 4.attribute with ending value ($)
+//anything that ends with that paritcular value 
+example:
+li[attribute$="ac"]{
+  color:red;
+}
 5.attribute anywhere matching value (*)
 6.attribute selector with pipe symbol - (|)
 7.attribute selector with tilde symbol(~)
@@ -128,7 +133,7 @@ li[attribute^="ac"]{
 totally: 31 selectors - Interview : 10 important selectors
 symbol:
 ^ - caret - (start)
-$ - dollar
+$ - dollar - (end)
 * asterisk
 | pipe
 ~ tilde 
