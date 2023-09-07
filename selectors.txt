@@ -127,6 +127,11 @@ li[attribute$="ac"]{
   color:red;
 }
 5.attribute anywhere matching value (*)
+//anywhere it matches that particular value
+example:
+li[attribute*="ac"]{
+  color:red;
+}
 6.attribute selector with pipe symbol - (|)
 7.attribute selector with tilde symbol(~)
 
@@ -134,6 +139,6 @@ totally: 31 selectors - Interview : 10 important selectors
 symbol:
 ^ - caret - (start)
 $ - dollar - (end)
-* asterisk
+* asterisk - (anywhere)
 | pipe
 ~ tilde 
