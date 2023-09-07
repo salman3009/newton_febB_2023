@@ -20,3 +20,10 @@ font-family with multiple values:
 //Suppose first one is not supporting in the browser it will take the next one.
  font-family: Verdana, Geneva, Tahoma, sans-serif;
  ==================================================
+ box-sizing:border-box;
+//if you don't have width and height padding will be applied separately
+//otherwise it will be adjusted with width and height
+=========================================================
+If you don' have box-sizing:border-box?
+//padding will work separately.
+==============================================
