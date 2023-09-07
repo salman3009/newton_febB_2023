@@ -114,9 +114,21 @@ li[attribute="1"]{
   color:red;
 }
 3.attribute with starting value (^)
+//anything that start with the specific value
+example:
+li[attribute^="ac"]{
+  color:red;
+}
+
 4.attribute with ending value ($)
 5.attribute anywhere matching value (*)
 6.attribute selector with pipe symbol - (|)
 7.attribute selector with tilde symbol(~)
 
 totally: 31 selectors - Interview : 10 important selectors
+symbol:
+^ - caret - (start)
+$ - dollar
+* asterisk
+| pipe
+~ tilde 
