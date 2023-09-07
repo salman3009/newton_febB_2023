@@ -11,4 +11,7 @@ Inside the rgb color will have four values
 (r,g,b,a)
 a stand for opacity 
 opacity - 0.1 to 1 
+opacity --> It is ueed with image in real time
+10% --> -0.1
+50% -->0.5
 =========================================
