@@ -98,8 +98,8 @@ li:first-child{
 
 2.nth-child (li:nth-child(2n))
 //it will work like a loop 
-//2n -- even elements 
-//2n+1 -- odd elements 
+//2n or even -- even elements 
+//2n+1 or odd -- odd elements 
 //n --> all elements 
 //3 --> specific elements
 example:
