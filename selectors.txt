@@ -97,6 +97,16 @@ li:first-child{
 }
 
 2.nth-child (li:nth-child(2n))
+//it will work like a loop 
+//2n -- even elements 
+//2n+1 -- odd elements 
+//n --> all elements 
+//3 --> specific elements
+example:
+li:nth-child(2n){
+  color:red;
+}
+
 3.nth-of-type 
 4.nth-last-child (li:nth-last-child(2n))
 
