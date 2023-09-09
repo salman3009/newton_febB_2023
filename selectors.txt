@@ -184,3 +184,26 @@ $ - dollar - (end)
 | pipe - (word with hyphen)
 ~ tilde - (separate)
 ==========================================
+complete project:
+1.element selectors 
+2.id selectors 
+3.class selectors 
+4.grouping selectors 
+5.universal selectors 
+6.descendant (space) - parent/child/grandchild
+7.Psuedo-class - focus(input:focus)
+8.Psuedo-class - required(input:required)
+9.Psuedo-class-anchor  - link-(a:link)
+10.Psuedo-class-anchor - active-(a:active)
+11.Psuedo-class-anchor - visited-(a:visited)
+12.Psuedo-class-anchor - hover -(a:hover)
+13.Psuedo-clas - nth-child (li:nth-child(2n))
+14.attribute selector with matching value 
+===============================================
+Mini project
+1.element selectors 
+2.id selectors 
+3.class selectors 
+4.grouping selectors 
+5.universal selectors 
+================================================
