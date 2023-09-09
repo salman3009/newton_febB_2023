@@ -97,6 +97,7 @@ li:first-child{
 }
 
 2.nth-child (li:nth-child(2n))
+//it will start from first element
 //it will work like a loop 
 //2n or even -- even elements 
 //2n+1 or odd -- odd elements 
@@ -108,7 +109,15 @@ li:nth-child(2n){
 }
 
 3.nth-of-type 
+
 4.nth-last-child (li:nth-last-child(2n))
+//it will start from last element 
+//it will opposite to nth-child
+example:
+li:nth-last-child(2n){
+  color:red;
+}
+
 
 Attributes Selector:
 1.general attribute selector 
