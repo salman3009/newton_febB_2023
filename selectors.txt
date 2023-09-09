@@ -90,6 +90,12 @@ Psuedo-class-anchor
 
 Psuedo class general 
 1.first-child (li:first-child)
+//first element in the tag will target 
+example:
+li:first-child{
+    color:green;
+}
+
 2.nth-child (li:nth-child(2n))
 3.nth-of-type 
 4.nth-last-child (li:nth-last-child(2n))
