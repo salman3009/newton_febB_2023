@@ -7,10 +7,13 @@ body{
 p{
     color:inherit;
 }
+//It will reuse the parent property
 ==========================================
 CSS unit %:
 //Total percentage of any screen is 100%
 //Depends upon the device it will take that particular percentage.
 //We can use for width 
-===============================
+//Any project by using % and px we can complete it.
+//We can have veritcal scrolling in design but no horizontal scrolling should be present.
+============================================
 
