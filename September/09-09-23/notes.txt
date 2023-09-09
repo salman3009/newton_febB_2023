@@ -8,3 +8,9 @@ p{
     color:inherit;
 }
 ==========================================
+CSS unit %:
+//Total percentage of any screen is 100%
+//Depends upon the device it will take that particular percentage.
+//We can use for width 
+===============================
+
