@@ -109,10 +109,13 @@ li:nth-child(2n){
 }
 
 3.nth-of-type 
+//both nth-child and nth-of-type will work in same way
+//nth-child - will consider all siblings as their own element and it will give wront result 
+//nth-of-type - always it will consider the exact siblings element.
 
 4.nth-last-child (li:nth-last-child(2n))
 //it will start from last element 
-//it will opposite to nth-child
+//it will work opposite to nth-child
 example:
 li:nth-last-child(2n){
   color:red;
