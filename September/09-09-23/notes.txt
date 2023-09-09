@@ -16,4 +16,36 @@ CSS unit %:
 //Any project by using % and px we can complete it.
 //We can have veritcal scrolling in design but no horizontal scrolling should be present.
 ============================================
+Psuedo class general 
+1.first-child (li:first-child)
+//first element in the tag will target 
+example:
+li:first-child{
+    color:green;
+}
 
+2.nth-child (li:nth-child(2n))
+//it will start from first element
+//it will work like a loop 
+//2n or even -- even elements 
+//2n+1 or odd -- odd elements 
+//n --> all elements 
+//3 --> specific elements
+example:
+li:nth-child(2n){
+  color:red;
+}
+
+3.nth-of-type 
+//both nth-child and nth-of-type will work in same way
+//nth-child - will consider all siblings as their own element and it will give wrong result 
+//nth-of-type - always it will consider the exact siblings element.
+
+4.nth-last-child (li:nth-last-child(2n))
+//it will start from last element 
+//it will work opposite to nth-child
+example:
+li:nth-last-child(2n){
+  color:red;
+}
+========================================================
