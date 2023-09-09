@@ -1,0 +1,10 @@
+inherit:
+//It will take parent tags values.
+example:
+body{
+    color:red;
+}
+p{
+    color:inherit;
+}
+==========================================
