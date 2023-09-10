@@ -22,3 +22,8 @@ color:hsl(0,100%,50%);
 alpha - opacity
 Project:
 //always prefer using hexadecimal color
+=========================================
+Display Property:
+1.block - it will not allow another element in same line.
+2.inline - everthing will continue in same line.
+
