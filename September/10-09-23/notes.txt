@@ -1,0 +1,16 @@
+color values:
+1.normal color 
+example:
+color:red;
+2.hexadecimal color 
+example:
+ color:#ff0000;
+3.rgba (red,green,blue,alpha)
+example:
+color:rgb(255,0,0);
+4.hsla(hue,saturation,lighness,alpha)
+example:
+color:hsl(0,100%,50%);
+alpha - opacity
+Project:
+//always prefer using hexadecimal color
