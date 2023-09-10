@@ -25,5 +25,7 @@ Project:
 =========================================
 Display Property:
 1.block - it will not allow another element in same line.
+example:
+display:inline;
 2.inline - everthing will continue in same line.
 
