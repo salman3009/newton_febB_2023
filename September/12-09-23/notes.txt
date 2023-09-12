@@ -43,7 +43,7 @@ selector{
 }
 =================================================
 Position:(important interview)
-1.sticky (important)
+1.sticky (project-purpose)
 //It will stick in particular position
 2.fixed 
 //It will fix in particular position
@@ -51,8 +51,9 @@ Position:(important interview)
 //default browser is using this position
 4.relative 
 //It will work similar to static only but it will support left,right,top,bottom
-5.absolute (important) 
-//
+5.absolute (project-purpose) 
+//It will not follow the normal flow of the document. always it will start from body tag.
+
 All position property will have four attributes except static:
 1.left 
 2.right 
