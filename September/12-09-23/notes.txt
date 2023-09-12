@@ -22,3 +22,9 @@ selector{
     word-break:break-word;
 }
 ===========================================
+auto (project-purpose)
+//It will adjust automatically depends upon the content.
+margin:auto;
+overflow:auto;
+height:auto;
+======================================================
