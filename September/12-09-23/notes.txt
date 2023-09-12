@@ -1,0 +1,14 @@
+CSS Comparison:
+1.inline
+2.internal
+3.external
+
+1.inline
+//always priority to inline style.
+2.internal & external 
+//Depends upon the browsers last load will be given priority.
+
+Attribute: !important 
+//It will give utmost priority for that style 
+//Please dont use this property unnecessary. If something is breaking 
+then only we have to use this property.
