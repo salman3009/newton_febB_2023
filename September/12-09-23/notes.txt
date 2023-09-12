@@ -42,3 +42,22 @@ selector{
      writing-mode: vertical-rl
 }
 =================================================
+Position:
+1.sticky 
+//It will stick in particular position
+2.fixed 
+//It will fix in particular position
+3.static  
+//default browser is using this position
+4.relative 
+//
+5.absolute 
+//
+All position property will have four attributes except static:
+1.left 
+2.right 
+3.top
+4.bottom 
+//It will work similar to margin but it will added around the margin.
+
+
