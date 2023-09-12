@@ -28,3 +28,17 @@ margin:auto;
 overflow:auto;
 height:auto;
 ======================================================
+writing mode
+//If we need content to be written in veritical direction we can 
+//For advertisement purpose we can use it.
+use below property 
+example:
+//default property
+selector{
+     writing-mode: horizontal-tb;
+}
+//veritical
+selector{
+     writing-mode: vertical-rl
+}
+=================================================
