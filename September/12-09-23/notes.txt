@@ -42,16 +42,16 @@ selector{
      writing-mode: vertical-rl
 }
 =================================================
-Position:
-1.sticky 
+Position:(important interview)
+1.sticky (important)
 //It will stick in particular position
 2.fixed 
 //It will fix in particular position
 3.static  
 //default browser is using this position
 4.relative 
-//
-5.absolute 
+//It will work similar to static only but it will support left,right,top,bottom
+5.absolute (important) 
 //
 All position property will have four attributes except static:
 1.left 
