@@ -1,4 +1,4 @@
-CSS Comparison:
+CSS Comparison:(important for interview)
 1.inline
 2.internal
 3.external
@@ -12,3 +12,13 @@ Attribute: !important
 //It will give utmost priority for that style 
 //Please dont use this property unnecessary. If something is breaking 
 then only we have to use this property.
+===========================================
+word-break 
+//It helps to break the word within the width and height 
+//break-all 
+//break-word 
+example:
+selector{
+    word-break:break-word;
+}
+===========================================
