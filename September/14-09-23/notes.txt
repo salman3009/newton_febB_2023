@@ -17,8 +17,11 @@ flex
 example:
 display:flex; 
 Few other properties
-1.flex-wrap
+1.flex-wrap:wrap
 2.justify-content  :center|space-between|space-evenly
 3.align-content
 4.align-items
+//Inside this we cannot use flex-wrap otherwise it will not work.
+//To arrange content in vertical direction 
+align-items: center|flex-start|flex-end
 ===========================================
