@@ -1,0 +1,6 @@
+display property for table:
+//without table tag we can able to create tabular format 
+display:table ---> create table 
+display:table-row ---> similar tr tag 
+display:table-cell --> similar to td tag 
+===============================================
