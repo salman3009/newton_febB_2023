@@ -18,7 +18,7 @@ example:
 display:flex; 
 Few other properties
 1.flex-wrap
-2.justify-content 
+2.justify-content  :center|space-between|space-evenly
 3.align-content
 4.align-items
 ===========================================
