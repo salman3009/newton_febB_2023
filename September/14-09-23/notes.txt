@@ -4,3 +4,11 @@ display:table ---> create table
 display:table-row ---> similar tr tag 
 display:table-cell --> similar to td tag 
 ===============================================
+CSS Units:
+1.px 
+2.%
+3.rem --> 1rem = 16px
+4.em --> 1em = 16px
+5.vw -->1% -- 1% of viewport width 
+6.vh -->1% -- 1% of viewport height 
+=========================================
