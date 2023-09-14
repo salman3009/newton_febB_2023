@@ -12,3 +12,13 @@ CSS Units:
 5.vw -->1% -- 1% of viewport width 
 6.vh -->1% -- 1% of viewport height 
 =========================================
+flex 
+//It is single-dimension layout
+example:
+display:flex; 
+Few other properties
+1.flex-wrap
+2.justify-content 
+3.align-content
+4.align-items
+===========================================

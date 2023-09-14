@@ -18,3 +18,8 @@ display:inline-block;
 display:table ---> create table 
 display:table-row ---> similar tr tag 
 display:table-cell --> similar to td tag 
+5.
+flex 
+//It is single-dimension layout
+example:
+display:flex; 
