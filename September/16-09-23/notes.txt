@@ -3,7 +3,7 @@ flex
 example:
 display:flex; 
 Few other properties
-1.flex-wrap:wrap
+1.flex-wrap:wrap|wrap-reverse
 2.justify-content  :center|space-between|space-evenly
 3.align-content
 4.align-items

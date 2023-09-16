@@ -1,0 +1,38 @@
+https://my.newtonschool.co/playground/markup/mh3igrwy0xng
+<body>
+    <div id="outer-box">
+      <div id="inner-box1">Hello, World 1!</div>
+      <div id="inner-box2">Hello, World 2!</div>
+    </div>
+  </body>
+<style>
+    #outer-box{
+    width:500px;
+    height:500px;
+    border:10px solid black;
+    padding:20px; 
+    position: relative;
+}
+#inner-box1,#inner-box2{
+    width: 200px;
+    height: 200px;
+    margin:30px;
+    padding:20px;
+    border:5px solid red;
+    background-color:lightgreen;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#inner-box1{
+   top:0;
+   right:0; 
+}
+
+#inner-box2{
+    bottom:0;
+   left:0; 
+}
+</style>
