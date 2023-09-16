@@ -14,6 +14,8 @@ align-items: center|flex-start|flex-end
 //It will work in vertical direction 
 //It is similar to align-items but here we can use flex-wrap property 
 align-content: center|flex-start|flex-end
+6.flex-direction 
+flex-direction:row,row-reverse,column,column-reverse
 =============================================
 Interview Question:
 How to make div tag in the center of the screen
