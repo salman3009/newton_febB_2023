@@ -16,6 +16,16 @@ align-items: center|flex-start|flex-end
 align-content: center|flex-start|flex-end
 6.flex-direction 
 flex-direction:row,row-reverse,column,column-reverse
+7.order
+example:
+order:1 
++1 --> it will move towards right direction 
+-1--> it will move towards left direction 
+8align-self 
+//align-items will work in bulk way for all the items.
+//If specific items you wan to change means we can use below property.
+example:
+align-self:center;
 =============================================
 Interview Question:
 How to make div tag in the center of the screen
@@ -27,3 +37,10 @@ How to make div tag in the center of the screen
     align-items: center;
 }
 ============================================
+flex-direction:row 
+//justify-content will work in horizontal direction 
+//align-items and align-content will work in vertical direction 
+flex-direction:column
+//justify-content will work in vertical direction 
+//align-items and align-content will work in horizontal direction 
+================================================
