@@ -15,3 +15,13 @@ align-items: center|flex-start|flex-end
 //It is similar to align-items but here we can use flex-wrap property 
 align-content: center|flex-start|flex-end
 =============================================
+Interview Question:
+How to make div tag in the center of the screen
+.holder{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+============================================
