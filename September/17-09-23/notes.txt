@@ -30,4 +30,8 @@ example:
 8.After mobile it should be tablet screen.
 
 ================================================
+Making Image responsive:
+//To make image responsive we can add two properties
+max-width:100%;
+height:auto
 
