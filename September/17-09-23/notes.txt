@@ -20,5 +20,9 @@ example:
 4.just we need to write breakpoints.
 5.we need to add meta tag called viewport 
  <meta name="viewport" content="width=device-width,initial-scale=1">
+6.First you need to complete desktop and write outside the media query 
+7.Next target should be mobile screen 
+8.After mobile it should be tablet screen.
+
 ================================================
 
