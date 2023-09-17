@@ -34,4 +34,13 @@ Making Image responsive:
 //To make image responsive we can add two properties
 max-width:100%;
 height:auto
+================================================
+Grid 
+//Two dimension layout 
+example:
+selector{
+      display:grid;
+      grid-template-columns:15% 15% 15%;
+}
+===============================================
 
