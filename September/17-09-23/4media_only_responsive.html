@@ -1,0 +1,47 @@
+<html>
+    <head>
+
+        <style>
+            
+            .container{
+                display: flex;
+                flex-wrap:wrap;
+                justify-content: space-between;
+            }
+            img{
+                width: 20%;
+                height: 200px;
+            }
+           
+            @media only screen and (max-width:480px){
+                .container{
+                justify-content: center;
+            }
+            img{
+                width: 100%;
+                height: 200px;
+            }
+            }
+            @media only screen and (min-width:481px) and (max-width:1024px) {
+                .container{
+                justify-content: space-evenly;  
+            }
+            img{
+                width: 50%;
+                height: 200px;
+            }
+            }
+        </style>
+         <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    </head>
+    <body>
+        <div class="container">
+           <img src="carOne.png">
+           <img src="carTwo.png">
+           <img src="carThree.png">
+           <img src="carFour.png">
+           <img src="carFive.png">
+        </div>
+    </body>
+</html>

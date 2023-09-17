@@ -1,0 +1,41 @@
+https://my.newtonschool.co/playground/markup/p7xm0jglp6gp?lecture_hash=iayuacxpnubl
+
+<main class="container">
+    <article>
+        Responsive web design is about creating web pages that look good on all devices! A responsive web design will
+        automatically adjust for different screen sizes and viewports. With media queries you can define completely
+        different styles for different browser sizes.
+    </article>
+    <article>
+        Responsive web design is about creating web pages that look good on all devices! A responsive web design will
+        automatically adjust for different screen sizes and viewports. With media queries you can define completely
+        different styles for different browser sizes.
+    </article> 
+</main>
+<style>
+    main.container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    article {
+        height: 250px;
+        width: 250px;
+        border: 1px solid;
+        border-radius: 10px;
+    }
+
+    @media only screen and (max-width:800px) {
+        article{
+            background-color:rgb(0, 128, 0);
+            color:rgb(255, 255, 255);
+            padding:10px;
+            text-align: center;
+        }
+       
+}
+
+    /* Write your code here */
+</style>

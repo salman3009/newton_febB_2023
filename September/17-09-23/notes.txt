@@ -16,6 +16,11 @@ example:
 @media(max-width:480px){
 
 }
+//old browser it is not supporting it will not going inside the media query.
+(or)
+@media only screen and (max-width:480px){
+
+}
 3.browser will take care autmotically 
 4.just we need to write breakpoints.
 5.we need to add meta tag called viewport 
