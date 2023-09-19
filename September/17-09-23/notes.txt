@@ -8,7 +8,7 @@ Mobile responsive
 //we have breakpoints to target the device screen.
 //We need to write media query for following devices 
       1.phone and mobile - max-width:480px;
-      2.low resultion Tablet - min-width-481px and max-width 767px;
+      2.landscape Tablet - min-width-481px and max-width 767px;
       4.portrait Tablet - min-width-768px and max-width:1024px
       3.laptop - min-width-1024px and max-width- 1280px;
       4.desktop - min-width:1281px;
