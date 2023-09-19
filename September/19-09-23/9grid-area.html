@@ -1,0 +1,37 @@
+<html>
+    <head>
+       <style>
+            .container{
+                display: grid;
+                gap:10px;
+                justify-content: center;
+                grid-template-columns: auto auto auto;
+               
+            }
+            .box{
+                background-color: red;
+                padding:60px 60px;
+            }
+            .itemOne{
+                /*It will start on row 1 and column 2 and span 3rows and span 1 columns*/
+                grid-area:1/2/span 3/span 1
+
+            }
+       </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="box itemOne">item 1</div>
+            <div class="box">item 2</div>
+            <div class="box">item 3</div>
+            <div class="box">item 4</div>
+            <div class="box">item 5</div>
+            <div class="box">item 6</div>
+            <div class="box">item 7</div>
+            <div class="box">item 8</div>
+            <div class="box">item 9</div>
+            <div class="box">item 10</div>
+        </div>
+    </body>
+</html>
