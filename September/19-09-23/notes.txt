@@ -1,8 +1,49 @@
-grid-template-columns:
-//px 
-//%
-//fr
-//rem 
-//em
-//repeat 
-//auto
+1.grid-template-columns:
+//we can decide number of columns to be present in each row 
+//Below units to form columns
+    1.px 
+    2.%
+    3.fr
+    4.rem 
+    5.em 
+    6.repeat(4,20%) --> each row 4 columns and 20% width.
+    7.auto
+    8.Combination of above units.
+
+2.grid-column-end or grid-column-start 
+//Both will work in same way.
+//It consists of two properties span and value 
+//span will extend the row till that number of value
+
+3.grid-column 
+example:grid-column 3/6 
+//3 represent starting should start from number 3 position 
+//6 represent expansion till that point.
+//expansion will work in +1 increment for that point.
+//for expansion we need to count from position 1
+
+4.grid-row
+example:grid-row 3/6 
+//3 represent starting should start from number 3 row 
+//6 represent expansion till that point.
+//expansion will work in +1 increment for that point.
+//for expansion we need to count from position 1
+
+5.grid area 
+It will start on row 1 and column 2 and span 3rows and span 2 columns*/
+//first value represent row starting point 
+//second value represent column starting point 
+//third value represent expansion of rows value 
+//fouth value represent expansion of column value 
+grid-area:1/2/span 3/span 2;
+
+6.order 
+//+1 towards right 
+//-1 towards left
+
+7.grid-template 
+//grid layout has three columns and first row is 350px hight
+//before slash it represent row hight 
+//after slash it represent number of columns.
+grid-template: 350px/ auto auto auto;
+
