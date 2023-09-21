@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+            #header{
+                background-color: red;
+                grid-area:header;
+                height: 200px;
+            }
+            #left{
+                background-color: orange;
+                grid-area:left;
+                height: 400px;
+            }
+            #main{
+                background-color: green;
+                grid-area:main;
+                height: 600px;
+            }
+            .container{
+                display: grid;
+                gap:15px;
+                grid-template-columns: 40% 60%;
+                grid-template-areas:
+                "header header"
+                "left main"
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+              <div id="header">Header</div>
+              <div id="left">Left Sidebar</div>
+              <div id="main">Main Content</div>
+        </div>
+    </body>
+</html>
