@@ -47,4 +47,15 @@ grid-template-areas
                 from {background-color: green;width: 400px;}
                 to{background-color: yellow;width: 800px;}
             }
-
+   4.animation-delay 
+      //It will delay the animation 
+      example:
+      animation-delay: 5s;  
+   5.animation-iteration-count
+     //To continue the animation till you close the browser we can use infinite property 
+     example:
+     animation-iteration-count:infinite;       
+   6.animation-direction 
+      //To run in reverse direction the entire animation 
+      example:
+        animation-direction: reverse;
