@@ -1,0 +1,7 @@
+1.grid
+    //It is 2-dimension layout.
+grid-template-areas
+  //Identify total number of highest column in the given row and divide the screen depens upon that.
+2.orientation 
+3.animation
+

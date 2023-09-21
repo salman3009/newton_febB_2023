@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+            #header{
+                background-color: red;
+            }
+            #left{
+                background-color: orange;
+            }
+            #main{
+                background-color: green;
+            }
+            #right{
+                background-color: pink;
+            }
+            #footer{
+                background-color: gray;
+            }
+            .container{
+                display: grid;
+                gap:15px;
+                grid-template-columns: 20% 60% 20%;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+              <div id="header">Header</div>
+              <div id="left">Left Sidebar</div>
+              <div id="main">Main Content</div>
+              <div id="right">Right Sidebar</div>
+              <div id="footer">Footer</div>
+        </div>
+    </body>
+</html>
