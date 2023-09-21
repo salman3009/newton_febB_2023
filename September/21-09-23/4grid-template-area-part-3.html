@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <style>
+            #one{
+                background-color: red;
+                grid-area:one;
+                height: 200px;
+            }
+            #two{
+                background-color: orange;
+                grid-area:two;
+                height: 200px;
+            }
+            #three{
+                background-color: salmon;
+                grid-area:three;
+                height: 200px;
+            }
+            #four{
+                background-color: sienna;
+                grid-area:four;
+                height: 200px;
+            }
+            #left{
+                background-color: green;
+                grid-area:left;
+                height: 600px;
+            }
+            #right{
+                background-color: gold;
+                grid-area:right;
+                height: 600px;
+            }
+            .container{
+                display: grid;
+                gap:15px;
+                grid-template-columns: 25% 25% 25% 25%;
+                grid-template-areas:
+                "one two three four"
+                "left left right right"
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+              <div id="one">Header</div>
+              <div id="two">Header</div>
+              <div id="three">Header</div>
+              <div id="four">Header</div>
+              <div id="left">Left content</div>
+              <div id="right">right Content</div>
+        </div>
+    </body>
+</html>
