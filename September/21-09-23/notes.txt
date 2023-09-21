@@ -34,4 +34,13 @@ grid-template-areas
            }
        }
 3.animation
+   1.animation name : any name you can provide here 
+   example:
+   animation-name: box-change-color;
+   2.animation duration 
+   example:
+    animation-duration: 10s;
+   3.@keyframes 
+        from 
+        to 
 
