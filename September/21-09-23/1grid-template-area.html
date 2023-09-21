@@ -3,23 +3,32 @@
         <style>
             #header{
                 background-color: red;
+                grid-area:header;
             }
             #left{
                 background-color: orange;
+                grid-area:left;
             }
             #main{
                 background-color: green;
+                grid-area:main;
             }
             #right{
                 background-color: pink;
+                grid-area:right;
             }
             #footer{
                 background-color: gray;
+                grid-area:footer;
             }
             .container{
                 display: grid;
                 gap:15px;
                 grid-template-columns: 20% 60% 20%;
+                grid-template-areas:
+                "header header header"
+                "left main right"
+                "footer footer footer"
             }
         </style>
 

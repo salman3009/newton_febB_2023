@@ -1,7 +1,22 @@
 1.grid
     //It is 2-dimension layout.
 grid-template-areas
-  //Identify total number of highest column in the given row and divide the screen depens upon that.
+  1.//Identify total number of highest column in the given row and divide the screen depens upon that.
+  example:
+    grid-template-columns:20% 60% 20%;
+
+  2.//For each division please provide a name for grid-area 
+  //For understanding purpose provide same name as id name
+  example: 
+     grid-area: header;
+
+  3.//we need to use grid-template-areas and for each row we need to provide equal number of columns depends on highest number of columns.
+  example:
+   grid-template-areas:
+                "header header header"
+                "left main right"
+                "footer footer footer"     
+
 2.orientation 
 3.animation
 
