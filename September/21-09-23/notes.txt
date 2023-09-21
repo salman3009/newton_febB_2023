@@ -18,5 +18,20 @@ grid-template-areas
                 "footer footer footer"     
 
 2.orientation 
+   //To make mobile responsive in all devices with dimension.
+   //we have two types of orientation.
+         1.portrait - vertical direction 
+         2.landscape - horizontal direction 
+    example:
+       @media(max-width:480px) and (orientation:portrait){
+           .box{
+               background-color:green;
+           }
+       }
+       @media(max-width:480px) and (orientation:landscape){
+           .box{
+               background-color:red;
+           }
+       }
 3.animation
 

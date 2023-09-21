@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <style>
+        .box {
+            width: 200px;
+            height: 100px;
+            margin: 20px;
+            background-color: grey;
+        }
+
+        @media(max-width:480px) and (orientation:portrait) {
+            .box {
+                background-color: green;
+            }
+        }
+
+        @media(max-width:480px) and (orientation:landscape) {
+            .box {
+                background-color: red;
+            }
+        }
+    </style>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+    <div class="box">
+
+    </div>
+</body>
+
+</html>
