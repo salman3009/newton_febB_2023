@@ -41,6 +41,10 @@ grid-template-areas
    example:
     animation-duration: 10s;
    3.@keyframes 
-        from 
-        to 
+        from - starting phase
+        to  - ending phase
+        @keyframes box-change-color {
+                from {background-color: green;width: 400px;}
+                to{background-color: yellow;width: 800px;}
+            }
 
