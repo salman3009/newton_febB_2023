@@ -3,11 +3,11 @@ Sync and Async
 1.sync function -- It will executed immediately
 2.async function -- it will take sometime to execute the code
 example:
-1.setTimeout
-2.setInterval
+1.setTimeout - keyword
+2.setInterval - keyword
 3.callback
-4.promise
-5.async await 
+4.promise - keyword
+5.async await  - keyword
 
 
 setTimeout:
