@@ -67,3 +67,9 @@ grid-template-areas
           4.ease - slow start - fast - slow end 
         example:
           animation-timing-function: ease-in;
+=================================================
+Which CSS property is used to set the orientation of an image?
+transform-orientation
+==========================================
+transform?
+========================================
