@@ -1,0 +1,25 @@
+component - collections of code together.
+framework - existing sample boiler plate for each design.
+
+Bootstrap 4:
+1.It is CSS framework 
+2.It helps to make table,forms,modal,button,navigation design easier with help of sample design.
+3.It will support breakpoints so that it is mobile responsive.No need to write media query separately already classes are defined.
+Mostly Used components:
+1.alerts 
+2.breadcrumb
+3.buttons
+4.collapse 
+5.forms 
+6.modal 
+7.nav/Navbar 
+8.paginations 
+9.progress 
+10.tooltips 
+12.grid 
+=========================================
+Official Link:
+https://getbootstrap.com/docs/4.0/getting-started/introduction/
+How to setup Bootstrap:
+1.We need to import some set of link and script tag inside the head tag.
+example:
