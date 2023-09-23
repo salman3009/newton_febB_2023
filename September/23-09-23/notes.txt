@@ -12,7 +12,7 @@ Mostly Used components:
 4.collapse 
 5.forms 
 6.modal 
-7.nav/Navbar 
+7.nav/Navbar - 
 8.paginations 
 9.progress 
 10.tooltips 
