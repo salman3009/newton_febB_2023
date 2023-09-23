@@ -12,6 +12,7 @@ Mostly Used components:
 4.collapse 
 5.forms 
 6.modal 
+   //Inside the button data-target="#newton" and Inside the Modal tag id="newton" should be same.
 7.nav/Navbar - 
 8.paginations 
 9.progress 
@@ -38,4 +39,5 @@ link tag is css
 script tag is javascript
 ==========================================================
 CDN - Content Delivery Network
+======================================================
 
