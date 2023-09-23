@@ -40,4 +40,18 @@ script tag is javascript
 ==========================================================
 CDN - Content Delivery Network
 ======================================================
+Bootstrap Grid 
+//It consists of row and column 
+//It consists of 12 columns 
+//To Create row 
+    example:
+       <div class="row"></div>
+//Inside the row class we need to create columns 
+     example:
+     <div class="row">
+      <div class="col-md-6"></div>
+      <div class="col-md-6"></div>
+     </div>
+    
+==================================================
 
