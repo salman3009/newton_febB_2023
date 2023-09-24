@@ -1,8 +1,22 @@
 Bootstrap - 5:
-p - padding
+
 x - left and right 
-px - left and right padding 
-m - margin 
+y - top and bottom
 s - left 
+t - top
+p - padding
+m - margin 
+gap - gap-4
+Example:
+px - left and right padding 
 ms - margin left 
+mt - margin top
+================================================
+text-center - To align the text in center position.
+================================================
+To add flex 
+d-flex 
+flex-row 
+flex-column
+================================================
 
