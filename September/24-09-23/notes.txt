@@ -11,6 +11,8 @@ Example:
 px - left and right padding 
 ms - margin left 
 mt - margin top
+w-100 - 100%width
+w-h - 100%height 
 ================================================
 text-center - To align the text in center position.
 justify-content-center - To align entire content
@@ -20,4 +22,6 @@ d-flex
 flex-row 
 flex-column
 ================================================
-
+To make button large 
+btn-lg 
+===================================
