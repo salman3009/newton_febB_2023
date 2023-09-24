@@ -13,6 +13,7 @@ ms - margin left
 mt - margin top
 ================================================
 text-center - To align the text in center position.
+justify-content-center - To align entire content
 ================================================
 To add flex 
 d-flex 
