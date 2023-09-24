@@ -2,4 +2,7 @@ Bootstrap - 5:
 p - padding
 x - left and right 
 px - left and right padding 
+m - margin 
+s - left 
+ms - margin left 
 
