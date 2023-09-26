@@ -6,13 +6,14 @@ s - left
 t - top
 p - padding
 m - margin 
-gap - gap-4
-Example:
-px - left and right padding 
-ms - margin left 
-mt - margin top
+gap - gap between column
 w-100 - 100%width
 w-h - 100%height 
+Example:
+px-5 - left and right padding  of 5px
+ms-10 - margin left 10px
+mt-10 - margin top 10px
+
 ================================================
 text-center - To align the text in center position.
 justify-content-center - To align entire content
@@ -25,3 +26,8 @@ flex-column
 To make button large 
 btn-lg 
 ===================================
+Grid system:
+col-lg for desktop
+col-md - tablet
+col-sm - for mobile 
+================================
