@@ -3,7 +3,7 @@ Position:
 1.static position we don't have alignment(left,right,bottom,top)
 2.Browser default position is static.It means elements are arrange according to parent position.
 3.sticky/fixed - It will fixed in one particular position
-4.relative - It is similar to static position but it will support alignment(left,right,top,bottom)
+4.relative - It is similar to static position but it will support alignment position(left,right,top,bottom)
 5.absolute - it will not follow the normal flow of the document. always it will position depends upon thse parent tag body.
 opacity - It will make the element transparent - 0 to 1
 z-index - when element is overriding which elements to be shown behind and forward 
@@ -19,8 +19,8 @@ example:
                 text-shadow: 1px 2px 3px green;
  }
 
- 1px - to move from left to right 
- 2px - to move from top to bottom 
+ 1px - to move from left to right - offset
+ 2px - to move from top to bottom  - offset
  3px - to make it blur
  green - color 
  =================================
@@ -52,26 +52,28 @@ example:
                    to{background-color: yellow;}
             }
 ==============================     
-what are the properties present inside the font?
+what are the properties present inside the font or text?
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size:30px;
 font-weight: 900;
 font-style: normal;
+How many font-family will support inside our browser?
+//It will support more then one font-family
+//But using minimum three font-family is the best approach. 
+Because if sometimes font-family is not supported in browser will choose the next alternative path.
 ===============================
 Mobile responsive or Media query or Breakpoints
 1.we have breakpoints to target the device screen.
 2.we need to write media query for following devices:
    (i)phone and mobile - max-width:480px
-   (ii)low resolution tablet and ipad - (min-width:481px) and (max-width:767px)
-   (iii)portrait mode tablet and ipad - (min-width:768px) and (max-width:1024px)
-   (iv)laptop - (min-width:1025px) and (max-width:1280px)
-   (v)extra large screen - (min-width:1281px)
+   (v)extra large screen - (min-width:1200px)
 example:
 @media (max-width:480px){
 
 }  
 3.Browser will take care automatically.
 4.just we need to write breakpoints
+5.we need to add viewports to make it work.
 =================================
 CSS Units:
 1.px -font-size-border-padding-height
