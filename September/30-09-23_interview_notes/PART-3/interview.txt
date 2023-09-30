@@ -5,12 +5,6 @@ overflow:auto
 CSS value 'inherit' which value it will take?
 //It will take parent tag value 
 
-what is gradient?
-//It is combination of color with background-image 
-//It consists of two types 
-     1.linear  
-     2.radial
-
 Important Points:
 flex
    //display:flex
