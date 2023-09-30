@@ -78,16 +78,16 @@ example:
 CSS Units:
 1.px -font-size-border-padding-height
 2.% - width-margin-height
-3.rem - it will inherit from parent element.
-2px - 1rem=2px
-4.vw - 1vw = 1% of viewport width
-5.vh - 1vh = 1% of viewport height.
+3.rem
+1rem=2px
+4.vw - 1vw = 1% of viewport width (box - width , height)
+5.vh - 1vh = 1% of viewport height.(box - width, height)
 6.em  - 1em = 16px
 ======================================
 Any project layout 
 //You can always proceed with px 
-//always use flex or grid 
+//always use flex or grid to make it responsive
 ====================================
-box-sizing:
-//Padding wil be adjusted whatever the width and height we have given for that particular element.
+box-sizing:border-box;
+//Padding will be adjusted whatever the width and height we have given for that particular element.
 =======================================
