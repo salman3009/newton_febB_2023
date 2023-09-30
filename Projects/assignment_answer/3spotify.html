@@ -1,0 +1,124 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* Nav Section */
+body {
+    margin: 0;
+    background-color: rgb(25, 20, 20);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+nav img {
+    height: 60px;
+    width: 60px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li a:hover {
+    color: rgb(30, 215, 96);
+}
+
+/* Main Section */
+
+#download {
+    background-color: inherit;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+#download h1 {
+    font-weight: 700;
+    line-height: 2;
+}
+
+#download h2 {
+    font-weight: 500;
+    line-height: 3;
+}
+
+#download button {
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    font-family: inherit;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+#download button:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 650px) {
+    #download button {
+        width: 100%;
+        margin-bottom: 10px; 
+    }
+}
+
+/* Table Section */
+#difference-table {
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    padding: 20px 40px;
+}
+
+#difference-table table {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px 45px;
+}
+
+table th {
+    font-weight: 300;
+}
+
+table td {
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.fa-circle-check {
+    color: rgb(30, 215, 96);
+    font-size: 30px;
+}
+
+.fa-circle-xmark {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+#difference-table h1 {
+    padding: 0 50px;
+    font-weight: 700;
+}
+
+#difference-table button {
+    background-color: rgb(25, 20, 20);
+    padding: 12px 40px;
+    font-family: inherit;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+</style>
