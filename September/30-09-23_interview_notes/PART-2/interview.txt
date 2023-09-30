@@ -7,6 +7,7 @@ Position:
 5.absolute - it will not follow the normal flow of the document. always it will position depends upon thse parent tag body.
 opacity - It will make the element transparent - 0 to 1
 z-index - when element is overriding which elements to be shown behind and forward 
+  //z-index will work with absolute position.
   z-index:-1 ---> Element will go behind the screen 
   z-index:1 ---> Element will be in forward screen 
 ====================================================
