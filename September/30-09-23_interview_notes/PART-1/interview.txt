@@ -5,7 +5,7 @@ CSS - cascading stylesheet
      1.html 
      2.css 
      3.javascript 
-//you can able to run css separately inside the browser.
+//you can able to write code css separately and combine with html to run inside the browser.
 //always we need to create html page before css.  
 
 
