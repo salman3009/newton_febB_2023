@@ -11,8 +11,11 @@ CSS - cascading stylesheet
 
 css properties:
 color:red 
+//key and value pair
 //if you have more then one property semi-colon in between is mandatory for inline style.
 color:red;text-align:center;
+example:
+<p style="color:red;text-align:center;">hello world</p>
 
 
 Writing the css we have three approach:
@@ -24,6 +27,9 @@ Writing the css we have three approach:
    : --> colon operator
    red --> value of css 
    entire property enclosed with double quotes or single quotes
+   example:
+   <p style="color:red;text-align:center;">hello world</p>
+
    2.internal 
       //internal style can be written anywhere inside the html page.
       //mostly it is written in the head tag and sometimes in body tag.
@@ -45,6 +51,7 @@ Writing the css we have three approach:
          <link rel="stylesheet" href="./external.css">
          //rel - relationship
     </head>
+    //rel="stylesheet" (*important)
    //external.css
 h1{
     color:green;
