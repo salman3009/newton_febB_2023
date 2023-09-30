@@ -75,8 +75,12 @@ Depends upon the browser last load will be given priority for internal and exter
 3.external
 attribute: !important 
 //it will give utmost priority for that style.
-//please dont use this propery unnecessary. if something is breaking then only we have to use 
+//please dont use this property unnecessary. if something is breaking then only we have to use 
 this property.
+example:
+h1{
+   color: red !important;
+}
 
 
 Basic selector:
@@ -115,6 +119,7 @@ Basic selector:
 4.grouping selector 
     //combine one or more others selector together 
     //element + id + class 
+    //In between we need use comma separator.
     <style>
     .font-styling,h4,#heading{
         font-size:10px;
@@ -123,7 +128,7 @@ Basic selector:
    </style>
 
 5.universal selector 
-    //it is use to apply for entire web page whatever is written inside this property 
+    //it is use to apply css for entire web page whatever is written inside this property 
     example:
        <style>
     *{
@@ -140,6 +145,7 @@ what is box modal
    //It will increase or adjustment within around the width and height  
    left,top,right,bottom
 3.border 
+   //applying around the padding 
    left,top,right,bottom
 example:
 /* border:10px solid black; */
@@ -155,14 +161,13 @@ example:<div>,<h1>,<h2>,<h3>,<ol><ul><p><table><form>
 display:block
 //it will block entire line and next tag will start in new line
 //width and height will work here
-//mostly we can change the inline to block if requirment is there
+
 
 2.inline 
 example:<span><a>
 display:inline
 //it will continue in the same line
 //width and height will not work here
-//block to inline mostly we will not have this requirement.
 //inline element will not allow width and height property 
 
 3.inline-block - button,img,input
@@ -171,6 +176,7 @@ display:inline
 
 4flex 
 //single-dimension layout it similar to inline-block but we have extra functionality 
+//we can have flex-direction in rows wise or column wise 
 
 5grid
 //2-dimension layout we can adjust row and column together 
