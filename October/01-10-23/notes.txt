@@ -1,0 +1,5 @@
+Javascript 
+Web application:
+1.Frontend - user Interface
+2.Backend  - Logical code + connecting to database
+3.Database - store data 
