@@ -61,20 +61,28 @@ var fullName = "salman";
 ==========================================================
 Primitive types:
 1.String 
+example:
+var fullName = "salman" or 'salman';
 2.Number 
+var age = 45;
 3.boolean 
+var flag = true;
 4.undefined 
 5.null 
 =========================================================
 console.log()
-//right click inspect - console 
-//It will show the output of javascript 
+//To check output of javascript 
+//right click inspect - console  
 //It is use for developer purpose to understand the functionality.
 example:
 var fullName = "akash";
 console.log(fullName);
 ====================================
-
+Javascript has a dynamic datatype 
+example:
+var fullName = "akash";
+fullName = 22;
+================================
 
 
 
