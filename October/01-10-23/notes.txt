@@ -1,13 +1,22 @@
 Javascript 
+
 Web application:
 1.Frontend - user Interface
 2.Backend  - Logical code + connecting to database
 3.Database - store data 
+
 Web Page:
 End user 
 client Browser 
 Request 
 Response - html
 Server 
+
+What is javascript?
+//client side scripting language (scripting - line by line execution)
+//javascript make web page interactive and dynamic
+//opensource(free) and cross-platform(any os it will support)
+//case sensitive (difference between capital and small letter)
+//It is supported in all the browser 
 
 
