@@ -34,6 +34,39 @@ alert("hello world")
 2.external
 external.js 
 alert("hello world")
+==============================================
+what is Variable?
+//To store values 
+values:
+//Number  ->  1223 
+//character -> "salman" or 'salman' 
+//boolean -> true or false 
+
+How to declare variable 
+//we need to use "var" keyword and variable name.
+
+//variable name always use lowercamelcase letter.
+example:laptopDetails,lastName,homeAddress 
+
+//After each statement we need to use semicolon.
+
+//Declaring variable
+example:
+var fullName;
+
+Storing values inside the variable:
+example:
+var fullName = "salman";
+= assignment operator (right hand side value will be store on left hand side)
+==========================================================
+Primitive types:
+1.String 
+2.Number 
+3.boolean 
+4.undefined 
+5.null 
+=========================================================
+
 
 
 
