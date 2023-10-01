@@ -18,5 +18,24 @@ What is javascript?
 //opensource(free) and cross-platform(any os it will support)
 //case sensitive (difference between capital and small letter)
 //It is supported in all the browser 
+//lightweight and object(noun) oriented programming 
+//It is used in both places client side and server side.
+//library/framework : Reactjs,angular,Vuejs 
+//DOM - Document Object Model - Helps to interact with html 
+
+Two ways of writing Javascript 
+1.internal 
+//anywhere inside the html tag you can write it.
+//Best place is inside the head tag.
+example:
+<script>
+alert("hello world")
+</script>
+2.external
+external.js 
+alert("hello world")
+
+
+
 
 
