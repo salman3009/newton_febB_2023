@@ -68,7 +68,7 @@ var age = 45;
 3.boolean 
 var flag = true;
 4.undefined 
-5.null 
+//empty value 
 =========================================================
 console.log()
 //To check output of javascript 

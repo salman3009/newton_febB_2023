@@ -1,0 +1,18 @@
+Primitives Types:
+1.Number - (int,float,double)
+2.String - (char,string)
+3.Boolean 
+4.undefined - empty 
+Derived Data Types:
+//Derived from Primitives types 
+1.Array 
+2.object 
+3.null 
+===================================
+Array:
+//It will store the data continously inside the memory.
+//It is combination of different data types.
+//We need to declare only one variable and address will start from index zero.
+//After each value we need to provide comma separator.
+example:
+var list = [34,56,11];
