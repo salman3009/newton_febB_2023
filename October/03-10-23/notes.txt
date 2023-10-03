@@ -16,6 +16,18 @@ Array:
 //After each value we need to provide comma separator.
 example:
 var list = [34,56,11];
+
+Object:
+//It is combination of different data types.
+//We need to declare only one variable and address we need to provide key for each value.
+//it is key:value pair. in between key and value colon is mandatory and after each value comma separator
+Example;
+let list={
+    english:34,
+    maths:56,
+    science:11
+};
+
 ================================================
 Variable Declaration:
 //var fullName = "akash"; --> old syntax 
