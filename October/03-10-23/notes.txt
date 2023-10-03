@@ -34,3 +34,11 @@ Variable Declaration:
 //let fullName = "akash"; --->new syntax 
 //always use "let" keywords because we have few benefits.
 =======================================================
+String Cancetenation:
+//Anything combines with string that will converted into string
+syntax: +
+//Adding string together 
+let fullName = "suresh";
+let age = 45;
+let message = "welcome to programming " + fullName;
+
