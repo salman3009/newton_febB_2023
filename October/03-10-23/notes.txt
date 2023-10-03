@@ -41,4 +41,5 @@ syntax: +
 let fullName = "suresh";
 let age = 45;
 let message = "welcome to programming " + fullName;
+================================================
 
