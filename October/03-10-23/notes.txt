@@ -23,7 +23,7 @@ Object:
 //it is key:value pair. in between key and value colon is mandatory and after each value comma separator
 Example;
 let list={
-    english:34,
+    english:34, --> properties
     maths:56,
     science:11
 };
