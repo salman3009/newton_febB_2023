@@ -16,3 +16,9 @@ Array:
 //After each value we need to provide comma separator.
 example:
 var list = [34,56,11];
+================================================
+Variable Declaration:
+//var fullName = "akash"; --> old syntax 
+//let fullName = "akash"; --->new syntax 
+//always use "let" keywords because we have few benefits.
+=======================================================
