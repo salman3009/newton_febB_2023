@@ -42,4 +42,18 @@ let fullName = "suresh";
 let age = 45;
 let message = "welcome to programming " + fullName;
 ================================================
+Types of operator:
+1.Arithmetic operator 
+    (i)+    (addition)
+    (ii)-   (subtraction)
+    (iii)*  (multiplication)
+    (iv)/   (division)
+    (v)%    (modulo)
+    (vi)++  (increment)
+    (vii)--  (decrement)
+
+2.comparison operator and Equality operator
+3.logical operator 
+4.Bitwise operator 
+5.Ternary oprator 
 
