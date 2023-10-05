@@ -53,14 +53,13 @@ Types of operator:
     (vii)--  (decrement)
 
 2.comparison operator and Equality operator
-     (i)   =   (assignment operator)
-     (ii)  ==  (double equality operator)
-     (iii) === (triple equality operator)
-     (iv) < (lesser then)
-     (v)  > (greater then)
-     (vi) <= (lesster then and equal to)
-     (vii) >= (greater then and equal to)
-     (viii) != (not equality operator)
+     (i)  ==  (double equality operator)
+     (ii) === (triple equality operator)
+     (iii) < (lesser then)
+     (iv)  > (greater then)
+     (v) <= (lesster then and equal to)
+     (vi) >= (greater then and equal to)
+     (vii) != (not equality operator)
 
 3.logical operator 
 4.Bitwise operator 

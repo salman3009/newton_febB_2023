@@ -1,33 +1,33 @@
+1   =   (assignment operator)
 2.comparison operator and Equality operator
-     (i)   =   (assignment operator)
-     (ii)  ==  (double equality operator)
+     (i)  ==  (double equality operator)
           //It will check both value is same or not
           //final result will be in boolean
           //It will work with string,number,boolean
           //right result it will return true 
           //wrong result it will return false 
           //It will check only value not datatype
-     (iii) === (triple equality operator)
+     (ii) === (triple equality operator)
           //It will check value and datatype is same or not
           //final result will be in boolean
           //It will work with string,number,boolean
           //right result it will return true 
           //wrong result it will return false 
-     (iv) < (lesser then)
+     (iii) < (lesser then)
      //It will return boolean value 
      //Mostly it is use with number.
-     (v)  > (greater then)
+     (iv)  > (greater then)
       //It will return boolean value 
       //Mostly it is use with number.
-     (vi) <= (lesster then and equal to)
+     (v) <= (lesster then and equal to)
        //It will return boolean value 
       //Mostly it is use with number.
       //It will make boolean true if both value are same
-     (vii) >= (greater then and equal to)
+     (vi) >= (greater then and equal to)
        //It will return boolean value 
        //Mostly it is use with number.
        //It will make boolean true if both value are same
-     (viii) != (not equality operator)
+     (vii) != (not equality operator)
       //it will return boolean value 
       //It is exactly opposite of == operator.
 3.logical operator 
