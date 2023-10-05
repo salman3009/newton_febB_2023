@@ -1,0 +1,22 @@
+<script>
+    function checkEvenNumber(a){
+      if(a%2==0){
+        return true;
+      }else{
+        return false;
+      }
+    }
+
+    function displayResult(input){
+      if(input){
+        console.log("even number");
+      }
+      else{
+        console.log("odd number");
+      }
+    }
+    
+    let result = checkEvenNumber(4);
+    console.log(result);
+    displayResult(result);
+</script>

@@ -81,6 +81,9 @@ function function_name(speed,name){
 }
 
 function_name(4,'lg');
+
+function with return statement:
+//function is returning an value.
 ===========================================
 
 
