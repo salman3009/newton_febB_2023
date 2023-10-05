@@ -62,3 +62,26 @@ if/else
 //only if condition also you can write it 
 //only else condition is not possible.
 =============================================
+function:
+//Set of repetative task we can write inside the function 
+//function is nothing but a set of code written in one block 
+//function name should start will small case.
+example:
+function function_name(){
+
+}
+function_name();
+
+function with parameters
+//we are passing input values to the function 
+//you can pass any number of parameters 
+//you can pass any datatype
+function function_name(speed,name){
+
+}
+
+function_name(4,'lg');
+===========================================
+
+
+
