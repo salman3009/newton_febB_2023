@@ -28,7 +28,8 @@
        //Mostly it is use with number.
        //It will make boolean true if both value are same
      (viii) != (not equality operator)
-
+      //it will return boolean value 
+      //It is exactly opposite of == operator.
 3.logical operator 
 4.Bitwise operator 
 5.Ternary oprator
