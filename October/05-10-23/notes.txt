@@ -6,7 +6,13 @@
           //It will work with string,number,boolean
           //right result it will return true 
           //wrong result it will return false 
+          //It will check only value not datatype
      (iii) === (triple equality operator)
+          //It will check value and datatype is same or not
+          //final result will be in boolean
+          //It will work with string,number,boolean
+          //right result it will return true 
+          //wrong result it will return false 
      (iv) < (lesser then)
      (v)  > (greater then)
      (vi) <= (lesster then and equal to)
