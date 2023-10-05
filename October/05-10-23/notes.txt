@@ -1,0 +1,18 @@
+2.comparison operator and Equality operator
+     (i)   =   (assignment operator)
+     (ii)  ==  (double equality operator)
+          //It will check both value is same or not
+          //final result will be in boolean
+          //It will work with string,number,boolean
+          //right result it will return true 
+          //wrong result it will return false 
+     (iii) === (triple equality operator)
+     (iv) < (lesser then)
+     (v)  > (greater then)
+     (vi) <= (lesster then and equal to)
+     (vii) >= (greater then and equal to)
+     (viii) != (not equality operator)
+
+3.logical operator 
+4.Bitwise operator 
+5.Ternary oprator
