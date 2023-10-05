@@ -55,5 +55,9 @@
 
 4.Ternary operator
     condition?true_statement:false_statement;
-
-5.bitwise operator
+=============================================
+Decision Making 
+if/else 
+//if condition is true it will execute if statement otherwise else statment 
+//only if condition also you can write it 
+//only else condition is not possible.
