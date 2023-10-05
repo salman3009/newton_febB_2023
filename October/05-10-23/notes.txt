@@ -31,5 +31,23 @@
       //it will return boolean value 
       //It is exactly opposite of == operator.
 3.logical operator 
-4.Bitwise operator 
-5.Ternary oprator
+   //all logical operator will return boolean value
+     (i)&& --> and operator
+       //we need two operands 
+       T && T = T 
+       T && F = F 
+       F && T = F 
+       F && F = F 
+     (ii)|| --> or operator 
+        //we need two operands
+       T || T = T 
+       T || F = T 
+       F || T = T 
+       F || F = F 
+     (iii)! --> not operator 
+        //we need single operands
+        //T -- F 
+        
+
+4.Ternary operator
+5.bitwise operator
