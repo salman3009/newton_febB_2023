@@ -14,9 +14,19 @@
           //right result it will return true 
           //wrong result it will return false 
      (iv) < (lesser then)
+     //It will return boolean value 
+     //Mostly it is use with number.
      (v)  > (greater then)
+      //It will return boolean value 
+      //Mostly it is use with number.
      (vi) <= (lesster then and equal to)
+       //It will return boolean value 
+      //Mostly it is use with number.
+      //It will make boolean true if both value are same
      (vii) >= (greater then and equal to)
+       //It will return boolean value 
+       //Mostly it is use with number.
+       //It will make boolean true if both value are same
      (viii) != (not equality operator)
 
 3.logical operator 
