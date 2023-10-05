@@ -84,7 +84,22 @@ function_name(4,'lg');
 
 function with return statement:
 //function is returning an value.
+//function can return anything
+//we need an variable to store return value of a function 
+example:
+function function_name(){
+  return 1;
+}
 ===========================================
+Loops:
+for keyword 
+syntax:
+for(initialize,condition,increment/decrement){
 
+}
+array method to find the length 
+let arr =[];
+arr.length
+============================================
 
 
