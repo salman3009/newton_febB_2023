@@ -54,4 +54,6 @@
 
 
 4.Ternary operator
+    condition?true_statement:false_statement;
+
 5.bitwise operator
