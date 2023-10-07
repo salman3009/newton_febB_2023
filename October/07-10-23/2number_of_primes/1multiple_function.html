@@ -1,20 +1,24 @@
 <script>
-    function checkEvenNumber(input){
-       if(input%2==0){
+    function checkEvenNumber(input) {
+        if (input % 2 == 0) {
             return true;
-       }
-       else{
-           return false;
-       }
+        }
+        else {
+            return false;
+        }
     }
 
-    function display(){
-        
-        for(let i=1;i<50;i++){
+    function display() {
+        let arrList = [];
+        for (let i = 1; i <= 50; i++) {
+            let result = checkEvenNumber(i);
+            if (result) {
+                arrList.push(i);
+            }
 
         }
-        let result = checkEvenNumber(4);
-        console.log(result);
+
+        console.log(arrList);
     }
     display();
 </script>
