@@ -1,0 +1,17 @@
+<script>
+    function isPrime(input) {
+        if (input == 0 || input == 1) {
+            return false;
+        }
+        input = Math.sqrt(input);
+
+        for (let i = 2; i < input; i++) {
+            if (input % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+    let result = isPrime(64);
+    console.log(result);
+</script>
