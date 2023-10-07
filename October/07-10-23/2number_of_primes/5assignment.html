@@ -1,0 +1,30 @@
+https://my.newtonschool.co/playground/code/kg2xowl4ibaq?lecture_hash=qnipwue67xgl
+<script>
+    function numberOfPrimes(N)
+{
+     let count = 0;
+     for(let i=2;i<=N;i++){
+       let result = isPrime(i);
+       if(result){
+        count++;
+       }
+     }
+
+       return count;
+      
+ }
+
+    function isPrime(input){
+        if(input ==0 || input == 1){
+            return false;
+        }
+        input = Math.sqrt(input);
+        for(let i=2;i<input;i++){
+            if(input%i == 0){
+                 return false;
+            }
+        }
+            return true;
+    }
+    console.log(numberOfPrimes(5))
+</script>
