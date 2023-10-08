@@ -27,7 +27,16 @@ Derived types:
 parseInt:
 //It will convert any types to number 
 //It will give only integer number.
+//boolean,undefined,null cannot converted into number only string we can convert
 example:
 parseInt('44') --> 44 
 =======================================
 NaN - not a number.
+========================================
+parseFloat:
+//It will convert any types to number
+//It will give integer or float number depends upon the input 
+//boolean,undefined,null cannot converted into number only string we can convert
+example:
+parseFloat('44.45') --> 44.45
+============================================
