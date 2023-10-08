@@ -6,3 +6,19 @@ constant:
 example:
 const PI = 3.14;
 ==============================================
+Logical operator with non boolean values 
+//We can able to use non boolean value also with logical operator (&&,||,!)
+example:
+let result = undefined && 'a';//undefined
+=================================================
+Primitives types:
+1.number 
+2.string 
+3.boolean 
+4.undefined  - empty - undefined
+5.symbol()
+Derived types:
+1.array 
+2.object 
+3.null   - empty - object
+=============================================
