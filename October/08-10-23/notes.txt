@@ -24,3 +24,10 @@ Derived types:
 2.object 
 3.null   - empty - object
 =============================================
+parseInt:
+//It will convert any types to number 
+//It will give only integer number.
+example:
+parseInt('44') --> 44 
+=======================================
+NaN - not a number.
