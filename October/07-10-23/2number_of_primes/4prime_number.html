@@ -3,15 +3,15 @@
         if (input == 0 || input == 1) {
             return false;
         }
-        input = Math.sqrt(input);
+        let srt  = Math.sqrt(input);
 
-        for (let i = 2; i < input; i++) {
+        for (let i = 2; i <=srt; i++) {
             if (input % i == 0) {
                 return false;
             }
         }
         return true;
     }
-    let result = isPrime(64);
+    let result = isPrime(5);
     console.log(result);
 </script>

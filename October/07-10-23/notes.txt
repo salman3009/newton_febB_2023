@@ -1,0 +1,10 @@
+Function Decoupling:
+//Always dividing the function into multiple blocks is really helpfull
+//It become easy for debugging and maintaining the code structure
+//Always try to break similar set of code into one set of block.
+===================================================================
+Less then equality operator in loop
+1.If you running normal loop - <= 
+2.array iteration inside loop - <
+3.prime number with sqrt inside the loop - <= 
+==============================================

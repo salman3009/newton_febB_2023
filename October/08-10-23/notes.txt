@@ -1,0 +1,8 @@
+constant:
+//The value is fixed we can change that value.
+//The variable declaration of constant should be in capital letter.
+//To declare constant we need to use keyword called "const"
+//This keyword they have introduced in ES6
+example:
+const PI = 3.14;
+==============================================
