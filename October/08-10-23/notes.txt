@@ -10,6 +10,8 @@ Logical operator with non boolean values
 //We can able to use non boolean value also with logical operator (&&,||,!)
 example:
 let result = undefined && 'a';//undefined
+
+false condition: 0 , '' , undefined , null , false
 =================================================
 Primitives types:
 1.number 
