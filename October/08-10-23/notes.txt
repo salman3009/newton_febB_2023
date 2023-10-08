@@ -40,3 +40,9 @@ parseFloat:
 example:
 parseFloat('44.45') --> 44.45
 ============================================
+Symbols:
+//They have added symbols in es6 a new primitive types.
+//They will store unqiue value in all the symbols.
+example:
+let one = Symbol("akash");
+==============================================
