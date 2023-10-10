@@ -57,3 +57,9 @@ Operator Precedence:
 example:
 ((2*4) * (3/3)) = 8 * 1 = 8
 ==========================================
+Logging methods:
+1.console.log() - general
+2.console.info() - information
+3.console.warn()  - warning
+4.console.error() - error
+=========================================
