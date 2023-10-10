@@ -63,3 +63,22 @@ Logging methods:
 3.console.warn()  - warning
 4.console.error() - error
 =========================================
+Decision Making statement:
+1.if else 
+example:
+if(){
+
+}else{
+
+}
+example:
+if(){
+
+}else if(){
+
+}
+else{
+    
+}
+2. switch 
+=====================================
