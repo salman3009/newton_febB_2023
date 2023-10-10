@@ -26,8 +26,24 @@ example:
 1 & 0 -- 1 
 0 & 0 -- 0
 3.Bitwise XOR (a^b)
+example:
+1 & 1 -- 0 
+0 & 1 -- 1
+1 & 0 -- 1 
+0 & 0 -- 0
 4.Bitwise Not (~a)
+example 
+0 -- 1
+1 -- 0
 5.left shift (a<<b)
+example 
+a = 0101
+b = 1
+a<<b - 1010
 6.right shift (a>>b)
+example 
+a = 0101
+b = 1
+a>>b - 0010
 7.zero fill right shift(a>>>b)
 
