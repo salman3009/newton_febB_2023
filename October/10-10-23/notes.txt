@@ -1,0 +1,16 @@
+Bitwise operator:
+//Entire javascript code is running on 64bit operation. Decimal representation: - 0 to 9.
+//Bitwise operator will run on 32bits - binary representation - 0 to 1. (binary base 2)
+Converting decimal to binary 
+     5/2 - 1
+     2/2 - 0 
+     1
+output: 101 
+Converting binary to decimal 
+1*2(power of 2) + 0*2(power of 1) + 1*2(power of 0)
+4 + 0 + 1 = 5
+output 5
+//In javascript during execution phase it will work in 32 bits and finally after executed it will return again in decimal 
+=========================================================================
+
+

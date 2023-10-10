@@ -46,3 +46,14 @@ Symbols:
 example:
 let one = Symbol("akash");
 ==============================================
+implicit casting or coercion:
+//Converting from one datatype to another datatype 
+//string+number or number + string --> string 
+//string+boolean or boolean + string --> string 
+//string+(-,*,/,%) --> number 
+//string + (+) --> string 
+//boolean + number or number + boolean --> number 
+
+true - 1 
+false - 0
+=============================================
