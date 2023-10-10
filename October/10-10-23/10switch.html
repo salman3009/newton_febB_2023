@@ -1,4 +1,8 @@
 <script>
+     function displayDefault(){
+        console.log("no match is found");
+    }
+    
     let days = 0;
     let amount = 500;
     switch(days){
@@ -7,16 +11,21 @@
                 console.log("Monday");
             }
             else{
-                console.log("monday is match and amount is not present")
+                displayDefault();
             }
             break;
         case 1:
              if(amount>=700){
                 console.log("Tuesday");
              }
+             else{
+                displayDefault();
+             }
            
               break;
         default: 
-             console.log("no match is found");
+        displayDefault();
     }
+
+   
 </script>
