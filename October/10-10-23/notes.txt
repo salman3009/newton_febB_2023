@@ -93,3 +93,7 @@ switch(input){
     default:
 }
 =====================================
+break and continue statment:
+//break we can use only on loop and switch statment 
+//continue we can use only on loop 
+===========================================
