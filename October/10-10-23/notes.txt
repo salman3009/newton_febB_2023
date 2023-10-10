@@ -78,7 +78,18 @@ if(){
 
 }
 else{
-    
+
 }
 2. switch 
+example:
+switch(input){
+    case 0: 
+
+         break;
+
+    case 1:
+         
+         break;
+    default:
+}
 =====================================
