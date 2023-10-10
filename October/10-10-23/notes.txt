@@ -50,3 +50,10 @@ example = 0101
 b = 1 
 a>>>b - 0001
 ==============================================
+Operator Precedence:
+//The way operator is going to work 
+//multiplication and division have same precedence. if we have same precedence it will work depends on associtivity (left to right)
+//any operator you are going to use please use parenthesis to make it more priority. because atmost priority given to parenthesis ().
+example:
+((2*4) * (3/3)) = 8 * 1 = 8
+==========================================
