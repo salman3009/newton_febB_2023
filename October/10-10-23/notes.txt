@@ -12,5 +12,22 @@ Converting binary to decimal
 output 5
 //In javascript during execution phase it will work in 32 bits and finally after executed it will return again in decimal 
 =========================================================================
-
+Types of Bitwise operator
+1.Bitwise And (&)
+example:
+1 & 1 -- 1 
+0 & 1 -- 0 
+1 & 0 -- 0 
+0 & 0 -- 0
+2.Bitwise OR (|)
+example:
+1 & 1 -- 1 
+0 & 1 -- 1
+1 & 0 -- 1 
+0 & 0 -- 0
+3.Bitwise XOR (a^b)
+4.Bitwise Not (~a)
+5.left shift (a<<b)
+6.right shift (a>>b)
+7.zero fill right shift(a>>>b)
 
