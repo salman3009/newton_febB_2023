@@ -27,6 +27,12 @@ for(let input of arrList){
 Functions types 
 1.normal function 
 2.function declaration
+//This function is a standalone application
+//This function you can call before and after function declaration.
+example:
+function addition(a,b){
+
+}
 3.function expression 
 4.arrow function 
 5.first class function 
