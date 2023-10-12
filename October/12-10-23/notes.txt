@@ -46,10 +46,23 @@ const display= function(fullName,age){
 }
 4.first class function 
 //first class function if function in that language are treated like other variable
-//passing as argument 
-//can be returned by another function 
+example:
+  const display = function(fullName,age){
+        console.log(fullName,age);
+    }
+    display("suresh",33);
+5.callback function
+//A function is call after sometime. 
+example:
+function addition(a,b,callback){
+          let result = a+b;
+          callback(result)
+    }
 
+    function display(result){
+        console.log("The final value is",result);
+    }
+   addition(44,56,display)
+6.arrow function 
 
-5.arrow function
-6.callback function 
 =======================================

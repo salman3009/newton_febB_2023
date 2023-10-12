@@ -1,0 +1,12 @@
+<script>
+    //passing as argument to function
+    function addition(a,b,callback){
+          let input = a+b;
+          callback(input)
+    }
+
+    function display(result){
+        console.log("The final value is",result);
+    }
+   addition(44,56,display)
+</script>
