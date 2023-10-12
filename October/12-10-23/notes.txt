@@ -25,15 +25,25 @@ for(let input of arrList){
 }
 ===================================
 Functions types 
-1.normal function 
+1.normal function or function declaration 
 2.function declaration
 //This function is a standalone application
+//function name should be present
 //This function you can call before and after function declaration.
 example:
 function addition(a,b){
 
 }
 3.function expression 
+//function expression a function without name 
+//function is declare inside the variable 
+//you can call the function only after declaration.
+//while declaring you can use let or const
+//const is best way to declare a function 
+example: 
+const display= function(fullName,age){
+     console.log(fullName,age);
+}
 4.arrow function 
 5.first class function 
 6.callback function 
