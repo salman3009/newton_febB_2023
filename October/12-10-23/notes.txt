@@ -64,5 +64,11 @@ function addition(a,b,callback){
     }
    addition(44,56,display)
 6.arrow function 
-
+//ES6 new syntax
+//this function we can store only in variable 
+//there is no function keyword 
+example:
+const display = (fullName)=>{
+     console.log(fullName);
+}
 =======================================
