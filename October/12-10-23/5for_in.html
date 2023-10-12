@@ -1,0 +1,16 @@
+<script>
+    let person={
+        name:"akash",
+        age:33,
+        salary:20000,
+        address:"Bangalore"
+    };
+    console.log(person.name);
+    console.log(person['name']);
+
+    for(let input in person){
+        console.log("key",input);
+        console.log("value",person[input]);
+    }
+
+</script>

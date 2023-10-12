@@ -6,6 +6,15 @@ Loops:
 3.do-while loop - normal iteration or array
 //you can run this loop even condition failed for first time.
 4.for in loop - mainly used to iterate object otherwise you can use for array also
+example:
+let person ={
+    name:"akash"
+}
+for(let input in person){
+
+}
+//input is user defined variable 
+//person is user defined object 
 5.infinite loop - there is no end
 //please avoid infinite loop because your code will break.
 //always there should be condition to break it.
