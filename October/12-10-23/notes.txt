@@ -4,6 +4,9 @@ Loops:
 2.while loop - normal iteration or array
 //if condition met then only it will run the loop
 3.do-while loop - normal iteration or array
+//you can run this loop even condition failed for first time.
 4.for in loop - mainly used to iterate object otherwise you can use for array also
 5.infinite loop - there is no end
+//please avoid infinite loop because your code will break.
+//always there should be condition to break it.
 6.for of loop - it used mainly with array 
