@@ -2,11 +2,15 @@
     //passing as argument to function
     function addition(a,b,callback){
           let input = a+b;
-          callback(input)
+          callback(input);
     }
 
-    function display(result){
-        console.log("The final value is",result);
+    function evenDisplay(result){
+        console.log("The evenDisplay value is",result);
     }
-   addition(44,56,display)
+    function oddDisplay(result){
+        console.log("The oddDisplay value is",result);
+    }
+   addition(44,56,evenDisplay)
+   addition(44,56,oddDisplay)
 </script>
