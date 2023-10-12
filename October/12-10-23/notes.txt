@@ -23,3 +23,12 @@ let arrList=[33,44,55,66];
 for(let input of arrList){
     console.log(input);
 }
+===================================
+Functions types 
+1.normal function 
+2.function declaration
+3.function expression 
+4.arrow function 
+5.first class function 
+6.callback function 
+=======================================
