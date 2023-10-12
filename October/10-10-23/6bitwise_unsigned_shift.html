@@ -1,10 +1,11 @@
 <script>
     let a = 5; //0101
     let b = 1; //1
-    let result = a >> b;
+    let result = a >>> b;
     //0101 ---> remove one digit from right add zero from right
     //0010 - output
     //0*2(3)+0*2(2)+1*2(1)+0*2(0)
     //2
+    //left side always will be zero only
     console.log(result);
 </script>
