@@ -44,7 +44,12 @@ example:
 const display= function(fullName,age){
      console.log(fullName,age);
 }
-4.arrow function 
-5.first class function 
+4.first class function 
+//first class function if function in that language are treated like other variable
+//passing as argument 
+//can be returned by another function 
+
+
+5.arrow function
 6.callback function 
 =======================================

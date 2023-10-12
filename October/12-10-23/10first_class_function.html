@@ -1,0 +1,20 @@
+<!-- <script>
+//first class function if function in that language are treated like other variable
+    const display = function(fullName,age){
+        console.log(fullName,age);
+    }
+    display("suresh",33);
+</script> -->
+
+<script>
+    //passing as argument to function
+    function addition(a,b,display){
+          let result = a+b;
+          display(result)
+    }
+
+    function display(result){
+        console.log("The final value is",result);
+    }
+   addition(44,56,display)
+</script>
