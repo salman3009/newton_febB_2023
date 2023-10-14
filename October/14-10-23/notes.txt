@@ -40,3 +40,8 @@ try{
 It throw user defined error:
 throw new Error("it is not a number");
 =====================================
+isNaN(33)
+//predefined javascript function 
+//it will return false for valid number 
+//it will return true for invalid number 
+=========================================
