@@ -37,4 +37,6 @@ try{
 }catch(err){
 
 }
-===============================
+It throw user defined error:
+throw new Error("it is not a number");
+=====================================

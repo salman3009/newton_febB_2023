@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     function addition(){
         try{
             alertbbb("hello");
@@ -11,4 +11,26 @@
     addition();
     let result = "welcome to html";
     console.log(result);
+</script> -->
+
+<script>
+    function evenNumber(input) {
+        //console.log(isNaN(input));
+        try {
+            if (isNaN(input)) {
+                throw new Error("it is not a number");
+            }
+            if (input % 2 == 0) {
+                console.log("even number");
+            }
+            else {
+                console.log("odd number");
+            }
+        } catch (err) {
+            console.log(err);
+        }
+
+
+    }
+    evenNumber("ff");
 </script>
