@@ -17,4 +17,15 @@ function addition(a,b){ -->parameter
 } 
 addition(33,44); --> argument
 5.Higher order function 
-
+//function is returning another function.
+example:
+ function person(){
+        console.log("parent function");
+        return function(){
+            console.log("child function")
+        }
+    }
+   let result = person();
+   console.log(result);
+   result();
+===========================================

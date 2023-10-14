@@ -1,0 +1,26 @@
+<!-- <script>
+    function display(){
+        // return 33;
+        // return "akash";
+        // return true;
+        // return undefined;
+        // return number;
+        // return NaN;
+        // return [33,44,55];
+        // return {fullName:"akash",age:33}
+    } 
+    display(); 
+</script> -->
+
+<script>
+    function person(){
+        console.log("parent function");
+        return function(){
+            console.log("child function")
+        }
+    }
+   let result = person();
+   console.log(result);
+   result();
+
+</script>
