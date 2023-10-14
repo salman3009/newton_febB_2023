@@ -1,0 +1,11 @@
+1.function default parameter 
+//passing default value to the parameter if value is not present.
+2.Anonymous function 
+3.named function expression or expression function 
+4.Difference betweeen parameters and arguments
+function addition(a,b){ -->parameter
+    console.log(a+b);
+} 
+addition(33,44); --> argument
+5.Higher order function 
+
