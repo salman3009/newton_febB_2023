@@ -1,7 +1,16 @@
 1.function default parameter 
 //passing default value to the parameter if value is not present.
 2.Anonymous function 
+//A function will be called one time automatically whenever page is executed in the browser.
+//function will not have the name.
+//IIFE - Immediately invoke function
+//To load the script in the browser to support html and css during initial load of the page.
 3.named function expression or expression function 
+//Storing function in a variable 
+example:
+const display = function(){
+
+}
 4.Difference betweeen parameters and arguments
 function addition(a,b){ -->parameter
     console.log(a+b);
