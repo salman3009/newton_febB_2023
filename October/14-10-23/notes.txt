@@ -29,3 +29,12 @@ example:
    console.log(result);
    result();
 ===========================================
+try-catch block
+//it is an exception handling 
+//we need to use function to write this one.
+try{
+
+}catch(err){
+
+}
+===============================
