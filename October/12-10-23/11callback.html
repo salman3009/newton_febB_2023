@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     //passing as argument to function
     function addition(a,b,callback){
           let input = a+b;
@@ -13,4 +13,15 @@
     }
    addition(44,56,evenDisplay)
    addition(44,56,oddDisplay)
+</script> -->
+
+<script>
+    function addition(a,b,callback){
+       let result = a+b;
+       callback(result)
+    }
+
+    addition(3,4,function(result){
+           console.log(result);
+    })
 </script>
