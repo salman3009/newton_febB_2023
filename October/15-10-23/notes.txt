@@ -1,0 +1,9 @@
+What is let vs var vs const?
+//var is function scope 
+//let is block scope 
+//const is block scope 
+{
+    -->block scope
+}
+//const we cannot reinitialize the value.
+==========================================
