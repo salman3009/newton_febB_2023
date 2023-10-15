@@ -10,4 +10,12 @@ What is let vs var vs const?
 DOM:
 Document object Modal
 //DOM will helps us to interact with javascript 
-
+//entire html code is converted into tree like structure behind compiler
+//each tag will be converted to object 
+//global object will be created called window will be attached to html tag.
+//By using window object  
+         //you can add html tag from javascript 
+         //you can remove html tag from javascript 
+         //you can read html tag from javascript 
+         //you can delete html tag from javascript 
+===================================================
