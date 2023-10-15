@@ -1,0 +1,17 @@
+<script>
+    function addition(input) {
+        try {
+            if (input <= 0) {
+                throw new Error("error");
+            }
+            console.log("try block");
+        } catch (err) {
+            console.log("catch block");
+        } finally {
+            console.log("this block always will execute")
+            //either in try block or in catch block
+        }
+    }
+    addition(33);
+    addition(-33);
+</script>
