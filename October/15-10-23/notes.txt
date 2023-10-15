@@ -7,3 +7,7 @@ What is let vs var vs const?
 }
 //const we cannot reinitialize the value.
 ==========================================
+DOM:
+Document object Modal
+//DOM will helps us to interact with javascript 
+
