@@ -1,0 +1,11 @@
+<script>
+    //global scope variable
+    let globalScope = "global";
+
+    function localScope(){
+        //local scope variable
+        let globalScope = "local";
+        console.log(globalScope);
+    }
+    localScope();
+</script>
