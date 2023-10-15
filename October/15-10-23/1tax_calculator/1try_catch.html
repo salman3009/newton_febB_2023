@@ -12,14 +12,16 @@
 </script> -->
 
 <!-- <script>
+    //it will run inside the assignment newton portal
     function addition(input){
         try{
           if(input<=0){
-            //user defined error
+            //custom error in newton portal
             throw new ValidationError("validation error");
           }
-        }catch(err){
-             console.log(err);
+        }catch(error){
+            //custom error message
+             console.log(error.message);
         }
     }
     addition(-3);
