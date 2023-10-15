@@ -1,0 +1,16 @@
+<script>
+    let salary = 10000;
+    let tax;
+    switch (true) {
+        case salary >= 2000 && salary < 3000:
+            tax = salary * 0.1; //10%
+            console.log(tax);
+            break;
+        case salary >= 10000 && salary < 30000:
+            tax = salary * 0.2; //20%
+            console.log(tax);
+            break;
+        default:
+            console.log("no match");
+    }
+</script>
