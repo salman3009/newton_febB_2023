@@ -42,3 +42,8 @@ classList:
 //By using above attribute we can cancetanate multiple class together.
 ===============================================
 Creating Own Element:
+1.document.createElement()
+//it will create any new tag 
+2.appendChild()
+//It will bind from parent to child 
+=====================================
