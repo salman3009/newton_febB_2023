@@ -1,0 +1,5 @@
+window object
+//this means current object
+//if we give this outside anywhere inside the script it will refer to window object 
+example:
+console.log(this);
