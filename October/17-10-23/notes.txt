@@ -10,4 +10,9 @@ document object
 //inside the window we have document object 
 //document object support to access html code inside the javascript 
 //inside the document object we have different types of method.
+1.getElementById 
+//To access content 
+      1.innerText - exact text
+      2.textContent  - text with white space 
+      3.innerHTML - it will bring alone with html
 =================================================
