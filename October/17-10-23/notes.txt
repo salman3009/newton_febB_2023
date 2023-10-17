@@ -19,5 +19,7 @@ document object
 //It will bring the data similar to array 
 //It is not array but a NodeList 
 //loops and length property will work other methods will not work.
-
+3.getElementsByTagName 
+//we can get the element similar to particular tag.
+//It will bring NodeList.
 =================================================
