@@ -14,7 +14,11 @@
         console.log(data.length);
         for(let obj of data){
             console.log(obj.innerText);
+            if(obj.innerText == "Delhi"){
+                obj.innerText = "Mumbai";
+            }
         }
+        // data[2].innerText = "Mumbai";
 
     </script>
 </html>
