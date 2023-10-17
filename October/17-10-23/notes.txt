@@ -29,4 +29,6 @@ document object
 3..className 
 4.p
 5.querySelector
+//it similar to querySelectorAll by it will choose only one data.
+//preference it will select first data.
 =================================================
