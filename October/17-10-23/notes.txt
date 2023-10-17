@@ -1,5 +1,13 @@
 window object
 //this means current object
+//this keyword outside the object it will refer to window object.
+//this keyword inside the object it will refer to current object.
 //if we give this outside anywhere inside the script it will refer to window object 
 example:
 console.log(this);
+==========================================
+document object 
+//inside the window we have document object 
+//document object support to access html code inside the javascript 
+//inside the document object we have different types of method.
+=================================================
