@@ -23,7 +23,10 @@ document object
 //we can get the element similar to particular tag.
 //It will bring NodeList.
 4.querySelectorAll 
-
-
+//By using css selector we can access the element 
+1.p.className 
+2.p#id 
+3..className 
+4.p
 5.querySelector
 =================================================
