@@ -22,4 +22,8 @@ document object
 3.getElementsByTagName 
 //we can get the element similar to particular tag.
 //It will bring NodeList.
+4.querySelectorAll 
+
+
+5.querySelector
 =================================================
