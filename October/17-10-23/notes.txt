@@ -38,3 +38,6 @@ Accessing and changing value for attribute:
 2.setAttribute 
 //to set the value 
 ======================================
+classList:
+//By using above attribute we can cancetanate multiple class together.
+===============================================
