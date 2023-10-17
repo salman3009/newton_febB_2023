@@ -32,3 +32,9 @@ document object
 //it similar to querySelectorAll by it will choose only one data.
 //preference it will select first data.
 =================================================
+Accessing and changing value for attribute:
+1.getAttribute
+//To access existing attribute we can use this method.
+2.setAttribute 
+//to set the value 
+======================================
