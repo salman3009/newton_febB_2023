@@ -15,4 +15,9 @@ document object
       1.innerText - exact text
       2.textContent  - text with white space 
       3.innerHTML - it will bring alone with html
+2.getElementsByClassName
+//It will bring the data similar to array 
+//It is not array but a NodeList 
+//loops and length property will work other methods will not work.
+
 =================================================

@@ -1,0 +1,20 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+       <h1 class="header">World</h1>
+       <h2 class="header">India</h2>
+       <h3 class="header">Delhi</h3>
+       <h4 class="header">India Gate</h4>
+    </body>
+
+    <script>
+        let data = document.getElementsByClassName('header');
+        console.log(data.length);
+        for(let obj of data){
+            console.log(obj.innerText);
+        }
+
+    </script>
+</html>
