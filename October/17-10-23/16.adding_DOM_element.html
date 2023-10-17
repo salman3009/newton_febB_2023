@@ -1,0 +1,20 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="demo">
+           
+        </div>
+        <script>
+          //<p></p>
+          let child = document.createElement("div");
+          //<p>welcome to javascript</p>
+          child.innerHTML = "welcome to javascript";
+          //<div id=demo></div>
+          let parent = document.querySelector("#demo");
+          //<div id=demo><p>welcome to javascript</p></div>
+          parent.appendChild(child);
+        </script>
+    </body>
+</html>
