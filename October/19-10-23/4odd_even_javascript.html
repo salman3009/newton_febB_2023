@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            #container{
+                display: flex;
+                flex-wrap: wrap;
+                gap:10px;
+            }
+            .box{
+                width: 200px;
+                color:white;
+                font-size:25px;
+                text-align: center;
+                padding:100px;
+                height: 200px;
+            }
+            .odd{
+                background-color: red;
+            }
+            .even{
+                background-color: grey;
+            }
+        </style>
+       
+    </head>
+    <body>
+       <div id="container">
+        <div class="box odd">1</div>
+        <div class="box even">2</div>
+        <div class="box odd">3</div>
+        <div class="box even">4</div>
+        <div class="box odd">5</div>
+        <div class="box even">6</div>
+        <div class="box odd">7</div>
+       </div>
+       <script>
+         function initial(){
+            let parent = document.querySelector('#container');
+             for(let i=1;i<=100;i++){
+                let child = document.createElement("div");
+                child.innerHTML = i;
+                parent.appendChild(child);
+             }
+         }
+         initial();
+       </script>
+    </body>
+</html>
