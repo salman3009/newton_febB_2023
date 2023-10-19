@@ -8,4 +8,7 @@ example:
  let input = document.querySelector("#details");
             input.classList.add("sub");
             input.classList.remove("sub");
+
+2.Adding inline style 
+
 =================================================
