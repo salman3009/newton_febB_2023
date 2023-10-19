@@ -1,0 +1,11 @@
+Adding class and style using DOM
+1.Adding class 
+//To add the class 
+classList.add 
+//Tom remove the clas 
+classList.remove 
+example:
+ let input = document.querySelector("#details");
+            input.classList.add("sub");
+            input.classList.remove("sub");
+=================================================
