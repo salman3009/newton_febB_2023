@@ -10,5 +10,11 @@ example:
             input.classList.remove("sub");
 
 2.Adding inline style 
-
+//tagName.style.propertyName 
+//propertyName cannot contain "-" inside the javascript 
+//Instead of "-" we can remove and add capital letter for first character after "-"
+background-color="red";
+backgroundColor = "red";
+font-size = "14px";
+fontSize = "14px";
 =================================================
