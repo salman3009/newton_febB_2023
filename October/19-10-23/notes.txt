@@ -17,4 +17,10 @@ background-color="red";
 backgroundColor = "red";
 font-size = "14px";
 fontSize = "14px";
+example:
+  let tag = document.querySelector("#demo");
+            tag.style.color = "red";
+            tag.style.backgroundColor = "blue";
+            tag.style.fontSize = "14px";
 =================================================
+Generating odd and even number 
