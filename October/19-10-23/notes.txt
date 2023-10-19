@@ -24,3 +24,4 @@ example:
             tag.style.fontSize = "14px";
 =================================================
 Generating odd and even number 
+===========================================
