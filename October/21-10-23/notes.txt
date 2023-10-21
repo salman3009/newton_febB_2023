@@ -14,3 +14,15 @@ previousElementSibling
             console.log(sibling);
 </script>
 =============================================
+Events:
+//User Action in User Interface
+//Depends upon the user action will trigger the function 
+example:
+1.onclick
+<div onclick="onClickHandler()">yes</div>
+<script>
+function onClickHandler(){
+    alert("hello");
+}
+</script>
+2.onchange 
