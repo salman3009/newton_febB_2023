@@ -3,16 +3,32 @@
 
     </head>
     <body>
-        Enter the Number One:<input type="text">
-        Enter the Number two:<input type="text">
+        Enter the Number One:<input id="one" type="text">
+        Enter the Number two:<input id="two" type="text">
         <button id="add" onclick="onCaculationHandler(event)">Add</button>
         <button id="sub" onclick="onCaculationHandler(event)">Sub</button>
         <button id="mul" onclick="onCaculationHandler(event)">Mul</button>
         <button id="div" onclick="onCaculationHandler(event)">Div</button>
         <h1>Result:<span id="result">0</span></h1>
         <script>
+            let inputOne = 0;
+            let inputTwo = 0;
             function onCaculationHandler(event){
-                console.log(event.target.id);
+                let type = event.target.id;
+                let result = 0;
+                if(type == "add"){
+                   result = inputOne + inputTwo;
+                }
+                else if(type == "sub"){
+                  result = inputOne - inputTwo;
+                }
+                else if(type == "mul"){
+                  result = inputOne * inputTwo;
+                }
+                else if (type == "div"){
+                    result = inputOne/inputTwo;
+                }
+                document.querySelector("#result").textContent = result;
             }
 
         </script>
