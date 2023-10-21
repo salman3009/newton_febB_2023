@@ -3,4 +3,6 @@ Removing Element From the DOM
 example:
 let list = document.querySelector("#demo");
 list.remove();
+2.Removing entire parent tag itself 
+example:
 ========================================
