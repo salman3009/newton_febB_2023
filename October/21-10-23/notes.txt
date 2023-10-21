@@ -30,3 +30,4 @@ function onClickHandler(){
 }
 </script>
 2.onchange 
+3.onsubmit
