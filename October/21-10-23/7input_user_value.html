@@ -1,0 +1,20 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        Enter the Number One:<input type="text">
+        Enter the Number two:<input type="text">
+        <button id="add" onclick="onCaculationHandler(event)">Add</button>
+        <button id="sub" onclick="onCaculationHandler(event)">Sub</button>
+        <button id="mul" onclick="onCaculationHandler(event)">Mul</button>
+        <button id="div" onclick="onCaculationHandler(event)">Div</button>
+        <h1>Result:<span id="result">0</span></h1>
+        <script>
+            function onCaculationHandler(event){
+                console.log(event.target.id);
+            }
+
+        </script>
+    </body>
+</html>
