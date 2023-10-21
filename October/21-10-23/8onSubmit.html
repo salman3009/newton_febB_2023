@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form onsubmit="onSubmitHandler(event)">
+           fullName: <input type="text" name="fullName"/>
+           <br/>
+           age:<input type="number">
+           <br/>
+           Gender:<input type="radio" name="gender" value="male">Male
+           <input type="radio" name="gender" value="female">Female
+           <br/>
+           Confirmation:<input type="checkbox" name="confirmation">
+           <br/>
+           <input type="submit">
+        </form>
+        <script>
+            function onSubmitHandler(event){
+                event.preventDefault();
+                console.log("form submission");
+            }
+        </script>
+    </body>
+</html>

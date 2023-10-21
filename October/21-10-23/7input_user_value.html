@@ -5,10 +5,10 @@
     <body>
         Enter the Number One:<input id="one" type="number" onchange="onChangeHandler(event)">
         Enter the Number two:<input id="two" type="number" onchange="onChangeHandler(event)">
-        <button id="add" onclick="onCaculationHandler(event)">Add</button>
-        <button id="sub" onclick="onCaculationHandler(event)">Sub</button>
-        <button id="mul" onclick="onCaculationHandler(event)">Mul</button>
-        <button id="div" onclick="onCaculationHandler(event)">Div</button>
+        <button id="add" onclick="onCalculationHandler(event)">Add</button>
+        <button id="sub" onclick="onCalculationHandler(event)">Sub</button>
+        <button id="mul" onclick="onCalculationHandler(event)">Mul</button>
+        <button id="div" onclick="onCalculationHandler(event)">Div</button>
         <h1>Result:<span id="result">0</span></h1>
         <script>
             let inputOne = 0;
@@ -23,7 +23,7 @@
                     inputTwo = Number(event.target.value);
                 }
             }
-            function onCaculationHandler(event){
+            function onCalculationHandler(event){
                 let type = event.target.id;
                 let result = 0;
                 if(type == "add"){

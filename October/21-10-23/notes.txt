@@ -38,8 +38,16 @@ function onClickHandler(){
             }
         </script>
 3.onsubmit
-
-
+Whenever we submit the form this event will get trigger.
+preventDefault will prevent form from traveling to next page.
+example:
+<form  onsubmit="onSubmitHandler(event)">
+</form>
+<script>
+function onSubmitHandler(event){
+                event.preventDefault();
+            }
+</script>
 Event Object:
 //Every event inside the javascript will have event object is present 
 //It is optional to provide this parameter 
