@@ -3,22 +3,27 @@
 
     </head>
     <body>
-        <form onsubmit="onSubmitHandler(event)">
+        <form onsubmit="onSubmitHandler(event)" name="register">
            fullName: <input type="text" name="fullName"/>
            <br/>
-           age:<input type="number">
+           age:<input type="number" name="age">
            <br/>
            Gender:<input type="radio" name="gender" value="male">Male
            <input type="radio" name="gender" value="female">Female
            <br/>
            Confirmation:<input type="checkbox" name="confirmation">
            <br/>
-           <input type="submit">
+           <input type="submit" name="submit">
         </form>
         <script>
             function onSubmitHandler(event){
                 event.preventDefault();
                 console.log("form submission");
+                let list = document.forms[0];
+                console.log(list.length);
+                for(let i=0;i<list.length;i++){
+                    console.log(list.elements[i].name);
+                }
             }
         </script>
     </body>
