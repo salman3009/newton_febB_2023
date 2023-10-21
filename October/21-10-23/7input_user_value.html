@@ -3,8 +3,8 @@
 
     </head>
     <body>
-        Enter the Number One:<input id="one" type="text">
-        Enter the Number two:<input id="two" type="text">
+        Enter the Number One:<input id="one" type="number" onchange="onChangeHandler(event)">
+        Enter the Number two:<input id="two" type="number" onchange="onChangeHandler(event)">
         <button id="add" onclick="onCaculationHandler(event)">Add</button>
         <button id="sub" onclick="onCaculationHandler(event)">Sub</button>
         <button id="mul" onclick="onCaculationHandler(event)">Mul</button>
@@ -13,6 +13,16 @@
         <script>
             let inputOne = 0;
             let inputTwo = 0;
+
+            function onChangeHandler(event){
+                if(event.target.id == "one"){
+                   inputOne = Number(event.target.value);
+                   console.log(typeof inputOne);
+                }
+                else{
+                    inputTwo = Number(event.target.value);
+                }
+            }
             function onCaculationHandler(event){
                 let type = event.target.id;
                 let result = 0;

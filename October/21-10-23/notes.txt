@@ -46,6 +46,7 @@ Event Object:
 //It helps to get current data details 
 //It helps in form to prevent from going to next page 
 //It helps to prevent bubbling problem in javascript
+//input tag value will come in string format only.
 example:
  Enter your name:<input type="text" onchange="onChangeHandler(event)">
         <script>
