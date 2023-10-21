@@ -1,0 +1,6 @@
+Removing Element From the DOM
+1.Removing entire tag from the DOM 
+example:
+let list = document.querySelector("#demo");
+list.remove();
+========================================
