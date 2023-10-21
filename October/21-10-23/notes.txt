@@ -30,4 +30,28 @@ function onClickHandler(){
 }
 </script>
 2.onchange 
+//Whenever types in the input text. Once they leave the field it will trigger the function
+ Enter your name:<input type="text" onchange="onChangeHandler()">
+        <script>
+            function onChangeHandler(){
+                alert("hello");
+            }
+        </script>
 3.onsubmit
+
+
+Event Object:
+//Every event inside the javascript will have event object is present 
+//It is optional to provide this parameter 
+//It helps to get current data details 
+//It helps in form to prevent from going to next page 
+//It helps to prevent bubbling problem in javascript
+example:
+ Enter your name:<input type="text" onchange="onChangeHandler(event)">
+        <script>
+            function onChangeHandler(event){
+                alert("hello");
+                console.log(event.target.id);
+            }
+        </script>
+===============================================
