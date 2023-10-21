@@ -4,9 +4,12 @@
     </head>
     <body>
         <button onclick="onClickHandler()">Yes</button>
+        <h1 id="demo">0</h1>
         <script>
+            let count =0;
             function onClickHandler(){
-                alert("hello");
+                count++;
+               document.querySelector("#demo").innerHTML = count;
             }
         </script>
     </body>
