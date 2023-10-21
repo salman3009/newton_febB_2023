@@ -5,6 +5,10 @@ let list = document.querySelector("#demo");
 list.remove();
 2.Removing entire parent tag itself 
 example:
+<script>
+            let list = document.querySelector("#submit");
+            list.parentElement.remove();
+</script>
 ========================================
 previousElementSibling 
 //It will access immediate sibling element.
