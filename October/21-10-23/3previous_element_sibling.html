@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div className="header">
+            <h1>Header Tag</h1>
+            <p>Welcome to javascript</p>
+            <button id="submit">Submit</button>
+        </div>
+        <script>
+            let list = document.querySelector("#submit");
+            let sibling = list.previousElementSibling.innerHTML;
+            console.log(sibling);
+            let siblingHead = list.previousElementSibling.previousElementSibling.innerHTML;
+            console.log(siblingHead);
+        </script>
+    </body>
+</html>
