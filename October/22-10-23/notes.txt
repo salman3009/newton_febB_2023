@@ -1,0 +1,29 @@
+Javascript in the Browser:
+//chrome v8 engine 
+//firefox spider engine
+Overall structure compiler or Javascript Runtime
+1.call stack - FILO - main execution will happen inside the call stack.
+2.heap - array and object will get store and it will be given to call stack as reference
+3.webapi - It will provide support for all inbuilt methods example:DOM
+4.callback queue - all async code will get store here.
+5.event loop - it will run 24*7 to check incoming and outcoming data. And it will manage the entire flow.
+=============================================
+heap - object/array
+stack - main execution
+webapi - dom
+queue - data store for late response
+event loop - manager
+=============================================
+call stack - execution context 
+=======================================
+Hoisting:
+1.call function or variable before declaration this concept is called hoisting.
+example;
+<script>
+    addition();
+    function addition(){
+        console.log("addition function");
+    }
+ 
+</script>
+==============================================
