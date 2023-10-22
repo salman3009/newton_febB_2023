@@ -18,11 +18,19 @@
         <script>
             function onSubmitHandler(event){
                 event.preventDefault();
-                console.log("form submission");
+                let fullName = "";
+                let age ="";
+                let confirmation ="";
+                let gender ="";
+               // console.log("form submission");
                 let list = document.forms[0];
-                console.log(list.length);
+                //console.log(list.length);
                 for(let i=0;i<list.length;i++){
-                    console.log(list.elements[i].name);
+                   // console.log(list.elements[i].name);
+                    if(list.elements[i].name == "fullName"){
+                        fullName =list.elements[i].value;
+                        console.log(fullName);
+                    }
                 }
             }
         </script>
