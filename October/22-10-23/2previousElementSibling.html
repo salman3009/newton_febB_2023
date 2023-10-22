@@ -1,0 +1,20 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div>
+            <h2>heading 2 tag</h2>
+            <h1>heading tag</h1>
+            <p id="para">paragraph tag</p>
+        </div>
+        <script>
+            let list = document.querySelector("#para");
+            console.log(list.innerHTML);
+            let aboveTag = list.previousElementSibling.innerHTML;
+            console.log(aboveTag);
+            let secondAboveTag = list.previousElementSibling.previousElementSibling.innerHTML;
+            console.log(secondAboveTag);
+        </script>
+    </body>
+</html>
