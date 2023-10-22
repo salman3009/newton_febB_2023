@@ -15,9 +15,19 @@ queue - data store for late response
 event loop - manager
 =============================================
 call stack - execution context 
+Inside the execution context 
+1.what are the data you have declare, functions,object,variable
+2.what is the scope of data
+3.this keyword - current object
+//before we run the code global execution context will be created
+//each function is a execution context 
+//inside browser anonymous is nothing but a global execution context
+
 =======================================
 Hoisting:
 1.call function or variable before declaration this concept is called hoisting.
+2.because of global execution context that is stored before running the code.
+3.Inside the global execution context you will have data above all function and variables.
 example;
 <script>
     addition();
