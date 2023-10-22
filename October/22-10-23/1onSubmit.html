@@ -20,7 +20,7 @@
                 event.preventDefault();
                 let fullName = "";
                 let age ="";
-                let confirmation ="";
+                let confirmation =false;
                 let gender ="";
                // console.log("form submission");
                 let list = document.forms[0];
@@ -40,6 +40,16 @@
                             console.log(list.elements[i].value);
                             gender = list.elements[i].value;
                          }
+                    }
+                    if(list.elements[i].name == "confirmation"){
+                        if(list.elements[i].checked){
+                            confirmation = true;
+                            console.log(confirmation)
+                        }
+                        else{
+                            confirmation = false;
+                            console.log(confirmation)
+                        }
                     }
                 }
             }
