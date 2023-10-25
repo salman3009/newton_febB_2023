@@ -77,3 +77,11 @@ example;
  
 </script>
 ==============================================
+what is hoisting?
+//before function declaration we can able to call the function 
+How hositing is possible?
+//Because of global execution context 
+//Global execution context will store global variables and function name will be registered here.
+//Global execution context will stored all data before code execution start.
+//so function can able to call before declaration.
+===================================================
