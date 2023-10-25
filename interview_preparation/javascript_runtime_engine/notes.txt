@@ -31,17 +31,28 @@ Javascript in the Browser:
 //firefox spider engine
 Overall structure compiler or Javascript Runtime
 1.call stack - FILO - main execution will happen inside the call stack.
+//any code you have written. first it will reach call stack.
 2.heap - array and object will get store and it will be given to call stack as reference
 3.webapi - It will provide support for all inbuilt methods example:DOM
-4.callback queue - all async code will get store here.
+4.callback queue (FIFO) - all async code will get store here.
+//waiting time set of code will be kept inside this queue.
 5.event loop - it will run 24*7 to check incoming and outcoming data. And it will manage the entire flow.
+//taking data from call stack to callback queue 
+//taking data from queue to call stack
 =============================================
 heap - object/array
-stack - main execution
-webapi - dom
-queue - data store for late response
+call stack - main execution
+webapi - DOM
+callback queue - data store for late response
 event loop - manager
 =============================================
+javascript - single threaded
+thread - space to execute the code
+each tab will have - one thread
+single thread benefits:
+1.memory utilization
+2.performance improvement 
+=========================================
 call stack - execution context 
 Inside the execution context 
 1.what are the data you have declare, functions,object,variable
