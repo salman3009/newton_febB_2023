@@ -1,3 +1,43 @@
+What are primitives datatypes?
+1.string - character/string
+2.number  - float/integer
+3.boolean 
+4.undefined 
+What are non-primitive or dervied datatype?
+1.array  - dynamic size
+2.object  - dynamic size
+3.null - null is empty object
+What are empty datatypes in javascript?
+1.undefined
+2.null
+what is the difference between == and === operator?
+== only check only value 
+=== only check value and datatype 
+what are false value?
+1.false
+2.undefined 
+3.null 
+4.NaN 
+5.'' or ""
+6.0
+what is the difference between single quotes('') and double quotes("")
+//There is no difference inside the javascript. For string either you can use single or double quotes.
+Whenever we copy array or object using assignment operator. It will do deep copy or reference copy or shallow copy?
+
+================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
 Javascript in the Browser:
 //chrome v8 engine 
 //firefox spider engine
