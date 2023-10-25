@@ -59,6 +59,7 @@ Inside the execution context
 2.what is the scope of data
 3.this keyword - current object
 //before we run the code global execution context will be created
+//Inside the global execution context all global variable and function will get registered inside this.
 //each function is a execution context 
 //inside browser anonymous is nothing but a global execution context
 
