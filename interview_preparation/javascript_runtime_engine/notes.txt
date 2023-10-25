@@ -23,21 +23,9 @@ what are false value?
 what is the difference between single quotes('') and double quotes("")
 //There is no difference inside the javascript. For string either you can use single or double quotes.
 Whenever we copy array or object using assignment operator. It will do deep copy or reference copy or shallow copy?
-
+deep copy - every variable will have separate memory space 
+shallow copy - will refer to same memory space.
 ================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
 Javascript in the Browser:
 //chrome v8 engine 
 //firefox spider engine
