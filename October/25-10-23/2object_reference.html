@@ -1,0 +1,16 @@
+<script>
+    var foo = {
+    x: 2,
+    outside:function(){
+        return this.x;
+    },
+    baz: {
+        x: 1,
+        inside: function() {
+            return this.x;
+        }
+    }
+}
+console.log(foo.outside());
+console.log(foo.baz.inside());
+</script>
