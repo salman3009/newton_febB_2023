@@ -9,8 +9,11 @@
         <button id="division">Division</button>
         <script>
            let list = document.querySelectorAll('button');
-           list.forEach(function(document){
-               console.log(document.id);
+           list.forEach(function(input){
+               console.log(input.id);
+               input.addEventListener('click',function(event){
+                 console.log(event.target.id);
+               })
            })
 
         </script>
