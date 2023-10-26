@@ -233,7 +233,7 @@ https://my.newtonschool.co/playground/markup/ljdezy5zcn9i
             header.classList.remove("sticky");
         }
     }
-
+    /////////////////////////start of solution one ///////////////////////////////////
     //1
     let productscontainerClass = document.querySelector(".productscontainer");
     for (let e of productslist) {
@@ -247,8 +247,9 @@ https://my.newtonschool.co/playground/markup/ljdezy5zcn9i
           </div>
       </div>`
     }
+///////////////////////////////////////////////////////////////////////////////////////////
 
-    //2
+    ////////////////////start of solution two//////////////////////////////////
     let carticon = document.querySelector(".carticon");
     let closecart = document.querySelector(".closecart");
     let cartui = document.querySelector(".cartui");
@@ -256,11 +257,11 @@ https://my.newtonschool.co/playground/markup/ljdezy5zcn9i
     carticon.addEventListener('click', function () {
         cartui.classList.add("cartopened");
     });
-    
+
     closecart.addEventListener('click',function(){
         cartui.classList.remove("cartopened");
     });
-
+///////////////////////////////////////////////////////////////////
 
 </script>
 
