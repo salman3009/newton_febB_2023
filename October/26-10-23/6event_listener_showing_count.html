@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button id="add" class="header" name="addition">Add</button>
+         <div id="count">0</div>
+         <script>
+            let count = 0;
+            document.querySelector("#add").addEventListener("click",function(event){
+               console.log(event.target.name);
+               console.log(event.target.className);
+               count++;
+               document.querySelector("#count").textContent = count;
+            })
+         </script>
+        
+    </body>
+</html>
