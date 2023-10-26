@@ -6,3 +6,13 @@ function recursion(){
 }
 recursion();
 =============================
+Event Listener:
+//Attaching events to DOM Elements from javascript code.
+example:
+<button id="submit">Submit</button>
+<script>
+document.querySelector("#submit").addEventListener("click",function(){
+    console.log("calling");
+})
+</script>
+==========================================
