@@ -1,0 +1,23 @@
+<!-- <script>
+    //There is no end condition
+    function recursion(){
+         console.log("inside the recursion");
+         recursion();
+    }
+    recursion();
+</script> -->
+
+<script>
+     function recursion(count){
+         console.log("inside the recursion");
+         if(count==0){
+            return 0;
+         }
+         else{
+            count--;
+            recursion(count);
+         }
+         
+    }
+    recursion(4);
+</script>

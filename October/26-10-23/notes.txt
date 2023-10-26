@@ -1,0 +1,8 @@
+Recursion:
+//A function calling itself.
+example:
+function recursion(){
+    recursion();
+}
+recursion();
+=============================
