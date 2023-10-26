@@ -3,10 +3,13 @@
 
     </head>
     <body>
-        <input type="text" id="demo"/>
+        <input type="text" id="demo" class="header" name="addition"/>
         <script>
             document.querySelector("#demo").addEventListener('change',function(event){
                 console.log(event.target.value);
+                console.log(event.target.className);
+                console.log(event.target.name);
+                console.log(document.querySelector("#demo").value);
             })
         </script>
     </body>
