@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
     function factorial(n){
         if(n==0){
             return 1;
@@ -13,4 +13,21 @@
     //factorial(2) return 3*2*factorial(1)
     //factorial(1) return 3*2*1*factorial(0)
     //factorial(0) return 3*2*1*1
+</script> -->
+
+<script>
+    function sum(n){
+        if(n==0){
+            return 0;
+        }
+        else{
+            return n + sum(n-1);
+        }
+    }
+    let result = sum(3);
+    console.log(result);
+    //sum(3) return 3 + sum(2)
+    //sum(2) return 3+2+sum(1)
+    //sum(1) return 3+2+1+sum(0)
+    //sum(0) return 3+2+1+0
 </script>
