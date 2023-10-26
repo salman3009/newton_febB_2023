@@ -1,0 +1,16 @@
+<script>
+    function factorial(n){
+        if(n==0){
+            return 1;
+        }
+        else{
+            return n * factorial(n-1);
+        }
+    }
+    let result = factorial(3);
+    console.log(result);
+    //factorial(3) return 3 * factorial(2)
+    //factorial(2) return 3*2*factorial(1)
+    //factorial(1) return 3*2*1*factorial(0)
+    //factorial(0) return 3*2*1*1
+</script>
