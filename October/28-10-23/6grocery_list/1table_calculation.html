@@ -34,6 +34,11 @@
     <button onClick='calcTotal()'>Total</button>
 <script>
     function calcTotal(){
-        
+        let sum = 0;
+        let priceList = document.querySelectorAll("[data-ns-test=price]");
+          for(let obj of priceList){
+            sum+=parseInt(obj.textContent);
+          }
+          console.log(sum);
     }
 </script>
