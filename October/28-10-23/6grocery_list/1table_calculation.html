@@ -37,7 +37,12 @@
     </table>
     <button onClick='calcTotal()'>Total</button>
 <script>
+    let count = 0;
     function calcTotal(){
+        if(count>0){
+            return;
+        }
+        count++;
         let sum = 0;
         let priceList = document.querySelectorAll("[data-ns-test=price]");
           for(let obj of priceList){
