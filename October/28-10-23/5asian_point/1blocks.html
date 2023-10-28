@@ -7,7 +7,8 @@
 <body>
    Block Id <input type="text" id="block"><br>
     Color Name <input type="text" id="color">
-    <button>Submit</button>
+    <button id="submit">Submit</button>
+    <button id="reset">reset</button>
     <section>
         <div id="1" class="block"></div>
         <div id="2" class="block"></div>
@@ -36,12 +37,19 @@
     }
 </style>
 <script>
-    document.querySelector("button").addEventListener("click",function(){
+    document.querySelector("#submit").addEventListener("click",function(){
         let id = document.querySelector("#block").value;
         let color = document.querySelector("#color").value;
         let element = document.getElementById(id);
         element.style.backgroundColor = color;
 
+    });
+
+    document.querySelector("#reset").addEventListener("click",function(){
+        let blocks = document.querySelectorAll('.block');
+        for(let obj of blocks){
+            obj.style.backgroundColor = 'transparent';
+        }
     })
 </script>
 
