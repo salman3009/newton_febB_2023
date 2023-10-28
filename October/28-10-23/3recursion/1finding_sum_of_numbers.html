@@ -9,10 +9,17 @@
           sum = sum+(number%10);
           number = parseInt(number/10);
      }
-     console.log(sum);
+     //6
+     if(sum<10){
+        return sum;
+     }
+     else{
+        return findingDigit(sum);
+     }
     }
     //456
-    findingDigit(456);
+    let result = findingDigit(456);
+    console.log(result);
 </script>
 
 <script>
@@ -35,6 +42,21 @@
      //4
     //  while(number>0){
              //15 = 11 + 4
+    //       sum = sum+(number%10);
+             //0
+    //       number = number/10;
+    //  }
+
+    //15
+    //  while(number>0){
+             //5 = 0 + 5
+    //       sum = sum+(number%10);
+             //1
+    //       number = number/10;
+    //  }
+    //1
+    //  while(number>0){
+             //6 = 5 + 1
     //       sum = sum+(number%10);
              //0
     //       number = number/10;
