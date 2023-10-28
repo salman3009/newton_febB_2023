@@ -1,0 +1,20 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="number" value="5" oninput="ageHandler(event)">
+        <button>submit</button>
+        <script>
+            function ageHandler(event){
+                let input = event.target.value;
+                if(input<5){
+                    document.querySelector('button').disabled = true;
+                }
+                else{
+                    document.querySelector('button').disabled = false;
+                }
+            }
+        </script>
+    </body>
+</html>
