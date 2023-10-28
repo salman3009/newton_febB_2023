@@ -36,7 +36,31 @@ https://my.newtonschool.co/playground/markup/093z2uni3sb6?lecture_hash=zceykbnes
 <button onClick='calcTotal()'>Total</button>
 
 <script>
-    function calcTotal() {
+     let count = 0;
+    function calcTotal(){
+        let tbody = document.querySelector('tbody');
+        if(count>0){
+            tbody.removeChild(tbody.children[tbody.children.length-1])
+        }
+        count++;
+        let sum = 0;
+        let priceList = document.querySelectorAll("[data-ns-test=price]");
+          for(let obj of priceList){
+            sum+=parseInt(obj.textContent);
+          }
+          console.log(sum);
+          let tr = document.createElement('tr');
+          let tdOne = document.createElement('td');
+          tdOne.textContent = "Grand Total"
+          tr.appendChild(tdOne);
+
+          let tdTwo = document.createElement('td');
+          tdTwo.setAttribute('data-ns-test','total');
+          tdTwo.textContent = sum;
+          tr.appendChild(tdTwo);
+
+        
+          tbody.appendChild(tr);
 
     }
 </script>
