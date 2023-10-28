@@ -1,0 +1,18 @@
+https://my.newtonschool.co/playground/code/c6ftk10d5wzd?lecture_hash=zceykbnesnfq
+
+<script>
+const getValue = (num) => {
+    let sum =0;
+     while(num>0){
+          sum = sum+(num%10);
+          num = parseInt(num/10);
+     }
+     if(sum<10){
+        return sum;
+     }
+     else{
+        return getValue(sum);
+     }
+};
+
+</script>
