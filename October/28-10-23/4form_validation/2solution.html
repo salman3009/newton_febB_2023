@@ -13,11 +13,19 @@ https://my.newtonschool.co/playground/markup/9mqkh4ewrq1b?lecture_hash=zceykbnes
 <div id="errors-holder"></div>
 <div id="result-holder"></div>
 <script>
-           function ageChange(e){
+    function ageChange(e) {
+        let input = event.target.value;
+        if (input < 5) {
+            document.querySelector("#errors-holder").innerHTML = "You need to be atleast 5 years old to participate";
+            document.querySelector("button").disabled = true;
+        } else {
+            document.querySelector("#errors-holder").innerHTML = "";
+            document.querySelector("button").disabled = false;
+        }
 
-}
+    }
 
-function handleSubmit(e){
+    function handleSubmit(e) {
 
-}
+    }
 </script>
