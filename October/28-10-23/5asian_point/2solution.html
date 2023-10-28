@@ -1,0 +1,55 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="number" id="wall_id">
+       <input type="text" id="wall_color">
+        <button id="apply-btn">Apply</button>
+        <button id="reset-btn">Reset</button>
+
+        <section class="blocks-wall">
+            <div id="1" value="1" class="block"></div>
+            <div id="2" value="2" class="block"></div>
+            <div id="3" value="3" class="block"></div>
+            <div id="4" value="4" class="block"></div>
+            <div id="5" value="5" class="block"></div>
+            <div id="6" value="6" class="block"></div>
+            <div id="7" value="7" class="block"></div>
+            <div id="8" value="8" class="block"></div>
+            <div id="9" value="9" class="block"></div>
+            <div id="10" value="10" class="block"></div>
+        </section>
+       
+
+    </body>
+</html>
+<style>
+    .block {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.blocks-wall{
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+}
+</style>
+
+<script>
+     document.querySelector("#apply-btn").addEventListener("click",function(){
+        let id = document.querySelector("#wall_id").value;
+        let color = document.querySelector("#wall_color").value;
+        let element = document.getElementById(id);
+        element.style.backgroundColor = color;
+
+    });
+
+    document.querySelector("#reset-btn").addEventListener("click",function(){
+        let blocks = document.querySelectorAll('.block');
+        for(let obj of blocks){
+            obj.style.backgroundColor = 'transparent';
+        }
+    })
+</script>
