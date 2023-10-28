@@ -1,0 +1,42 @@
+<script>
+    //456 == 6+5+4 = 15
+</script>
+
+<script>
+    function findingDigit(number){
+        let sum =0;
+     while(number>0){
+          sum = sum+(number%10);
+          number = parseInt(number/10);
+     }
+     console.log(sum);
+    }
+    //456
+    findingDigit(456);
+</script>
+
+<script>
+    // 456
+    //  while(number>0){
+             //6 = 0 + 6
+    //       sum = sum+(number%10);
+             //45
+    //       number = number/10;
+    //  }
+
+   //45
+    //  while(number>0){
+             //6 = 6 + 5
+    //       sum = sum+(number%10);
+             //4
+    //       number = number/10;
+    //  }
+
+     //4
+    //  while(number>0){
+             //15 = 11 + 4
+    //       sum = sum+(number%10);
+             //0
+    //       number = number/10;
+    //  }
+</script>

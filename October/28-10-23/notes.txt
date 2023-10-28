@@ -1,0 +1,7 @@
+Events in javascript:
+1.onclick
+2.onchange 
+3.onsubmit 
+4.onkeydown 
+5.onload
+=======================================
