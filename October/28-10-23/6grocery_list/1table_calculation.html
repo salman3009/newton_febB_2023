@@ -29,6 +29,10 @@
                 <td>Item-4</td>
                 <td data-ns-test="price">1</td>
             </tr>
+            <!-- <tr>
+                <td data-ns-test="total">Grand Total</td>
+                <td>303</td>
+            </tr> -->
         </tbody>
     </table>
     <button onClick='calcTotal()'>Total</button>
@@ -40,5 +44,18 @@
             sum+=parseInt(obj.textContent);
           }
           console.log(sum);
+          let tr = document.createElement('tr');
+          let tdOne = document.createElement('td');
+          tdOne.setAttribute('data-ns-test','total');
+          tdOne.textContent = "Grand Total"
+          tr.appendChild(tdOne);
+
+          let tdTwo = document.createElement('td');
+          tdTwo.textContent = sum;
+          tr.appendChild(tdTwo);
+
+          let tbody = document.querySelector('tbody');
+          tbody.appendChild(tr);
+
     }
 </script>
