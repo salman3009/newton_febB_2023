@@ -26,20 +26,29 @@ https://my.newtonschool.co/playground/markup/9mqkh4ewrq1b?lecture_hash=zceykbnes
     }
 
     function handleSubmit(e) {
-       e.preventDefault();
-       let input = parseInt(document.querySelector("#q_age").value);
-       if(!input){
-           document.querySelector("#errors-holder").innerHTML = "Please choose age";
-           return
-       }
-       let userSelection = document.querySelector("#q_owns_phone").checked;
-       if(userSelection){
-             if(input <13){
+        e.preventDefault();
+        let input = parseInt(document.querySelector("#q_age").value);
+        if (!input) {
+            document.querySelector("#errors-holder").innerHTML = "Please choose age";
+            return
+        }
+        let userSelection = document.querySelector("#q_owns_phone").checked;
+        if (userSelection) {
+            if (input < 13) {
                 document.querySelector("#result-holder").innerHTML = "You are too young to have a phone";
-             }
-             else{
+            }
+            else {
                 document.querySelector("#result-holder").innerHTML = "Use your phone in moderation";
-             }
-       }
+            }
+        }
+        else {
+            if (input < 13) {
+                document.querySelector("#result-holder").innerHTML = "You will get a phone soon";
+            }
+            else {
+                document.querySelector("#result-holder").innerHTML = "You should get a phone";
+            }
+        }
     }
+
 </script>
