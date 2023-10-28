@@ -26,6 +26,11 @@ https://my.newtonschool.co/playground/markup/9mqkh4ewrq1b?lecture_hash=zceykbnes
     }
 
     function handleSubmit(e) {
-
+       e.preventDefault();
+       let input = parseInt(document.querySelector("#q_age").value);
+       if(!input){
+           document.querySelector("#errors-holder").innerHTML = "Please choose age";
+           return
+       }
     }
 </script>
