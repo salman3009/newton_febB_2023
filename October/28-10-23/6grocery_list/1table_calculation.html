@@ -39,8 +39,9 @@
 <script>
     let count = 0;
     function calcTotal(){
+        let tbody = document.querySelector('tbody');
         if(count>0){
-            return;
+            tbody.removeChild(tbody.children[tbody.children.length-1])
         }
         count++;
         let sum = 0;
@@ -51,15 +52,15 @@
           console.log(sum);
           let tr = document.createElement('tr');
           let tdOne = document.createElement('td');
-          tdOne.setAttribute('data-ns-test','total');
           tdOne.textContent = "Grand Total"
           tr.appendChild(tdOne);
 
           let tdTwo = document.createElement('td');
+          tdTwo.setAttribute('data-ns-test','total');
           tdTwo.textContent = sum;
           tr.appendChild(tdTwo);
 
-          let tbody = document.querySelector('tbody');
+        
           tbody.appendChild(tr);
 
     }
