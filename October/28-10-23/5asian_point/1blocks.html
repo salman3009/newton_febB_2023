@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+   Block Id <input type="text" id="block"><br>
+    Color Name <input type="text" id="color">
+    <button>Submit</button>
+    <section>
+        <div id="1" class="block"></div>
+        <div id="2" class="block"></div>
+        <div id="3" class="block"></div>
+        <div id="4" class="block"></div>
+        <div id="5" class="block"></div>
+        <div id="6" class="block"></div>
+        <div id="7" class="block"></div>
+        <div id="8" class="block"></div>
+        <div id="9" class="block"></div>
+        <div id="10" class="block"></div>
+    </section>
+
+</body>
+<style>
+    .block {
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+        border: 1px solid black;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: repeat(4, 70px);
+    }
+</style>
+<script>
+    document.querySelector("button").addEventListener("click",function(){
+        let id = document.querySelector("#block").value;
+        let color = document.querySelector("#color").value;
+        let element = document.getElementById(id);
+        element.style.backgroundColor = color;
+
+    })
+</script>
+
+</html>
