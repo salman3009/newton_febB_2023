@@ -3,7 +3,7 @@
 
     </head>
     <body>
-        <input type="number" value="5" oninput="ageHandler(event)">
+        <input type="number" id="age" value="5" oninput="ageHandler(event)">
         <input type="checkbox" id="d_age">
         <button onclick="onSubmitHandler()">submit</button>
         <script>
@@ -19,7 +19,9 @@
 
             function onSubmitHandler(){
                 let result = document.querySelector("#d_age").checked;
+                let input = document.querySelector("#age").value;
                 console.log(result,typeof result);
+                console.log(input);
             }
         </script>
     </body>
