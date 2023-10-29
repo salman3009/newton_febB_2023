@@ -5,6 +5,13 @@
     function display(){
           console.log(addition);
           addition++;
+          //function scope
+          let subtraction = 6;
+
+          if(true){
+            console.log(subtraction);
+          }
+          subtraction--;
     }
 
 
@@ -15,6 +22,8 @@
         }
     }
 
+    display();
+    display();
     display();
     status();
 
