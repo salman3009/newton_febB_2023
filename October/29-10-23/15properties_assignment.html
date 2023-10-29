@@ -1,0 +1,22 @@
+https://my.newtonschool.co/playground/code/29smrd1xib4t?lecture_hash=vjxmb5or1wif
+<script>
+    function arrayProperties(arr1, arr2) {
+    let arr3 =arr2.concat(arr1);
+    arr3.push(arr2);
+    console.log(arr3);
+
+    arr3.pop();
+    console.log(arr3.reverse());
+
+    let lastIndex = arr3.lastIndexOf("orange");
+    console.log(lastIndex);
+
+    let sliceResult = arr3.slice(0,3);
+    console.log(sliceResult.length);
+
+    let joinResult = sliceResult.join();
+    console.log(joinResult);
+
+}
+arrayProperties(["pineapple","orange","banana"],["apple","orange","mango"]);
+</script>
