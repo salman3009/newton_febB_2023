@@ -48,7 +48,7 @@ let arrTwo = new Array(44,55);
 Array Methods:
 1.push - It will add the value at the end position
 2.unshift - it will add the value at the front position
-3.pop 
-4.shift 
+3.pop - it will remove the value at the end position 
+4.shift - it will remove the value at the front position
 5.splice 
 6.slice 
