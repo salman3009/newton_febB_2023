@@ -1,7 +1,11 @@
 Scope chaining or lexical Scope in javascript
 1.Global scope 
+ //It is declare outside the function and block scope
 2.function scope 
+//It is declare inside the function 
 3.block scope 
+//It is declare inside the block 
+
 example:
 Global scope 
 let a = 4;
