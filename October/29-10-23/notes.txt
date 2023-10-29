@@ -45,3 +45,10 @@ example:
 let arr = [33,44];
 let arrTwo = new Array(44,55);
 ========================================
+Array Methods:
+1.push - It will add the value at the end position
+2.unshift - it will add the value at the front position
+3.pop 
+4.shift 
+5.splice 
+6.slice 
