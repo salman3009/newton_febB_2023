@@ -54,3 +54,7 @@ Array Methods:
 //argument one - index name 
 //argument two - how much to delete from there.
 6.slice 
+//It will not change the original array only it will return result 
+//argument one - index name 
+//argument two - it will delete the value till index+1 we need to provide.
+=========================================================
