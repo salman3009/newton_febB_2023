@@ -21,4 +21,17 @@ function subtraction(){
     }
 }
 ======================================
-
+TDZ - Temporal dead zone 
+//Accessing variables before declaration.
+function details(){
+    console.log(a);
+    let a = 56;
+}
+//Accessing before declaration will work for followings things
+1.function 
+2.var keyword
+====================================================
+Drawsbacks of var 
+1.It is either function scope or global scope. But there is no block scope 
+2.TDZ error will not come here. Because hoisting concept will work here.
+=======================================================
