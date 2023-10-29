@@ -76,6 +76,7 @@ Searching purpose
 //It will return boolean true or false if value is present
 10.indexOf 
 //it will not change original array 
+//it will return index of value if value is found otherwise -1
 11.lastIndexOf
 //it will not change original array 
 =========================================================
