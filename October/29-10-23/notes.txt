@@ -80,4 +80,9 @@ Searching purpose
 11.lastIndexOf
 //it will not change original array 
 //it will return index of value if value is found otherwise -1 but it will execute from end position
+
+Converting Array to string 
+1.toString 
+//It will not change original array 
+//it will convert into string 
 =========================================================
