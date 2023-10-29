@@ -63,6 +63,9 @@ Deletion
 //argument two - it will delete the value till index+1 we need to provide.
 
 7.concat 
-//it will not original array 
+//it will not change original array 
 //it will combine array together
+8.reverse 
+//it will not change original array 
+//it will print the array in reverse order
 =========================================================
