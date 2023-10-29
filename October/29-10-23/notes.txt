@@ -35,3 +35,13 @@ Drawsbacks of var
 1.It is either function scope or global scope. But there is no block scope 
 2.TDZ error will not come here. Because hoisting concept will work here.
 =======================================================
+Array:
+//Storing data continously inside the array 
+//There is no fixed size here 
+//Array is dynamic here
+//You can store multiple datatypes together.
+=============================================
+example:
+let arr = [33,44];
+let arrTwo = new Array(44,55);
+========================================
