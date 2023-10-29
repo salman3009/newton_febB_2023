@@ -46,9 +46,13 @@ let arr = [33,44];
 let arrTwo = new Array(44,55);
 ========================================
 Array Methods:
+
+Addition
 1.push - It will add the value at the end position
 2.unshift - it will add the value at the front position
-3.pop - it will remove the value at the end position 
+
+Deletion 
+3.pop - it will remove the value at the end position
 4.shift - it will remove the value at the front position
 5.splice  - it will remove the value at any position 
 //argument one - index name 
@@ -57,4 +61,8 @@ Array Methods:
 //It will not change the original array only it will return result 
 //argument one - index name 
 //argument two - it will delete the value till index+1 we need to provide.
+
+7.concat 
+//it will not original array 
+//it will combine array together
 =========================================================
