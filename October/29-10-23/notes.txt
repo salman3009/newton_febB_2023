@@ -50,5 +50,7 @@ Array Methods:
 2.unshift - it will add the value at the front position
 3.pop - it will remove the value at the end position 
 4.shift - it will remove the value at the front position
-5.splice 
+5.splice  - it will remove the value at any position 
+//argument one - index name 
+//argument two - how much to delete from there.
 6.slice 
