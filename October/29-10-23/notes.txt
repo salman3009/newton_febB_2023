@@ -85,4 +85,10 @@ Converting Array to string
 1.toString 
 //It will not change original array 
 //it will convert into string 
+//final result will be in comma separated string
+2.join
+//It will not change original array 
+//it will convert into string 
+//final result depends upon our requirement
+
 =========================================================
