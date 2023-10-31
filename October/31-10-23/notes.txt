@@ -1,8 +1,8 @@
 Array Loop methods:
-1.forEach 
+1.forEach - normal iteration
 2.find 
-3.some 
-4.every 
+3.some -- true/false - atleast anyone match
+4.every --true/false - everything should match
 5.map 
 6.filter 
 7.reduce 
