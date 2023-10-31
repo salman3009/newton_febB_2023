@@ -1,0 +1,8 @@
+Array Loop methods:
+1.forEach 
+2.find 
+3.some 
+4.every 
+5.map 
+6.filter 
+7.reduce 
