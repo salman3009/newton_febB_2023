@@ -1,0 +1,15 @@
+<!-- <script>
+    let arrList =[20,30,40,80];
+    let sum =0;
+    for(let input of arrList){
+        sum+=input;
+    }
+</script> -->
+
+<script>
+    let arrList =[20,30,40,80];
+    let result = arrList.reduce(function(a,b){
+        return a+b;
+    },0);
+    console.log(result);
+</script>
