@@ -4,5 +4,5 @@ Array Loop methods:
 3.some -- true/false - atleast anyone match
 4.every --true/false - everything should match
 5.map -- to map different types of data --It will return new array
-6.filter --
+6.filter -- it will filter the data -- it wil return new array
 7.reduce 

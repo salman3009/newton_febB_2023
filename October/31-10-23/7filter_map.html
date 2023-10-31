@@ -1,0 +1,43 @@
+<script>
+    let arrList = [{
+        fullName: "akash",
+        age: 34,
+        salary: 20000,
+        address: "bangalore"
+    },
+    {
+        fullName: "suresh",
+        age: 22,
+        salary: 15000,
+        address: "kochi"
+    },
+    {
+        fullName: "potter",
+        age: 45,
+        salary: 25000,
+        address: "pune"
+    },
+    {
+        fullName: "harry",
+        age: 43,
+        salary: 30000,
+        address: "chennai"
+    }, {
+        fullName: "lokesh",
+        age: 24,
+        salary: 10000,
+        address: "bangalore"
+    }];
+
+    let newArrayList = arrList.filter(function (input) {
+         return input.address == "bangalore";
+    }).map(function(input){
+         return{
+            name:input.fullName,
+            salary:input.salary
+         }
+    })
+    console.log(newArrayList);
+</script>
+
+
