@@ -12,3 +12,19 @@ Array Loop methods:
 rest parameter -- (...variable_name)
 //It will convert individual value into array 
 ===========================================
+Math Object 
+1.PI 
+2.round 
+3.ceil 
+4.floor 
+5.pow 
+6.sqrt 
+7.abs 
+8.max 
+9.min 
+10.random 
+separate normal methods 
+1.Number()
+2.parsent()
+3.parseFloat()
+==============================
