@@ -9,6 +9,6 @@ Array Loop methods:
 //initial value you can pass otherwise it will take a as index zero and b as index 1 
 //from iteration onwards a will store return result and b will take new value from array.
 ======================================================
-rest parameter -- (...)
+rest parameter -- (...variable_name)
 //It will convert individual value into array 
 ===========================================
