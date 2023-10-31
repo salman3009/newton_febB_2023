@@ -1,6 +1,6 @@
 Array Loop methods:
 1.forEach - normal iteration
-2.find 
+2.find  -- value/undefined - checking for match
 3.some -- true/false - atleast anyone match
 4.every --true/false - everything should match
 5.map 
