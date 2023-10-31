@@ -5,4 +5,10 @@ Array Loop methods:
 4.every --true/false - everything should match
 5.map -- to map different types of data --It will return new array
 6.filter -- it will filter the data -- it wil return new array
-7.reduce 
+7.reduce -- 
+//initial value you can pass otherwise it will take a as index zero and b as index 1 
+//from iteration onwards a will store return result and b will take new value from array.
+======================================================
+rest parameter -- (...)
+//It will convert individual value into array 
+===========================================
