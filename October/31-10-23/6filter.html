@@ -29,27 +29,10 @@
         address: "bangalore"
     }];
 
-    let newArrayList = arrList.map(function (input) {
-        return {
-            name: input.fullName,
-            salary: input.salary,
-            status:true
-        }
+    let newArrayList = arrList.filter(function (input) {
+         return input.address == "bangalore";
     });
     console.log(newArrayList);
 </script>
 
 
-//output
-let arrList = [{
-name: "akash",
-salary: 20000,
-},
-{
-name: "suresh",
-salary: 15000,
-},
-{
-name: "potter",
-salary: 25000,
-}];
