@@ -37,7 +37,10 @@ https://my.newtonschool.co/playground/markup/fn1ayv2wy4fk
     workouts: ['Pushups', 'Situps', 'Squats'],
     startWorkout:function(workout){
         if(this.workouts.includes(workout)){
-            document.querySelector("#output").innerHTML = `${this.name} is starting ${workout}`;
+            document.querySelector("#output").innerHTML = `${this.name} is starting ${workout}.`;
+        }
+        else{
+            document.querySelector("#output").innerHTML = `${this.name} doesn't know the ${workout} workout.`;
         }
         
     }
