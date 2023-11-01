@@ -12,8 +12,12 @@
 <script>
    
     function onRegexHandler(){
-        let pattern = /^[a-z]$/;
+
+        // let pattern = /^[a-z]$/;
         //one character from a-z it will match
+
+        let pattern = /^[A-Z]$/;
+        //one character from A-Z it will match
         let input = document.querySelector("#users").value;
         let result = pattern.test(input);
         if(result){
