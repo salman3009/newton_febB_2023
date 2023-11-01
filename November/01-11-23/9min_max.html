@@ -19,11 +19,19 @@
           //let pattern = /^[a-z]*$/;
           //zero or more
 
-          let pattern = /^[a-z]{5,10}$/;
+          //let pattern = /^[a-z]{5,10}$/;
           //minimum 5 and maximum 10
           //jacks
           //jackshello
           //potterharr
+
+          let pattern = /^[a-z]{5,}$/;
+          //minimum 5 and maximum anything
+          //jacks
+          //jackshello
+          //harrypotterhelloworld
+
+
       
         let input = document.querySelector("#users").value;
         let result = pattern.test(input);
