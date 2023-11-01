@@ -35,6 +35,12 @@ https://my.newtonschool.co/playground/markup/fn1ayv2wy4fk
     let personalTrainer = {
     name: 'John',
     workouts: ['Pushups', 'Situps', 'Squats'],
+    startWorkout:function(workout){
+        if(this.workouts.includes(workout)){
+            document.querySelector("#output").innerHTML = `${this.name} is starting ${workout}`;
+        }
+        
+    }
 }
 
 document.getElementById('btn-start').addEventListener('click', () => {
