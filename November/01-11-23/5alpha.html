@@ -22,8 +22,11 @@
          //let pattern = /^[a-z][a-z][a-z]$/;
          //three character from a-z it will match
 
-         let pattern = /^[A-Z][a-z][a-z]$/;
+        //  let pattern = /^[A-Z][a-z][a-z]$/;
          //first character capital and other two character in small
+
+         let pattern = /^[new][a-z]$/;
+         //first character can be (n|e|w) and next character from a-z
 
         let input = document.querySelector("#users").value;
         let result = pattern.test(input);
