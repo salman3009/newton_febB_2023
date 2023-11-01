@@ -13,10 +13,18 @@
    
     function onRegexHandler(){
 
-         let pattern = /^[a-z][a-z][0-9][0-9]$/;
+        //  let pattern = /^[a-z][a-z][0-9][0-9]$/;
         //ab44
         //de16
         //alphanumeric
+
+        let pattern = /^[a-zA-Z0-9][a-zA-Z0-9]$/;
+         //a5
+         //22
+         //BB
+         //ty
+         //e6
+
         let input = document.querySelector("#users").value;
         let result = pattern.test(input);
         if(result){
