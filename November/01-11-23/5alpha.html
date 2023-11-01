@@ -19,8 +19,11 @@
         // let pattern = /^[A-Z]$/;
         //one character from A-Z it will match
 
-          let pattern = /^[a-z][a-z][a-z]$/;
+         //let pattern = /^[a-z][a-z][a-z]$/;
          //three character from a-z it will match
+
+         let pattern = /^[A-Z][a-z][a-z]$/;
+         //first character capital and other two character in small
 
         let input = document.querySelector("#users").value;
         let result = pattern.test(input);
