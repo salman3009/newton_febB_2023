@@ -12,8 +12,8 @@
 <script>
    
     function onRegexHandler(){
-        let pattern = /javascript/i;
-        //It will ignore capital or smaller letter 
+        let pattern = /^javascript/i;
+        //starting symbol 
         let input = document.querySelector("#users").value;
         let result = pattern.test(input);
         if(result){
