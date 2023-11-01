@@ -5,9 +5,17 @@
 </script> -->
 
 
-<script>
+<!-- <script>
      let pattern = new RegExp('javascript','i');
      let line ="welcome to JAVASCRIPT. JAVASCRIPT is scripting language";
      let result = line.replace(pattern,'java');
      console.log(result);
+</script> -->
+
+<script>
+    //g - global match
+    let pattern = new RegExp('javascript','ig');
+    let line ="welcome to JAVASCRIPT. JAVASCRIPT is scripting language";
+    let result = line.replace(pattern,'java');
+    console.log(result);
 </script>
