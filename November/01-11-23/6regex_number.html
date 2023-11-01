@@ -13,8 +13,12 @@
    
     function onRegexHandler(){
 
-         let pattern = /^[0-9]$/;
-        //one number from 0-9 it will match
+        //  let pattern = /^[0-9]$/;
+        // one number from 0-9 it will match
+
+
+        let pattern = /^[0-9][0-9]$/;
+        //two number from 0-9 it will match
 
         let input = document.querySelector("#users").value;
         let result = pattern.test(input);
