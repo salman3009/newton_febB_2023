@@ -1,0 +1,10 @@
+Regular expression or regex 
+//It will work with strings 
+//It will find the matching data and provide the result
+//It is mainly use for validation purpose.
+example:
+let regex = /javascript/;
+//test method 
+//it will return true - if match is found properly 
+//it will return false - if no match 
+===========================================
