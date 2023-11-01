@@ -1,0 +1,30 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" id="users"/>
+        <button onclick="onRegexHandler()">Submit</button>
+        <div id="demo"></div>
+    </body>
+</html>
+
+<script>
+   
+    function onRegexHandler(){
+        let pattern = /^[a-z]$/;
+        //one character from a-z it will match
+        let input = document.querySelector("#users").value;
+        let result = pattern.test(input);
+        if(result){
+            document.querySelector("#demo").innerHTML = "Valid user input";
+            document.querySelector("#demo").style.color = "green";
+        }
+        else{
+            document.querySelector("#demo").innerHTML = "Invalid";
+            document.querySelector("#demo").style.color = "red";
+        }
+
+    }
+
+</script>
