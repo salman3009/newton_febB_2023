@@ -1,0 +1,36 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" id="users"/>
+        <button onclick="onRegexHandler()">Submit</button>
+        <div id="demo"></div>
+    </body>
+</html>
+
+<script>
+   
+    function onRegexHandler(){
+        
+          let pattern = /^[+-]?[0-9]{4,}$/;
+          //optional character
+          //+ or - we can add or omit it 
+          //0-9 minimum four numbers
+          //example: +9834 -3456 4544
+          
+      
+        let input = document.querySelector("#users").value;
+        let result = pattern.test(input);
+        if(result){
+            document.querySelector("#demo").innerHTML = "Valid user input";
+            document.querySelector("#demo").style.color = "green";
+        }
+        else{
+            document.querySelector("#demo").innerHTML = "Invalid";
+            document.querySelector("#demo").style.color = "red";
+        }
+
+    }
+
+</script>
