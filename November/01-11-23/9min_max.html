@@ -13,11 +13,17 @@
    
     function onRegexHandler(){
 
-        //   let pattern = /^[a-z]+[0-9]+$/;
+          //let pattern = /^[a-z]+[0-9]+$/;
           //+ one or more
 
-          let pattern = /^[a-z]*$/;
+          //let pattern = /^[a-z]*$/;
           //zero or more
+
+          let pattern = /^[a-z]{5,10}$/;
+          //minimum 5 and maximum 10
+          //jacks
+          //jackshello
+          //potterharr
       
         let input = document.querySelector("#users").value;
         let result = pattern.test(input);
