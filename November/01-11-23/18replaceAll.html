@@ -1,0 +1,14 @@
+<!-- <script>
+    let line ="welcome to javascript. javascript is scripting language";
+    let result = line.replaceAll("javascript",'java');
+    console.log(result);
+</script> -->
+
+<script>
+    //g - global match
+    //i - camel case ignore
+    let pattern = new RegExp('javascript','ig');
+    let line ="welcome to JAVASCRIPT. JAVASCRIPT is scripting language";
+    let result = line.replaceAll(pattern,'java');
+    console.log(result);
+</script>
