@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+            .outer{
+                background-color: blue;
+                width: 300px;
+                height: 300px;
+            }
+            .inner{
+                background-color: green;
+                width: 150px;
+                height: 150px;
+            }
+        </style>
+
+    </head>
+    <body>
+       
+            <div class="outer" id="outer">
+                   <div class="inner" id="inner">
+
+                   </div>
+            </div>
+        
+        <script>
+           document.querySelector("#outer").addEventListener('click',()=>{
+             alert("outerHandler");
+           },true)
+
+           document.querySelector("#inner").addEventListener('click',()=>{
+             alert("innerHandler");
+           },true)
+        
+        </script>
+    </body>
+</html>

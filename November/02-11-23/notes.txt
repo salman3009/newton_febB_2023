@@ -6,3 +6,8 @@ Derived types:
 //array and object types pass by reference to function 
 //if you change inside the function then it will reflect in orignal object also.
 Event Bubbling:
+//It will start triggering events from child to parent etc 
+//To avoid this we can use stopPropagation()
+Event capturing 
+//It is similar to bublling only but it will start calling from parent to child etc 
+//To avoid this we can use stopPropagation()
