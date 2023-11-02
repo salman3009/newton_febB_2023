@@ -5,3 +5,4 @@ Derived types:
 //array,object
 //array and object types pass by reference to function 
 //if you change inside the function then it will reflect in orignal object also.
+Event Bubbling:

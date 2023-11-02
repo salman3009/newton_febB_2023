@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            .outermost{
+                background-color: red;
+                width: 600px;
+                height: 600px;
+            }
+            .outer{
+                background-color: blue;
+                width: 300px;
+                height: 300px;
+            }
+            .inner{
+                background-color: green;
+                width: 150px;
+                height: 150px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="outermost" onclick="outerMostHandler(event)">
+            <div class="outer" onclick="outerHandler(event)">
+                   <div class="inner" onclick="innerHandler(event)">
+
+                   </div>
+            </div>
+        </div>
+        <script>
+            function outerMostHandler(event){
+                event.stopPropagation();
+                alert("outerMostHandler");
+            }
+            function outerHandler(event){
+                event.stopPropagation();
+                alert("outerHandler");
+            }
+            function innerHandler(event){
+                event.stopPropagation();
+                alert("innerHandler");
+            }
+        
+        </script>
+    </body>
+</html>
