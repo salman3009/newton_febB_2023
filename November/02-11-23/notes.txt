@@ -11,3 +11,6 @@ Event Bubbling:
 Event capturing 
 //It is similar to bublling only but it will start calling from parent to child etc 
 //To avoid this we can use stopPropagation()
+Event preventDefault()
+//Used inside the form to avoid moving to next page or refresh of the page.
+================================================
