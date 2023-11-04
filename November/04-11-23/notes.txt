@@ -1,0 +1,17 @@
+JS string methods
+1.length 
+2.replace 
+3.toUpperCase 
+4.toLowerCase 
+5.concat 
+6.trim 
+7.chartAt 
+8.indexOf 
+9.slice 
+
+Similar method in array 
+1.length 
+2.concat 
+3.slice 
+4.indexOf 
+==============================
