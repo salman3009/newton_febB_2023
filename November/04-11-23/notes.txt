@@ -15,3 +15,7 @@ Similar method in array
 3.slice 
 4.indexOf 
 ==============================
+closure in javascript:
+//A closure is a feature of javascript 
+//It will allow inner function to access the outer scope of a function.
+=================================

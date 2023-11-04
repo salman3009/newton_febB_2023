@@ -1,0 +1,11 @@
+<script>
+    function display(){
+        let fullName = "akash";
+        return function(){
+            console.log(fullName);
+            return fullName;
+        }
+    }
+    console.log(display()());
+    //Function can return string,number,boolean,undefined,object,array,null,function
+</script>
