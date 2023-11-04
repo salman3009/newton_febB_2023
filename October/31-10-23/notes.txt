@@ -1,11 +1,17 @@
 Array Loop methods:
 1.forEach - normal iteration
 2.find  -- value/undefined - checking for match
-3.some -- true/false - atleast anyone match
-4.every --true/false - everything should match
-5.map -- to map different types of data --It will return new array
+3.some -- true/false - atleast anyone match should be found then only it will return true
+4.every --true/false - each value inside the array should match the condition then only it will return true.
+
+5.map -- to map array to different set of values --It will return new array
+example:
+array of object we can add some properties and we can remove some properties from object then we can return the new array.
+
 6.filter -- it will filter the data -- it wil return new array
+
 7.reduce -- 
+//It will convert array into single value - original array it will not impact.
 //initial value you can pass otherwise it will take a as index zero and b as index 1 
 //from iteration onwards a will store return result and b will take new value from array.
 ======================================================
