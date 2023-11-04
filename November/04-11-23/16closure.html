@@ -1,0 +1,16 @@
+https://my.newtonschool.co/playground/code/lq6qs5burfgm?lecture_hash=kqsrgvzks0nk
+
+<script>
+    function generateOrder(){
+        let count =0;
+        let totalOrder = "Total orders = ";
+        return function(){
+           count++;
+           return totalOrder+count;
+        }
+    }
+    let result = generateOrder();
+    console.log(result());
+    console.log(result());
+    console.log(result());
+</script>
