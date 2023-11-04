@@ -1,0 +1,34 @@
+<!-- <script>
+    function display(){
+        // return 33;
+        // return "akash";
+       // return true;
+       // return null;
+       // return undefined;
+       // return [33,44];
+        //return {fullName:"akash",age:20};
+    }
+    console.log(display());
+</script> -->
+
+
+<!-- <script>
+    function display(){
+        console.log("outer function");
+        return function(){
+            console.log("inner function")
+        }
+    }
+    display()();
+</script> -->
+
+<script>
+    function display(){
+        console.log("outer function");
+        const order = function(){
+            console.log("inner function");
+        }
+        return order;
+    }
+    display()();
+</script>
