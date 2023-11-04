@@ -1,0 +1,30 @@
+<!-- <script>
+    let arrList=[33,44,55,11,34,66];
+    function sumOfArray(arrList){
+        let sum=0;
+       for(let input of arrList){
+          sum+=input;
+       }
+         return sum;
+    }
+    console.log(sumOfArray(arrList));
+</script> -->
+
+<script>
+    let arrList=[30,40,55,10];
+    function sumOfArrayReduce(arrList){
+       let result = arrList.reduce((a,b)=>{
+        //a=30
+        //b=40
+        //70
+        //a=70
+        //b=55
+        //125
+        //a=125
+        //b=10
+        //135
+           return a+b;
+       })
+    }
+    console.log(sumOfArray(arrList));
+</script>
