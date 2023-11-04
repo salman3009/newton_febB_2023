@@ -32,8 +32,9 @@ firstDiv.addEventListener("click", () => {
     output.innerText += "first div called";
 });
 
-secondDiv.addEventListener("click", () => {
+secondDiv.addEventListener("click", (event) => {
     // write your code here
+    event.stopPropagation();
     output.innerText += "second div called -- ";
 });
 </script>
