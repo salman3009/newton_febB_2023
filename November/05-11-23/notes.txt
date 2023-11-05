@@ -6,3 +6,5 @@ spread operator
 ====================================================
 async and defer attribute:
 defer attribute -- it will executed or loaded after everything is completed
+async attribute -- it will executed whenever the script is ready.
+======================================================================
