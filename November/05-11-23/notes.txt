@@ -16,4 +16,18 @@ class Concept:
 constructor 
 //It is method inside the javascript
 //It is use to initialize the object 
+==========================================
+es5 feature 
+class concept 
+//There is no class concept in old javascript 
+//we have to use function to create class in javascript 
+//function is also object in javascript 
+//we need to use constructor function inside javascript to create class.
+============================================
+this means object 
+//global object default given by javascript --> window object 
+//If we declare user defined object in javascript it will refer current object.
+//normal function this will refer to current object 
+
+
 

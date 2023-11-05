@@ -1,0 +1,15 @@
+<script>
+    console.log(this);
+    let result = function(){
+       console.log(this);
+    }
+    result();
+    let object={
+        fullName:"age",
+        display:function(){
+            console.log(this)
+        }
+    }
+    object.display();
+</script>
+
