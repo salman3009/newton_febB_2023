@@ -1,3 +1,4 @@
 Rest operator 
 //convert individual variable to array 
 spread operator 
+//converting array to individual variable
