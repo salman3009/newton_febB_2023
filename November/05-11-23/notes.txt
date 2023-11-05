@@ -1,4 +1,5 @@
 Rest operator 
 //convert individual variable to array 
 spread operator 
-//converting array to individual variable
+//converting array to individual variable.
+//spread operator will create separate copy of array.
