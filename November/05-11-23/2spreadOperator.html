@@ -1,8 +1,18 @@
-<script>
+<!-- <script>
     let arrListOne=[43,44,22,11];
     let arrListTwo =[11,33,55,66];
     let result=[arrListOne,arrListTwo];
     console.log(result.length);
     console.log(result[0][0]);
     console.log(result[1][0]);
+</script> -->
+
+<script>
+    let arrListOne=[43,44,22,11];
+    let arrListTwo =[11,33,55,66];
+    //array will spread inside the array
+    //spread operator it will convert array into individual variable
+    let result=[...arrListOne,...arrListTwo];
+    console.log(result);
 </script>
+
