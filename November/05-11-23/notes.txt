@@ -3,3 +3,6 @@ Rest operator
 spread operator 
 //converting array to individual variable.
 //spread operator will create separate copy of array.
+====================================================
+async and defer attribute:
+defer attribute -- it will executed or loaded after everything is completed
