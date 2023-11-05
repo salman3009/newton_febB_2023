@@ -28,6 +28,13 @@ this means object
 //global object default given by javascript --> window object 
 //If we declare user defined object in javascript it will refer current object.
 //normal function this will refer to current object 
+//constructor function it will refer to current object
+===================================================
+Prototype:
+//Inside all the object Prototype is present
+//It consists of inbuilt functionality for object 
+//example constructor method is present.
+============================================
 
 
 
