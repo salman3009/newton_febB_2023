@@ -1,0 +1,3 @@
+Rest operator 
+//convert individual variable to array 
+spread operator 
