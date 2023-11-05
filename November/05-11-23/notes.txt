@@ -8,3 +8,12 @@ async and defer attribute:
 defer attribute -- it will executed or loaded after everything is completed
 async attribute -- it will executed whenever the script is ready.
 ======================================================================
+class Concept:
+//class came in javascript at es6 feature
+//It is bluePrint 
+//From class we can create multiple object 
+//There is no access modifier inside the javascript(private,protected,publie)
+constructor 
+//It is method inside the javascript
+//It is use to initialize the object 
+
