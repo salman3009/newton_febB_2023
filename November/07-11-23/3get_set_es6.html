@@ -1,0 +1,23 @@
+<script>
+    class Student {
+  
+      constructor(name) {
+        this.name = name;
+      }
+  
+       set displayMarks(input){
+        this.score = input;
+       }
+
+       get displayMarks(){
+         return this.score;
+       }
+  
+    }
+  
+    let akashDetails = new Student("akash");
+    akashDetails.displayMarks = 56;
+    console.log(akashDetails.displayMarks);
+  
+  
+  </script>

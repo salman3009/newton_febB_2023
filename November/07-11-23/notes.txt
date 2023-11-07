@@ -1,6 +1,8 @@
 OOPS in javascript 
 1.class 
 2.encapsulation 
+//Hiding variable and using getter and setter to get and set the variable.
+//we need to use private varible.
 3.abstraction 
 4.inheritance 
 5.polymorphism
@@ -32,4 +34,7 @@ example:
     Student.prototype.marksDisplay = function(input){
         this.marks = input;
     }
+
+Using getter and setter method in javascript 
+
 ==================================================
