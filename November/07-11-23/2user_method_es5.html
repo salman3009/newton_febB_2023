@@ -1,0 +1,23 @@
+<script>
+    function Student(name){
+        this.name = name;     
+    }
+
+    Student.prototype.marksDisplay = function(input){
+        this.marks = input;
+    }
+
+    Student.prototype.getDetailsMark = function(){
+    let result = `${this.name}-${this.marks}`;
+      return result;
+    }
+
+    let akashDetails = new Student("akash");
+    akashDetails.marksDisplay(56);
+    console.log(akashDetails.getDetailsMark());
+
+    let sureshDetails = new Student("suresh");
+    sureshDetails.marksDisplay(22);
+    console.log(sureshDetails.getDetailsMark());
+   
+</script>

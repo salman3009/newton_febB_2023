@@ -14,3 +14,22 @@ class Vehicle{
         return this.marks;
     }
 }
+//any method written inside the class will be created single instance 
+//It means if you create multiple object also it will reuse one single method.
+
+
+writing method inside the es5 
+Prototype:
+//Inside all the object Prototype is present
+//It consists of inbuilt functionality for object 
+//example constructor method is present.
+//we can create your own method and property inside the prototype 
+//It will create only one instance of that method.
+example:
+   function Student(name){
+        this.name = name;     
+    }
+    Student.prototype.marksDisplay = function(input){
+        this.marks = input;
+    }
+==================================================

@@ -3,26 +3,29 @@
 
     constructor(name) {
       this.name = name;
+      this.marks=[];
     }
 
-    marksDisplay(a) {
-      this.marks = a;
+    marksDisplay(input,subject) {
+      this.marks.push({mark:input,subjectName:subject})
     }
 
     getDetailsMark() {
-      let result = `${this.name}-${this.marks}`;
+      for(let obj of this.marks){
+        console.log(obj.mark,obj.subjectName)
+      }
+      let result = `${this.name}`;
+      
       return result;
     }
 
   }
 
   let akashDetails = new Student("akash");
-  akashDetails.marksDisplay(44);
+  akashDetails.marksDisplay(44,'maths');
+  akashDetails.marksDisplay(88,'science');
   console.log(akashDetails.getDetailsMark());
 
-  let sureshDetails = new Student("suresh");
-  sureshDetails.marksDisplay(55);
-  console.log(sureshDetails.getDetailsMark());
-  console.log(sureshDetails);
+
 
 </script>
