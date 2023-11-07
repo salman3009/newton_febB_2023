@@ -5,12 +5,13 @@
       this.name = name;
     }
 
-    marksDisplay(input) {
-      this.marks = input;
+    marksDisplay(a) {
+      this.marks = a;
     }
 
     getDetailsMark() {
-      return `${this.name}-${this.marks}`;
+      let result = `${this.name}-${this.marks}`;
+      return result;
     }
 
   }
@@ -18,5 +19,10 @@
   let akashDetails = new Student("akash");
   akashDetails.marksDisplay(44);
   console.log(akashDetails.getDetailsMark());
+
+  let sureshDetails = new Student("suresh");
+  sureshDetails.marksDisplay(55);
+  console.log(sureshDetails.getDetailsMark());
+  console.log(sureshDetails);
 
 </script>
