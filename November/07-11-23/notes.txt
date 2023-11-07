@@ -1,0 +1,6 @@
+OOPS in javascript 
+1.class 
+2.encapsulation 
+3.abstraction 
+4.inheritance 
+5.polymorphism
