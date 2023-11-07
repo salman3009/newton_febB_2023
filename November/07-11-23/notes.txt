@@ -4,3 +4,13 @@ OOPS in javascript
 3.abstraction 
 4.inheritance 
 5.polymorphism
+
+//Writing method inside the class 
+class Vehicle{
+    setMarkDetails(input){
+        this.marks = input;
+    }
+    getMarks(){
+        return this.marks;
+    }
+}

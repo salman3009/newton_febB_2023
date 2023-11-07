@@ -1,0 +1,22 @@
+<script>
+  class Student {
+
+    constructor(name) {
+      this.name = name;
+    }
+
+    marksDisplay(input) {
+      this.marks = input;
+    }
+
+    getDetailsMark() {
+      return `${this.name}-${this.marks}`;
+    }
+
+  }
+
+  let akashDetails = new Student("akash");
+  akashDetails.marksDisplay(44);
+  console.log(akashDetails.getDetailsMark());
+
+</script>
