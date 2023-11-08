@@ -1,7 +1,7 @@
 <script>
     const student={
         name:"sandeep",
-        age:45
+        age:45,
     };
 
     //default writable is true for every property in object
@@ -18,8 +18,7 @@
 
     //value property
     Object.defineProperty(student,"city",{
-        value:"bangalore",
-        writable:false
+        value:"bangalore"
     });
     console.log(student);
 
@@ -29,5 +28,13 @@
     });
     delete student.name;
     console.log(student);
+
+    //enumerable
+    Object.defineProperty(student,'age',{
+        enumerable:false
+    });
+    for(let obj in student){
+        console.log(obj);
+    }
 
 </script>
