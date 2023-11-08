@@ -31,8 +31,11 @@
 
     //enumerable
     Object.defineProperty(student,'age',{
+        value:56,
         enumerable:false
     });
+    
+    student.age = 67;
     for(let obj in student){
         console.log(obj);
     }

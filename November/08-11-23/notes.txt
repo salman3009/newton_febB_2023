@@ -5,8 +5,8 @@ Object.defineProperty(,,{});
 3rd parameter - configuration properties 
 example:
 1.writable : true/false
-//You can overwrite the value if you make writable to false 
-//You can overwrite the value if writable is true
+//You can overwrite the value if you make writable to true 
+//You can overwrite the value if writable is false
 //default value is true
 
 2.value :""
