@@ -1,0 +1,8 @@
+InBuilt Object Method 
+Object.defineProperty(,,{});
+1st parameter - current object 
+2nd parameter - current object property name 
+3rd parameter - configuration properties 
+example:
+1.writable : true/false
+2.value

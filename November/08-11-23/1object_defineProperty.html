@@ -8,10 +8,17 @@
         writable:false
     })
     Object.defineProperty(student,'name',{
+        value:"rakesh",
         writable:true
     })
     student.age = 78;
     student.name = "suresh";
     console.log(student);
 
+    //value property
+    Object.defineProperty(student,"city",{
+        value:"bangalore",
+        writable:false
+    });
+    console.log(student);
 </script>
