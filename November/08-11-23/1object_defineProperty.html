@@ -1,0 +1,17 @@
+<script>
+    const student={
+        name:"sandeep",
+        age:45
+    };
+    //default writable is true for every property in object
+    Object.defineProperty(student,'age',{
+        writable:false
+    })
+    Object.defineProperty(student,'name',{
+        writable:true
+    })
+    student.age = 78;
+    student.name = "suresh";
+    console.log(student);
+
+</script>
