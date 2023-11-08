@@ -4,5 +4,14 @@ Object.defineProperty(,,{});
 2nd parameter - current object property name 
 3rd parameter - configuration properties 
 example:
+//You can overwrite the value if you make writable to false 
+//You can overwrite the value if writable is true
+//default value is true
 1.writable : true/false
-2.value
+//You can add new property and give intial value by using value property 
+//You can add new value for existing property by using value property 
+2.value :""
+//You can delete the property if configurable is true
+//You cannot delete the propery if configurable is false
+//default value is true
+3.configurable :true/false

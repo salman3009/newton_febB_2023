@@ -3,6 +3,7 @@
         name:"sandeep",
         age:45
     };
+
     //default writable is true for every property in object
     Object.defineProperty(student,'age',{
         writable:false
@@ -21,4 +22,12 @@
         writable:false
     });
     console.log(student);
+
+    //configurable
+    Object.defineProperty(student,'name',{
+        configurable:false
+    });
+    delete student.name;
+    console.log(student);
+
 </script>
