@@ -1,0 +1,14 @@
+<script>
+    const Student={
+        name:"akash",
+        age:33
+    }
+    Object.defineProperty(Student,'age',{
+        enumerable:false
+    })
+    for(let obj in Student){
+        console.log(obj);
+    }
+    let list = Object.keys(Student);
+    console.log(list);
+</script>
