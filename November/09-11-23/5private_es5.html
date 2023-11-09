@@ -1,17 +1,19 @@
 <script>
-    const employee ={
-        name:"akash",
-        age:45,
-        salary:0
+    function Employee(name,age){
+        let salary = 0;
+        this.name = name;
+        this.age = age;
+        Object.defineProperty(this,'set_get_salary_details',{
+          set(input){
+            salary = input;
+          },
+          get(){
+            return salary;
+          }
+        })
     }
-    Object.defineProperty(employee,'set_get_salary_details',{
-        set(input){
-          this.salary = input;
-        },
-        get(){
-            return this.salary;
-        }
-    });
-    employee.set_get_salary_details = 20000;
-    console.log(employee.set_get_salary_details);
+    let akashEmployee = new Employee("akash",33);
+    akashEmployee.set_get_salary_details = 45;
+    console.log(akashEmployee.set_get_salary_details);
+    console.log(akashEmployee.salary);
 </script>
