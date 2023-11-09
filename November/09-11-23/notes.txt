@@ -1,0 +1,9 @@
+To create private variable inside the es6.
+//we need to use hash symbol before the variable 
+class Employee{
+    #salary;
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+}

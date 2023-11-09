@@ -1,0 +1,30 @@
+<script>
+    class Employee {
+  
+        #salary;
+      constructor(name,age) {
+        this.name = name;
+        this.age = age;
+      }
+  
+        set salary_Details(input){
+        if(input>0){
+            this.#salary = input;
+        }
+        else{
+            this.#salary = 0;
+        }
+       
+       }
+
+       get salary_Details(){
+         return this.#salary;
+       }
+  
+    }
+  
+    let akashEmployee = new Employee("akash");
+    akashEmployee.salary_Details = 56;
+    console.log(akashEmployee.salary_Details);
+    // console.log(akashEmployee.#salary);private member
+  </script>

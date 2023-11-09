@@ -2,7 +2,7 @@ OOPS in javascript
 1.class 
 2.encapsulation 
 //Hiding variable and using getter and setter to get and set the variable.
-//we need to use private varible.
+//we need to use private variable.
 3.abstraction 
 4.inheritance 
 5.polymorphism
