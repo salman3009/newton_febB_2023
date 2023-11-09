@@ -7,3 +7,16 @@ class Employee{
         this.age = age;
     }
 }
+To Create private variable inside the es5.
+//we need to use let keyword inside the constructor function
+function Employee(name,age){
+    let salary = 0;
+    this.name = name;
+    this.age = age;
+}
+=====================================================
+Basic Date 
+//To get the current date from javascript we need to use inbuild Date object 
+example:
+let date = new Date();
+========================================================
