@@ -1,49 +1,45 @@
 https://my.newtonschool.co/playground/code/o6q3x4b2b09z?lecture_hash=kqsrgvzks0nk
 <script>
-function StopWatch()
-{
-    let startTime =0;
-    let endTime =0;
-    let duration = 0;
-    let running = false; 
+    function StopWatch() {
+        let startTime = 0;
+        let endTime = 0;
+        let duration = 0;
+        let running = false;
 
-    this.start = function() {
-      if(running)
-      {
-          return "Stopwatch is already running";
-      }
-      else {
-          running = true;
-      startTime = new Date();}
-    };
+        this.start = function () {
+            if (running) {
+                return "Stopwatch is already running";
+            }
+            else {
+                running = true;
+                startTime = new Date();
+            }
+        };
 
-    this.stop = function() {
-       if(!running)
-       {
-          return "Stopwatch is not started";
-       }
-       else 
-       {
-           running = false; 
-           endTime = new Date();
-           const seconds = endTime.getTime() - startTime.getTime()/1000;
-           duration = seconds;
-       }
-    };
+        this.stop = function () {
+            if (!running) {
+                return "Stopwatch is not started";
+            }
+            else {
+                running = false;
+                endTime = new Date();
+                const seconds = (endTime.getTime() - startTime.getTime()) / 1000;
+                duration = seconds;
+            }
+        };
 
-    this.reset = function() {
-        startTime = 0; 
-        endTime = 0;
-        duration = 0; 
-        running = false;
-    };
-  
-    Object.defineProperty(this, "duration", {
-        get()
-        {
-            duration = endTime - startTime;
-            return duration;
-        }
-    })
-}
+        this.reset = function () {
+            startTime = 0;
+            endTime = 0;
+            duration = 0;
+            running = false;
+        };
+
+        Object.defineProperty(this, "duration", {
+            get() {
+                duration = endTime - startTime;
+                return duration;
+            }
+        })
+    }
 </script>
