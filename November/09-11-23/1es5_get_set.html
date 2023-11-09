@@ -1,10 +1,10 @@
 <script>
-    const student ={
+    const employee ={
         name:"akash",
         age:45,
         salary:0
     }
-    Object.defineProperty(student,'duration',{
+    Object.defineProperty(employee,'set_get_salary_details',{
         set(input){
           this.salary = input;
         },
@@ -12,6 +12,6 @@
             return this.salary;
         }
     });
-    student.duration = 20000;
-    console.log(student.duration);
+    employee.set_get_salary_details = 20000;
+    console.log(employee.set_get_salary_details);
 </script>
