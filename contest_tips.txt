@@ -1,0 +1,43 @@
+1.html
+2.javascript
+3.part by part start solving solution from given question 
+
+Solutions 
+1.
+//To access any element from html to javascript 
+//document.querySelector --> To access single data 
+//document.querySelectorAll --> To access bulk data 
+
+2.
+//To iteration for DOM elements or to add event listeners in iteration 
+//always use forEach loop
+
+3.
+//Creating element and adding class 
+let element = document.createElement('div');
+element.classList.add("description");
+
+4.
+//append with parent 
+parent.appendChild(childelement)
+
+5.
+let resultSort = data.sort((a,b)=>{
+       return a.ticketPrice - b.ticketPrice;
+})
+
+6.
+//Adding string together 
+let input = "a";
+input+=b;
+
+7.
+//removing element from dom 
+remove()
+
+8.
+//Inserting content inside the element 
+example:
+<div>hello world</div>
+let input = document.querySelector("div");
+input.textContent = "hello world"

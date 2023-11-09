@@ -1,0 +1,17 @@
+<script>
+    const student ={
+        name:"akash",
+        age:45,
+        salary:0
+    }
+    Object.defineProperty(student,'duration',{
+        set(input){
+          this.salary = input;
+        },
+        get(){
+            return this.salary;
+        }
+    });
+    student.duration = 20000;
+    console.log(student.duration);
+</script>
