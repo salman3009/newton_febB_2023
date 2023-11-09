@@ -1,4 +1,13 @@
 <script>
     let currentDate = new Date();
     console.log(currentDate);
+
+    //To access current Date with milliseconds 
+    //1000 milliseconds = 1seconds 
+    let getTimeInMilliSeconds = currentDate.getTime();
+    console.log(getTimeInMilliSeconds);
+
+    //milliseconds to seconds we need to divide by 1000
+    let getTimeInSeconds =  getTimeInMilliSeconds/1000;
+    console.log(getTimeInSeconds);
 </script>

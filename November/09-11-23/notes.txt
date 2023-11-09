@@ -19,4 +19,10 @@ Basic Date
 //To get the current date from javascript we need to use inbuild Date object 
 example:
 let date = new Date();
+
+//To convert entire date into milliseconds 
+//It will calculate from january 1, 1970
+let date = new Date();
+let result = date.getTime();
+
 ========================================================
