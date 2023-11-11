@@ -83,6 +83,27 @@ form button{
         </form>
     </div>
     <div class="toggle">
-        <button id="toggle-btn ">Already have an account? Sign In!</button>
+        <button id="toggle-btn">Already have an account? Sign In!</button>
     </div>
 </div>
+<script>
+    let signup = document.querySelector("#signup-form");
+    signup.style.display = "block";
+    let signin = document.querySelector("#signin-form");
+    signin.style.display = "none";
+    let button = document.querySelector("#toggle-btn");
+    button.addEventListener('click',function(){
+         if(signup.style.display == "block"){
+            signup.style.display = "none";
+            signin.style.display = "block";
+            button.textContent = "Don't have an account? Sign Up!";
+         }
+         else{
+            signup.style.display = "block";
+            signin.style.display = "none";
+            button.textContent = "Already have an account? Sign In!";
+
+         }
+    })
+
+</script>
