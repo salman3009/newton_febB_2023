@@ -1,5 +1,4 @@
-https://my.newtonschool.co/playground/markup/ljdezy5zcn9i
-
+https://my.newtonschool.co/playground/markup/s9mxgoeaktjd
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,7 +33,6 @@ https://my.newtonschool.co/playground/markup/ljdezy5zcn9i
 </body>
 
 </html>
-
 <script>
     let productslist = [
         {
@@ -233,11 +231,10 @@ https://my.newtonschool.co/playground/markup/ljdezy5zcn9i
             header.classList.remove("sticky");
         }
     }
-    /////////////////////////start of solution one ///////////////////////////////////
-    //1
-    let productscontainerClass = document.querySelector(".productscontainer");
-    for (let e of productslist) {
-        productscontainerClass.innerHTML += `<div class="product">
+
+    let productscontainerClassName = document.querySelector(".productscontainer");
+    let productscontainerResult = productslist.map((e) => {
+        return `<div class="product">
           <img class='pimage' width="250px" height="350px" src=" ${e.image} "
               alt="">
           <p class='ptitle'>${e.title}</p>
@@ -246,33 +243,66 @@ https://my.newtonschool.co/playground/markup/ljdezy5zcn9i
               <button class="addtocart" productid=${e.id}>add to cart icon</button>
           </div>
       </div>`
-    }
-///////////////////////////////////////////////////////////////////////////////////////////
+    });
+    productscontainerClassName.innerHTML = productscontainerResult;
 
-    ////////////////////start of solution two//////////////////////////////////
-    let carticon = document.querySelector(".carticon");
-    let closecart = document.querySelector(".closecart");
-    let cartui = document.querySelector(".cartui");
 
-    carticon.addEventListener('click', function () {
-        cartui.classList.add("cartopened");
+    let carticonClassName = document.querySelector(".carticon");
+    carticonClassName.addEventListener('click', () => {
+        let cartuiClassName = document.querySelector(".cartui");
+        cartuiClassName.classList.add("cartopened");
     });
 
-    closecart.addEventListener('click',function(){
-        cartui.classList.remove("cartopened");
+    let closecartClassName = document.querySelector(".closecart");
+    closecartClassName.addEventListener('click', () => {
+        let cartuiClassName = document.querySelector(".cartui");
+        cartuiClassName.classList.remove("cartopened");
     });
-///////////////////////////////////////////////////////////////////
-//////////////////start of solution 3///////////////////////////////
-class Product{
-    constructor(id,title,price,image){
-      this.id = id;
-      this.title = title;
-      this.price = price;
-      this.image = image;
+
+    class Product {
+        constructor(id, title, price, image) {
+            this.id = id;
+            this.title = title;
+            this.price = price;
+            this.image = image;
+        }
     }
-}
-///////////////////////////end of solution 3/////////////////////////
+
+    class Storage {
+
+        static getproducts() {
+            let products;
+            if (localStorage.getItem("products")) {
+                products = JSON.parse(localStorage.getItem("products"));
+            } else {
+                products = [];
+            }
+            return products;
+        }
+
+        static addtolocalstorage(e) {
+            let products = Storage.getproducts();
+            products.push(e);
+            localStorage.setItem("products", JSON.stringify(products));
+        }
+
+        static removeproduct(id) {
+            let products = Storage.getproducts();
+            products.forEach((p, i) => {
+                if (p.id == id) {
+                    products.splice(i, 1);
+                }
+            });
+            localStorage.setItem("products", JSON.stringify(products));
+        }
+    }
 </script>
+
+
+
+
+
+
 
 <style>
     * {
