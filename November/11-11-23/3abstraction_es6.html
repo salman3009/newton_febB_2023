@@ -1,7 +1,7 @@
 <script>
     class Employee {
        //whenever you use # before variable it will become private member.
-        #salary;
+        #salary; //encapsulation
       constructor(name,age) {
         this.name = name;
         this.age = age;
@@ -18,13 +18,17 @@
        }
 
        get salary_Details(){
-         return this.#salary;
+         return this.#addBonusIncrement();
+       }
+
+       #addBonusIncrement(){ //abstraction
+          return this.#salary + 5000;
        }
   
     }
   
     let akashEmployee = new Employee("akash");
-    akashEmployee.salary_Details = 56;
+    akashEmployee.salary_Details = 10000;
     console.log(akashEmployee.salary_Details);
-    //  console.log(akashEmployee.#salary);
+    // console.log(akashEmployee.addBonusIncrement()); //private method
   </script>
