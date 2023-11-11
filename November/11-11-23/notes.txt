@@ -1,0 +1,8 @@
+OOPS 
+1.class 
+bluePrint
+2.encapsulation 
+//Hiding data 
+3.abstraction 
+//Hiding implementation details
+
