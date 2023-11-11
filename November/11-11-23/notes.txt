@@ -5,4 +5,5 @@ bluePrint
 //Hiding data 
 3.abstraction 
 //Hiding implementation details
-
+4.inheritance 
+We can inherit parent property to child property.
