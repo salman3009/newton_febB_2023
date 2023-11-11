@@ -7,3 +7,9 @@ bluePrint
 //Hiding implementation details
 4.inheritance 
 We can inherit parent property to child property.
+5.polymorphism
+1.method overloading
+//Method overloading is not supported in javascript
+2.method overriding 
+//Method overriding is supported in javascript.
+=========================================================
