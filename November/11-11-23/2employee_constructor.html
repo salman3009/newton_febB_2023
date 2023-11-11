@@ -1,0 +1,22 @@
+https://my.newtonschool.co/playground/code/mil99nm0ozl9?lecture_hash=r34nnxxkztfq
+<script>
+function Employee(name,yearOfJoin,location){
+      let salary;
+
+      this.name = name;
+      this.yearOfJoin = yearOfJoin;
+      this.location = location;
+
+      this.getEmployeeDetails = function(){
+        return `Name: ${this.name}, Year of Join: ${this.yearOfJoin}, Location: ${this.location}`;
+      }
+
+      this.setSalary = function(input){
+        salary = input;
+      }
+
+      this.getSalary = function(){
+        return salary;
+      }
+}
+</script>
