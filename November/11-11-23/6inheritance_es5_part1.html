@@ -1,7 +1,15 @@
 <script>
     let a={
-        a:1
+        fullName:"akash"
     }
-    console.log(a.__proto__);
-    console.log(a.__proto__.__proto__)
+    // console.log(a.__proto__);
+    // console.log(a.__proto__.__proto__);
+
+    //inheritance inside the es5 feature
+    let b = Object.create(a);
+    console.log(b.__proto__);
+    console.log(b.__proto__.__proto__);
+    console.log(b.__proto__.__proto__.__proto__);
+    console.log(b.fullName);
+
 </script>
