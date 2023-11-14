@@ -4,6 +4,12 @@
         age:34
     };
 
+    //here we can change it
+    Object.defineProperty(employee,'name',{
+        writable:false
+    });
+
+    //only for checking purpose
     const nameDescriptor = Object.getOwnPropertyDescriptor(employee,'name');
     console.log(nameDescriptor);
     console.log(nameDescriptor.configurable);
