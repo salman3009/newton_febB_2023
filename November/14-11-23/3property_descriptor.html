@@ -1,0 +1,13 @@
+<script>
+    const employee={
+        name:"akash",
+        age:34
+    };
+
+    const nameDescriptor = Object.getOwnPropertyDescriptor(employee,'name');
+    console.log(nameDescriptor);
+    console.log(nameDescriptor.configurable);
+    console.log(nameDescriptor.writable);
+    console.log(nameDescriptor.value);
+    console.log(nameDescriptor.enumerable);
+</script>
