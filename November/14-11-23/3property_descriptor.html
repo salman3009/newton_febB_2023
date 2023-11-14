@@ -9,8 +9,18 @@
         writable:false
     });
 
+      //here we can change it
+      Object.defineProperty(employee,'set_get_salary',{
+         get(){
+           return this.salary;
+         },
+         set(input){
+            this.salary = input;
+         }
+    });
+
     //only for checking purpose
-    const nameDescriptor = Object.getOwnPropertyDescriptor(employee,'name');
+    const nameDescriptor = Object.getOwnPropertyDescriptor(employee,'age');
     console.log(nameDescriptor);
     console.log(nameDescriptor.configurable);
     console.log(nameDescriptor.writable);
