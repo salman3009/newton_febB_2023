@@ -1,0 +1,35 @@
+<script>
+
+    // const vehicle = {
+    //     name: "",
+    //     type: "",
+    //     wheelCount: "",
+    // }
+
+
+    function makeCar(name, wheelCount) {
+
+        let car ={
+          name:name,
+          wheelCount:wheelCount,
+          type:'Car',
+          __proto__:vehicle
+
+        }
+
+        return car;
+
+    }
+
+    function makeBike(name, wheelCount) {
+        let bike ={
+          name:name,
+          wheelCount:wheelCount,
+          type:'Bike',
+          __proto__:vehicle
+
+        }
+
+        return bike;
+    }
+</script>
