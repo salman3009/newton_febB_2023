@@ -1,10 +1,22 @@
-//For every object will have default prototype 
-//we have following inbuilt methods 
+1.For every object will have default prototype 
+2.we have following inbuilt methods inside the prototype
 example:
 constructor 
 get 
 set 
 toString
+3.default prototype is finally connect to null
+4.Object.create() method will help to inherit another object.
+5.Object.create() method will put entire object inside the prototype of newly created object.
+6.Each object is connected with nested prototype object this concept is called prototype chain.
+example:object --> default prototype --> null 
+7.to check prototype chain we can use below method 
+example:Object.getPrototypeOf()
+8.to check whether any property in object belong to them or it is coming from prototype object 
+example:object.hasOwnProperty()
+true --> It belongs to that object 
+false --> It is coming from prototype object 
+
 ===========================================
 To check prototype chain we can use below method:
  Object.getPrototypeOf()
