@@ -1,0 +1,36 @@
+<script>
+    class Employee {
+      constructor(name,age) {
+        this.name = name;
+        this.age = age;
+      }   
+
+      getDisplayDetails(){
+         return `${this.name} - ${this.age}`;
+      }
+  
+    }
+
+    class FoodToken extends Employee{
+
+        constructor(name,age,amount,eligible){
+            super(name,age);
+            this.amount = amount;
+            this.eligible = eligible;
+        }
+
+        getFoodUpdates(){
+            // let displayName = this.getDisplayDetails();
+            let displayName = super.getDisplayDetails();
+            console.log(displayName);
+            return this.eligible;
+        }
+    }
+  
+    let akashEmployee = new Employee("akash",56);
+    let sureshFoodToken = new FoodToken("suresh",44,4000,true);
+    console.log(sureshFoodToken);
+    console.log(sureshFoodToken.getFoodUpdates());
+
+ 
+  </script>
