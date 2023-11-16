@@ -1,4 +1,13 @@
 <script>
+
+   let employee ={
+    name:"akash",
+    age:33
+   };
+
+   //inside the prototype chain
+   let mixinsDetails = Object.create(employee);
+
     class User{
         constructor(name){
           this.name = name;
@@ -7,9 +16,8 @@
             console.log("User parent method");
         }
     }
-    let employerAkash = new User("akash");
 
-    
+    //inside the prototype chain
     let mixins = Object.create(User.prototype);
     mixins.say();
 </script>

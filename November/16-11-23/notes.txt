@@ -7,5 +7,9 @@ set
 toString
 ===========================================
 To check prototype chain we can use below method:
- Object.getPrototypeOf() or __proto__
+ Object.getPrototypeOf()
+ ========================================================
+__proto__
+//proto helps to reuse the object created after constructor function or any static object 
+//By using proto we can find the prototype chain of each object.
 ===========================================

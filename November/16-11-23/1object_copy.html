@@ -20,12 +20,22 @@
 </script> -->
 
 //copy of object
-<script>
+<!-- <script>
     let employee={
         name:"akash",
         age:34
     };
     let person = {...employee}
     person.location = "bangalore";
+    console.log(employee,person);
+</script> -->
+
+
+<script>
+    let employee={
+        name:"akash",
+        age:34
+    };
+    let person = Object.assign({locations:"bangalore"},employee);
     console.log(employee,person);
 </script>
