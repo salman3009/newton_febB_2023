@@ -1,0 +1,13 @@
+<script>
+    let employee={
+        name:"aksah",
+        age:45
+    };
+    let foodToken = Object.create(employee);
+    let firstProto = Object.getPrototypeOf(foodToken);
+    console.log(firstProto);
+    let secondProto = Object.getPrototypeOf(firstProto);
+    console.log(secondProto);
+    let thirdProto = Object.getPrototypeOf(secondProto);
+    console.log(thirdProto);
+</script>
