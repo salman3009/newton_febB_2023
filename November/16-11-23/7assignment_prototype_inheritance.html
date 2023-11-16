@@ -1,0 +1,14 @@
+https://my.newtonschool.co/playground/code/ozir52hzd97a?lecture_hash=1xub1gi7t3ez
+<script>
+let sayHiMixin = {
+   __proto__:sayMixin,
+   say(){
+     return super.say(`${this.name}`);
+   }
+};
+
+function setPrototype(){
+  // some code here
+  Object.assign(User.prototype,sayHiMixin);
+}
+</script>

@@ -1,0 +1,15 @@
+<script>
+    class User{
+        constructor(name){
+          this.name = name;
+        }
+        say(){
+            console.log("User parent method");
+        }
+    }
+    let employerAkash = new User("akash");
+
+    
+    let mixins = Object.create(User.prototype);
+    mixins.say();
+</script>
