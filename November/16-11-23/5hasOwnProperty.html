@@ -1,0 +1,15 @@
+<script>
+    let employee={
+        name:"aksah",
+        age:45
+    };
+    let employeeProperty = employee.hasOwnProperty("age");
+    console.log(employeeProperty);//true
+    let foodToken = Object.create(employee);
+    let foodTokenProperty = foodToken.hasOwnProperty('age');
+    console.log(foodTokenProperty);//false
+    foodToken.locations = "bangalore";
+    let foodTokenPropertyOwn = foodToken.hasOwnProperty('locations');
+    console.log(foodTokenPropertyOwn);//true
+    
+</script>

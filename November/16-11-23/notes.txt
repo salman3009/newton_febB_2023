@@ -6,3 +6,6 @@ get
 set 
 toString
 ===========================================
+To check prototype chain we can use below method:
+ Object.getPrototypeOf() or __proto__
+===========================================
