@@ -16,12 +16,7 @@ example:Object.getPrototypeOf()
 example:object.hasOwnProperty()
 true --> It belongs to that object 
 false --> It is coming from prototype object 
-
-===========================================
-To check prototype chain we can use below method:
- Object.getPrototypeOf()
- ========================================================
-__proto__
-//proto helps to reuse the object created after constructor function or any static object 
-//By using proto we can find the prototype chain of each object.
-===========================================
+9.__proto__ it is use to check prototype chain 
+10.__proto__ it helps to inherit any object to another object which is already created after constructor function 
+11.prototype we can use in constructor function to attach prototype properties.
+==============================================================================
