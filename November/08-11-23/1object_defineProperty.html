@@ -29,7 +29,7 @@
     delete student.name;
     console.log(student);
 
-    //enumerable
+    //enumerable - true property will be shown during iteration and Object.keys
     Object.defineProperty(student,'age',{
         value:56,
         enumerable:false

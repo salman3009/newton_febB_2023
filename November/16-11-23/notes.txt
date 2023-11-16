@@ -1,1 +1,3 @@
 Prototype Chain
+How can you check if an object inherits a property or method from its constructor's prototype in JavaScript?
+hasOwnProperty
