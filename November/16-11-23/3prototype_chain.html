@@ -1,0 +1,12 @@
+<script>
+    let employee={
+        name:"aksah",
+        age:45
+    };
+    console.log(employee.propertyIsEnumerable("age"));
+    console.log(employee.__proto__);
+    console.log(employee.__proto__.__proto__);
+    let foodToken = Object.create(employee);
+    console.log(foodToken.__proto__);
+
+</script>

@@ -1,4 +1,8 @@
-Prototype Chain
-How can you check if an object inherits a property or method from its constructor's prototype in JavaScript?
-hasOwnProperty
+//For every object will have default prototype 
+//we have following inbuilt methods 
+example:
+constructor 
+get 
+set 
+toString
 ===========================================
