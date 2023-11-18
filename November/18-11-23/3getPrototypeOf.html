@@ -1,8 +1,18 @@
-<script>
+<!-- <script>
     let employee={
         name:"akash",
         age:33
     };
     let firstProto = Object.getPrototypeOf(employee);
     console.log(firstProto);
+    let objectProto = Object.getPrototypeOf(employee) === Object.prototype;
+    console.log(objectProto);
+</script> -->
+
+<script>
+    let arrList = [3,3,4];
+    let firstProto = Object.getPrototypeOf(arrList);
+    console.log(firstProto);
+    let ArrayProto = Object.getPrototypeOf(arrList) === Array.prototype;
+    console.log(ArrayProto);
 </script>

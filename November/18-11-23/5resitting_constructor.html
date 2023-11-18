@@ -1,0 +1,27 @@
+<script>
+    function Person(firstName,lastName){
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    function Employee(firstName){
+        this.firstName = firstName;
+        this.getDisplayEmployee = function(){
+            console.log("inside the employee")
+        }
+    }
+
+    Employee.prototype.getfullName = function(){
+         console.log("outside the employee  - prototype",this.firstName)
+    }
+
+    Person.prototype = Object.create(Employee.prototype);
+    Person.prototype.constructor = Person;
+    let akashPerson = new Person("akash","selvam");
+    akashPerson.getfullName();
+
+    let sureshEmployee = new Employee("suresh");
+    sureshEmployee.getfullName();
+
+
+</script>
