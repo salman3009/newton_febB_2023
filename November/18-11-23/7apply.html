@@ -13,8 +13,8 @@
         address:"bangalore"
     }
 
-    //It will take individual paramter
-    employee.getFullNameDisplay.call(foodEmployee,"suresh","kumar")
+    ////It will take array as paramter
+    employee.getFullNameDisplay.apply(foodEmployee,["suresh","kumar"])
 
 
 </script>
