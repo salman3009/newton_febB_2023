@@ -1,0 +1,21 @@
+<script>
+    let employee={
+        fullName:"akash selvam",
+        age:22,
+        getFullNameDisplay:function(firstName,lastName){
+            console.log(this.fullName,firstName,lastName);
+        }
+    }
+    //employee.getFullNameDisplay("akash","selvam");
+
+    let foodEmployee={
+        fullName:"suresh kumar",
+        address:"bangalore"
+    }
+
+    //we can bind half data now and later we can bind reminaing data
+    let getDetails = employee.getFullNameDisplay.bind(foodEmployee,"suresh");
+    getDetails("kumar");
+    getDetails("selvam");
+
+</script>
