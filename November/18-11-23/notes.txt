@@ -1,0 +1,4 @@
+ benefit of using inheritance
+ 1.Reusability of code
+ 2.Encapsulation of data
+ 3.Polymorphism
