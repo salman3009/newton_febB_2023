@@ -2,3 +2,9 @@
  1.Reusability of code
  2.Encapsulation of data
  3.Polymorphism
+ ===============================
+ Object methods 
+ 1.call
+ 2.apply 
+ 3.bind 
+ 

@@ -1,0 +1,19 @@
+<script>
+    let employee={
+        fullName:"akash selvam",
+        age:22,
+        getFullNameDisplay:function(firstName){
+            console.log(this.fullName,firstName);
+        }
+    }
+    employee.getFullNameDisplay("akash");
+
+    let foodEmployee={
+        fullName:"suresh kumar",
+        address:"bangalore"
+    }
+
+    employee.getFullNameDisplay.call(foodEmployee,"suresh")
+
+
+</script>
