@@ -1,3 +1,4 @@
+0.single instance of data will be there inside the prototype
 1.For every object will have default prototype 
 2.we have following inbuilt methods inside the prototype
 example:

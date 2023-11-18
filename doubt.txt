@@ -1,3 +1,2 @@
-What is the purpose of an interface in JavaScript?
-.Virtual functions should be defined in?
-Which of the following is a way to achieve abstraction in JavaScript?
+
+setPrototypeof

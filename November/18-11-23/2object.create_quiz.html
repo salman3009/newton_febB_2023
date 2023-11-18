@@ -1,0 +1,15 @@
+<script>
+    let person = {
+  name: "John",
+  age: 30,
+  sayHello: function() {
+    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+  }
+};
+
+let student = Object.create(person);
+student.name = "Mary";
+student.grade = "A";
+
+student.sayHello();
+</script>
