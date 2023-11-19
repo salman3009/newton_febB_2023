@@ -6,6 +6,11 @@
         this.bar = bar;
     }
 }
+ 
+function func(a,b){
+    console.log(this);
+    return a+b;
+}
 
 function solve(obj, a, b){
    // obj: object of class FooBar, with foo and bar as its attributes set from input
@@ -13,4 +18,5 @@ function solve(obj, a, b){
    // return obj.foo + obj.bar + func(a, b);
    return obj.foo + obj.bar + func.call(obj,a,b);
 }
+console.log(solve({foo:1,bar:1},4,4));
 </script>
