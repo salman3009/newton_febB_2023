@@ -4,7 +4,9 @@
  3.Polymorphism
  ===============================
  Object methods 
- 1.call
- 2.apply 
- 3.bind 
+ //Below methods is used to change current object 
+ 1.call  -- It will take individual parameter
+ 2.apply   -- It will take array as parameter
+ 3.bind -- It will help to bind half of data and remaining we can bind it later.
+ =======================================================
  
