@@ -1,0 +1,21 @@
+<script>
+    class Person{
+        constructor(firstName,lastName){
+            this.firstName = firstName;
+            this.lastName = lastName;
+        }
+
+        static isPerson(){
+            console.log("is Person method with static");
+        }
+
+        getDisplay(){
+            console.log(`${this.firstName}-${this.lastName}`);   
+        }
+    }
+    let akashPerson = new Person("akash","selvam");
+    akashPerson.getDisplay();
+   // akashPerson.isPerson(); static method we cannot call from created object instance
+    Person.isPerson(); //directly from class
+
+</script>
