@@ -21,3 +21,14 @@ Static method:
 //static method we can access by using class name directly.
 =============================================
 Date Object 
+//create new date or current date 
+new Date() 
+//Getting year ,month, date,date 
+1.year - getFullYear()
+2.month - getMonth() 
+3.day - getDay() 
+4.date - getDate()
+5.hours  - getHours()
+6.minutes - getMinutes()
+7.seconds - getSeconds()
+8.milliseconds - getMilliSecond()
