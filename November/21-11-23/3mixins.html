@@ -12,8 +12,16 @@
         }
     }
 
+    class Employee{
+        constructor(name,age){
+            this.name = name;
+            this.age = age;
+        }
+    }
+
     //copy methods
     Object.assign(Person.prototype,personDetails);
+    Object.assign(Employee.prototype,personDetails);
     
     let akashPerson = new Person("akash",44);
     akashPerson.displayDetails();

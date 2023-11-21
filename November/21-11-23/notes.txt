@@ -9,8 +9,10 @@ Factory function:
 Factory function is similar to constructor function.
 But instead creating new object
 simply it will create an object and returns it.
+//alternative to constructor function
 ==================================================
 Mixins:
 Mixins is a generic object programming terms.
 //Is a class containing methods that can be used by other classes without a need to inherit from it.
+//alternative to inheritance
 =======================================
