@@ -1,0 +1,21 @@
+<script>
+    let personDetails ={
+        displayDetails(){
+            console.log(`${this.name} and age is ${this.age}`);
+        }
+    }
+
+    class Person{
+        constructor(name,age){
+            this.name = name;
+            this.age = age;
+        }
+    }
+
+    //copy methods
+    Object.assign(Person.prototype,personDetails);
+    
+    let akashPerson = new Person("akash",44);
+    akashPerson.displayDetails();
+
+</script>
