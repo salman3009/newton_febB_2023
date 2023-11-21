@@ -1,0 +1,21 @@
+<script>
+    let date = new Date();
+    let year = date.getFullYear();
+    console.log(year);
+    //month index start from zero
+    let month = date.getMonth();
+    console.log(month);
+
+    let monthList =["January","febuary","march","april","may","june","july","august","september","october","november","december"];
+    let currentMonth = monthList[month];
+    console.log(currentMonth);
+
+    //sunday - 0 , monday -1 , tuesday - 2
+    let day = date.getDay();
+    console.log(day);
+    let dayList =['sunday','monday','tuesday'];
+    let currentDay = dayList[day];
+    console.log(currentDay);
+    let dateFormat = `${currentDay}/${currentMonth}/${year}`;
+    console.log(dateFormat);
+    </script>

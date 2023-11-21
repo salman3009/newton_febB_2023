@@ -20,3 +20,4 @@ Static method:
 //static method we cannot access using object instance 
 //static method we can access by using class name directly.
 =============================================
+Date Object 
