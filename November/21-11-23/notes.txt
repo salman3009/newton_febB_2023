@@ -39,3 +39,8 @@ new Date()
 4.hours - setHours()
 5.minutes - setMinutes()
 6.seconds - setSeconds() 
+//Converting Date to String 
+1.toDateString()
+2.toTimeString()
+3.toUTCString()
+4.toISOString()
