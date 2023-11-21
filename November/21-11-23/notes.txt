@@ -44,3 +44,6 @@ new Date()
 2.toTimeString()
 3.toUTCString()
 4.toISOString()
+5.toLocaleTimeString()
+6.toLocaleDateString()
+========================================
