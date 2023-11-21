@@ -1,0 +1,7 @@
+Inheritance:
+1.parent-child relationship - one-one inheritance
+2.multiple Inheritance is not possible in javascript 
+3.multi level inheritance is possible 
+Multi Level 
+parent --> child --> grand child 
+====================================================

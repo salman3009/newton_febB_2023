@@ -1,0 +1,24 @@
+<script>
+    function Person(firstName,lastName,marks){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.marks = marks;
+    }
+    Person.prototype.getPersonDetails = function(){
+        console.log(`my name is ${this.firstName}-${this.lastName} and marks is ${marks}`);
+    }
+
+    function Employee(firstName,lastName,marks,rollNo,salary){
+        Person.call(this,firstName,lastName,marks);
+        this.rollNo = rollNo;
+        this.salary = salary;
+    }
+
+    Employee.prototype.getEmployeeDetails = function(){
+        console.log(`Employee salary is ${this.salary} and roll no is ${this.rollNo}`);
+    }
+
+    Employee.prototype = Object.create(Person.prototype);
+    
+
+</script>
