@@ -17,5 +17,6 @@ Mixins is a generic object programming terms.
 //alternative to inheritance
 =======================================
 Static method:
-//Without creating object we can access static method directly.
+//static method we cannot access using object instance 
+//static method we can access by using class name directly.
 =============================================
