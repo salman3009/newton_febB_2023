@@ -30,12 +30,14 @@
         this.designation = designation;
     }
 
+    
     Manager.prototype = Object.create(Employee.prototype);
-
+    
     Manager.prototype.displayManagerDetails = function(){
         console.log(`Manager details is ${this.designation}`);
     }
 
+    
 
     let akashManager = new Manager("shankar","kumar",444,'12MS044',40000,"BTECH");
     akashManager.getPersonDetails();

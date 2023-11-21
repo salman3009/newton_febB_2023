@@ -1,0 +1,16 @@
+<script>
+    function createPerson(name,age){
+           return {
+            name:name,
+            age:age,
+            displayDetails:function(){
+                console.log(`my name is ${name} and my age is ${age}`);
+            }
+           }
+    }
+    const akashPerson = createPerson("akash",33);
+    akashPerson.displayDetails();
+
+    const sureshPerson = createPerson("suresh",55);
+    sureshPerson.displayDetails();
+</script>

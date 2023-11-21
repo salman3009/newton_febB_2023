@@ -5,3 +5,8 @@ Inheritance:
 Multi Level 
 parent --> child --> grand child 
 ====================================================
+Factory function:
+Factory function is similar to constructor function.
+But instead creating new object
+simply it will create an object and returns it.
+==================================================
