@@ -1,0 +1,40 @@
+<table>        
+    <tr>
+        <td>1</td>
+        <td>Item-2</td>
+        <td data-ns-test="price">18361</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Item-2</td>
+        <td data-ns-test="price">18361</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Item-3</td>
+        <td data-ns-test="price">17373</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Item-4</td>
+        <td data-ns-test="price">17361</td>
+    </tr>
+</table>
+
+<div id="demo"></div>
+
+<script>
+let list = document.querySelectorAll('[data-ns-test=price]');
+let sum = 0;
+list.forEach(function(input){
+    sum+=parseInt(input.textContent);
+});
+
+let row = document.createElement('tr');
+let cell = document.createElement('td');
+cell.textContent = sum;
+cell.setAttribute('data-ns-test','grandTotal');
+row.appendChild(cell);
+let table = document.querySelector('table');
+table.appendChild(row);
+</script>
