@@ -1,0 +1,14 @@
+<script>
+    let globalName = "global data";
+
+    function first(){
+        let year = '2023';
+        function second(){
+            let job = 'teacher';
+            console.log(globalName,year,job);
+        }
+        second();
+    }
+
+    first();
+</script>
