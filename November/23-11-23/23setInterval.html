@@ -1,0 +1,13 @@
+<div id="demo"></div>
+
+<script>
+    //2parameter 
+    //1st parameter is a function callback
+    //2nd parameter is time
+    //1000 milliseconds = 1 seconds
+    setInterval(function(){
+        console.log("every 2seconds you see this code");
+        let date = new Date();
+        document.querySelector("#demo").innerHTML = date.getSeconds();
+    },1000)
+</script>

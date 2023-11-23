@@ -10,8 +10,12 @@ scope and scope chaining:
 =============================
 Timer Events:
 1.setTimeout 
+//It will get executed after particular set of time is completed
 2.setInterval 
+//It will get executed after particular set of time is completed
+//It will work in intervals
 =============================
 callback function 
 //function will be called after sometime 
+========================================
 
