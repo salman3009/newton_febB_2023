@@ -1,0 +1,20 @@
+<script>
+    //symbols are private
+    let salary = Symbol('salary');
+    let employee={
+        fullName:"akash",
+        age:33,
+        [salary]:2000
+    }
+
+    //salary we cannot access here
+    for(let key in employee){
+        console.log(key);
+    }
+
+    //salary we cannot access here
+    console.log(Object.values(employee));
+
+    //here we can able to access it
+    console.log(employee[salary]);
+</script>
