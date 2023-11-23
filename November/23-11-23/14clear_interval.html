@@ -1,0 +1,17 @@
+<div id="demo"></div>
+<button id="stop">Stop</button>
+<script>
+    //2parameter 
+    //1st parameter is a function callback
+    //2nd parameter is time
+    //1000 milliseconds = 1 seconds
+    let timerID = setInterval(function(){
+        console.log("every 2seconds you see this code");
+        let date = new Date();
+        document.querySelector("#demo").innerHTML = date.getSeconds();
+    },1000)
+
+    document.querySelector("#stop").addEventListener('click',function(){
+        clearInterval(timerID);
+    })
+</script>
