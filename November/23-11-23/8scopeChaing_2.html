@@ -1,0 +1,19 @@
+<script>
+    let globalName = "global data";
+
+    function first(){
+        
+        let year = '2023';
+        console.log(this,globalName,year);
+    }
+
+    function second(){
+        
+        let age = '22';
+        console.log(this,globalName,age);
+    }
+
+    first();
+    second();
+    console.log(this);
+</script>
