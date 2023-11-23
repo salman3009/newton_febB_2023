@@ -8,3 +8,10 @@ scope and scope chaining:
 2.function scope 
 3.block scope 
 =============================
+Timer Events:
+1.setTimeout 
+2.setInterval 
+=============================
+callback function 
+//function will be called after sometime 
+
