@@ -1,0 +1,3 @@
+es6:Destructing
+//Destructing object and array into individual parameters.
+=========================================
