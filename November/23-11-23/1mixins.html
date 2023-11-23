@@ -1,0 +1,15 @@
+<script>
+    let employee={
+        firstName:"akash",
+        age:33
+    };
+
+    let displayDetails={
+          getSalaryDetails(){
+            console.log("get salary details");
+          }
+    }
+    let assign = Object.assign({},employee,displayDetails);
+    console.log(assign.firstName);
+    assign.getSalaryDetails();
+</script>
