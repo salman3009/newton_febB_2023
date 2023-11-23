@@ -1,3 +1,10 @@
 es6:Destructing
 //Destructing object and array into individual parameters.
 =========================================
+scope and scope chaining:
+//scope of each variable where we can access it 
+//Types of scope 
+1.Global scope 
+2.function scope 
+3.block scope 
+=============================

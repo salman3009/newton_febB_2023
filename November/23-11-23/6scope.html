@@ -1,0 +1,24 @@
+<script>
+    //global scope
+    let global = "global scope";
+
+    function display(){
+        //function scope
+        let functionScope = "function scope"
+        console.log(global);
+
+        if(true){
+            console.log(functionScope);
+        }
+    }
+    display();
+    
+    {
+        console.log(global);
+        //block scope
+        let blockScope = "blockScope";
+        console.log(blockScope);
+    }
+
+   
+</script>
