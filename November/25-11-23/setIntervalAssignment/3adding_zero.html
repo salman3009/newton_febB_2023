@@ -8,6 +8,8 @@
          count = count + 0.1;
          //milliseconds to seconds
          seconds = ((parseInt((count)%60) < 10) ? "0":'') + parseInt((count)%60);
+                   //"0" + 1 = 01
+                   //"" + 11 = 11
        //  console.log(seconds);
          //60 seconds = 1 minute
          minutes = ((parseInt((count/60)%60) < 10) ? "0":'') + parseInt((count/60)%60);

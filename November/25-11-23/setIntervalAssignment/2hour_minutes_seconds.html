@@ -1,8 +1,9 @@
+<div id="demo"></div>
 <script>
     let count =0;
     let timerID = setInterval(function(){
          count = count + 0.1;
-         //milliseconds to seconds
+         //milliseconds to 1 seconds
          let seconds = parseInt(count%60);
          console.log(seconds);
          //60 seconds = 1 minute
@@ -10,6 +11,7 @@
          //3600 seconds = 1 hour
          let hours = parseInt((count/3600)%60)
          //console.log(count);
+         document.querySelector("#demo").innerHTML = `${hours}-${minutes}-${seconds}`;
     },100)
     
 </script>
