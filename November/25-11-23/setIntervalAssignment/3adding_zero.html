@@ -7,12 +7,12 @@
     let timerID = setInterval(function(){
          count = count + 0.1;
          //milliseconds to seconds
-         seconds = parseInt(count%60);
+         seconds = ((parseInt((count)%60) < 10) ? "0":'') + parseInt((count)%60);
        //  console.log(seconds);
          //60 seconds = 1 minute
-         minutes = parseInt((count/60)%60);
+         minutes = ((parseInt((count/60)%60) < 10) ? "0":'') + parseInt((count/60)%60);
          //3600 seconds = 1 hour
-         hours = parseInt((count/3600)%60)
+         hours = ((parseInt((count/3600)%60) < 10) ? "0":'') + parseInt((count/3600)%60);
          //console.log(count);
          document.querySelector("#demo").innerHTML = `${hours}-${minutes}-${seconds}`;
     },100)
