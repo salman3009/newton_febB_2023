@@ -1,0 +1,14 @@
+<script>
+    let count =0;
+    setInterval(function(){
+         count = count + 0.1;
+         let seconds = parseInt(count%60);
+         console.log(seconds);
+         //60 seconds = 1 minute
+         let minutes = parseInt((count/60)%60);
+         //3600 seconds = 1 hour
+         let hours = parent((count/3600)%60)
+         //console.log(count);
+    },100)
+    
+</script>

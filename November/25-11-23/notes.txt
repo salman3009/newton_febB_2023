@@ -20,6 +20,7 @@ Javascript Engine
    //FILO
 2.callback queue 
 //all Asynchronous code once it is completed will come and sit here 
+//once call stack is empty then callback queue code will be give to call stack 
 //FIFO
 3.web api 
    //Inbuilt functions will be present 
