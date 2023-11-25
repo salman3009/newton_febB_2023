@@ -1,0 +1,21 @@
+<script>
+const _age = Symbol('age');
+
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this[_age] = age;
+  }
+
+  getAge() {
+    return this[_age];
+  }
+
+  setAge(newAge) {
+    this[_age] = newAge;
+  }
+}
+
+const john = new Person('John', 30);
+console.log(john.age);
+</script>
