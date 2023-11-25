@@ -1,0 +1,21 @@
+<script>
+    const global = "global data";
+    function first(){
+        setTimeout(function(){
+            console.log("first");
+        },5000)
+      
+    }
+    function third(){
+        setTimeout(function(){
+            console.log("third");
+        },5000)
+      
+    }
+    function second(){
+        console.log("second");
+    }
+    first();
+    second();
+    third();
+</script>

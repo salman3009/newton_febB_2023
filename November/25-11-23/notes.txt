@@ -5,4 +5,26 @@ javascript will give priority to Synchronous code first then only Asynchronous.
 example:
 1.setimeout 
 2.setinterval 
+3.callback 
+4.promise 
+5.async-await 
+6.fetch
 =========================================
+Javascript Engine 
+1.call stack 
+   //main execution will happen inside the call stack 
+   //for every program in one global function will be created inside the call stack 
+   //for each function execution context will be created inside the call stack 
+   //execution context is nothing but combination of function,scope chain and arguments details  
+   //anonymous is global execution context 
+   //FILO
+2.callback queue 
+//all Asynchronous code once it is completed will come and sit here 
+//FIFO
+3.web api 
+   //Inbuilt functions will be present 
+   example; 
+       1.DOM 
+       2.timers 
+       3.fetch 
+=======================================
