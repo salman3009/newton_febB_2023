@@ -1,0 +1,7 @@
+Synchronous and Asynchronous 
+Synchronous - line by line execution 
+Asynchronous - first come first serve
+example:
+1.setimeout 
+2.setinterval 
+=========================================
