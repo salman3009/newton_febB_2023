@@ -37,3 +37,7 @@ document.querySelector("#demo").innerHTML = sum;
 //output we are not able to verify it
 //cell.setAttribute('data-ns-test','grandTotal'); // how to verify this statement
 =========================================================
+https://my.newtonschool.co/playground/markup/4mxwev1b52n4
+1.To implement this toggles the presence of the CSS class dark-mode on the container element when the button is clicked.
+//Where it is mention to use toggle method?
+=============================================
