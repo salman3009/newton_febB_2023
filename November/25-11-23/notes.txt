@@ -1,6 +1,8 @@
 Synchronous and Asynchronous 
 Synchronous - line by line execution 
-Asynchronous - first come first serve
+Asynchronous - 
+//first come first serve
+//whenever code is ready to execute it will execute the code otherwise it will run in the back
 javascript will give priority to Synchronous code first then only Asynchronous.
 example:
 1.setimeout 

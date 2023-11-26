@@ -1,46 +1,3 @@
-https://my.newtonschool.co/playground/markup/hbcnr87adgf5
-
-<table>        
-        <tr>
-            <td>1</td>
-            <td>Item-2</td>
-            <td data-ns-test="price">18361</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Item-2</td>
-            <td data-ns-test="price">18361</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Item-3</td>
-            <td data-ns-test="price">17373</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Item-4</td>
-            <td data-ns-test="price">17361</td>
-        </tr>
-    </table>
-
-    <div id="demo"></div>
-
-// javascript code goes here
-let list = document.querySelectorAll('[data-ns-test=price]');
-let sum = 0;
-list.forEach(function(input){
-    sum+=parseInt(input.textContent);
-});
-document.querySelector("#demo").innerHTML = sum;
-
-
-//output we are not able to verify it
-//cell.setAttribute('data-ns-test','grandTotal'); // how to verify this statement
-=========================================================
-https://my.newtonschool.co/playground/markup/4mxwev1b52n4
-1.To implement this toggles the presence of the CSS class dark-mode on the container element when the button is clicked.
-//Where it is mention to use toggle method?
-=============================================
 https://my.newtonschool.co/playground/markup/nqkxkbj0yty8?lecture_hash=t3w7u0gn2nzi
 
 <div id="time"></div>
@@ -88,6 +45,7 @@ function stop(){
 pauseButton.setAttribute('disabled',true);
 stopButton.setAttribute('disabled',true);
 startButton.removeAttribute('disabled');
+pauseButton.innerText = "pause";
 clearInterval(timerID);
 timer.innerText = '00:00:00';
 count=0;
@@ -104,5 +62,4 @@ function timerLogic(){
 }
 </script>
 
-1.above code is written properly what is the issue?
-================================================
+
