@@ -1,9 +1,9 @@
 <script>
     //async callback is dependent with another callback async 
-    function addition(a,b,callback){
+    function addition(a,b,room){
         let result = a + b;
         setTimeout(function(){
-            callback(result);
+            room(result);
         },3000)
     }
 
