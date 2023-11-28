@@ -7,4 +7,7 @@ Promise
 //It consists of two state success and reject 
 //To get the response we need to use then block with callback function.
 =======================================================
+Promise.all 
+//Once all the promise is completed it will call the final function.
+===============================================================
 

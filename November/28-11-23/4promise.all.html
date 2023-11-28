@@ -1,0 +1,21 @@
+<script>
+    function GpayScan(){
+        return new Promise(function(success){
+             setTimeout(function(){
+               success("GpayScan is going")
+             },3000)
+        })
+    }
+
+    function SuccessPayment(){
+        return new Promise(function(success){
+             setTimeout(function(){
+                success("Success payment is completed");
+             },6000)
+        })
+    }
+
+    Promise.all([GpayScan(),SuccessPayment()]).then(function(result){
+            console.log(result);
+    })
+</script>
