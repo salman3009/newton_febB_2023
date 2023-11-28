@@ -1,0 +1,10 @@
+callback hell issue:
+1.writing the code is difficuilt to understand;
+2.There is no proper exception handling.
+===========================================
+Promise 
+//To write async code 
+//It consists of two state success and reject 
+//To get the response we need to use then block with callback function.
+=======================================================
+

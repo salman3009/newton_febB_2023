@@ -1,0 +1,12 @@
+<script>
+    var count = 0;
+
+var intervalId = setInterval(function() {
+  console.log(count);
+  count++;
+  
+  if (count === 5) {
+    clearInterval(intervalId);
+  }
+}, 1000);
+</script>
