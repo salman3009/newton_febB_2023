@@ -1,0 +1,22 @@
+<script>
+    function addition(a,b){
+         return new Promise(function(success,reject){
+                let result = a+b;
+                if(result<0){
+                    reject("please pass value greater then zero");
+                }
+                else{
+                    setTimeout(function(){
+                    success(result)
+                },3000)
+                }
+             
+         })
+    }
+    addition(33,-45).then(function(input){
+           console.log("input value",input);
+    },function(failure){
+           console.log(failure);
+    })
+
+</script>
