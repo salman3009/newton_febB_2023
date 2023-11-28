@@ -1,5 +1,11 @@
 {
     "firstName":"akash",
     "age":44,
-    "location":"bangalore"
+    "status":true,
+    "location":null,
+    "list":[33,44,55],
+    "address":{
+        "dooNo":44,
+        "street":"2nd street"
+    }
 }

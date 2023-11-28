@@ -31,5 +31,10 @@ JAVASCRIPT SCRIPT OBJECT NOTATION
       4.array 
       5.boolean 
       6.null
- 
+ =========================================
+ Convert javascript object to JSON 
+ //JSON.stringify()
+ Convert JSON to javascript object 
+ //JSON.parse()
+ =====================================
 

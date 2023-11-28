@@ -1,0 +1,15 @@
+<script>
+    let employee={
+        name:"akash",
+        age:33,
+        location:"bangalore"
+    };
+
+    let jsonConversion = JSON.stringify(employee);
+    console.log(typeof jsonConversion);
+    //console.log(jsonConversion.name);
+    console.log(jsonConversion);
+    let javascriptConversion = JSON.parse(jsonConversion);
+    console.log(typeof javascriptConversion);
+    console.log(javascriptConversion.name);
+</script>
