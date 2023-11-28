@@ -9,5 +9,7 @@ Promise
 =======================================================
 Promise.all 
 //Once all the promise is completed it will call the final function.
+//We need to pass multiple promise in a function. 
+//Final result will be given in the array.
 ===============================================================
 
