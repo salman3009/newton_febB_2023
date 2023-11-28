@@ -15,7 +15,9 @@
         })
     }
 
+    //array we need pass
     Promise.all([GpayScan(),SuccessPayment()]).then(function(result){
-            console.log(result);
+        //return result is also in array    
+        console.log(result);
     })
 </script>
