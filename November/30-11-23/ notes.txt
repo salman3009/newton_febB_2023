@@ -11,6 +11,7 @@ almost same like ajax with easy syntax and more features
 Fetch 
 1.It is similar to ajax 
 2.It is promise based 
+3.It is native code
 example:
 fetch(url).then()
 Method:
@@ -18,11 +19,14 @@ json() --> this method will convert json to javascript object
 Final Syntax after parsing the json 
 fetch(url).then().then()
 ====================================================
-API Call:
+API(Application programming interface) Call:
 fetch is native provide by javascript default 
 axios is third party package similart to fetch.
 ===================================================
 axios:
+//axios is also written promise 
+//it will take care of parsing and converting data into json or javascript object
+
 url:https://axios-http.com/docs/intro
 
 Using unpkg CDN:
