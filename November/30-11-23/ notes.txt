@@ -1,0 +1,20 @@
+Ajax: 
+Asynchronous JavaScript and XML
+// It will do network call 
+//Update a web page without reloading the page 
+//Request data from a server - after the page has loaded
+//Send data to a server in the background
+==============================================
+Fetch api is promise based api used to fetch resource across web server.
+almost same like ajax with easy syntax and more features
+======================================================
+Fetch 
+1.It is similar to ajax 
+2.It is promise based 
+example:
+fetch().then()
+Method:
+json() --> this method will convert json to javascript object
+Final Syntax after parsing the json 
+fetch().then().then()
+====================================================

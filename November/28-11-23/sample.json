@@ -1,4 +1,4 @@
-{
+[{
     "firstName":"akash",
     "age":44,
     "status":true,
@@ -8,4 +8,4 @@
         "dooNo":44,
         "street":"2nd street"
     }
-}
+}]

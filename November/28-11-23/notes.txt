@@ -12,14 +12,6 @@ Promise.all
 //We need to pass multiple promise in a function. 
 //Final result will be given in the array.
 ===============================================================
-Ajax: // It will do network call 
-//Update a web page without reloading the page 
-//Request data from a server - after the page has loaded
-//Send data to a server in the background
-==============================================
-Fetch api is promise based api used to fetch resource across web server.
-almos same like ajax with easy syntax and more features
-======================================================
 JSON:
 JAVASCRIPT SCRIPT OBJECT NOTATION
 //we can able to communicate from frontend to backend and backend to frontend 
