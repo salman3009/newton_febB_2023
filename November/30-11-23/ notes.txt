@@ -12,9 +12,9 @@ Fetch
 1.It is similar to ajax 
 2.It is promise based 
 example:
-fetch().then()
+fetch(url).then()
 Method:
 json() --> this method will convert json to javascript object
 Final Syntax after parsing the json 
-fetch().then().then()
+fetch(url).then().then()
 ====================================================
