@@ -28,8 +28,30 @@
     <script src="script.js"></script>
   </body>
 </html>
+<style>
+  /* css code goes here */
+
+th{
+    background-color: #00008b;
+    color:#ffffff;
+}
+
+td:nth-child(1){
+    background-color: #f2f2f2;
+}
+
+td:nth-child(8){
+    background-color: #d1d1d1;
+}
+
+td{
+    border:1px solid #dddddd;
+}
+</style>
 <script>
     // javascript code goes here
+
+
 function initial(){
     fetch('https://my-json-server.typicode.com/FreSauce/json-ipl/data').then(function(response){
         return response.json();
