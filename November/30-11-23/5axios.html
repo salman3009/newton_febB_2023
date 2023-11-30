@@ -1,0 +1,9 @@
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    function initial(){
+      axios.get('https://my-json-server.typicode.com/FreSauce/json-ipl/data').then(function(response){
+            console.log(response.data);
+      })
+    }
+    initial();
+</script>

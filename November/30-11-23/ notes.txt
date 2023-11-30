@@ -18,3 +18,17 @@ json() --> this method will convert json to javascript object
 Final Syntax after parsing the json 
 fetch(url).then().then()
 ====================================================
+API Call:
+fetch is native provide by javascript default 
+axios is third party package similart to fetch.
+===================================================
+axios:
+url:https://axios-http.com/docs/intro
+
+Using unpkg CDN:
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+example:
+axios.get(url).then()
+//it will bring all details inside data property
+===========================================================
