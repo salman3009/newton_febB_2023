@@ -1,0 +1,35 @@
+<script>
+    let points=[44,22,112,66,233];
+    let resultPoints = points.sort(function(a,b){return a-b});
+    console.log(resultPoints);
+</script>
+
+<script>
+    let list=[
+        {
+            id:1,
+            age:32,
+            name:"akash"
+        },{
+            id:2,
+            age:12,
+            name:"suresh"
+        },{
+            id:3,
+            age:67,
+            name:"potter"
+        }
+    ];
+
+    let resultAscending = list.sort(function(a,b){
+        return a.age - b.age;
+    });
+    console.log(resultAscending);
+
+    // let resultDescending = list.sort(function(a,b){
+    //     return b.age - a.age;
+    // });
+    // console.log(resultDescending);
+</script>
+
+
