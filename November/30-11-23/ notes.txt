@@ -35,4 +35,9 @@ Using unpkg CDN:
 example:
 axios.get(url).then()
 //it will bring all details inside data property
+
+Advantages of axios:
+1.Axios provides a simpler and more intuitive API for working with HTTP requests
+2.Axios provides better support for handling errors and setting headers
+3.Axios allows for easier cancellation of requests
 ===========================================================
