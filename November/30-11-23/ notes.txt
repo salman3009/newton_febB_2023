@@ -41,3 +41,7 @@ Advantages of axios:
 2.Axios provides better support for handling errors and setting headers
 3.Axios allows for easier cancellation of requests
 ===========================================================
+METHOD: GET AND POST 
+1.GET --> Getting data from server 
+2.POST --> Sending data to server 
+========================================================
