@@ -1,0 +1,35 @@
+<script>
+
+// const person1 = {
+//     name: 'John Doe',
+//     age: 20,
+//     hobbies: ['reading', 'painting', 'gardening']
+//   };
+//   const person2 = {
+//     name: 'Selmon Sen',
+//     age: 40,
+//     pet: "Dog",
+//     hobbies: ['reading', 'painting', 'gardening']
+//   };
+//   const person3 = {
+//     name: 'Anmon Ven',
+//     age: 30,
+//     work:"Coding",
+//     hobbies: ['reading', 'painting', 'gardening']
+//   };
+
+//write your code here
+
+
+
+display.apply(person1);
+display.apply(person2);
+display.apply(person3);
+
+function display(){
+    Object.keys(this).forEach((input)=>{
+        console.log(`${input}: ${this[input]}`);
+    })
+}
+
+</script>

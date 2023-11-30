@@ -1,0 +1,13 @@
+<script>
+    const person1 = {
+    name: 'John Doe',
+    age: 20,
+    hobbies: ['reading', 'painting', 'gardening']
+  };
+
+  function display(){
+      console.log(this);
+  }
+
+  display.apply(person1);
+</script>

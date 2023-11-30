@@ -1,0 +1,37 @@
+<!-- <script>
+    console.log(this);
+    const list= ()=>{
+        console.log(this);
+    }
+    list();
+</script> -->
+<!-- 
+<script>
+    let employee={
+        age:33,
+        display:function(){
+            console.log(this);
+            function getAge(){
+                console.log(this);
+            }
+            getAge();
+        }
+    }
+    employee.display();
+</script> -->
+
+
+
+<script>
+    let employee={
+        age:33,
+        display:function(){
+            console.log(this);
+            const getAge = ()=>{
+                console.log(this);
+            }
+            getAge();
+        }
+    }
+    employee.display();
+</script>
