@@ -26,7 +26,8 @@ async function display(){
 
 display().then().catch()
 =======================================
-
-
+function currying
+//Transforms a function with multiple arguments into a nested series of function,each making a single arugment.
+=====================================
 
 

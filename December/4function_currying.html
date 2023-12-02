@@ -1,0 +1,15 @@
+<script>
+    function volume(length){
+        return function(breadth){
+            return  function(height){
+                return length*breadth*height;
+            }
+        }
+    }
+    let firstPart = volume(4);
+    let secondPart = firstPart(4);
+    let thridPart = secondPart(4);
+    console.log(thridPart);
+    let result = volume(4)(4)(4);
+    console.log(result);
+</script>
