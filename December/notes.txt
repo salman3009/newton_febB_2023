@@ -18,6 +18,7 @@ Async code:
 ====================================
 async await 
 //To handle multiple asynchronous code in sychronous way 
+//please write promise based code so that await can wait.
 example:
 async function display(){
 
