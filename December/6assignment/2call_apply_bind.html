@@ -1,0 +1,22 @@
+<script>
+    let employee={
+        fullName:"akash selvam",
+        age:22,
+        getFullNameDisplay:function(firstName,lastName){
+            console.log(this.fullName,firstName,lastName);
+        }
+    }
+    employee.getFullNameDisplay("akash","selvam");
+
+    let foodEmployee={
+        fullName:"suresh kumar",
+        address:"bangalore"
+    }
+
+    //It will take individual paramter
+    employee.getFullNameDisplay.call(foodEmployee,"suresh","kumar")
+    employee.getFullNameDisplay.apply(foodEmployee,["suresh","kumar"])
+    employee.getFullNameDisplay.bind(foodEmployee,"suresh","kumar")();
+
+
+</script>
