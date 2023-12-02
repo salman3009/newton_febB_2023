@@ -1,0 +1,35 @@
+<script>
+    function addition(a,b){
+         return new Promise((success,reject)=>{
+               if(a<0 || b<0){
+                reject("value is less then zero");
+               }else{
+                success(a+b);
+               }
+         })
+    }
+
+    function subtraction(a,b){
+        return new Promise((success,reject)=>{
+               if(a<0 || b<0){
+                reject("value is less then zero");
+               }else{
+                success(a-b);
+               }
+         })
+    }
+
+    async function display(){
+        let additionResult = await addition(3,5);
+        console.log("addition",additionResult);
+        let subtractionResult = await subtraction(10,4);
+        console.log("subtraction",subtractionResult);
+        return "success";
+    }
+
+    display().then((input)=>{
+          console.log(input);
+    })
+
+
+</script>

@@ -1,0 +1,31 @@
+Ajax:
+//Helps to do network call 
+fetch:
+//New one helps to do network call 
+//promise based 
+axios 
+//third party package 
+//helpt to do network call 
+//promise based
+==================================
+Async code:
+1.setTimeout
+2.setInterval 
+3.promise 
+4.fetch 
+5.callback (async code)
+6.async and await 
+====================================
+async await 
+//To handle multiple asynchronous code in sychronous way 
+example:
+async function display(){
+
+}
+
+display().then().catch()
+=======================================
+
+
+
+
