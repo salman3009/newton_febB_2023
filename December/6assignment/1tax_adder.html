@@ -1,0 +1,13 @@
+https://my.newtonschool.co/playground/code/80w6ocqu092w
+<script>
+function calculateTotal(num1, num2) {
+  console.log(this.tax * (num1 + num2));
+}
+
+function solve(taxObj, x, y){
+   calculateTotal.call(taxObj,x,y);
+   calculateTotal.apply(taxObj,[x,y]);
+   const boundCalculateTotal = calculateTotal.bind(taxObj);
+   return boundCalculateTotal;
+}
+</script>

@@ -29,5 +29,46 @@ display().then().catch()
 function currying
 //Transforms a function with multiple arguments into a nested series of function,each making a single arugment.
 =====================================
-
-
+closure 
+//inner function can able to access outer function variable.
+============================================================
+Javascript in the Browser:
+//chrome v8 engine 
+//firefox spider engine
+Overall structure compiler or Javascript Runtime
+1.call stack - FILO - main execution will happen inside the call stack.
+2.heap - array and object will get store and it will be given to call stack as reference
+3.webapi - It will provide support for all inbuilt methods example:DOM,fetch,timers
+4.callback queue FIFO- all async code will get store here.
+5.event loop - it will run 24*7 to check incoming and outcoming data. And it will manage the entire flow. (synchronous and asynchronous code flow)
+=============================================
+heap - object/array
+stack - main execution
+webapi - dom,fetch
+queue - data store for late response
+event loop - broker
+=============================================
+call stack - execution context 
+Inside the execution context 
+1.what are the data you have declare, functions,object,variable
+2.what is the scope of data or scope chaining
+3.this keyword - current object
+//before we run the code global execution context will be created
+//For every function execution context will be created
+//inside browser anonymous is nothing but a global execution context
+=================================================================
+execution Context 
+1.variable Environment 
+       //let,const,var declarations 
+       //functions 
+       //object 
+2.scope chain 
+3.this keyword -(it is not available in arrow function)
+Global execution context
+//Default global execution context will be created during first time you load page 
+//It consists details such global variable declare and global function declare.
+===============================================================
+Difference between normal function and arrow function 
+//During execution context arrow function will not have this keyword 
+//So arrow function in real time it will borrow from parent function 
+==============================================================

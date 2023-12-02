@@ -1,0 +1,14 @@
+<script>
+    function display(){
+        let fullName = "akash";
+        return function(){
+            return fullName;
+        }
+    }
+    let result = display()();
+    console.log(result);
+    let partOne = display();
+    let secondPart = partOne();
+    console.log(secondPart);
+
+</script>
