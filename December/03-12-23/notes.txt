@@ -1,3 +1,44 @@
 Throttling:
 //Throttling will delay executing a function.It will reduce the notification of an event that fires multiple times.
 //It will called at regular intervals.
+=============================================
+Polyfill:
+//ES6 features it will not support in older browser.
+//Polyfill is piece of code that add functionality to support the syntax in older browser.
+example:
+//if es6 is not supported we need to convert into es5.
+========================================================================================
+Javascript compiler is present default in browser 
+Nodejs --> javascript compiler to run javascript outside the browser 
+NPM (Node Package Manager)--> NPM also will come with while during nodejs installation.
+NPM - It will help to install entire package in your local system.
+=====================================================================
+Nodejs:
+https://nodejs.org/download/release/v18.19.0/
+node-v18.19.0-x64.msi 
+====================
+To check node version:
+cmd:node -v
+cmd:npm -v
+==================================
+Javascript project with npm 
+//we need to have package.json 
+package.json 
+//it is configuration file. Where we have all downloaded package name. 
+node_modules 
+//Whatever it is mentioned in package.json that code will be available inside this.
+================================================
+package.json 
+//create one folder inside that open cmd
+//cmd:npm init  (start typing enter)
+To convert es6 to es5 following package we need to install
+1.@babel/cli 
+2.@babel/core 
+3.@babel/preset-env 
+//below command given by opening terminal in package.json
+cmd:npm install @babel/cli 
+cmd:npm install @babel/core
+cmd:npm install @babel/preset-env 
+package-lock.json 
+//It is deep version package available to support package.json 
+=============================================================

@@ -9,9 +9,10 @@
 
     const throttlFunction = (callback,delay)=>{
 
-        //it will return in milliseconds
+        
         let prev =0;
         return function(){
+            //it will return in milliseconds
             let now = new Date().getTime();
             console.log("current",now);
             if(now-prev>delay){
@@ -21,7 +22,6 @@
         }
 
     }
-
 
     let count=0;
     document.querySelector("#throttle").addEventListener('click',throttlFunction(()=>{
