@@ -42,3 +42,6 @@ cmd:npm install @babel/preset-env
 package-lock.json 
 //It is deep version package available to support package.json 
 =============================================================
+To convert high level to low level code 
+cmd:npx babel highlevel.js --out-file hightlevel_es5.js
+========================================================
