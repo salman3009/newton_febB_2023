@@ -1,0 +1,3 @@
+Throttling:
+//Throttling will delay executing a function.It will reduce the notification of an event that fires multiple times.
+//It will called at regular intervals.

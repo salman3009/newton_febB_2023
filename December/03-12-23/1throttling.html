@@ -1,0 +1,31 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <button id="throttle">Submit</button>
+    </body>
+</html>
+<script>
+
+    const throttlFunction = (callback,delay)=>{
+
+        //it will return in milliseconds
+        let prev =0;
+        return function(){
+            let now = new Date().getTime();
+            console.log("current",now);
+            if(now-prev>delay){
+                prev = now; 
+                return callback();
+            }
+        }
+
+    }
+
+
+    let count=0;
+    document.querySelector("#throttle").addEventListener('click',throttlFunction(()=>{
+          count++;
+         console.log(count);
+    },2000))
+</script>
