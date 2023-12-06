@@ -1,11 +1,25 @@
 <html>
     <head></head>
     <body>
-        <input type="text" onkeyup="saveInput(event)">
+        <input type="text" onkeyup="processChange(event)">
         <script>
+
+            //2
+            function debounce(cb,delay=500){
+                let debounceTimer;
+               return function(){ 
+                    clearTimeout(debounceTimer);
+                    debounceTimer = setTimeout(()=>cb.apply(this,arguments),delay)
+               }
+            }
+
+            //3
             function saveInput(event){
                 console.log(event.target.value);
             }
+
+            //1
+            const processChange = debounce((event)=>saveInput(event));
         </script>
     </body>
 </html>
