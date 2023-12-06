@@ -6,10 +6,10 @@
 
             //2
             function debounce(cb,delay=500){
-                let debounceTimer;
+                let debounceTimerDetails;
                return function(){ 
-                    clearTimeout(debounceTimer);
-                    debounceTimer = setTimeout(()=>cb.apply(this,arguments),delay)
+                    clearTimeout(debounceTimerDetails);
+                    debounceTimerDetails = setTimeout(()=>cb.apply(this,arguments),delay)
                }
             }
 
