@@ -2,4 +2,4 @@ Debouncing:
 //Debouncing will bunch a series of sequential calls to a function into a single call to that function.
 //It ensures that one notification is made for an event that fires multiples times.
 example:
-//while taking input from user using onchange method.
+//while taking input from user using onkeyup method.
