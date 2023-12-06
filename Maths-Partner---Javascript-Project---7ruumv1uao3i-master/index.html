@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-compitable" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google icons link -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="styles.css" /> <!--CSS Link-->
+        <!--Java Script Link-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Math Partner</title>
+  </head>
+  <body>
+    <h1 id="heading">Maths Partner</h1>
+    <h4 id="slogan">Your problems our solutions</h4>
+    <div class="div">
+      <label for="problem-input">Problem </label>
+      <input type="text" placeholder="Type Here ... .. ." id="problem-input" name="problem-input">
+    </div>
+    <div class="div">
+      <label for="category-select">Select Category </label>
+      <select id="category-select" name="category-select">
+        <option value="simplify">Simplify</option>
+        <option value="factor">Factor</option>
+        <option value="derive">Derive</option>
+        <option value="integrate">Integrate</option>
+        <option value="zeroes">Find 0's</option>
+        <option value="tangent">Find Tengant</option>
+        <option value="area">Area Under Curve</option>
+        <option value="cos">Cosine</option>
+        <option value="sin">Sine</option>
+        <option value="tan">Tangent</option>
+        <option value="arccos">Inverse Cosine</option>
+        <option value="arcsin">Inverse Sine</option>
+        <option value="arctan">Inverse Tangent</option>
+        <option value="abs">Absolute value</option>
+        <option value="log">Logarithm</option>
+      </select>
+
+      <button><span title="Go" id="searchIcon" class="material-symbols-outlined">search</span></button>
+    </div>
+    <button id="saved-solution-button">History</button>
+    <div id="content" class="content"></div>
+    <script>
+        // Get the Saved Solution button element by its ID 
+        const savedSolutionButton = document.getElementById('saved-solution-button');
+      
+        savedSolutionButton.onclick = function() {
+          window.location.href = 'history.html';
+        }; // Linked History button to it's UI
+      </script>
+  </body>
+</html>
+<script src="./App.js"></script>
