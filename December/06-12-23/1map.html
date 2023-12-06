@@ -1,0 +1,20 @@
+<script>
+    //  if(!Array.prototype.map){
+
+    //     Array.prototype.map = function(cb){
+    //        let temp = [];
+    //        for(let i=0;i<this.length;i++){
+    //            temp.push(cb())
+    //        }
+    //     }
+
+    //   }
+
+    
+    let list =[33,11,44,55];
+    let result = list.map(function(input,index,obj){
+        console.log(input,index,obj);
+         return input+10;
+    })
+    console.log(result);
+</script>
