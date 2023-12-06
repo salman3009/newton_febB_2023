@@ -1,0 +1,327 @@
+<header>
+    <a href="/">
+        <h1>Movie Deck</h1>
+    </a>
+</header>
+
+<!-- Create a search bar element with an input and a button -->
+<div class="search-bar">
+    <input
+        type="search"
+        name="search"
+        id="search-input"
+        placeholder="Search by name..."
+        autocomplete="off"
+    />
+    <button id="search-button">Search</button>
+</div>
+
+<!-- Create a sorting options element with two buttons -->
+<div class="sorting-options">
+    <button id="sort-by-date">Sort by date (oldest to latest)</button>
+    <button id="sort-by-rating">Sort by rating (least to most)</button>
+</div>
+
+<!-- Create a tabs element with two tabs -->
+<div class="tabs">
+    <button id="all-tab" class="active-tab">All</button>
+    <button id="favorites-tab">Favorites</button>
+</div>
+
+<div class="movie-list-pagination-btns">
+    <!-- Create a list element that will display the movies in cards -->
+    <ul id="movies-list">
+        <li class="card">
+            <img
+                class="poster"
+                src="https://w7.pngwing.com/pngs/116/765/png-transparent-clapperboard-computer-icons-film-movie-poster-angle-text-logo-thumbnail.png"
+                alt="movie-title"
+            />
+            <p class="title">movie-title</p>
+            <section class="vote-favouriteIcon">
+                <section class="vote">
+                <p class="vote-count">Votes: vote-count</p>
+                <p class="vote-average">Rating: vote-average</p>
+                </section>
+                <i class="fa-regular fa-heart fa-2xl" id="favorite-icon"></i>
+            </section>
+        </li>
+
+        <li class="card">
+            <img
+                class="poster"
+                src="https://w7.pngwing.com/pngs/116/765/png-transparent-clapperboard-computer-icons-film-movie-poster-angle-text-logo-thumbnail.png"
+                alt="movie-title"
+            />
+            <p class="title">movie-title</p>
+            <section class="vote-favouriteIcon">
+                <section class="vote">
+                <p class="vote-count">vote-count</p>
+                <p class="vote-average">movie.vote_average</p>
+                </section>
+                <i class="fa-regular fa-heart fa-2xl" id="favorite-icon"></i>
+            </section>
+        </li>
+
+        <li class="card">
+            <img
+                class="poster"
+                src="https://w7.pngwing.com/pngs/116/765/png-transparent-clapperboard-computer-icons-film-movie-poster-angle-text-logo-thumbnail.png"
+                alt="movie-title"
+            />
+            <p class="title">movie-title</p>
+            <section class="vote-favouriteIcon">
+                <section class="vote">
+                <p class="vote-count">vote-count</p>
+                <p class="vote-average">movie.vote_average</p>
+                </section>
+                <i class="fa-regular fa-heart fa-2xl" id="favorite-icon"></i>
+            </section>
+        </li>
+
+        <li class="card">
+            <img
+                class="poster"
+                src="https://w7.pngwing.com/pngs/116/765/png-transparent-clapperboard-computer-icons-film-movie-poster-angle-text-logo-thumbnail.png"
+                alt="movie-title"
+            />
+            <p class="title">movie-title</p>
+            <section class="vote-favouriteIcon">
+                <section class="vote">
+                <p class="vote-count">vote-count</p>
+                <p class="vote-average">movie.vote_average</p>
+                </section>
+                <i class="fa-regular fa-heart fa-2xl" id="favorite-icon"></i>
+            </section>
+        </li>
+
+        <li class="card">
+            <img
+                class="poster"
+                src="https://w7.pngwing.com/pngs/116/765/png-transparent-clapperboard-computer-icons-film-movie-poster-angle-text-logo-thumbnail.png"
+                alt="movie-title"
+            />
+            <p class="title">movie-title</p>
+            <section class="vote-favouriteIcon">
+                <section class="vote">
+                <p class="vote-count">vote-count</p>
+                <p class="vote-average">movie.vote_average</p>
+                </section>
+                <i class="fa-regular fa-heart fa-2xl" id="favorite-icon"></i>
+            </section>
+        </li>
+
+        <li class="card">
+            <img
+                class="poster"
+                src="https://w7.pngwing.com/pngs/116/765/png-transparent-clapperboard-computer-icons-film-movie-poster-angle-text-logo-thumbnail.png"
+                alt="movie-title"
+            />
+            <p class="title">movie-title</p>
+            <section class="vote-favouriteIcon">
+                <section class="vote">
+                <p class="vote-count">vote-count</p>
+                <p class="vote-average">movie.vote_average</p>
+                </section>
+                <i class="fa-regular fa-heart fa-2xl" id="favorite-icon"></i>
+            </section>
+        </li>
+    </ul>
+
+    <div class="pagination">
+        <button id="prev-button">Previous</button>
+        <button id="page-number-button">Current Page: 1</button>
+        <button id="next-button">Next</button>
+    </div>
+</div>
+
+<!-- Create a footer element with some information -->
+<footer>
+    <p>&copy; 2023 Movie Deck</p>
+</footer>
+
+<script
+    src="https://kit.fontawesome.com/68129f478c.js"
+    crossorigin="anonymous"
+></script>
+
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* Style the header element */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+header > a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style the search bar element */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+/* Style the input element */
+#search-input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 0 7px;
+}
+
+#search-input::placeholder {
+  font-family: inherit;
+}
+
+/* Style the button element */
+#search-button {
+  width: 100px;
+  height: 33px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+/* Style the sorting options element */
+.sorting-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* Style the sorting buttons */
+#sort-by-date,
+#sort-by-rating {
+  width: 225px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the active sorting button */
+.active-sort {
+  background-color: #333;
+  color: white;
+}
+
+/* Style the tabs element */
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: 40px;
+}
+
+/* Style the tab buttons */
+#all-tab,
+#favorites-tab {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the active tab button */
+.active-tab {
+  background-color: #333;
+  color: white;
+}
+
+/* Style the list element */
+#movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+/* Style the card element */
+.card {
+  width: 200px;
+  height: 375px;
+  margin: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+/* Style the poster image element */
+.poster {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Style the title element */
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.vote-favouriteIcon {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style the vote count and vote average elements */
+.vote-count,
+.vote-average {
+  font-size: 14px;
+}
+
+/* Style the favorite icon element */
+.favorite-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: flex;
+  place-items: center;
+  margin-top: 15px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#prev-button,
+#page-number-button,
+#next-button {
+  margin-right: 10px;
+  padding: 5px 7px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the footer element */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+</style>
