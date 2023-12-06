@@ -3,3 +3,12 @@ Debouncing:
 //It ensures that one notification is made for an event that fires multiples times.
 example:
 //while taking input from user using onkeyup method.
+========================================================
+Project Preparation:
+1.html + css 
+2.fetch api 
+3.search functionality
+4.sort functionality
+5.pagination functionality 
+6.local storage with selected data 
+=========================================================
