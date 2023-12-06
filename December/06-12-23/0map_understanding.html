@@ -1,0 +1,20 @@
+<script>
+
+Array.prototype.myMap = function(cb){
+   // console.log(this);
+    let temp=[];
+    for(let i=0;i<this.length;i++){
+       // console.log(cb(this[i]));
+        let input = cb(this[i]);
+        temp.push(input);
+    }
+    return temp;
+}
+
+let list=[22,434,44];
+
+let result = list.myMap(function(input){
+         return input;
+});
+console.log(result);
+</script>
