@@ -1,0 +1,17 @@
+<div id="quoteDisplayElement"></div>
+<script>
+    let quoteDisplayElement = document.querySelector("#quoteDisplayElement");
+    let quote = "javascript"
+    quote.split("").forEach((char) => {
+        const charSpan = document.createElement("span");
+        charSpan.innerText = char;
+        quoteDisplayElement.appendChild(charSpan);
+    });
+
+    if (quote[0] == "j") {
+        quoteDisplayElement.childNodes[0].classList.add("correct");
+        quoteDisplayElement.childNodes[0].classList.remove(
+            "incorrect"
+        );
+    }
+</script>

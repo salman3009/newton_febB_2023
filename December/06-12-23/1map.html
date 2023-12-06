@@ -1,5 +1,5 @@
 <script>
-     if(Array.prototype.map){
+     if(!Array.prototype.map){
        console.log("entering");
         Array.prototype.map = function(cb){
            let temp = [];

@@ -1,0 +1,11 @@
+<button id="intervalStop">Stop</button>
+<script>
+    let count =0;
+    let interval = setInterval(()=>{
+        count++;
+        console.log(count);
+    },1000);
+    document.querySelector("#intervalStop").addEventListener("click",function(){
+        clearInterval(interval);
+    })
+</script>

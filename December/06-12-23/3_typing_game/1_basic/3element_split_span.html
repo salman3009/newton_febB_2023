@@ -1,0 +1,12 @@
+<div id="quoteDisplayElement">
+
+</div>
+<script>
+    let quoteDisplayElement = document.querySelector("#quoteDisplayElement");
+    let quote ="javascript"
+    quote.split("").forEach((char) => {
+    const charSpan = document.createElement("span");
+    charSpan.innerText = char;
+    quoteDisplayElement.appendChild(charSpan);
+  });
+</script>

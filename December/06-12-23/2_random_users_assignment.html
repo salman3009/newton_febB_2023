@@ -1,0 +1,48 @@
+https://my.newtonschool.co/playground/markup/rcco95nsinfe?lecture_hash=2thmar2hdhm9
+<img>
+        <h2></h2>
+        <h1></h1>
+    
+    <button data-attr="age">Age</button>
+    <button data-attr="email">Email</button>
+    <button data-attr="phone">Phone</button>
+        
+  <button onclick="display()" id="getUser">GET ANOTHER USER</button>
+
+    <script>
+    const img = document.querySelector('img')
+    const userNameEl = document.querySelector('h2')
+    const userInfoEl = document.querySelector('h1')
+    const btns = document.querySelectorAll('button')
+    
+
+    const display = async () => {
+        const URL = "https://randomuser.me/api/";
+        const response = await fetch(URL);
+        const data = await response.json();
+        let firstName = data.results[0].name.first;
+        let lastName = data.results[0].name.last;
+        let name = `${firstName} ${lastName}`;
+        let image = data.results[0].picture.large;
+        let age =  data.results[0].dob.age;
+        let email = data.results[0].email;
+        let phone = data.results[0].phone;
+        img.setAttribute('src', image)
+        userNameEl.innerHTML = name
+        btns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                let attribute = btn.getAttribute('data-attr');
+                if (attribute == "phone") {
+                    userInfoEl.innerText = phone;
+                }
+                else if (attribute == "email") {
+                    userInfoEl.innerText = email;
+                }
+                else if (attribute == "age") {
+                    userInfoEl.innerText = age;
+                }
+            })
+        })
+    }
+    display()
+    </script>
