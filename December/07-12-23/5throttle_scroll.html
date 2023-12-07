@@ -1,0 +1,73 @@
+https://my.newtonschool.co/playground/markup/y3eup3xlmzio?lecture_hash=0jqejftl9j4k
+
+<div id="scroll-container">
+    <div class="box">
+        1
+    </div>
+    <div class="box">
+        2
+    </div>
+    <div class="box">
+        3
+    </div>
+</div>
+
+<p id="event-fired">Event fired: </p>
+
+<style>
+    #scroll-container {
+    background-color: yellow;
+    height: 230px;
+    width: 200px;
+    overflow-y: scroll;
+}
+
+.box {
+    height: 100px;
+    margin: 5px;
+    background-color: teal;
+    color: white;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+</style>
+
+<script>
+    let count = 1;
+
+const container = document.getElementById("scroll-container");
+
+const addNewChildToScrollContainer = () => {
+    const newElement = document.createElement("div");
+    newElement.innerHTML = count + 3;
+    newElement.classList.add("box");
+    container.appendChild(newElement)
+}
+
+const scrollHandler = () => {
+    const firedCountEl = document.getElementById("event-fired");
+    firedCountEl.innerHTML = "Event fired: " + count + " times";
+    addNewChildToScrollContainer();
+    count++;
+}
+
+const throttle = (callbackFn, delay) => {
+  let wait = false;
+
+  return (...args) => {
+    if (wait) {
+        return;
+    }
+
+    callbackFn(...args);
+    wait = true;
+    setTimeout(() => {
+      wait = false;
+    }, delay);
+  }
+}
+
+container.addEventListener("scroll", throttle(scrollHandler, 250));
+</script>
