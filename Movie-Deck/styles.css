@@ -54,3 +54,23 @@ header > a{
     cursor: pointer;
     font-weight: bold;
 }
+
+.tabs{
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+    margin-left:40px;
+}
+
+.active-tab{
+    background-color: #333;
+    color:white;
+}
+
+#all-tab,#favorites-tab{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
