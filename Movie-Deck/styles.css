@@ -38,3 +38,18 @@ header > a{
     color: white;
     cursor: pointer;
 }
+
+.sorting-options{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    gap:10px;
+}
+
+#sort-by-date,#sort-by-rating{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
