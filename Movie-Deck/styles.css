@@ -107,3 +107,14 @@ header > a{
     display: flex;
     justify-content: space-around;
 }
+
+.vote-count,.vote-average{
+    font-size:14px;
+}
+
+#favorite-icon{
+    width: 20px;
+    height: 20px;
+    margin-top:16px;
+    cursor: pointer;
+}
