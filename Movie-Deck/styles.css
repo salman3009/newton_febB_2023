@@ -28,3 +28,13 @@ header > a{
     margin-right:10px;
     padding:0 7px;
 }
+
+#search-button{
+    width: 100px;
+    height: 33px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
