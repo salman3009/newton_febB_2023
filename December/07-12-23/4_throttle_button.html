@@ -1,0 +1,33 @@
+https://my.newtonschool.co/playground/markup/grim692njdm6?lecture_hash=0jqejftl9j4k
+
+
+<button id="myButton">Click Me</button>
+<p id="onButtonClick"></p>
+
+<script>
+    let counter = 1;
+const clickHandler = () => {
+    let display = document.getElementById("onButtonClick");
+    display.innerHTML = "You clicked me " + counter + " times";
+    counter += 1;
+}
+
+const throttle = (callbackFn, delay) => {
+  let wait = false;
+
+  return (...args) => {
+    if (wait) {
+        return;
+    }
+
+    callbackFn(...args);
+    wait = true;
+    setTimeout(() => {
+      wait = false;
+    }, delay);
+  }
+}
+
+
+document.getElementById('myButton').addEventListener('click', throttle(clickHandler, 1000));
+</script>
