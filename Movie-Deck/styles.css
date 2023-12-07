@@ -9,7 +9,7 @@ header{
     text-align: left;
 }
 
-header > a{
+header a{
     color:white;
     text-decoration: none;
 }
