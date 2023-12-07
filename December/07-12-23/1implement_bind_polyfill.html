@@ -1,0 +1,13 @@
+https://my.newtonschool.co/playground/code/8sl4i5lv4xen?lecture_hash=0jqejftl9j4k
+<script>
+    Function.prototype.myBind = function (obj = {}, ...args) {
+    if (typeof this !== 'function') {
+        throw new Error(this + "cannot be bound as it's not callable");
+    }
+
+    obj.fn = this;
+    return function (...newArgs) {
+        return obj.fn(...args, ...newArgs);
+    }
+}
+</script>
