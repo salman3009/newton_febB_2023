@@ -74,3 +74,36 @@ header > a{
     border-radius: 5px;
     cursor: pointer;
 }
+
+#movie-list{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding:20px 0;
+}
+
+.card{
+    width: 200px;
+    height: 375px;
+    margin: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.poster{
+    width: 200px;
+    height: 250px;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.vote-favouriteIcon{
+    display: flex;
+    justify-content: space-around;
+}
