@@ -1,0 +1,19 @@
+https://my.newtonschool.co/playground/code/8aovlkxx6ufy?lecture_hash=0jqejftl9j4k
+
+<script>
+    Function.prototype.myApply = function (context = {}, args = []) {
+    if (typeof this !== 'function') {
+        throw new Error(this + "It's not Callable");
+    }
+
+    if (!Array.isArray(args)) {
+        throw new TypeError("CreateListFromArrayLike called on non-object");
+    }
+
+    const originalFunction = this;
+    const boundFunction = function () {
+        return originalFunction.apply(context, args);
+    };
+    return boundFunction;
+}
+</script>
