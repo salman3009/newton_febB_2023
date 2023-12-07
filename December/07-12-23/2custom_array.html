@@ -1,0 +1,40 @@
+https://my.newtonschool.co/playground/code/jhtft59bfx9g?lecture_hash=0jqejftl9j4k
+
+<script>
+    Array.prototype.myMap = function (cb) {
+  // Complete the implementation of myMap
+  let temp = [];
+  for (let i = 0; i < this.length; i++) {
+      temp.push(cb(this[i],i,this));
+  }
+
+  return temp;
+};
+
+Array.prototype.myReduce = function (cb, initialValue) {
+  // Complete the implementation of myReduce
+  let accumulator = initialValue;
+    
+  for (let i = 0; i < this.length; i++) {
+      if (accumulator) {
+          accumulator = cb(accumulator, this[i], i, this);
+      } else {
+          accumulator = this[i]
+      }
+  }
+
+  return accumulator;
+};
+
+Array.prototype.myFilter = function (cb) {
+  // Complete the implementation of myFilter
+  let temp = [];
+  for (let i = 0; i < this.length; i++) {
+      if(cb(this[i], i, this)) {
+          temp.push(this[i]);
+      }
+  }
+
+  return temp;
+};
+</script>
