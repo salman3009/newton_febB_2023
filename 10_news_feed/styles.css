@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  background-color: black;
+  padding-top: 1px;
+  width: 50%;
+  margin: 5px auto 5px auto;
+  border-radius: 20px;
+}
+
+.h1 {
+  /* width: 50%; */
+  margin: 5px auto 5px auto;
+  background-color: white;
+  color: black;
+  /* justify-content: center;
+  align-items: center; */
+  text-align: center;
+  border-radius: none;
+}
+
+button {
+  padding: 10px;
+  background-color: #ffde59;
+  border-radius: 5px;
+  width: 25%;
+  margin: 5px 89px 5px;
+
+  justify-content: center;
+}

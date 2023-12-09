@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dictionary App</title>
+    <script src="https://kit.fontawesome.com/1aaddb5ef1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="dictionary-container" id="main-container">
+        <h1 class="dictionary-title">My Dictionary</h1>
+    
+        <div class="header">
+            <div class="logo-container">
+                <i class="logo-icon fa-solid fa-book"></i>
+                <h2 class="app-title">My Dictionary App</h2>
+            </div>
+            <button class="history-button" id="history-btn">History</button>
+        </div>
+    
+        <div class="search-container">
+            <h3 class="search-title">Search for a new word</h3>
+            <input type="search" name="search" id="search-input" placeholder="Search for words">
+            <i class="search-icon fa-solid fa-magnifying-glass" id="fa-fa-icon"></i>
+        </div>
+
+        <div id="result">
+            <h2 id="word-heading"></h2>
+            <p id="definition"></p>
+            <i class="fa-solid fa-trash" id="font-awesome-icon"></i>
+        </div>
+        
+        <!-- History Page -->
+        <div id="history-page" style="display: none;">
+            <h1>Search History</h1>
+            <div id="word-cards"></div>
+           
+        </div>
+    </div>
+    
+    <script src="./engine.js"></script>
+</body>
+</html>

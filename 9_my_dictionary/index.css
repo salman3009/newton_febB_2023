@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dictionary-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+ .logo-container {
+   display: flex;
+   /* background-color: aqua; */
+   font-size: 30px;
+}
+.logo-icon {
+    font-size: 55px; 
+    padding: 9px;
+}
+#history-btn{
+    height: 25px;
+    width: 95px;
+    background-color: #36b750;
+    font-weight: 100;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+.search-container{
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#search-input{
+height: 35px;
+width: 250px;
+border-radius: 9px;
+text-align: center;
+font-size: large;
+
+}
+.search-icon{
+    padding: 5px;
+    color: #b01b1b;
+    
+}
+.header{
+    display: block;
+}
+#result{
+    background-color:rgba(0, 0, 0, 0.63);
+    margin-top: 15px;
+    height: 200px;
+    width: 250px;
+   overflow: auto;
+  word-wrap: break-word;
+  position: relative;
+}
+#word-heading{
+    color: white;
+}
+#definition{
+    color: #fff;
+}
+.fa-trash {
+    font-size: 24px;
+  }
+  
+#result .fa-trash {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  }
+  
+#word-cards{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.63);
+    color: #fff;
+}
+#history-page{
+    display: flex;
+    
+    height: 250;
+    width: 250px;
+    margin: 10px;
+    background-color: aqua;
+}
+        
