@@ -1,0 +1,26 @@
+https://my.newtonschool.co/playground/markup/scbdf0rbwplt?lecture_hash=82m2d1miwsl9
+
+<button id="myButton">Click Me</button>
+<p id="onButtonClick">You clicked me 0 times</p>
+
+<script>
+    let counter = 1;
+
+const clickHandler = () => {
+    let display = document.getElementById("onButtonClick");
+    display.innerHTML = "You clicked me " + counter + " times";
+    counter += 1;
+}
+
+const debounce = (callbackFn, wait) => {
+    let timerId;
+    return () => {
+        clearTimeout(timerId);
+        timerId = setTimeout(() => {
+        callbackFn();
+        }, wait);
+    };
+}
+
+document.getElementById('myButton').addEventListener('click', debounce(clickHandler, 1000))
+</script>
