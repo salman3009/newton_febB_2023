@@ -61,3 +61,30 @@ function sortByDate(){
     
 }
 sortByDateButton.addEventListener('click',sortByDate);
+
+
+let sortByRateButton = document.querySelector("#sort-by-rating");
+let sortByRateorder = true;
+
+function sortByRate(){
+    if(sortByDateorder){
+        sortByDateorder = false;
+        let result = movies.sort((a,b)=>{
+            return (a.vote_average) - (b.vote_average);
+        })
+        console.log(result);
+        sortByRateButton.textContent = "Sort by rate (least to most)";
+        renderMovies(result);
+    }else{
+        sortByDateorder = true;
+        let result = movies.sort((a,b)=>{
+            return (b.vote_average) - (a.vote_average);
+        })
+       
+        sortByRateButton.textContent = "Sort by rating (most to least)";
+        renderMovies(result);
+    }
+
+}
+
+sortByRateButton.addEventListener('click',sortByRate);
