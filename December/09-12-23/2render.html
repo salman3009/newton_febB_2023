@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="demo"></div>
+    </body>
+    <script>
+        let list=[{
+            fullName:"akash",
+            age:33
+        },
+        {
+            fullName:"suresh",
+            age:31
+        },
+        {
+            fullName:"ranjith",
+            age:11
+        }
+    ];
+    let parent = document.querySelector("#demo");
+    list.map((input)=>{
+        parent.innerHTML += `<div><h1>${input.fullName}</h1>
+        <h2>${input.age}</h2></div>`
+    })
+    </script>
+</html>
