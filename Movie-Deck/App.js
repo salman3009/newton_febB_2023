@@ -1,9 +1,11 @@
 
+let movies=[];
 async function fetchMovies(){
     try{
         let response = await fetch('https://api.themoviedb.org/3/movie/top_rated?api_key=f531333d637d0c44abc85b3e74db2186&language=en-US&page=1');
         response = await response.json();
         console.log(response.results);
+        movies = response.results;
         renderMovies(response.results)
     }catch(err){
            console.log(err);
@@ -34,3 +36,28 @@ function renderMovies(movies){
       </li>`
     })
 }
+
+//sort-by-date 
+let sortByDateButton = document.querySelector("#sort-by-date");
+let sortByDateorder = true;
+function sortByDate(){
+
+    if(sortByDateorder){
+        sortByDateorder = false;
+        let result = movies.sort((a,b)=>{
+            return new Date(a.release_date) - new Date(b.release_date);
+        })
+        sortByDateButton.textContent = "Sort by date (latest to oldest)";
+        renderMovies(result);
+    }
+    else{
+        sortByDateorder = true;
+        let result = movies.sort((a,b)=>{
+            return new Date(b.release_date) - new Date(a.release_date);
+        })
+        sortByDateButton.textContent = "Sort by date (oldest to latest)";
+        renderMovies(result);
+    }
+    
+}
+sortByDateButton.addEventListener('click',sortByDate);
