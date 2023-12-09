@@ -21,7 +21,7 @@ function renderMovies(movies){
          <img
          class="poster"
          alt="movie-title"
-         src="https://w7.pngwing.com/pngs/116/765/png-transparent-clapperboard-computer-icons-film-movie-poster-angle-text-logo-thumbnail.png"
+         src=${'https://image.tmdb.org/t/p/original/'+input.poster_path}
          />
          <p class="title">${input.title}</p>
          <section class="vote-favouriteIcon">
