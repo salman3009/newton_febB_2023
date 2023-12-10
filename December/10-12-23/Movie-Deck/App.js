@@ -1,8 +1,8 @@
 
 let movies=[];
-async function fetchMovies(){
+async function fetchMovies(page){
     try{
-        let response = await fetch('https://api.themoviedb.org/3/movie/top_rated?api_key=f531333d637d0c44abc85b3e74db2186&language=en-US&page=1');
+        let response = await fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=f531333d637d0c44abc85b3e74db2186&language=en-US&page=${page}`);
         response = await response.json();
         console.log(response.results);
         movies = response.results;
@@ -12,7 +12,7 @@ async function fetchMovies(){
     }   
 }
 
-fetchMovies();
+fetchMovies(1);
 
 
 function renderMovies(movies){
@@ -98,6 +98,7 @@ prevButton.disabled = true;
 
 prevButton.addEventListener("click",()=>{
     currentPage--;
+    fetchMovies(currentPage);
     pageNumberButton.textContent = `Current Page: ${currentPage}`;
     if(currentPage ==1){
         prevButton.disabled = true;
@@ -107,6 +108,7 @@ prevButton.addEventListener("click",()=>{
 
 nextButton.addEventListener("click",()=>{
      currentPage++;
+     fetchMovies(currentPage);
      pageNumberButton.textContent = `Current Page: ${currentPage}`;
      if(currentPage == 3){
         nextButton.disabled = true;
