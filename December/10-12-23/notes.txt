@@ -1,0 +1,7 @@
+Two types of storage 
+1.session storage 
+//Till that session is open data will be available in the browser
+2.local storage 
+//This data permanently will store in browser. 
+//array and object store in stringify form and data the data during parse.
+=============================================================

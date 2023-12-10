@@ -1,0 +1,7 @@
+<script>
+    let list=[{firstName:"akash",age:33}];
+    localStorage.setItem("movies",JSON.stringify(list));
+
+    let data = JSON.parse(localStorage.getItem("movies"));
+    console.log(data[0]);
+</script>
