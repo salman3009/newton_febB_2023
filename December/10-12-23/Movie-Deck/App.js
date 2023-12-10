@@ -19,7 +19,9 @@ function renderMovies(movies){
     let parent = document.querySelector("#movie-list");
     parent.innerHTML = '';
     movies.map((input)=>{
-        parent.innerHTML += `<li class="card">
+        let listItem = document.createElement("li");
+        listItem.className = "card";
+        listItem.innerHTML += `
          <img
          class="poster"
          alt="movie-title"
@@ -31,9 +33,14 @@ function renderMovies(movies){
                <p class="vote-count">Votes:${input.vote_count}</p>
                <p class="vote-average">Rating:${input.vote_average}</p>
            </section>
-           <i class="fa-regular fa-heart fa-2xl" id="favorite-icon"></i>
+           <i class="fa-regular fa-heart fa-2xl favorite" id="favorite-icon"></i>
          </section>
-      </li>`
+     `
+      const favouriteButton = listItem.querySelector(".favorite");
+      favouriteButton.addEventListener('click',()=>{
+         alert("heart is clicked");
+      })
+      parent.appendChild(listItem);
     })
 }
 
@@ -89,7 +96,7 @@ function sortByRate(){
 
 sortByRateButton.addEventListener('click',sortByRate);
 
-
+//part-4
 //pagination logic 
 let prevButton = document.querySelector("#prev-button");
 let pageNumberButton = document.querySelector("#page-number-button");
@@ -128,7 +135,7 @@ nextButton.addEventListener("click",()=>{
 
 
 //search functionality
-
+//part-5
 async function searchMovie(movieName){
     try{
         let response = await fetch(`https://api.themoviedb.org/3/search/movie?query=${movieName}&api_key=f531333d637d0c44abc85b3e74db2186&include_adult=false&language=en-US&page=1`);

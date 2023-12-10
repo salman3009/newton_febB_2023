@@ -1,5 +1,6 @@
 
 let movies=[];
+//part -1
 async function fetchMovies(){
     try{
         let response = await fetch('https://api.themoviedb.org/3/movie/top_rated?api_key=f531333d637d0c44abc85b3e74db2186&language=en-US&page=1');
@@ -14,7 +15,7 @@ async function fetchMovies(){
 
 fetchMovies();
 
-
+//part -2
 function renderMovies(movies){
     let parent = document.querySelector("#movie-list");
     parent.innerHTML = '';
@@ -37,6 +38,7 @@ function renderMovies(movies){
     })
 }
 
+//part-3
 //sort-by-date 
 let sortByDateButton = document.querySelector("#sort-by-date");
 let sortByDateorder = true;
