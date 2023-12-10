@@ -89,6 +89,7 @@ function sortByRate(){
 
 sortByRateButton.addEventListener('click',sortByRate);
 
+
 //pagination logic 
 let prevButton = document.querySelector("#prev-button");
 let pageNumberButton = document.querySelector("#page-number-button");
@@ -104,6 +105,10 @@ prevButton.addEventListener("click",()=>{
         prevButton.disabled = true;
         nextButton.disabled = false;
     }
+    if(currentPage == 2){
+        nextButton.disabled = false;
+        prevButton.disabled = false;
+     }
 });
 
 nextButton.addEventListener("click",()=>{
