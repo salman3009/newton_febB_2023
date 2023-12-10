@@ -123,5 +123,23 @@ nextButton.addEventListener("click",()=>{
         nextButton.disabled = false;
         prevButton.disabled = false;
      }
-
 });
+
+
+
+//search functionality
+
+function searchMovie(movieName){
+       alert(movieName);
+}
+
+
+let searchButton = document.querySelector("#search-button");
+let searchInput = document.querySelector("#search-input");
+let pagination = document.querySelector(".pagination");
+searchButton.addEventListener("click",()=>{
+  let input = searchInput.value;
+  searchMovie(input);
+  pagination.style.display = "none";
+
+})
