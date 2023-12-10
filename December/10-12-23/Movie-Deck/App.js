@@ -16,10 +16,13 @@ fetchMovies(1);
 
 
 function renderMovies(movies){
+       //<ul></ul>
     let parent = document.querySelector("#movie-list");
+ 
     parent.innerHTML = '';
     movies.map((input)=>{
-        let listItem = document.createElement("li");
+        //<ul><li></li></ul>
+        let listItem = document.createElement('li');
         listItem.className = "card";
         listItem.innerHTML += `
          <img
@@ -35,10 +38,10 @@ function renderMovies(movies){
            </section>
            <i class="fa-regular fa-heart fa-2xl favorite" id="favorite-icon"></i>
          </section>
-     `
+      `;
       const favouriteButton = listItem.querySelector(".favorite");
       favouriteButton.addEventListener('click',()=>{
-         alert("heart is clicked");
+         alert("heart is")
       })
       parent.appendChild(listItem);
     })
