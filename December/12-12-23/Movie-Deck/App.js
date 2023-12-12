@@ -44,7 +44,7 @@ function renderMovies(movies){
          console.log(event.target.id);
          if(favouriteButton.classList.contains("fa-solid")){
             favouriteButton.classList.remove("fa-solid");
-         
+            removeMovieFromLocalStorage(event.target.id);
          }
          else{
             favouriteButton.classList.add("fa-solid");
@@ -188,6 +188,11 @@ function addMovieToLocalStorage(movieName){
     localStorage.setItem("favouriteMovies",JSON.stringify([...existingMovie,movieName]));
 }
 
-function removeMovieFromLocalStorage(){
+function removeMovieFromLocalStorage(movieName){
+    let existingMovie = getMovieFromLocalStorage();
+    let finalMovie = existingMovie.filter((input)=>{
+            return input!=movieName;
+    });
+    localStorage.setItem("favouriteMovies",JSON.stringify([...finalMovie]));
 
 }
