@@ -47,6 +47,7 @@ function renderMovies(movies){
          }
          else{
             favouriteButton.classList.add("fa-solid");
+            favouriteButton.classList.add("heart-Color");
          }
       })
       parent.appendChild(listItem);
