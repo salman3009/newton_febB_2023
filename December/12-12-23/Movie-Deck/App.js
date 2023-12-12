@@ -168,3 +168,18 @@ searchButton.addEventListener("click",()=>{
   pagination.style.display = "none";
 
 })
+
+
+//local storage 
+function getMovieFromLocalStorage(){
+  let movieList = JSON.parse(localStorage.getItem("favouriteMovies"));
+  return movieList==null?[]:movieList;
+}
+
+function addMovieToLocalStorage(){
+
+}
+
+function removeMovieFromLocalStorage(){
+
+}
