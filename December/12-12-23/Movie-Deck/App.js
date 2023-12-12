@@ -196,3 +196,30 @@ function removeMovieFromLocalStorage(movieName){
     localStorage.setItem("favouriteMovies",JSON.stringify([...finalMovie]));
 
 }
+
+
+//switchTab logic 
+let allTab = document.querySelector("#all-tab");
+let favoriteTab = document.querySelector("#favorites-tab");
+allTab.addEventListener('click',switchTab);
+favoriteTab.addEventListener('click',switchTab);
+
+function switchTab(event){
+    
+    allTab.classList.remove("active-tab");
+    favoriteTab.classList.remove("active-tab");
+
+    event.target.classList.add("active-tab");
+
+    if(allTab.classList.contains("active-tab")){
+        fetchMovies(1);
+    }
+    else if(favoriteTab.classList.contains("active-tab")){
+        favouriteListTab();
+    }
+}
+
+function favouriteListTab(){
+         alert("favouriteListTab");
+}
+
