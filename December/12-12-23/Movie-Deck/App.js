@@ -44,9 +44,11 @@ function renderMovies(movies){
          console.log(event.target.id);
          if(favouriteButton.classList.contains("fa-solid")){
             favouriteButton.classList.remove("fa-solid");
+         
          }
          else{
             favouriteButton.classList.add("fa-solid");
+            addMovieToLocalStorage(event.target.id);
             favouriteButton.classList.add("heart-Color");
          }
       })
@@ -181,8 +183,9 @@ function getMovieFromLocalStorage(){
   }
 }
 
-function addMovieToLocalStorage(){
-
+function addMovieToLocalStorage(movieName){
+    let existingMovie = getMovieFromLocalStorage();
+    localStorage.setItem("favouriteMovies",JSON.stringify([...existingMovie,movieName]));
 }
 
 function removeMovieFromLocalStorage(){
