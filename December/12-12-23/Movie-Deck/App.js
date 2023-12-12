@@ -221,9 +221,8 @@ function switchTab(event){
 
 function favouriteListTab(){
         let localStorageMovie = getMovieFromLocalStorage();
-        let allMovies = [...movies];
         let NewLocalStorageMovie=[];
-        for(let obj of allMovies){
+        for(let obj of movies){
             if(localStorageMovie.includes(obj.title)){
                 NewLocalStorageMovie.push(obj);
             }
@@ -231,3 +230,24 @@ function favouriteListTab(){
         renderMovies(NewLocalStorageMovie);
 }
 
+
+//2
+function debounce(cb,delay=1000){
+    let debounceTimerDetails;
+   return function(){ 
+        clearTimeout(debounceTimerDetails);
+        debounceTimerDetails = setTimeout(()=>cb.apply(this,arguments),delay)
+   }
+}
+
+//3
+function saveInput(event){
+    searchMovie(event.target.value);
+}
+
+//1
+const debounceSearch = debounce((event)=>saveInput(event));
+
+searchInput.addEventListener("keyup",(event)=>{
+    debounceSearch(event);
+})
