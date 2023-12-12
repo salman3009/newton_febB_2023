@@ -205,7 +205,7 @@ allTab.addEventListener('click',switchTab);
 favoriteTab.addEventListener('click',switchTab);
 
 function switchTab(event){
-    
+
     allTab.classList.remove("active-tab");
     favoriteTab.classList.remove("active-tab");
 
@@ -220,6 +220,14 @@ function switchTab(event){
 }
 
 function favouriteListTab(){
-         alert("favouriteListTab");
+        let localStorageMovie = getMovieFromLocalStorage();
+        let allMovies = [...movies];
+        let NewLocalStorageMovie=[];
+        for(let obj of allMovies){
+            if(localStorageMovie.includes(obj.title)){
+                NewLocalStorageMovie.push(obj);
+            }
+        }
+        renderMovies(NewLocalStorageMovie);
 }
 
