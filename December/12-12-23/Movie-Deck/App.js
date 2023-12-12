@@ -42,6 +42,12 @@ function renderMovies(movies){
       const favouriteButton = listItem.querySelector(".favorite");
       favouriteButton.addEventListener('click',(event)=>{
          console.log(event.target.id);
+         if(favouriteButton.classList.contains("fa-solid")){
+            favouriteButton.classList.remove("fa-solid");
+         }
+         else{
+            favouriteButton.classList.add("fa-solid");
+         }
       })
       parent.appendChild(listItem);
     })
