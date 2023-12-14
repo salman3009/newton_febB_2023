@@ -1,7 +1,7 @@
 Web development:
 html/css/javascript 
 DOM manipulation 
-Imperative approach 
+Imperative approach - line by line code is written
 ===========================
 library:
 Reactjs 
