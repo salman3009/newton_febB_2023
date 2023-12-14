@@ -59,9 +59,26 @@ App();
 First File for Reactjs 
 //src/_app.js
 ==============================
+component is nothing but a one function 
+export function App(){
 
+}
+================================
+html/css 
+css is same as creating separate file with extension .css 
+html there is no separate file 
+export function App(){
 
-
+     return <div></div>
+}
+JSX - javascript extension 
+//you can write html inside the javascript 
+==========================================
+example code:
+export function App(){
+  return <div>Hello</div>
+}
+===========================================
 
 
 
