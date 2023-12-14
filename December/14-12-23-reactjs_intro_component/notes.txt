@@ -1,0 +1,31 @@
+Web development:
+html/css/javascript 
+DOM manipulation 
+Imperative approach 
+===========================
+library:
+Reactjs 
+angular 
+vuejs 
+=============================
+Reactjs 
+//To build user interface 
+//Declarative approach is used (functional programming);
+//component based approach 
+   //reuse the code 
+   //maintaince is easy 
+   //modular approach 
+=================================
+Javascript 
+let /const 
+function/arrow function 
+spread operator 
+destructing object/array 
+map 
+fetch api 
+try/catch 
+import/export 
+===============================
+
+
+
