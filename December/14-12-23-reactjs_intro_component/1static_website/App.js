@@ -31,7 +31,7 @@ const App = () => {
           </article>
         </main>
         <footer id="footer">
-          <p className="footer-content">&copy; 2023 Sports Website. All rights reserved</p>
+          <p className="footer-content"> &copy; 2023 Sports Website. All rights reserved. </p>
         </footer>
         {/* Navigation Bar */}
 
