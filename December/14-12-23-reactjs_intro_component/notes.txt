@@ -84,7 +84,7 @@ export function App(){
 2.every file should have one function 
 3.function need to be export 
 4.function should return jsx 
-5.jsx is nothint but a html 
+5.jsx is nothing but a html 
 6.this is the final output of the react application 
 7.html+javascript is written together inside reactjs 
 =====================================================
