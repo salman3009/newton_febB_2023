@@ -25,7 +25,39 @@ map
 fetch api 
 try/catch 
 import/export 
-===============================
+============================================================
+For Reactjs initial days we are using newton school compiler
+Compiler setup:
+1.
+https://my.newtonschool.co/dashboard
+2.
+click on the playground 
+3.
+create New ---> Reactjs Editor
+4.
+https://code.newtonschool.co/newton-box/pjpjtoajn6e4/
+=============================================================
+import/export 
+//Inside react every file will have one function
+//function name first letter will be in capital 
+
+//export mechanism
+filename:render.js
+function App(){
+
+}
+export default App;
+
+//import mechanism 
+import {App} from './render.js';
+App();
+===========================================
+
+
+
+
+
+
 
 
 
