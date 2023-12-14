@@ -42,22 +42,23 @@ import/export
 //function name first letter will be in capital 
 
 syntax:
-export default function_name
+export function_name
 import {function_name} from "filelocation"
 
 example:
 //export mechanism
 filename:render.js
-function App(){
+export function App(){
 
 }
-export default App;
 
 //import mechanism 
 import {App} from './render.js';
 App();
 ===========================================
-
+First File for Reactjs 
+//src/_app.js
+==============================
 
 
 
