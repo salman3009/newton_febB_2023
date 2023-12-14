@@ -75,10 +75,40 @@ JSX - javascript extension
 //you can write html inside the javascript 
 ==========================================
 example code:
+//functional component
 export function App(){
-  return <div>Hello</div>
+  return (<div>Hello</div>)
 }
 ===========================================
+1.component is nothing but a normal function 
+2.every file should have one function 
+3.function need to be export 
+4.function should return jsx 
+5.jsx is nothint but a html 
+6.this is the final output of the react application 
+7.html+javascript is written together inside reactjs 
+=====================================================
+Rules for JSX:
+1.Write all the code inside the () 
+example:
+return (<div></div>)
+2.Wrapped with parent tag with div 
+example:
+return (<div>
+  <h1>Hello world</h1>
+  <img src="hello"/>
+</div>)
+3.self closing or closing tag is mandatory 
+<div></div>
+<img/>
+4.css class should be given className 
+example:
+<div className="box"></div>
+==========================================
+comment in jsx:
+ {/* Navigation Bar */}
+ =====================================
+
 
 
 
