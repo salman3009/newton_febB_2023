@@ -41,6 +41,11 @@ import/export
 //Inside react every file will have one function
 //function name first letter will be in capital 
 
+syntax:
+export default function_name
+import {function_name} from "filelocation"
+
+example:
 //export mechanism
 filename:render.js
 function App(){
