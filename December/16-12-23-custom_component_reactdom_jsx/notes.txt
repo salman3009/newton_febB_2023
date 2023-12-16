@@ -31,3 +31,6 @@ DOM - Document object Model: (important for interview)
 //Wheneve we change in component it will update in virtual dom.
 //virtual dom will update only the particular set of node in real DOM. Whichever is necessary.
 ===================================================================
+Problem in Real DOM 
+//Real DOM will update entire node and it is impacting the entire performance.
+==============================================================
