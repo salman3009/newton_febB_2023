@@ -9,3 +9,25 @@ Greeting.js
 export function Greeting(){
      return (<div>Greeting</div>)
 }
+Main file is app.js 
+import {Greeting} from './Greeting';
+<Greeting/>
+==================================================
+React and ReactDOM 
+Package Name:
+React    - 18
+ReactDOM  - 18
+React Package: 
+//It helps creating component in react application.
+//JSX support is provided by this package.
+//State,props,event handling other inbuilt functionality of react is supported by this package.
+ReactDOM: 
+//It helps to interact with Real DOM 
+//Virtual DOM will connect with real DOM whenever requirement is there.
+===============================================================
+DOM - Document object Model: (important for interview)
+//Inside the browser we have only one DOM - Real DOM 
+//React internally developed one more copy of real DOM - virtual DOM 
+//Wheneve we change in component it will update in virtual dom.
+//virtual dom will update only the particular set of node in real DOM. Whichever is necessary.
+===================================================================
