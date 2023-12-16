@@ -1,0 +1,11 @@
+playgound link:
+https://code.newtonschool.co/newton-box/6vnke2sjb3k8/
+=======================================================
+custom component:
+//creating your own component inside the react application 
+example:
+//create new file inside the src folder 
+Greeting.js 
+export function Greeting(){
+     return (<div>Greeting</div>)
+}

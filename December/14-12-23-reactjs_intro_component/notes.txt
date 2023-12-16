@@ -12,7 +12,7 @@ Reactjs
 //To build user interface 
 //Declarative approach is used (functional programming);
 //component based approach 
-   //reuse the code 
+   //Ruseability
    //maintaince is easy 
    //modular approach 
 =================================
