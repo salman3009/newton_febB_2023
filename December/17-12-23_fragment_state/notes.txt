@@ -4,7 +4,8 @@ Event Handler without state
 https://code.newtonschool.co/newton-box/2o3fv9d9c92c/
 Event Handler with state
 https://code.newtonschool.co/newton-box/rxknqgqbmnsa/
-
+JSX condition 
+https://code.newtonschool.co/newton-box/huqm4zdx1k57/
 =======================================================
 Application works 
 //In entire react we have only one html that is index.html 
@@ -82,3 +83,9 @@ export function App() {
   );
 }
 ==============================================
+Writing Condition inside the jsx 
+//we can write some set of condition inside the jsx 
+//we can use && operator to display the UI based on condition 
+example:
+{true && <div>display</div>}
+=======================================================
