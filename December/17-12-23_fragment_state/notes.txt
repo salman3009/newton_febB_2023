@@ -89,3 +89,20 @@ Writing Condition inside the jsx
 example:
 {true && <div>display</div>}
 =======================================================
+Angular vs Vuejs vs Selte
+1. Angular: A comprehensive JavaScript framework developed by Google, known for its robustness, strong architecture, and extensive tooling.
+
+
+2. Vue.js: A progressive JavaScript framework that offers simplicity, flexibility, and a gentle learning curve, making it popular among developers of all skill levels.
+
+
+3. Svelte: A compiler-based JavaScript framework that focuses on compiling components to highly optimized and efficient JavaScript code, resulting in smaller bundle sizes and faster performance
+===============================================================
+Multiple State 
+//In one single component you can have multiple state at a time.
+example:
+  const [getName, setName] = useState('John Doe');
+  const [getMobileNo, setMobileNo] = useState('9876543210');
+  const [getPosition, setPosition] = useState('Manager');
+  const [getAge, setAge] = useState(34);
+===========================================================
