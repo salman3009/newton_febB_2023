@@ -28,9 +28,42 @@ ReactDOM:
 DOM - Document object Model: (important for interview)
 //Inside the browser we have only one DOM - Real DOM 
 //React internally developed one more copy of real DOM - virtual DOM 
-//Wheneve we change in component it will update in virtual dom.
+//Whenever we change in component it will update in virtual dom.
 //virtual dom will update only the particular set of node in real DOM. Whichever is necessary.
 ===================================================================
 Problem in Real DOM 
 //Real DOM will update entire node and it is impacting the entire performance.
+Benefit of Virtual DOM:
+To improve the performance of the application by minimizing DOM manipulation.
 ==============================================================
+Rules for JSX 
+Rules for JSX:
+1.Write all the code inside the () 
+example:
+return (<div></div>)
+2.Wrapped with parent tag with div 
+example:
+return (<div>
+  <h1>Hello world</h1>
+  <img src="hello"/>
+</div>)
+3.self closing or closing tag is mandatory 
+<div></div>
+<img/>
+4.css class should be given className 
+example:
+<div className="box"></div>
+5.Writing javascript expression inside the JSX 
+{}
+============================================
+Writing javascript Expression inside the JSX 
+
+export function Card(){
+    let fullName = "newton playground";
+    return (<div> 
+    <h1>Card akash</h1>
+    <p> {fullName}</p>
+     </div>);
+}
+
+=============================================

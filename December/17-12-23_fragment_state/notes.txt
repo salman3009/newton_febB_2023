@@ -1,0 +1,84 @@
+Fragments
+https://code.newtonschool.co/newton-box/i4drxobuc9xg/
+Event Handler without state
+https://code.newtonschool.co/newton-box/2o3fv9d9c92c/
+Event Handler with state
+https://code.newtonschool.co/newton-box/rxknqgqbmnsa/
+
+=======================================================
+Application works 
+//In entire react we have only one html that is index.html 
+//Inside the index.html we have div id="root" 
+//Inside the div id="root" our entire application will get render.
+======================================================
+Fragments:
+//It helps to wrapped the entire document of react with single tag 
+//This tag will not reflect in real dom.
+//If we use Fragment it will not add any extra tag to real dom.
+example:
+import {Fragment} from 'react';
+
+function App(){
+      return (<Fragment>
+       <h1>Hello </h1>
+      </Fragment>)
+}
+export default App;
+
+or 
+shorthand syntax <></>
+function App(){
+      return (<>
+       <h1>Hello </h1>
+      </>)
+}
+export default App;
+======================================================
+Event Handler 
+//click event 
+1.please write one custom function inside the component:
+2.please always use arrow function.
+example:
+  const buttonEventHandler=()=>{
+       alert("button clicked");
+   }
+3.Attached event handler inside the tag and name should be 
+example:
+onClick,onChange,onSubmit
+4.To call function inside the jsx we need to write javascript expression {} and only function name 
+ <button onClick={buttonEventHandler}>Add</button>
+ =============================================
+ State in React:
+ //Any Data if you want to bind dynamically we need to use state .
+ //State will update in virtural DOM then it will update real dom 
+ //if we update any data without the concept state react will not render the latest UI again.
+ //State consists of two parameters 
+    1.It will display latest data 
+    2.It will update the latest data 
+example:
+import {useState} from 'react';
+function App(){
+    const[getCounter,setCounter] = useState(0);
+    return (<>
+     {getCounter}
+    </>)
+}
+//To update the data we need to use second parameter(setter)
+example:
+
+export function App() {
+   const[getCounter,setcounter]= useState(0);
+
+   const onButtonHandler=()=>{
+         //updating the state 
+            setcounter(getCounter+1)
+   }
+
+  return (
+    <>
+       <h1>Counter :{getCounter}</h1>
+       <button onClick={onButtonHandler}>Add</button>
+    </>
+  );
+}
+==============================================
