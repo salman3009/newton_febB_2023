@@ -6,6 +6,8 @@ Event Handler with state
 https://code.newtonschool.co/newton-box/rxknqgqbmnsa/
 JSX condition 
 https://code.newtonschool.co/newton-box/huqm4zdx1k57/
+Multiple State 
+https://my.newtonschool.co/playground/newton-box/zpo1uf81brke?lecture_hash=k6s5i3c6as4b
 =======================================================
 Application works 
 //In entire react we have only one html that is index.html 
@@ -88,6 +90,8 @@ Writing Condition inside the jsx
 //we can use && operator to display the UI based on condition 
 example:
 {true && <div>display</div>}
+or 
+{getFlag && <div>display</div>}
 =======================================================
 Angular vs Vuejs vs Selte
 1. Angular: A comprehensive JavaScript framework developed by Google, known for its robustness, strong architecture, and extensive tooling.
