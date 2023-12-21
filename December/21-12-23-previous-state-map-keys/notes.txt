@@ -61,13 +61,11 @@ example:
  {
          list.map((obj)=>{
                return (
-                     <>
                       <div>
                       <h1>Name:{obj.name}</h1>
                       <h1>Age:{obj.age}</h1>
                       <h1>company:{obj.company}</h1>
-                      </div>
-                     </>
+                      </div>    
                )
          })
        } 
@@ -79,7 +77,7 @@ keys in map function if we use inside the jsx:
 //It will help virtual DOM to update data exactly.
 example:
 {
-         list.map((ob,indexj)=>{
+         list.map((obj,index)=>{
                return (
                       <div key={index}>
                       <h1>Name:{obj.name}</h1>
