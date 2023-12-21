@@ -1,0 +1,31 @@
+<script>
+    let list=[
+        {
+            name:"akash",
+            age:33,
+            company:"zoho"
+        },
+        {
+            name:"suresh",
+            age:44,
+            company:"IBM"
+        },
+        {
+            name:"suriya",
+            age:53,
+            company:"TCS"
+        },
+        {
+            name:"Mani",
+            age:33,
+            company:"CTS"
+        }
+    ]
+    let result = list.map((obj)=>{
+            return {
+                fullName:obj.name,
+                company:obj.company
+            };
+    });
+    console.log(result);
+</script>

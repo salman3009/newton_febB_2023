@@ -18,4 +18,4 @@ example:
          return previousState+1;
      });
 =================================================     
-  
+Using Map function inside the JSX:
