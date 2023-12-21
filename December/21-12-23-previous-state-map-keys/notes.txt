@@ -71,5 +71,23 @@ example:
                )
          })
        } 
-       
+
 =======================================
+keys in map function if we use inside the jsx:
+//React needs to keep tract of your data for feature update,delete and add
+//We need to add unique value inside the keys 
+//It will help virtual DOM to update data exactly.
+example:
+{
+         list.map((ob,indexj)=>{
+               return (
+                      <div key={index}>
+                      <h1>Name:{obj.name}</h1>
+                      <h1>Age:{obj.age}</h1>
+                      <h1>company:{obj.company}</h1>
+                      </div>
+                    
+               )
+         })
+       } 
+===============================================
