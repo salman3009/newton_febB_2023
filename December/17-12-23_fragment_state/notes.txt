@@ -110,3 +110,6 @@ example:
   const [getPosition, setPosition] = useState('Manager');
   const [getAge, setAge] = useState(34);
 ===========================================================
+What is hooks?
+inbuilt functionality release for functional component
+====================================

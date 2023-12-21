@@ -1,0 +1,21 @@
+What is stateful component:
+//whenever we use state in component is called stateful component.
+Rules of state hooks:
+Hooks can only be called inside React function components
+Hooks can only be called at the top level of a component
+   //You cannot write inside the loop or inside any condition
+Previous State:
+https://code.newtonschool.co/newton-box/yicvwnbswiq3/
+//How to update the data depends upon the previous state.
+Answer:
+//we can use callback function provided by useState 
+//callback function consists of one parameter that will give you the previous result
+//from callback function we can return latest data.
+example:
+  const [getCounter,setCounter] = useState(0);
+  
+    setCounter((previousState)=>{
+         return previousState+1;
+     });
+=================================================     
+  
