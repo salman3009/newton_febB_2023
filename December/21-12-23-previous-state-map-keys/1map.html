@@ -21,8 +21,9 @@
             company:"CTS"
         }
     ]
-    let result = list.map((obj)=>{
+    let result = list.map((obj,index)=>{
             return {
+                id:index,
                 fullName:obj.name,
                 company:obj.company
             };

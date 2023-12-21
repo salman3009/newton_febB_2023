@@ -3,9 +3,12 @@ What is stateful component:
 Rules of state hooks:
 Hooks can only be called inside React function components
 Hooks can only be called at the top level of a component
-   //You cannot write inside the loop or inside any condition
+//You cannot write inside the loop or inside any condition
 Previous State:
 https://code.newtonschool.co/newton-box/yicvwnbswiq3/
+Listing Map:
+https://code.newtonschool.co/newton-box/13cmjj3zkoic/
+==========================================================
 //How to update the data depends upon the previous state.
 Answer:
 //we can use callback function provided by useState 
@@ -19,3 +22,54 @@ example:
      });
 =================================================     
 Using Map function inside the JSX:
+//To do iteration inside the jsx we need to use only map function.
+//we can iterate the data inside the jsx using map function. 
+//we need to return from map function it will render html code + dynamic data.
+//()--> html 
+//{}-->javascript 
+syntax:
+  {
+         list.map((obj)=>{
+               return
+         })
+       } 
+
+example:
+ let list=[
+        {
+            name:"akash",
+            age:33,
+            company:"zoho"
+        },
+        {
+            name:"suresh",
+            age:44,
+            company:"IBM"
+        },
+        {
+            name:"suriya",
+            age:53,
+            company:"TCS"
+        },
+        {
+            name:"Mani",
+            age:33,
+            company:"CTS"
+        }
+    ]
+
+ {
+         list.map((obj)=>{
+               return (
+                     <>
+                      <div>
+                      <h1>Name:{obj.name}</h1>
+                      <h1>Age:{obj.age}</h1>
+                      <h1>company:{obj.company}</h1>
+                      </div>
+                     </>
+               )
+         })
+       } 
+       
+=======================================
