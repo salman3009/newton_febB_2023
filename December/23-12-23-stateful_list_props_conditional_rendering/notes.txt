@@ -9,6 +9,42 @@ Stateful list in reactjs
 //A component is having array of data inside the state 
 //Whenever we add the data inside the array entire state we need to update it.
 example:
+import React , {useState} from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+   const cityList = [
+    { name: 'Goa', country: 'India' },
+    { name: 'Darjeeling', country: 'India' }
+   ]
+
+   const [getList,setList] = useState(cityList);
+   const [getName,setName] = useState('');
+
+   const onChangeHandler=(event)=>{
+         setName(event.target.value);
+   }
+
+   const onAddHandler=(event)=>{
+           setList([...getList,{name:getName,country:"India"}])
+   }
+
+  return (
+    <div className="App">
+       {
+        getList.map((obj,index)=>{
+           return (<div key={index}>
+                 <h1>{obj.name}</h1>
+           </div>)
+        })
+       }
+       {getName}
+       Enter the Name:<input type="text" onChange={onChangeHandler}/>
+       <button onClick={onAddHandler}>Add</button>
+    </div>
+  );
+}
 
 
 ==============================================
