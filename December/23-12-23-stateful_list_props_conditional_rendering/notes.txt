@@ -50,6 +50,7 @@ export function App() {
 ==============================================
 Props in Reactjs 
 //It is properties inside the function or parameter inside the function.
+//It is used to  pass the data from parent to child.
 syntax:
 function addition(a,b){
     //a,b is a parameter
@@ -79,5 +80,25 @@ export function App() {
   );
 }
 =====================================================
+what is stateless component?
+//A component without internal state 
+example:
 
-
+export function Product(props){
+    return (<div>
+      <h1>Product Name:{props.productName}</h1>
+      <h1>Amount:{props.amount}</h1>
+      <img src={props.image}/>
+    </div>)
+}
+=========================================
+Destructing of props in reactjs 
+//we can destructure the object into individual parameters.
+export function Product({productName,amount,image}){
+    return (<div>
+      <h1>Product Name:{productName}</h1>
+      <h1>Amount:{amount}</h1>
+      <img src={image}/>
+    </div>)
+}
+===============================================
