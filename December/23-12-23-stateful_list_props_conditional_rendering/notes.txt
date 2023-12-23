@@ -4,6 +4,8 @@ What is stateful component in react?
 ========================================================
 Stateful list in reactjs 
 https://code.newtonschool.co/newton-box/o0gdyayifvem/
+props in reactjs 
+https://code.newtonschool.co/newton-box/89mlcuqv5dy9/
 ================================================
 Stateful list in reactjs 
 //A component is having array of data inside the state 
@@ -45,6 +47,37 @@ export function App() {
     </div>
   );
 }
-
-
 ==============================================
+Props in Reactjs 
+//It is properties inside the function or parameter inside the function.
+syntax:
+function addition(a,b){
+    //a,b is a parameter
+}
+//props is one single object 
+function addition(props){
+    //props.a 
+    //props.b
+}
+example:
+export function Product(props){
+    return (<div>
+      <h1>Product Name:{props.productName}</h1>
+      <h1>Amount:{props.amount}</h1>
+    </div>)
+}
+
+import {Product} from './Product.js';
+
+export function App() {
+  return (
+    <div className="App">
+         <Product productName="sony" amount="4000"/>
+         <Product productName="lg" amount="7000"/>
+         <Product productName="samsung" amount="9000"/>
+    </div>
+  );
+}
+=====================================================
+
+
