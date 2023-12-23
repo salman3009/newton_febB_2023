@@ -1,0 +1,14 @@
+What is stateful component in react?
+//If you use internal state is called stateful component in react 
+//internal state is nothing but a useState.
+========================================================
+Stateful list in reactjs 
+https://code.newtonschool.co/newton-box/o0gdyayifvem/
+================================================
+Stateful list in reactjs 
+//A component is having array of data inside the state 
+//Whenever we add the data inside the array entire state we need to update it.
+example:
+
+
+==============================================
