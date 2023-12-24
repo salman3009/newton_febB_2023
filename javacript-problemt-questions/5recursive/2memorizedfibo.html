@@ -1,0 +1,34 @@
+<html>
+    <body>
+        Fibo:<input type="number" id="fibo"/>
+        Submit:<button onClick="onSubmitHandler()">Add</button>
+    </body>
+</html>
+
+<script>
+    let res=[];
+    var cache=[];
+    let a=0,b=1;
+    let temp=0;
+
+    function onSubmitHandler(){
+        temp = Number(document.getElementById('fibo').value);   
+        if(this.cache.length>0){
+            a = this.cache[this.cache.length-2];
+            b = this.cache[this.cache.length-1]
+        }     
+        let result = fibo(temp,a,b);
+        console.log(result);
+    }
+    function fibo(n,a,b){
+          if(this.cache.length>temp){
+            return this.cache;
+          }
+          let result = a+b;
+          res.push(result);
+          this.cache.push(result);
+          fibo(n-1,b,result);
+          return this.cache;
+    }
+    // console.log(fibo(10,0,1));
+</script>

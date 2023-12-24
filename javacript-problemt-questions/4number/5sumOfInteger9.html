@@ -1,0 +1,38 @@
+<script>
+    // 1.) Display all the numbers between 0 and 99 satisfying all the below conditions.
+  //   i) Sum of the digits should be 9
+  
+  // ii) Digits should be in ascending order i.e., the digit on the left should be lesser than the digit in the right
+  
+  // For Example: 45 -> 4+5=9 and 4 is less than 5
+  const result = [];
+  function sum_of_integer(){
+    for(let i=0;i<=99;i++){
+    let input = i.toString();
+    if(input.length>=2){
+      input = input.split('').reduce((a,b)=>{
+          return Number(a)+Number(b);
+      },0)
+    }
+    Number(input==9) && check_ascending_order(i) && result.push(i);     
+  } 
+  }
+  
+  function check_ascending_order(input){
+     input = input.toString().split('');
+      if(input.length>=2){
+         for(let i=0;i<input.length;i++){
+            for(let j=i+1;j<input.length;j++){
+             if(Number(input[i])>Number(input[j])){
+                 return false;
+             }
+            }
+         }
+             return true;
+      }
+      return input;
+  
+  }
+  sum_of_integer();
+  document.write(result);
+  </script>

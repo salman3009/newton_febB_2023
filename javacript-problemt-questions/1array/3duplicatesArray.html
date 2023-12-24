@@ -1,0 +1,29 @@
+<script>
+       let temp =[22,33,42,22,2,1,4,2,5,2,5];
+       function findDuplicates(temp){
+            let observed ={};
+             for(let i=0;i<temp.length;i++){
+                  if(observed[temp[i]]){
+                     observed[temp[i]] = observed[temp[i]]+1;
+                  }
+                  else{
+                    observed[temp[i]] = 1;
+                  }
+             }
+              return observed;
+       }
+       let result = findDuplicates(temp);
+       console.log(result);
+       list(result);
+       highestList(result);
+       function list(result){
+           let a = Object.keys(result);
+           let res = a.map(a=>Number(a));
+           console.log(res);
+       }
+       function highestList(result){
+           let res = Object.keys(result).reduce((a,b)=>{
+                   return result[a]>result[b]?a:b;
+           });
+       }
+</script>

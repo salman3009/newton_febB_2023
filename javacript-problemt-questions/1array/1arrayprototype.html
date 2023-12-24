@@ -1,0 +1,10 @@
+<script>
+    Array.prototype.average=function()
+{
+    var sum=this.reduce((cur,value)=>cur+value);
+    return sum/this.length;
+}
+let avg=[2,2];
+let result=avg.average();
+console.log(result);
+</script>

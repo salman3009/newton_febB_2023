@@ -1,0 +1,8 @@
+<script>
+    function full()
+{
+    return "The value is"+this.firstname+"The last name is"+this.lastname;
+}
+const person={firstname:"salman",lastname:"ahmed"};
+console.log(full.bind(person)());
+</script>

@@ -1,0 +1,32 @@
+<script>
+var fibonacci_series = function (n) 
+{
+    debugger;
+  if (n===1) 
+  {
+    return [0, 1];
+  } 
+  else 
+  {
+    var s = fibonacci_series(n - 1);
+    s.push(s[s.length - 1] + s[s.length - 2]);
+    return s;
+  }
+};
+
+ console.log(fibonacci_series(8));
+ ///////////////////////
+ let add=function(n){
+     if(n<=0){
+         return 0;
+     }
+     else{
+         return n+add(n-1);
+     }
+ }
+ console.log(add(4));
+ //1+0
+ //2+1
+ //3+3
+ //4+6
+ </script>

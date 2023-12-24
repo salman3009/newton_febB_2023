@@ -1,0 +1,12 @@
+<script>
+    let input=[1,2,3,4,5,6,9,10];
+    function findMissingNumber(input){
+         for(let i=0;i<input.length;i++){
+            if(input[i]+1 !=input[i+1]){
+                 return input[i]+1;
+            }
+         }
+         return false;
+    }
+    console.log(findMissingNumber(input));
+</script>

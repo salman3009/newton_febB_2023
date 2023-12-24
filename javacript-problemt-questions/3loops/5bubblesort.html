@@ -1,0 +1,41 @@
+<!-- <script>
+    const arr = [4, 56, 4, 23, 8, 4, 23, 2, 7, 8, 8, 45];
+const swap = (items, firstIndex, secondIndex) => {
+   var temp = items[firstIndex];
+   items[firstIndex] = items[secondIndex];
+   items[secondIndex] = temp;
+};
+const bubbleSort = items => {
+   var len = items.length,
+   i, j;
+   for (i=len-1; i >= 0; i--){
+      for (j=len-i; j >= 0; j--){
+         if (items[j] < items[j-1]){
+            swap(items, j, j-1);
+         }
+      }
+   }
+   return items;
+};
+console.log(bubbleSort(arr));
+  </script> -->
+
+
+
+
+<script>
+   const arr = [5,4,3];
+   const ascending=[];
+   for(i=0; i <arr.length; i++){
+     for(j=i+1;j<arr.length;j++){
+      if(arr[i]>arr[j]){
+        let swap = arr[i];
+        arr[i]=arr[j];
+        arr[j]=swap;
+      }
+     }
+     console.log(arr);
+   }
+ 
+ </script>
+

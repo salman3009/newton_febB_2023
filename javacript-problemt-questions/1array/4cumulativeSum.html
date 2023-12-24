@@ -1,0 +1,11 @@
+<script>
+    let input =[1,2,3,4,5,6,7,8];
+    function cumulativeSum(input){
+          let data=[input[0]];
+          for(let i=1;i<input.length;i++){
+            data.push(data[i-1]+input[i])
+          }
+          console.log(data);
+    }
+    cumulativeSum(input);
+</script>

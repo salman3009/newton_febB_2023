@@ -1,0 +1,12 @@
+<script>
+    const sum_of_number=[5,2,1,3,0,4,3,1,-4,3,3];
+    let turning_point=0;
+    let result=[];
+    for(let i=0;i<sum_of_number.length;i++){
+          if(sum_of_number[i]<=0 && i>0){
+             result.push(sum_of_number.slice(turning_point,i));
+             turning_point = ++i;
+          }
+    }
+    console.log(result);
+</script>
