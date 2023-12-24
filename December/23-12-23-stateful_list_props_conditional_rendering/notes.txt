@@ -25,7 +25,7 @@ export function App() {
    const [getName,setName] = useState('');
 
    const onChangeHandler=(event)=>{
-         setName(event.target.value);
+         setName(event.tar  get.value);
    }
 
    const onAddHandler=(event)=>{

@@ -1,0 +1,82 @@
+conditional rendering UI part 1:
+https://code.newtonschool.co/newton-box/0deniuw98o81/
+conditional rendering UI part 2:
+https://code.newtonschool.co/newton-box/lkevguzk0jn7/
+props children 
+https://code.newtonschool.co/newton-box/0jzw307gzbp8/
+====================================================
+Conditional Rendering:
+//Depends upon the condition will render the UI component:
+import React, { useState } from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+  const [getName, setName] = useState("");
+  const [getInterface, setInterface] = useState("");
+
+  const onChangeHandler = (event) => {
+    setName(event.target.value);
+  }
+
+  const onSubmitHandler = () => {
+    if (getName == "bangalore") {
+      setInterface(<>
+        <div> welcome to bangalore</div>
+        <h1>Best place for IT</h1>
+        <h1>Easy to learn</h1>
+      </>);
+    }
+    else {
+      setInterface(<div> welcome to other place</div>);
+    }
+  }
+
+
+  return (
+    <div className="App">
+      Enter the City<input type="text" onChange={onChangeHandler} />
+      <button onClick={onSubmitHandler}>Submit</button>
+      {getInterface}
+    </div>
+  );
+}
+
+2.Conditional rendering:
+example:
+condition?<div>yes condition </div>:<div>No condition</div>
+=================================================================
+Children props (composition)
+//It is used to create generic template component
+//Parent component can pass whatever is needed for child component.
+//It helps to layout the child component.
+example:
+<div>
+{props.children}
+</div>
+real example:
+import React from 'react';
+import './index.css'; // Link to your CSS file
+import {Product} from './Product';
+export function App() {
+  return (
+    <div className="App">
+        <Product amount="2000">
+             <div>Inside the product children</div>
+             <div>Layout Details</div>
+        </Product>
+    </div>
+  );
+}
+
+
+
+export function Product(props){
+     return (<div>
+          <p>Product component</p>
+          <p>Amount:{props.amount}</p>
+          <div>{props.children}</div>
+     </div>)
+}
+==================================================
+
