@@ -34,9 +34,9 @@ const App = () => {
           })}
       </div>
       <div className="items">
-          {/* List items should be displayed using the below HTML */}
-          <div className="item">item name</div>
-
+         {categories[activeCategory].items.map((obj,index)=>{
+                    return (<div key={index} className="item">{obj}</div>)
+         })} 
         <div className="add-item-div">
           <input className='input-field' type="text" placeholder="Add new item" />
           <button className='add-btn'>Add</button>
