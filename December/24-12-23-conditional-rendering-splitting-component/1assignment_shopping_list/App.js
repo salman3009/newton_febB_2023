@@ -39,7 +39,7 @@ const App = () => {
       <h1>Shopping List</h1>
       <div className="categories">
           {categories.map((obj,index)=>{
-                return (<div key={index} onClick={()=>onActivehandler(index)} className={`category`}>
+                return (<div key={index} onClick={()=>onActivehandler(index)} className={`category ${activeCategory === index ? 'active':''}`}>
                         {obj.name}
           </div>)
           })}
