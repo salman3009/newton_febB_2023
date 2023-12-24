@@ -43,8 +43,32 @@ export function App() {
 }
 
 2.Conditional rendering:
-example:
+syntax:
 condition?<div>yes condition </div>:<div>No condition</div>
+example:
+import React, { useState } from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+  const [getName, setName] = useState("");
+  
+  const onChangeHandler = (event) => {
+    setName(event.target.value);
+  }
+
+  return (
+    <div className="App">
+      Enter the City<input type="text" onChange={onChangeHandler} />
+      {getName=="bangalore"?<>
+        <div> welcome to bangalore</div>
+        <h1>Best place for IT</h1>
+        <h1>Easy to learn</h1>
+      </>:<div> welcome to other place</div>}
+    </div>
+  );
+}
+
 =================================================================
 Children props (composition)
 //It is used to create generic template component
