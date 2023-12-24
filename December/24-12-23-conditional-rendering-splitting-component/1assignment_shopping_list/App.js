@@ -19,18 +19,18 @@ const App = () => {
   const [activeCategory, setActiveCategory] = useState(0);
   const [newItem, setNewItem] = useState("");
 
-  const onActivehandler=(index)=>{
-           setActiveCategory(index);
+  const handleClick = (index) => {
+    setActiveCategory(index);
   }
 
-  const onChangeHandler=(event)=>{
-        setNewItem(event.target.value);
+  const handleChange = (event) => {
+    setNewItem(event.target.value);
   }
 
-  const onAddHandler=()=>{
-    let newCategory = [...categories];
-    newCategory[activeCategory].items.push(newItem);
-    setCategories(newCategory);
+  const handleAddItem = () => {
+    const newCategories = [...categories];
+    newCategories[activeCategory].items.push(newItem);
+    setCategories(newCategories);
     setNewItem("");
   }
 
@@ -38,19 +38,19 @@ const App = () => {
     <div id="main">
       <h1>Shopping List</h1>
       <div className="categories">
-          {categories.map((obj,index)=>{
-                return (<div key={index} onClick={()=>onActivehandler(index)} className={`category ${activeCategory === index ? 'active':''}`}>
-                        {obj.name}
-          </div>)
-          })}
+        {categories.map((category, index) => (
+          <div key={index} onClick={() => handleClick(index)} className={`category ${activeCategory === index ? 'active' : ''}`}>
+            {category.name}
+          </div>
+        ))}
       </div>
       <div className="items">
-         {categories[activeCategory].items.map((obj,index)=>{
-                    return (<div key={index} className="item">{obj}</div>)
-         })} 
+        {categories[activeCategory].items.map((item, index) => (
+          <div key={index} className="item">{item}</div>
+        ))}
         <div className="add-item-div">
-          <input className='input-field' type="text" value={newItem} placeholder="Add new item" onChange={onChangeHandler} />
-          <button className='add-btn' onClick={onAddHandler}>Add</button>
+          <input className='input-field' type="text" placeholder="Add new item" value={newItem} onChange={handleChange} />
+          <button className='add-btn' onClick={handleAddItem}>Add</button>
         </div>
       </div>
     </div>
