@@ -23,6 +23,17 @@ const App = () => {
            setActiveCategory(index);
   }
 
+  const onChangeHandler=(event)=>{
+        setNewItem(event.target.value);
+  }
+
+  const onAddHandler=()=>{
+    let newCategory = [...categories];
+    newCategory[activeCategory].items.push(newItem);
+    setCategories(newCategory);
+    setNewItem("");
+  }
+
   return (
     <div id="main">
       <h1>Shopping List</h1>
@@ -38,8 +49,8 @@ const App = () => {
                     return (<div key={index} className="item">{obj}</div>)
          })} 
         <div className="add-item-div">
-          <input className='input-field' type="text" placeholder="Add new item" />
-          <button className='add-btn'>Add</button>
+          <input className='input-field' type="text" value={newItem} placeholder="Add new item" onChange={onChangeHandler} />
+          <button className='add-btn' onClick={onAddHandler}>Add</button>
         </div>
       </div>
     </div>
@@ -48,3 +59,4 @@ const App = () => {
 
 
 export default App;
+    
