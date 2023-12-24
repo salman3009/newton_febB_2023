@@ -19,12 +19,16 @@ const App = () => {
   const [activeCategory, setActiveCategory] = useState(0);
   const [newItem, setNewItem] = useState("");
 
+  const onActivehandler=(index)=>{
+           setActiveCategory(index);
+  }
+
   return (
     <div id="main">
       <h1>Shopping List</h1>
       <div className="categories">
           {categories.map((obj,index)=>{
-                return (<div key={index} className={`category`}>
+                return (<div key={index} onClick={()=>onActivehandler(index)} className={`category`}>
                         {obj.name}
           </div>)
           })}
