@@ -103,4 +103,6 @@ export function Product(props){
      </div>)
 }
 ==================================================
-
+How parent to child or child to parent communication happened?
+//By using props we can able to pass data from parent to child or child to parent.
+==========================================================
