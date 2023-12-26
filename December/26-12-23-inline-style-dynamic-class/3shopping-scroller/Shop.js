@@ -1,9 +1,9 @@
 
 import React from 'react';
 import  { useEffect, useState } from "react";
-import './App.css';
+import '../styles/shop.css';
 
-function App() {
+function Shop() {
     const [text, setText] = useState("");
     const [articles, setArticles] = useState([]);
     const [page, setPage] = useState(1);
@@ -76,4 +76,4 @@ function App() {
         </>
     )
 }
-export default App;
+export default Shop;
