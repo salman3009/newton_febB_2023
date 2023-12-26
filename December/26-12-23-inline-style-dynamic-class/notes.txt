@@ -15,7 +15,28 @@ return (<>
     color:"red",
     backgroundColor:"blue",
     marginTop:"20px",
-    border:"2px solid black
+    border:"2px solid black"
 }}>hello</h1>
 </>)
+
+Real time example:
+import React from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+  let custom = {
+        color: "red",
+        backgroundColor: "blue",
+        marginTop: "20px",
+        border: "2px solid black"
+      };
+
+  return (
+    <div className="App">
+      <h1 style={custom}>hello</h1>
+    </div>
+  );
+}
+
 ========================================
