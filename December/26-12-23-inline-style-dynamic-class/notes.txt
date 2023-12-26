@@ -40,3 +40,126 @@ export function App() {
 }
 
 ========================================
+Adding Dynamic CSS class:
+https://code.newtonschool.co/newton-box/0f8q1jwkg5bf/
+//Create one new file called filename.css 
+//Inside that file you can write anything normal css code 
+//We need to import that file inside the App.js just we need to give position of the filenam
+example:
+index.css 
+
+.circle{
+    border-radius: 50%;
+    border-color:red;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.rectangle{
+    border-color:blue;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+import './index.css'; // Link to your CSS file
+
+//To access we need to give for class it should be className 
+example:
+import React from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+  return (
+    <div className="App">
+        <div className="circle"></div>
+        <div className="rectangle"></div>
+    </div>
+  );
+}
+====================================================
+Types of styling:
+1.inline  - react supported inline style
+2.internal 
+3.external - react supported external style
+=================================================
+Adding Dynamically className using Ternary operator:
+import React,{useState} from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+  const [getFlag,setFlag] = useState(false);
+  
+  const onChangeHandler=()=>{
+     setFlag(!getFlag);
+  }
+  return (
+    <div>
+        <div className={getFlag?"circle":"rectangle"}></div>
+        <button onClick={onChangeHandler}>Toggle</button>
+    </div>
+  );
+}
+className={activeCategory === index ? 'category active' : 'category'}
+
+=================================================================
+How to add condition inside the map function:
+https://code.newtonschool.co/newton-box/w5ro091keh6f/
+//writing if condition inside the map function:
+example:
+import React from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+  const list = [
+    {
+      name: "naman",
+      percent: 60.0000
+    },
+    {
+      name: "ritesh",
+      percent: 99.9431
+    },
+    {
+      name: "hitesh",
+      percent: 65.3365
+    },
+    {
+      name: "shreya",
+      percent: 80.6400
+    },
+    {
+      name: "ankur",
+      percent: 78.8970
+    },
+    {
+      name: "vanshu",
+      percent: 78.9876
+    },
+    {
+      name: "krupal",
+      percent: 85.3214
+    },
+  ];
+
+
+  return (
+    <div className="App">
+      {
+        list.map((obj, index) => {
+          if (obj.percent > 75) {
+            return (<div key={index}>
+              <div>{index + 1}</div>
+              <div>{obj.name}</div>
+            </div>)
+          }
+        })
+      }
+    </div>
+  );
+}
+
+
+==============================================
