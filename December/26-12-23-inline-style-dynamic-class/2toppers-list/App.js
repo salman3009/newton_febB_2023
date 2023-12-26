@@ -36,7 +36,7 @@ const App = () => {
 	return (
 		<div id="main">
 			{list.map(function (item, index) {
-				if (item.percent > 0) {
+				if (item.percent > 75.00) {
 					return (
             <>
               {/*Conditional statement in the className of below div to give callName="bg-pink"*/}
