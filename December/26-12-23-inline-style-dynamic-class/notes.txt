@@ -1,2 +1,21 @@
 How to write Inline style?
 https://code.newtonschool.co/newton-box/lsjfmlc57ebn/
+//To write inline style inside the react we need use object with key and value pair
+//hypen is not allowed inside the key we need to replace hyphen with next first letter in capital.
+example:
+{
+    color:"red",
+    backgroundColor:"blue",
+    marginTop:"20px",
+    border:"2px solid black
+}
+//writing inside the jsx
+return (<>
+ <h1 style={{
+    color:"red",
+    backgroundColor:"blue",
+    marginTop:"20px",
+    border:"2px solid black
+}}>hello</h1>
+</>)
+========================================
