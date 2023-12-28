@@ -1,0 +1,14 @@
+1.To clone the repository in your local system
+git clone url 
+2.To add files in staging
+git add .
+3.To commit staging file 
+git commit -m "code"
+4.Pushing code to github
+git push 
+5.Take pull from github
+git pull 
+6.Checking pending uncommited code
+git status
+7.To remove your changes and it will bring original code from github
+git reset --hard
