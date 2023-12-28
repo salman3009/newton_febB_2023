@@ -14,6 +14,8 @@ How to Handle Forms:
 //For every input tag we need to create a state.
 //Write a method to update the state and access value from event.target.value.
 //Attach method to input tag using onChange events.
+//currently we using alert to check the value. Later we remove it and we will send the data to backend api.
+
 example:
 import React,{useState} from 'react';
 import './index.css'; // Link to your CSS file
@@ -25,6 +27,7 @@ export function App() {
 
   const onSubmitHandler=(event)=>{
           event.preventDefault();
+          //only for display purpose later will do backend api call
           alert(getuserName);
           alert(getPassword);
           alert("congratulations");
