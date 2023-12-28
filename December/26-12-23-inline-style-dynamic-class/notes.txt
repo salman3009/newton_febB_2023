@@ -165,5 +165,10 @@ export function App() {
 ==============================================
 Create Shapes assignment:
 https://code.newtonschool.co/newton-box/522lz282n2cl/
-
+//Go to github link 
+//copy the https link 
+//In your local system cmd:git clone url 
 =======================================================
+Reusable css className:
+By defining the class in a CSS module and importing its class name in other components
+==================================

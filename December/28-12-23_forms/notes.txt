@@ -1,0 +1,6 @@
+Create Shapes assignment:
+https://code.newtonschool.co/newton-box/522lz282n2cl/
+//Go to github link 
+//copy the https link 
+//In your local system cmd:git clone url 
+===================================================
