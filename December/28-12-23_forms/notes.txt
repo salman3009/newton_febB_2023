@@ -11,3 +11,6 @@ How to Handle Forms:
 //please provide name property for input tag.
 //Inside the label tag 'for' attribute should be change to 'htmlFor'.
 //write one function for submit button and add preventDefault method to avoid going for next page.
+//For every input tag we need to create a state.
+//Write a method to update the state and access value from event.target.value.
+//Attach method to input tag using onChange events.
