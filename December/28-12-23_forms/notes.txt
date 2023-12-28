@@ -4,3 +4,10 @@ https://code.newtonschool.co/newton-box/522lz282n2cl/
 //copy the https link 
 //In your local system cmd:git clone url 
 ===================================================
+Forms:
+https://code.newtonschool.co/newton-box/xfn10nuorei5/
+How to Handle Forms:
+//Always we need to close self closing tag for input tag.
+//please provide name property for input tag.
+//Inside the label tag 'for' attribute should be change to 'htmlFor'.
+//write one function for submit button and add preventDefault method to avoid going for next page.

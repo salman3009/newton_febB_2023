@@ -1,6 +1,5 @@
-import React,{useState} from 'react'
-
-import './index.css';
+import React, { useState } from 'react'
+import '../styles/App.css';
 
 export const App = () => {
 
