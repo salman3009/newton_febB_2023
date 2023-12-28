@@ -14,3 +14,44 @@ How to Handle Forms:
 //For every input tag we need to create a state.
 //Write a method to update the state and access value from event.target.value.
 //Attach method to input tag using onChange events.
+example:
+import React,{useState} from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+  const[getuserName,setUserName] = useState('');
+  const [getPassword,setPassword] = useState('');
+
+  const onSubmitHandler=(event)=>{
+          event.preventDefault();
+          alert(getuserName);
+          alert(getPassword);
+          alert("congratulations");
+  }
+
+  const onChangeUserNameHandler=(event)=>{
+       setUserName(event.target.value);
+  }
+
+  const onChangePasswordHandler=(event)=>{
+      setPassword(event.target.value);
+  }
+
+  return (
+    <div className="App">
+      <form>
+        <div>
+         <label htmlFor="userName">UserName</label>
+          <input type="text" name="userName" onChange={onChangeUserNameHandler}/>
+        </div>
+        <div>
+          <label htmlFor="password">Password</label>
+          <input type="password" name="password" onChange={onChangePasswordHandler}/>
+        </div>
+        <button onClick={onSubmitHandler}>Login</button>
+      </form>
+    </div>
+  );
+}
+=======================================================
