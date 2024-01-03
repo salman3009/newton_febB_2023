@@ -65,5 +65,15 @@ https://code.newtonschool.co/newton-box/cn5tqixv2nn3/
   });
 3.To bind the data we need to use 
   userName:<input type="text" value={getForm.userName} name="userName"/>
-
+4.To update the state 
+//we need to know two properties 
+1.name property 
+2.value property 
+event.target.name 
+event.target.value 
+//For any dynamic property we need to array bracket 
+[event.target.name]
+{
+    [event.target.name]:"salman"
+}
 ========================================
