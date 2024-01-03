@@ -92,6 +92,7 @@ https://code.newtonschool.co/newton-box/6h1ed9qbymt8/
 1.callback function 
 2.dependency
 //best place to write useEffect code after state initialization.
+//After the state update then it will trigger that callback function.
 
 syntax:
 useEffect()
