@@ -83,3 +83,47 @@ setForm({[event.target.name]:event.target.value})
 example:
 setForm({...getForm,[event.target.name]:event.target.value})
 ========================================
+useEffect:
+code:
+https://code.newtonschool.co/newton-box/6h1ed9qbymt8/
+//It will perform side effects in your component 
+//Side effects like: fetching data,updading data in DOM and some timers.
+//It consists of two arguments 
+1.callback function 
+2.dependency
+//best place to write useEffect code after state initialization.
+
+syntax:
+useEffect()
+
+useEffect(()=>{
+
+},[stateName])
+
+example:
+import React,{useState,useEffect} from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+  const[getCounter,setCounter] = useState(0);
+
+  useEffect(()=>{
+       alert("whenever state updates happen it will come here")
+  },[getCounter])
+
+  const onCounterUpdateHandler=()=>{
+     setCounter(getCounter+1);
+  }
+
+   
+  return (
+    <div className="App">
+       Counter:{getCounter}
+       <br/>
+       <button onClick={onCounterUpdateHandler}>Add</button>
+    </div>
+  );
+}
+
+===============================================
