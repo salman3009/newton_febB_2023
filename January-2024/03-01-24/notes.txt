@@ -1,0 +1,55 @@
+Two way binding:
+https://code.newtonschool.co/newton-box/xv0fs1euw9uf/
+For submission of Form Data
+//we can use any one method either 
+(i)onClick
+(ii)onSubmit 
+One way binding
+html -----> javascript 
+Two way binding 
+html ---> javascript
+html <--- javascript
+1.we need to use state 
+2.we need to use onchange and value property 
+3.onchange --> it will update the state 
+4.value --> it will show current data from the state.
+example:
+import React,{useState} from 'react';
+import './index.css'; // Link to your CSS file
+
+
+export function App() {
+
+  const [getUserName,setUserName] = useState('salman');
+  const [getPassword,setPassword] = useState('');
+
+  const onUserNameChangeHandler=(event)=>{
+    setUserName(event.target.value);
+  }
+
+   const onPasswordChangeHandler=(event)=>{
+    setPassword(event.target.value);
+  }
+
+  const onSubmitHandler=(event)=>{
+     event.preventDefault();
+     alert(getUserName);
+     alert(getPassword);
+     setUserName('');
+     setPassword('');
+  }
+  return (
+    <div className="App">
+     {getPassword}
+     <form onSubmit={onSubmitHandler}>
+      userName:<input type="text" value={getUserName} name="userName" onChange={onUserNameChangeHandler}/>
+      <br/>
+      password:<input type="password" value={getPassword} name="password" onChange={onPasswordChangeHandler}/>
+      <br/>
+      <button>Login</button>
+     </form>
+    </div>
+  );
+}
+
+=================================================
