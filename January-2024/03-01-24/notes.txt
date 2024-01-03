@@ -65,6 +65,7 @@ https://code.newtonschool.co/newton-box/cn5tqixv2nn3/
   });
 3.To bind the data we need to use 
   userName:<input type="text" value={getForm.userName} name="userName"/>
+
 4.To update the state 
 //we need to know two properties 
 1.name property 
@@ -76,4 +77,9 @@ event.target.value
 {
     [event.target.name]:"salman"
 }
+example:
+setForm({[event.target.name]:event.target.value})
+3.copy existing data whenever state updates happens inside the object 
+example:
+setForm({...getForm,[event.target.name]:event.target.value})
 ========================================
