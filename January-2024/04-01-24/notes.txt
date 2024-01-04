@@ -1,0 +1,26 @@
+useEffect Approaches:
+1.
+useEffect(()=>{
+
+})
+//It will trigger for ever render 
+2.
+useEffect(()=>{
+
+},[])
+//When page loads happen 
+3.
+useEffect(()=>{
+
+},[dependency])
+//when dependency changes happen 
+4.
+useEffect(()=>{
+
+  return ()=>{
+    console.log("cleaning up");
+  }
+},[dependency])
+//When component leave for another component 
+//user leave the page.
+====================================================

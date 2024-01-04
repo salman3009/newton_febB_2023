@@ -10,8 +10,8 @@ Two way binding
 html ---> javascript
 html <--- javascript
 1.we need to use state 
-2.we need to use onchange and value property 
-3.onchange --> it will update the state 
+2.we need to use onchange and value property inside input tag
+3.onChange --> it will update the state 
 4.value --> it will show current data from the state.
 example:
 import React,{useState} from 'react';
@@ -128,3 +128,8 @@ export function App() {
 }
 
 ===============================================
+controlled component:
+A controlled component's state is managed by React (typically using state and props)
+uncontrolled component:
+while an uncontrolled component's state is managed by the DOM itself.
+=============================================
