@@ -1,15 +1,18 @@
 useEffect Approaches:
 1.
+code link: https://code.newtonschool.co/newton-box/4ey4vzy32jt0/
 useEffect(()=>{
 
 })
 //It will trigger for ever render 
 2.
+code link:https://code.newtonschool.co/newton-box/9p4wxdmts86d/
 useEffect(()=>{
 
 },[])
 //When page loads happen 
 3.
+code link:https://code.newtonschool.co/newton-box/6h1ed9qbymt8/
 useEffect(()=>{
 
 },[dependency])
