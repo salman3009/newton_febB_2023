@@ -1,0 +1,14 @@
+
+<button onclick="clears()">Stop interval</button>
+<script>
+   
+   let data = setInterval(timer,3000)
+
+   function timer(){
+    alert("every 3seconds");
+   }
+
+    function clears(){
+        clearInterval(data);
+    }
+</script>

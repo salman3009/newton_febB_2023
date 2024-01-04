@@ -11,6 +11,7 @@ useEffect(()=>{
 
 },[])
 //When page loads happen 
+//only one time it will run
 3.
 code link:https://code.newtonschool.co/newton-box/6h1ed9qbymt8/
 useEffect(()=>{
@@ -18,12 +19,14 @@ useEffect(()=>{
 },[dependency])
 //when dependency changes happen 
 4.
+code link:https://code.newtonschool.co/newton-box/uy1ycs3aaref/
 useEffect(()=>{
 
   return ()=>{
     console.log("cleaning up");
   }
-},[dependency])
-//When component leave for another component 
-//user leave the page.
+})
+//When component leave for another component .
+//Mainly used for cleaning up the data before leaving the component.
+//This real time example we will see in routing section.
 ====================================================
