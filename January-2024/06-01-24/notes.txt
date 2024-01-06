@@ -1,0 +1,18 @@
+useEffect(()=>{
+
+},[dependency])
+//Inside the dependency you have state variable or props variable.
+//Leaving the component is called component unmount.
+==================================================
+API call:
+//we will use fetch method to trigger api call to backend 
+example:
+async function initial(){
+    try{
+         let response = await fetch('https://randomuser.me/api/?results=10')'
+         let data = await response.json();
+    }
+    catch(err){
+        console.log(err);
+    }
+}

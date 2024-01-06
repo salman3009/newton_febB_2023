@@ -1,0 +1,13 @@
+useEffect(() => {
+   // set our variable to true
+   let isSubscribed = true;
+   get(API).then((response) => {
+       if (isSubscribed) {
+           // handle success
+       }
+   });
+   return () => {
+       // cancel the subscription
+       isSubscribed = false;
+   };
+}, []);
