@@ -58,5 +58,10 @@ useEffect(()=>{
     </div>
   );
 }
-
+Steps for fetch api call 
+1.write async await with try-catch code 
+2.call this function using useEffect with empty array bracket 
+3.use state to declare empty array 
+4.after api call update that data inside the state 
+5.using map function to list that data.
 ==========================================================
