@@ -110,4 +110,50 @@ export function App() {
   );
 }
 
+example 3:
+import React, { useEffect, useState } from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+  const [getList, setList] = useState([{
+    "uuid": "e3798e53-2ae6-462e-a9ef-710241de3382",
+    "username": "tinyzebra525",
+    "password":"medical"
+  }, {
+    "uuid": "e3798e53-2ae6-462e-a9ef-710241de3382",
+    "username": "tinyzebra525",
+    "password":"medical"
+  }]);
+
+  async function initial() {
+    try {
+      let response = await fetch('https://randomuser.me/api/?results=10');
+      let data = await response.json();
+      data.results.map((obj) => {
+        setList((old) => [...old, {uuid:obj.login.uuid,username:obj.login.username,password:obj.login.password}]);
+      })
+    }
+    catch (err) {
+      console.log(err);
+    }
+  }
+
+  useEffect(() => {
+    initial();
+  }, [])
+
+  return (
+    <div className="App">
+      {getList.map((data, index) => {
+        return (<div key={index}>
+          <h1>{data.uuid}</h1>
+            <h1>{data.username}</h1>
+              <h1>{data.password}</h1>
+        </div>)
+      })}
+    </div>
+  );
+}
+
 ==========================================================
