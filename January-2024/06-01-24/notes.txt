@@ -23,7 +23,15 @@ useEffect(()=>{
   initial();
 },[])
 
-example:
+Steps for fetch api call 
+1.write async await with try-catch code 
+2.call this function using useEffect with empty array bracket 
+3.use state to declare empty array 
+4.after api call update that data inside the state 
+5.using map function to list that data.
+
+
+example 1:
 import React,{useEffect,useState} from 'react';
 import './index.css'; // Link to your CSS file
 
@@ -58,10 +66,48 @@ useEffect(()=>{
     </div>
   );
 }
-Steps for fetch api call 
-1.write async await with try-catch code 
-2.call this function using useEffect with empty array bracket 
-3.use state to declare empty array 
-4.after api call update that data inside the state 
-5.using map function to list that data.
+
+example 2:
+import React, { useEffect, useState } from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+  const [getList, setList] = useState([{
+    "latitude": "-49.9335",
+    "longitude": "-10.2590"
+  }, {
+    "latitude": "-49.9335",
+    "longitude": "-10.2590"
+  }]);
+
+  async function initial() {
+    try {
+      let response = await fetch('https://randomuser.me/api/?results=10');
+      let data = await response.json();
+      data.results.map((obj) => {
+        setList((old) => [...old, {latitude:obj.location.coordinates.latitude,longitude:obj.location.coordinates.longitude}]);
+      })
+    }
+    catch (err) {
+      console.log(err);
+    }
+  }
+
+  useEffect(() => {
+    initial();
+  }, [])
+
+  return (
+    <div className="App">
+      {getList.map((data, index) => {
+        return (<div key={index}>
+          <h1>{data.latitude}</h1>
+            <h1>{data.longitude}</h1>
+        </div>)
+      })}
+    </div>
+  );
+}
+
 ==========================================================
