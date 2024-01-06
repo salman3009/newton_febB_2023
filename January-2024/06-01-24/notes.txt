@@ -5,14 +5,58 @@ useEffect(()=>{
 //Leaving the component is called component unmount.
 ==================================================
 API call:
+code link:https://code.newtonschool.co/newton-box/qio897o7ygho/
 //we will use fetch method to trigger api call to backend 
 example:
+
 async function initial(){
     try{
-         let response = await fetch('https://randomuser.me/api/?results=10')'
+         let response = await fetch('https://randomuser.me/api/?results=10');
          let data = await response.json();
     }
     catch(err){
         console.log(err);
     }
 }
+
+useEffect(()=>{
+  initial();
+},[])
+
+example:
+import React,{useEffect,useState} from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+  const[getList,setList] = useState([]);
+
+  async function initial(){
+    try{
+         let response = await fetch('https://randomuser.me/api/?results=10');
+         let data = await response.json();
+         data.results.map((obj)=>{
+           setList((old)=>[...old,obj.name.first]);
+         })
+    }
+    catch(err){
+        console.log(err);
+    }
+}
+
+useEffect(()=>{
+  initial();
+},[])
+
+  return (
+    <div className="App">
+      {getList.map((data,index)=>{
+           return(<div key={index}>
+            <h1>{data}</h1>
+           </div>)
+      })}
+    </div>
+  );
+}
+
+==========================================================
