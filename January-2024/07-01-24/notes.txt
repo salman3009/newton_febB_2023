@@ -1,0 +1,5 @@
+ The purpose of using async/await in React.js
+//To make network requests asynchronously
+The purpose of the fetch() method in React
+//To send HTTP requests to a server and receive responses
+====================================================
