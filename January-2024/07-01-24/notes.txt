@@ -5,3 +5,48 @@ The purpose of the fetch() method in React
 ====================================================
 Handling loading state of api
 code link:https://code.newtonschool.co/newton-box/1vgph2zxzlx9/
+example:
+import React, { useEffect, useState } from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+  const [getList, setList] = useState([]);
+  const [isLoading,setLoading] = useState(true);
+
+  async function initial() {
+    try {
+      let response = await fetch('https://randomuser.me/api/?results=10');
+      let data = await response.json();
+      data.results.map((obj) => {
+        setList((old) => [...old, {uuid:obj.login.uuid,username:obj.login.username,password:obj.login.password}]);
+      })
+    }
+    catch (err) {
+      console.log(err);
+    }
+  }
+
+ useEffect(()=>{
+ setLoading(false);
+   },[getList]);
+
+ if(isLoading){
+     return (<div>Loading....</div>);
+ }
+ else{
+  return (
+    <div className="App">
+      {getList.map((data, index) => {
+        return (<div key={index}>
+          <h1>{data.uuid}</h1>
+            <h1>{data.username}</h1>
+              <h1>{data.password}</h1>
+        </div>)
+      })}
+    </div>
+  );
+ }
+
+}
+================================================
