@@ -3,3 +3,5 @@
 The purpose of the fetch() method in React
 //To send HTTP requests to a server and receive responses
 ====================================================
+Handling loading state of api
+code link:https://code.newtonschool.co/newton-box/1vgph2zxzlx9/
