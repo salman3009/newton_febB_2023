@@ -50,3 +50,6 @@ export function App() {
 
 }
 ================================================
+splitting componenent props:
+https://code.newtonschool.co/newton-box/hevxmqmezc62/
+=================================================
