@@ -56,6 +56,7 @@ https://code.newtonschool.co/newton-box/hevxmqmezc62/
 Two types of http request 
 1.GET request -> Getting Data from backend. 
 2.POST request --> Sending Data to backend.
+code link:https://code.newtonschool.co/newton-box/vwhxdth0fzgy/
 Syntax:
 fetch('https://randomuser.me/api/?results=10',
    method:'POST',
@@ -81,3 +82,48 @@ example:
     }
   }
 ==================================================
+example:
+import React, { useState } from 'react';
+import './index.css'; // Link to your CSS file
+
+export function App() {
+
+  const [getList, setList] = useState({
+    userName: '',
+    password: ''
+  })
+
+  const onChangeHandler = (event) => {
+    setList({ ...getList, [event.target.name]: event.target.value })
+  }
+
+  const onSubmitHandler = async (event) => {
+    event.preventDefault();
+    try {
+      let response = await fetch('https://jsonplaceholder.typicode.com/posts',{method:'POST'},
+        {body: JSON.stringify(getList)},
+        {headers: {
+        "Content-type": "application/json;charset=UFT-8"
+      }}
+      );
+      let data = await response.json();
+      console.log(data);
+      alert("succcessfully submitted");
+    } catch (err) {
+
+    }
+
+  }
+  return (
+    <div className="App">
+      <form onSubmit={onSubmitHandler}>
+        userName:<input type="text" name="userName" value={getList.userName} onChange={onChangeHandler} />
+        <br />
+        password:<input type="text" name="password" value={getList.password} onChange={onChangeHandler} />
+        <br />
+        <input type="submit" />
+      </form>
+    </div>
+  );
+}
+=======================================================
