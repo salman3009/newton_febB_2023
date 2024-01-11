@@ -3,3 +3,13 @@ Mini Project : Pokemon - Features
 2.More pokemon - additional 20 data will come 
 3.know more button --> pop up with detailed description.
 =========================================================
+React functionality:
+1.functional component 
+2.hooks(useState,useEffect)
+3.fetch 
+4.try/catch 
+5.async/await 
+=======================================================
+code link:https://code.newtonschool.co/newton-box/mp0gpybq7wic/
+Pokemon API:https://content.newtonschool.co/v1/pr/64ccef982071a9ad01d36ff6/pokemonspages1
+==========================================================================
