@@ -11,5 +11,6 @@ React functionality:
 5.async/await 
 =======================================================
 code link:https://code.newtonschool.co/newton-box/mp0gpybq7wic/
-Pokemon API:https://content.newtonschool.co/v1/pr/64ccef982071a9ad01d36ff6/pokemonspages1
+Pokemon API first url:https://content.newtonschool.co/v1/pr/64ccef982071a9ad01d36ff6/pokemonspages1
+pokemon API Second url: https://content.newtonschool.co/v1/pr/64cc0d779d08d5aa491c7160/pokemons1
 ==========================================================================
