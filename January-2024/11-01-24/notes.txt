@@ -1,0 +1,5 @@
+Mini Project : Pokemon - Features
+1.list of data(cards) - initial 20 data 
+2.More pokemon - additional 20 data will come 
+3.know more button --> pop up with detailed description.
+=========================================================
