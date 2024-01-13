@@ -1,0 +1,18 @@
+<script>
+
+    async function initial() {
+        try {
+            let list = ["https://content.newtonschool.co/v1/pr/64cc0d779d08d5aa491c7160/pokemons1","https://content.newtonschool.co/v1/pr/64cc111e9d08d5aa491c71e8/pokemons2","https://content.newtonschool.co/v1/pr/64cc11569d08d5aa491c71fc/pokemons3"];
+            for await (let obj of list){
+                let response = await fetch(obj);
+                let data = await response.json();
+                console.log(data);
+            }
+           } catch (err) {
+
+        }
+    }
+
+
+    initial();
+</script>
