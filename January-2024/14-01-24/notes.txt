@@ -28,3 +28,7 @@ Dynamic css:
   
   background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
 }
+=======================================================================
+Modal event part2:
+https://code.newtonschool.co/newton-box/j284rcavit7f/
+====================================================================
