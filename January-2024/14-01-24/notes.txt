@@ -1,2 +1,30 @@
 pokemon code link:
 https://code.newtonschool.co/newton-box/3vnxr8nxk6cb/
+gradient css:
+https://github.com/salman3009/newton_academy/tree/main/2_CSS/Course/16_gradient
+Dynamic css:
+ <div key={index} className={`thumb-container ${obj.type}`}>
+ css:
+ .rock {
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+.ghost {
+  
+  background-image: linear-gradient(to top, #b7b7b8 0%, #e2ebf0 100%);
+}
+.electric {
+  
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+.bug {
+  
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+.poison {
+  
+  background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+}
+.normal {
+  
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}
