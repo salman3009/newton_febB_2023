@@ -2,3 +2,11 @@ code linK pokemon part-2:
 https://code.newtonschool.co/newton-box/n69b0oy8b85f/
 code link modal:
 https://code.newtonschool.co/newton-box/jtrrgfjt4ib7/
+=========================================================
+Topics:
+1.How to bring array of api data 
+2.How to Develop modal 
+3.How to get index value from Modal  
+New synatx:
+1.for await
+=======================================================
