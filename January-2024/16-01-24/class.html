@@ -9,4 +9,11 @@
             console.log(this.fullName);
         }
     }
+
+    class Person extends Employee{
+        constructor(fullName,age,salary){
+            super(fullName,age);
+            this.salary = salary;
+        }
+    }
 </script>

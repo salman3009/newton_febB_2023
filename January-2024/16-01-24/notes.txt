@@ -22,6 +22,29 @@ https://code.newtonschool.co/newton-box/caw8fgv1tx4c/
 Component you can create in two ways:
 1.functional component 
 2.class component 
+//class component is the old syntax.
+//Before react 16.8 we don't have hooks in functional component 
+//Before react 16.8 to use state we need to use class component.
+To write jsx inside the class component they have provided one method called render()
+=====================================================================
+Basic class component:
+import React,{Component} from 'react';
+import './index.css'; // Link to your CSS file
+
+
+export class App extends Component {
+  
+  constructor(){
+    super()
+  }
+
+  render(){
+     return (<div>
+     <h1>Welcome to class component</h1>
+     </div>)
+  } 
+}
+=======================================================================
 
 
 
