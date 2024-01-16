@@ -23,8 +23,10 @@ Component you can create in two ways:
 1.functional component 
 2.class component 
 //class component is the old syntax.
-//Before react 16.8 we don't have hooks in functional component 
+//Before react 16.8 we don't have hooks(useState,useEffect) in functional component 
 //Before react 16.8 to use state we need to use class component.
+//Class-based Components have a state, while Functional Components don't.
+//initial state in class component will be there inside the constructor
 To write jsx inside the class component they have provided one method called render()
 =====================================================================
 Basic class component:
@@ -45,6 +47,76 @@ export class App extends Component {
   } 
 }
 =======================================================================
+Creating custom class component 
+import {Component} from 'react';
 
 
+export class Employee extends Component{
 
+   constructor(){
+    super();
+   }
+
+   render(){
+    return(<div>
+       Employee Component
+    </div>)
+   }
+}
+
+import React,{Component} from 'react';
+import './index.css'; // Link to your CSS file
+import {Employee} from './Employee';
+
+export class App extends Component {
+  
+  constructor(){
+    super()
+  }
+
+  render(){
+     return (<div>
+     <h1>Welcome to class component</h1>
+     <Employee/>
+     </div>)
+  } 
+}
+=================================================================
+How to pass props
+App.js 
+import React,{Component} from 'react';
+import './index.css'; // Link to your CSS file
+import {Employee} from './Employee';
+
+export class App extends Component {
+  
+  constructor(){
+    super()
+  }
+
+  render(){
+     return (<div>
+     <h1>Welcome to class component</h1>
+     <Employee name="aksah" age="33"/>
+     </div>)
+  } 
+}
+Employee.js
+import {Component} from 'react';
+
+
+export class Employee extends Component{
+
+   constructor(props){
+    super(props);
+   }
+
+   render(){
+    return(<div>
+       Employee Component
+       <h1>{this.props.name}</h1>
+       <h1>{this.props.age}</h1>
+    </div>)
+   }
+}
+===================================================
