@@ -2,3 +2,17 @@ Code link for copying previous state data using callback:
 https://code.newtonschool.co/newton-box/wndq1wiof49k/
 Code link for passing custom data in event function 
 https://code.newtonschool.co/newton-box/ux2b5ed3zb0o/
+Pokemon Project:
+1.This Pokemon project we need to display a list of pokemon cards 
+2.This project consists of two api to fetch the data 
+3.first api will bring list of url to get details information about each pokemon 
+4.We need to call first api and then we need to call one by one given url api 
+5.we need to store this data inside the state 
+6.To call nested api we are using for await keyword so that it will wait for next course of data 
+7.we are using map function to display the data 
+8.once you click on more pokemon button will bring next 20 new data 
+9.next 20 new data will get url from previous api and will store in the state 
+10.once we click on load more will get the index value and will display that particular data 
+11.once we click on load more we are not calling any api because we need api initial load itself to display few of the data inside the cards 
+12.for design we have use flex box and simple modal popup 
+=======================================================================================
