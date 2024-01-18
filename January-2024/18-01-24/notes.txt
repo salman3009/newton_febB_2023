@@ -106,3 +106,6 @@ componentWillUnMount(){
 Date in class component 
 code link:https://code.newtonschool.co/newton-box/rm40zzs6a24s/
 ==========================================================
+Handling form in class component 
+code link:https://code.newtonschool.co/newton-box/s95to8xwdw1v/
+================================================================
