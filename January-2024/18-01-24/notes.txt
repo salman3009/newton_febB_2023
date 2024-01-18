@@ -29,7 +29,7 @@ arrow function don't have this keyword they borrow from parent.
 normal function have own this keyword 
 //adding normal method and arrow method inside the class component
 //everytime you can use arrow method.
- 
+
 import React from 'react';
 import './index.css'; // Link to your CSS file
 
@@ -60,3 +60,9 @@ export class App extends React.Component{
        </div>)
     }
 ===========================================================
+How to update State in react 
+//they have given method name called setState()
+example:
+this.setState({
+    count:this.state.count+1
+})
