@@ -103,3 +103,6 @@ componentWillUnMount(){
 }
 //it will trigger once you leave the component 
 ==========================================================
+Date in class component 
+code link:https://code.newtonschool.co/newton-box/rm40zzs6a24s/
+==========================================================
