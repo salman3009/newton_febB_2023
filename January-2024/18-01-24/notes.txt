@@ -66,3 +66,40 @@ example:
 this.setState({
     count:this.state.count+1
 })
+===========================================================
+LifeCycle in class component:
+code link:
+https://code.newtonschool.co/newton-box/knabwq3x33dz/
+1.constructor
+2.render 
+3.componentDidMount 
+4.componentDidUpdate 
+5.componentWillUnMount
+=========================================================
+useEffect(()=>{
+
+},[])
+componentDidMount(){
+
+}
+//only one time it will call
+===========================================================
+useEffect(()=>{
+
+},[dependency1,dependency2])
+componentDidUpdate(){
+
+}
+//any dependency changes happen it will start triggering.
+=============================================================
+useEffect(()=>{
+    return ()=>{
+         console.log("component leave");
+    }
+})
+
+componentWillUnMount(){
+
+}
+//it will trigger once you leave the component 
+==========================================================
