@@ -11,6 +11,56 @@ http://localhost:3000/login
 login component 
 http://localhost:3000/register 
 register component 
+code link: 
+https://code.newtonschool.co/newton-box/tooiqi1pqcuv/
 To setup Routing 
 //we need to install - react-router-dom
+//please create following functional component 
+1.login 
+2.register 
+3.home 
+//import three packages from react-router-dom 
+     BrowserRouter 
+     Routes
+     Route 
+//Route component have two attributes 
+        path - url path 
+        element -> we need to provide the component name
+//anchor and href will not work in react component we need to use Link and to attribute given by react router dom 
+example:
+import React from 'react';
+import './index.css'; // Link to your CSS file
+import {BrowserRouter,Routes,Route,Link} from 'react-router-dom';
+import {Home} from './Home';
+import {Register} from './Register';
+import {Login} from './Login';
+
+export function App() {
+  return (
+    <BrowserRouter>
+    <div className="App">
+      <nav>
+       <ul>
+       <li>
+        <Link to="/">Home</Link>
+       </li>
+       <li>
+        <Link to="/login">Login</Link>
+       </li>
+       <li>
+        <Link to="/register">Register</Link>
+       </li>
+       </ul>
+      </nav>
+    </div>
+    <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="/login" element={<Login/>}/>
+    <Route path="/register" element={<Register/>}/>
+    </Routes>
+    </BrowserRouter>
+    
+  );
+}
+
 ============================================================
