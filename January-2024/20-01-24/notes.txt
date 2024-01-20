@@ -1,0 +1,2 @@
+class component storing multiple data using array:
+code link:https://code.newtonschool.co/newton-box/hanx3cmalq73/

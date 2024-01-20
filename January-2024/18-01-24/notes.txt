@@ -70,11 +70,12 @@ this.setState({
 LifeCycle in class component:
 code link:
 https://code.newtonschool.co/newton-box/knabwq3x33dz/
-1.constructor
-2.render 
-3.componentDidMount 
-4.componentDidUpdate 
-5.componentWillUnMount
+1.constructor - state will declare
+2.componentWillUnMount - removing interval and unuseddata
+3.render - jsx
+4.componentDidMount -initial api
+5.componentDidUpdate 
+
 =========================================================
 useEffect(()=>{
 
@@ -109,3 +110,5 @@ code link:https://code.newtonschool.co/newton-box/rm40zzs6a24s/
 Handling form in class component 
 code link:https://code.newtonschool.co/newton-box/s95to8xwdw1v/
 ================================================================
+Class-based Components can use lifecycle methods, while Functional Components cannot.
+Functional Components can use hooks, while Class-based Components cannot.
