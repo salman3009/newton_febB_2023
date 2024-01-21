@@ -1,0 +1,21 @@
+What is Navlink:
+//It is similar to link tag but we have some extra features 
+example:
+isActive - return boolean value for active link 
+style - to apply inline style
+codeLink:
+https://code.newtonschool.co/newton-box/lwajnl1hyqox/
+example:
+style={({isActive})=>{
+          return {
+              color:isActive?"yellow":"red"
+          }
+    }}
+example:
+ <NavLink 
+        style={({isActive})=>{
+          return {
+              color:isActive?"yellow":"red"
+          }
+         }}
+        to="/login">Login</NavLink>
