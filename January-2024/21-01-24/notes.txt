@@ -33,8 +33,10 @@ example:
 ============================================================
 navigate:
 code link:https://code.newtonschool.co/newton-box/7mp5ymg4mwg9/
-
-
+//To do internal navigation to another component 
+import {useNavigate} from 'react-router-dom';
+const navigate = useNavigate();
+navigate('/dashboard');
 ===============================================================
 important while exporting and importing 
 Two types:
