@@ -5,6 +5,8 @@ isActive - return boolean value for active link
 style - to apply inline style
 codeLink:
 https://code.newtonschool.co/newton-box/lwajnl1hyqox/
+writing any inline style:
+style={{color:"red"}}
 example:
 step1: style={}
 step2: style={()=>{}}
@@ -28,3 +30,19 @@ example:
           }
          }}
         to="/login">Login</NavLink>
+============================================================
+navigate:
+code link:https://code.newtonschool.co/newton-box/7mp5ymg4mwg9/
+
+
+===============================================================
+important while exporting and importing 
+Two types:
+1.
+export default Login
+import Login from './Login';
+
+2.
+export Login
+import {Login} from './Login';
+================================================================
