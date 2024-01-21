@@ -3,6 +3,7 @@ What is Navlink:
 example:
 isActive - return boolean value for active link 
 style - to apply inline style
+<NavLink to="/home" activeClassName="active">Home</NavLink>
 codeLink:
 https://code.newtonschool.co/newton-box/lwajnl1hyqox/
 writing any inline style:
