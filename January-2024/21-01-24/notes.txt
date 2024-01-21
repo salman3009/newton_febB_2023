@@ -49,3 +49,6 @@ import Login from './Login';
 export Login
 import {Login} from './Login';
 ================================================================
+Not Found page: interview question
+<Route path='*' element={<NotFound/>} />
+=======================================================================
