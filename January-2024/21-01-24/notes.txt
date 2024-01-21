@@ -6,6 +6,15 @@ style - to apply inline style
 codeLink:
 https://code.newtonschool.co/newton-box/lwajnl1hyqox/
 example:
+step1: style={}
+step2: style={()=>{}}
+step3: style={({isActive})=>{}}
+step4: step3: style={({isActive})=>{
+     return {
+        color:isActive?"red":"blue";
+     }
+}}
+example:
 style={({isActive})=>{
           return {
               color:isActive?"yellow":"red"
