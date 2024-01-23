@@ -1,0 +1,8 @@
+Dynamic routes:
+//very much important for interview
+code link:https://code.newtonschool.co/newton-box/e3mj0ul1x7e9/
+Dynamic params:
+/product/:id
+id-->dynamic data 
+https://fakestoreapi.com/products
+=============================================================

@@ -2,7 +2,6 @@ What is Navlink:
 //It is similar to link tag but we have some extra features 
 example:
 isActive - return boolean value for active link 
-style - to apply inline style
 <NavLink to="/home" activeClassName="active">Home</NavLink>
 codeLink:
 https://code.newtonschool.co/newton-box/lwajnl1hyqox/
