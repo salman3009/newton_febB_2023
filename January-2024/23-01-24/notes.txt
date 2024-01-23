@@ -5,4 +5,16 @@ Dynamic params:
 /product/:id
 id-->dynamic data 
 https://fakestoreapi.com/products
+example:
+https://fakestoreapi.com/products/5
+5 is dynamic 
+
+Accessing dynamic params inside the component 
+import {useParams} from 'react-router-dom';
+export const SingleProduct=()=>{
+    const {id} = useParams();   
+    return (<div>
+     <h1>SingleProduct</h1>
+    </div>)
+}
 =============================================================
