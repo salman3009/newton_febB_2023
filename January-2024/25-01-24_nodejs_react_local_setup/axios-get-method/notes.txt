@@ -17,4 +17,25 @@ cmd:npm -v
 npm - node package manager 
 https://www.npmjs.com/ 
 //It is open source code available for javascript 
+=======================================================
+how to run javascript file outside the browser with nodejs help 
+//write a file with extension index.js 
+let a = 5;
+let b = 6;
+let c = a + b;
+console.log("hello npmjs");
+console.log(c);
+cmd:node index 
+output:hello npmjs 
+11
 ========================================================
+Setting up our own project using npm 
+//create one folder 
+//inside that folder open cmd:npm init 
+//for all the configuration option just give enter.
+//it will create one package.json file 
+//package.json it is configuration file.
+What is configuration file?
+//how to start application 
+//how to stop application 
+//what are packages present 
