@@ -65,3 +65,7 @@ Any project once you push remove_node_modules
 //once you download the project just run below command then it will create node_modules again with all packages present
 cmd: npm install 
 ==========================================================
+package-lock.json 
+//whenever you download any thrid package this file will be created 
+//lock file for dependencies version 
+===============================================================
