@@ -1,0 +1,20 @@
+Nodejs:
+//runtime environment for javascript 
+//To run javascript outside the browser 
+Why we need Nodejs for react?
+//Reactjs code we cannot run directly inside the browser. Because it is high level code. Browser not able to run
+//We need to convert high level javascript code to low level code 
+//Nodejs will bundle react package to low level code and we can able to run this bundle in browser.
+==========================================================================
+Nodejs setup:
+//open cmd anywhere 
+cmd:node -v
+link:
+https://nodejs.org/download/release/v18.19.0/
+click on below 
+node-v18.19.0-x64.msi 
+cmd:npm -v 
+npm - node package manager 
+https://www.npmjs.com/ 
+//It is open source code available for javascript 
+========================================================
