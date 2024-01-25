@@ -46,3 +46,22 @@ how to setup run configuration in package.json?
   }
 cmd:npm start
 ====================================================
+Installing third party packages inside our project 
+cmd:npm install package_name 
+example:
+cmd:npm install axios 
+===================================================
+node_modules
+//all dependencies for the project 
+//download packages will be present here
+================================================
+package.json you can refer the package installed and their version 
+"dependencies": {
+    "axios": "^1.6.6"
+  }
+============================================================
+Any project once you push remove_node_modules
+//node_modules will have all download third party packages it will increase the bundle size once you push inside the github
+//once you download the project just run below command then it will create node_modules again with all packages present
+cmd: npm install 
+==========================================================
