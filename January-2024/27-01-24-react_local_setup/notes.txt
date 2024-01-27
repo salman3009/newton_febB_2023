@@ -14,3 +14,12 @@ Happy Hacking
 ========================================================
 .gitignore
 //While pushing the code inside the github it will remove the mentoined file.
+=====================================================================================
+node_modules --         downloaded code 
+public --               index.html 
+src-                    main source 
+.gitignore --           ignoring files 
+package.json -          configuration file 
+package_lock -          locking dependencies
+readme -                documentation file 
+================================================
