@@ -23,3 +23,10 @@ package.json -          configuration file
 package_lock -          locking dependencies
 readme -                documentation file 
 ================================================
+To run the react project 
+cmd:npm start 
+browser:http://localhost:3000/
+==========================================
+first react component:
+src-->index.js-->app.js 
+========================================
