@@ -1,0 +1,40 @@
+nav {
+  font-family: Arial, "sans-serif";
+  background-color: #f8f8f8;
+  padding: 16px;
+}
+
+ul > li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.favorite-component, .product-component, .single-product-component {
+  font-family: Arial, "sans-serif";
+  max-width: "800px";
+  margin: "0 auto";
+  padding: "16px";
+}
+
+.favorite-product, .product, .single-product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.favorite-product-image, .product-image, .single-product-image {
+  width: 80px;
+  margin-right: 16px;
+}
+
+.favorite-product-details, .product-details, .single-product-details {
+  flex: 1;
+}
+
+.favorite-product-details > button, .product-details > button {
+  background-color: #ff4d4f;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}

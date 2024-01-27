@@ -38,3 +38,6 @@ How to run the project inside the vscode terminal
 //package.json - right click-open in integrated terminal 
 //npm start 
 =====================================================
+installing router package 
+cmd:npm install react-router-dom 
+======================================================
