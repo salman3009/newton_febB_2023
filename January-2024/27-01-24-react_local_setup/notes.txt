@@ -5,8 +5,12 @@ scripts inside the package.json
 //npm start 
 ==================================================
 Setting up react project in your local system 
-//npx create-react-app project_name
+//npx create-react-app project-name
 npx --> it will install latest version of code 
 create-react-app -->package_name 
 project_name --> project name anything you can provide here.
+Happy Hacking 
+//once the download code is successful.
 ========================================================
+.gitignore
+//While pushing the code inside the github it will remove the mentoined file.
