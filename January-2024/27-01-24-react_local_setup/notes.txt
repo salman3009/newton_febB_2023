@@ -4,3 +4,9 @@ scripts inside the package.json
 //only for "start" command you can run directly
 //npm start 
 ==================================================
+Setting up react project in your local system 
+//npx create-react-app project_name
+npx --> it will install latest version of code 
+create-react-app -->package_name 
+project_name --> project name anything you can provide here.
+========================================================
