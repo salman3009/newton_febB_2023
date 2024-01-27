@@ -30,3 +30,7 @@ browser:http://localhost:3000/
 first react component:
 src-->index.js-->app.js 
 ========================================
+how to stop the application:
+//ctrl+c 
+//type yes 
+======================================
