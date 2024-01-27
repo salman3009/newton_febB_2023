@@ -34,3 +34,7 @@ how to stop the application:
 //ctrl+c 
 //type yes 
 ======================================
+How to run the project inside the vscode terminal 
+//package.json - right click-open in integrated terminal 
+//npm start 
+=====================================================
