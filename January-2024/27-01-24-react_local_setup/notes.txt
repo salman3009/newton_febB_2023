@@ -1,0 +1,6 @@
+scripts inside the package.json
+//Anything inside the scripts you want to run means 
+//npm run name_scripts 
+//only for "start" command you can run directly
+//npm start 
+==================================================

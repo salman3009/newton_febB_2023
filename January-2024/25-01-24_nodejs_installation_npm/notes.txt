@@ -26,9 +26,15 @@ let c = a + b;
 console.log("hello npmjs");
 console.log(c);
 cmd:node index 
-output:hello npmjs 
+output:
+hello npmjs 
 11
 ========================================================
+Benefits of NPM:
+//To download and install Node.js packages and modules.
+//To manage dependencies for a Node.js project.
+//To create and publish Node.js packages.
+
 Setting up our own project using npm 
 //create one folder 
 //inside that folder open cmd:npm init 
