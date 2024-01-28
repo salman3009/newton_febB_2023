@@ -78,3 +78,16 @@ cmd:npm run dev
 first file 
 pages/index.js 
 ==================================
+what is nextjs 
+reactjs framework
+what is main of reactjs 
+//server side rendering 
+What are Two types of pre-rendering?
+1.static generation 
+2.server side rendering
+How to create nextjs 
+npx create-next-app project_name 
+What are two types of router?
+1.app router (faster and new concept)
+2.page router (old one)
+==========================================
