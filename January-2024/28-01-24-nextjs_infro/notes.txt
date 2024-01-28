@@ -24,5 +24,57 @@ function App() {
 
 export default App;
 ===============================================================
-
 Nextjs:
+web development 
+1.html 
+2.css 
+3.javascript 
+javascript library or framework 
+1.Reactjs 
+2.angular 
+3.vuejs 
+Reactjs framework
+1.Nextjs 
+============================================================
+Nextjs 
+1.It has server side rendering 
+2.Two types of pre-rendering 
+    1.static Generation 
+       //html page will be developed at build time. The pre-rendered html is then reused on each request.
+    2.server-side-rendering
+       //pre-rendering it will generate html during each request.
+========================================================================
+Benefits 
+1.Improved Performance 
+2.SEO optimization 
+3.Simplified Routing (file based routing system)
+4.automatic code splitting 
+5.Data Fetching strategies 
+    1.getServerSideProps 
+    2.getStaticProps 
+    3.getStaticPaths
+6.full stack application you can write both frontend + backend 
+======================================================
+Creating nextjs app 
+1.Page Router 
+2.App Router 
+//Difference between two is routing mechanism 
+Page router is old one 
+App router is new ond and faster as well
+===========================================================
+creating setup for nextjs 
+cmd:npx create-next-app project_name 
+//creating page router
+Typescript - no 
+ESLint - no 
+Tailwind css- no 
+src - no
+App router - no 
+import alias - no 
+======================================
+To run the application:
+cmd:npm run dev 
+=====================================
+first file 
+pages/index.js 
+==================================
