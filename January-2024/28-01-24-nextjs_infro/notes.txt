@@ -1,0 +1,28 @@
+Setting up react application 
+1.npx create-react-app project_name 
+
+2.create one components folder and inside you can create custom functional component 
+example:
+function Main() {
+    return (
+            <div>hello</div>
+    );
+}
+
+export default Main;
+
+3.import inside the App.js 
+import React from "react";
+import Main from "./components/Main";
+function App() {
+    return (
+        <div id="container">
+            <Main/>
+        </div>
+    );
+}
+
+export default App;
+===============================================================
+
+Nextjs:
