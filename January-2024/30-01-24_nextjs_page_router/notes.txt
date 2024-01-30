@@ -12,3 +12,10 @@ Setting up new routes
 //filename is the route name
 http://localhost:3000/about
 ==============================================
+Setting Link tag in nextjs 
+example:
+import Link from 'next/link';
+<Link href="/">Home</Link>
+=======================================
+
+
