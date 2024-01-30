@@ -38,6 +38,19 @@ http://localhost:3000/products/2
 //Create one folder any name example product 
 //Inside that create file name with array bracket and params name 
 [id].js 
+--------------------------------------------------------
+How to access dynamic parameter inside the application 
+//we need to import useRouter package 
+example:
+import {useRouter} from 'next/router';
+
+//we need to use query parameter from useRouter 
+
+function Example(){
+    const router = useRouter();
+    const {id} = router.query;
+}
+
 ===============================================
 
 
