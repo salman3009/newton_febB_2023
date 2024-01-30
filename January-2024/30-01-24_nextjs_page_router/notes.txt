@@ -32,6 +32,14 @@ Solving Assignment:
 //git push
 //copy the url(github url) and paste inside the hosted project link 
 ================================= 
+Passing dynamic parameter inside the routes in Nextjs:
+http://localhost:3000/product/1
+http://localhost:3000/products/2
+//Create one folder any name example product 
+//Inside that create file name with array bracket and params name 
+[id].js 
+===============================================
+
 
 
 
