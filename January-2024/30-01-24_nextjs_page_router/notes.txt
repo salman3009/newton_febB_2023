@@ -11,11 +11,27 @@ Setting up new routes
 //create the file about.js inside the pages folder. 
 //filename is the route name
 http://localhost:3000/about
+
+//you can also create folder blog and inside that you need to create file name index.js(only index.js filename fixed)
+//http://localhost:3000/blog
 ==============================================
 Setting Link tag in nextjs 
 example:
 import Link from 'next/link';
 <Link href="/">Home</Link>
 =======================================
+Solving Assignment:
+//select page router 
+//clone button 
+//git clone url 
+//npm install
+//npm run dev
+//http://localhost:3000
+//git add .
+//git commit -m "Code"
+//git push
+//copy the url(github url) and paste inside the hosted project link 
+================================= 
+
 
 
