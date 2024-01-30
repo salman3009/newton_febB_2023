@@ -1,0 +1,14 @@
+Page Router:
+//useState,useEffect we can use in nextjs also.
+//react-router-dom this will not work in nextjs.
+Running the application:
+cmd:npm run dev 
+===================================
+root file:
+src/pages/index.js
+==============================
+Setting up new routes 
+//create the file about.js inside the pages folder. 
+//filename is the route name
+http://localhost:3000/about
+==============================================

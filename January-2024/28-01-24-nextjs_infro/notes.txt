@@ -43,6 +43,7 @@ Nextjs
        //html page will be developed at build time. The pre-rendered html is then reused on each request.
     2.server-side-rendering
        //pre-rendering it will generate html during each request.
+3.filed based routing system
 ========================================================================
 Benefits 
 1.Improved Performance 
@@ -68,7 +69,7 @@ cmd:npx create-next-app project_name
 Typescript - no 
 ESLint - no 
 Tailwind css- no 
-src - no
+src - yes
 App router - no 
 import alias - no 
 ======================================
