@@ -1,1 +1,18 @@
-NextJs 
+Nextjs
+1.Page Routing 
+2.ContextAPI 
+page routing only 
+no App routing 
+========================= 
+Solving Assignment:
+//select page router 
+//clone button 
+//git clone url 
+//npm install
+//npm run dev
+//http://localhost:3000
+//git add .
+//git commit -m "Code"
+//git push
+//copy the url(github url) and paste inside the hosted project link 
+=========================================================================
