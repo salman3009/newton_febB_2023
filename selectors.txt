@@ -21,6 +21,7 @@ Basic Selectors:
     .theme{
         color:red;
     }
+---
 4.grouping selector 
      //combination of all selectors 
      //element selector + class selector + id selector ....
