@@ -4,7 +4,7 @@ const AuthDetails = createContext();
 
 
 //consume data in the component
-export const Consumer = ()=>{
+export const useConsumer = ()=>{
      return useContext(AuthDetails);
 }
 
