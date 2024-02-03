@@ -43,6 +43,7 @@ Nextjs
        //html page will be developed at build time. The pre-rendered html is then reused on each request.
     2.server-side-rendering
        //pre-rendering it will generate html during each request.
+3.server side rendering is best because mobile data limitation.
 3.filed based routing system
 ========================================================================
 Benefits 
@@ -60,7 +61,7 @@ Creating nextjs app
 1.Page Router 
 2.App Router 
 //Difference between two is routing mechanism 
-Page router is old one 
+Page router is old one and ease to use.
 App router is new ond and faster as well
 ===========================================================
 creating setup for nextjs 

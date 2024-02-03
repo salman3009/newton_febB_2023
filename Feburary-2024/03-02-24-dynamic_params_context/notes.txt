@@ -19,3 +19,11 @@ Context Provider:
 children props:
 code link:https://code.newtonschool.co/newton-box/vfdnp0j75ocx/
 ==================================================================
+file location:
+import { AuthContext } from "../AuthContext";
+//..(two dots) means coming outside of current location folder 
+//.(single dots) same location folder.
+=========================================================
+Setup for context provider:
+1.First create one global file for provider 
+2.Wrapper provider inside the _app.js file 
