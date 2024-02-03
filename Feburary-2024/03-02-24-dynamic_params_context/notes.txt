@@ -8,3 +8,14 @@ index.html-->index.js-->app.js
 //_app.js is used to maintain layout and storing global data here.
 //There is no html file inside the nextjs 
 ====================================================
+Context Provider:
+//It help to avoid props drilling to nested components 
+//It will store data in one common place 
+//From there we can share data to entire application 
+//we can do two things 
+     1.provide the data 
+     2.consumer the data 
+==================================================
+children props:
+code link:https://code.newtonschool.co/newton-box/vfdnp0j75ocx/
+==================================================================
