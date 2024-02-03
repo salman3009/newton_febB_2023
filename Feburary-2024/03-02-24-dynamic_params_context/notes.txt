@@ -1,0 +1,10 @@
+Flow of execution for page routing in Nextjs 
+_document.js  ---> _app.js ---> index.js 
+
+Flow of execution for reactjs 
+index.html-->index.js-->app.js
+
+//index.html is similar to _document.js in react application
+//_app.js is used to maintain layout and storing global data here.
+//There is no html file inside the nextjs 
+====================================================
