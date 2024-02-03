@@ -1,8 +1,20 @@
+import { createContext, useContext } from "react";
+
+const AuthDetails = createContext();
 
 
-export const AuthContext = ({children})=>{
+//consume data in the component
+export const Consumer = ()=>{
+     return useContext(AuthDetails);
+}
 
-    return <>
+export const AuthContext = ({ children }) => {
+
+  //provide data in the component
+  return <>
+    <AuthDetails.Provider value={"dummy data"}>
       {children}
-    </>
+    </AuthDetails.Provider>
+
+  </>
 }

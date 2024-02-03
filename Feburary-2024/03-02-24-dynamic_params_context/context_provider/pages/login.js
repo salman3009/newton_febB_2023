@@ -11,6 +11,7 @@ const login =()=>{
      return (<>
         <h1>Login Component</h1>
         <input type="text" onChange={onChangeHandler}/>
+        <h2>Name Display:{getName}</h2>
        </>)
 }
 
