@@ -2,19 +2,13 @@
 import {useState} from 'react';
 import { useConsumer } from '../AuthContext';
 const login =()=>{
-     const [getName,setName] = useState(null);
-     const name = useConsumer();
-
-
-     const onChangeHandler=(event)=>{
-        setName(event.target.value);
-     }
+    
+     const {getName,setNameHandler} = useConsumer();
 
      return (<>
         <h1>Login Component</h1>
-        <input type="text" onChange={onChangeHandler}/>
-        <h2>Name Display:{getName}</h2>
-        <h3>{name}</h3>
+        <input type="text" onChange={setNameHandler}/>
+        <h3>{getName}</h3>
        </>)
 }
 

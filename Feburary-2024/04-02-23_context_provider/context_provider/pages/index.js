@@ -7,7 +7,7 @@ import { useConsumer } from "../AuthContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const name = useConsumer();
+ 
 
   return (
     <>
@@ -25,9 +25,7 @@ export default function Home() {
             <li>
               <Link href="/list">List component</Link>
             </li>
-            <li>
-              {name}
-            </li>
+
           </ul>
        </main>
     </>
