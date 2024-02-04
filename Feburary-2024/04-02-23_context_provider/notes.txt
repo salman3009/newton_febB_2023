@@ -1,0 +1,3 @@
+Use of ContextAPI in React?
+//To manage global state and share data between components
+createContext,useContext,ContextAPI,provider-consumer
