@@ -52,3 +52,5 @@ const list =()=>{
 
 export default list;
 ===============================================================
+Can we use multiple context in single application?
+//yes we can use mulitple context 
