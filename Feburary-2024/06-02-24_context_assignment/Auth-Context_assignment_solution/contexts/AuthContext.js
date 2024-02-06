@@ -11,11 +11,13 @@ export const AuthProvider = (props) => {
     const[isLoggedIn,setLoggedIn] = useState(false);
 
     const login=(token)=>{
-
+         localStorage.setItem('token',token);
+         setLoggedIn(true);
     }
 
     const logout=()=>{
-
+     localStorage.removeItem("token");
+     setLoggedIn(false);
     }
 
     return (<AuthContext.Provider value={{isLoggedIn,login,logout}}>
