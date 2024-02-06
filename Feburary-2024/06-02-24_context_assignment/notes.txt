@@ -1,0 +1,54 @@
+Nextjs Interviews:
+//What is Nextjs
+//How routing is working 
+//What is Page routing 
+//how to develop files and giving link for routing 
+//how to get dynamic params 
+=================================================
+Context:
+Sudo Code:
+1.Create one file for context outside pages folder.
+2.Write one function inside the context with rendering children props 
+example:
+
+const AuthDetails = createContext();
+
+export const AuthContext = (props) => {
+  return <>
+    <AuthDetails.Provider value={"dummy data"}>
+      {props.children} 
+    </AuthDetails.Provider>
+
+  </>
+}
+
+3.wrapped the AuthContext function inside the app.js 
+example:
+export default function App({ Component, pageProps }) {
+  return (
+    <AuthContext>
+      <Component {...pageProps} />
+    </AuthContext>
+  );
+}
+
+4.Writing useContext to access data inside AuthContext function 
+example:
+export const useConsumer = ()=>{
+     return useContext(AuthDetails);
+}
+
+5.Go inside any component and import useConsumer function and start accessing data from context 
+example:
+
+import { useConsumer } from "../AuthContext";
+const list =()=>{
+    const getName = useConsumer(); 
+     return (<>
+        <h1>List Component</h1>
+        <h1>The given name is: {getName}</h1>
+       </>)
+}
+
+export default list;
+===============================================================

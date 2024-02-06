@@ -16,6 +16,8 @@ export const AuthContext = (props) => {
    const setNameHandler=(event)=>{
           setName(event.target.value);
    }
+
+  
   //provide data in the component
   return <>
     <AuthDetails.Provider value={{getName,setNameHandler,getFlag}}>
