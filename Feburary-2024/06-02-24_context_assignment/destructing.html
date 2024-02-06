@@ -1,0 +1,16 @@
+<script>
+    function display(){
+        let firstName = "suresh";
+
+        let logout=()=>{
+            console.log("logout function");
+        }
+        return {
+            firstName,logout
+        }
+    }
+
+let {firstName,logout} = display();
+console.log(firstName);
+logout();   
+</script>
