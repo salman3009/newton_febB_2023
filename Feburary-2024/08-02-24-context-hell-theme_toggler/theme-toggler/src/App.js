@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import { LocalThemeBox } from './LocalThemeBox';
+import { GlobalThemeBox } from './GlobalThemeBox';
 function App() {
   return (
     <div className="App">
-      <LocalThemeBox/>
+      <GlobalThemeBox/>
     </div>
   );
 }
