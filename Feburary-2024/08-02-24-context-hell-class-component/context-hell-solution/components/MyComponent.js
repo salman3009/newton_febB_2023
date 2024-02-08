@@ -7,6 +7,10 @@ import ConfigContext from '../contexts/ConfigContext';
 
 const MyComponent = () => {
 
+    const {theme} = useContext(ThemeContext);
+    const {language} = useContext(LanguageContext);
+    const {user} = useContext(UserContext);
+    const {config} = useContext(ConfigContext);
 
   return (
     <div>
