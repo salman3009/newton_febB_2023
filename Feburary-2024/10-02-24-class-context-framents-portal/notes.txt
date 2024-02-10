@@ -67,3 +67,20 @@ To use in class component we need to use below syntax:
           <h2></h2>
          </>) 
 =================================================
+Portals in Reactjs 
+//16.0 onwards we have this concept 
+//By using this it will help to develops modals,tooltips,popup.
+//It will allows you to render components outside the current react hierachy.
+//You can easily render elements into different parts of the DOM.
+syntax:
+index.html 
+<body>
+<div id="portal></div>
+</body>
+import ReactDOM from 'react-dom';
+App.js 
+function App(){
+    return ReactDOM.createPortal(<h1>create portal demo</h1>,document.getElementByid("portal"))
+}
+============================================================
+

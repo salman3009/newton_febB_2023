@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import {Product} from './Product';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <>
       <h1>Hello</h1>
       <h2>World</h2>
+      <Product/>
      </>
   );
 }
