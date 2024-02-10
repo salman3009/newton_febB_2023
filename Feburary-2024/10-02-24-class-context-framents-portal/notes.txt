@@ -83,4 +83,7 @@ function App(){
     return ReactDOM.createPortal(<h1>create portal demo</h1>,document.getElementByid("portal"))
 }
 ============================================================
-
+Creating Portal in nextjs 
+ return ReactDOM.createPortal(<h1>create portal demo</h1>,document.body)
+ https://code.newtonschool.co/newton-box/28pk06v9nvyl/
+ =======================================================================
