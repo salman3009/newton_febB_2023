@@ -37,3 +37,12 @@ class App extends Component{
     }
 }
 ============================================
+Using Context inside the class component:
+//createContext() is similar normally we used in nextjs or functional component in reactjs 
+//usecontext() we cannot use inside the class component.
+To use in class component we need to use below syntax:
+ static contextType = createContext();
+ {this.context.getLanguage}
+
+ static contextType and this context is inbuilt keyword.
+ ================================================
