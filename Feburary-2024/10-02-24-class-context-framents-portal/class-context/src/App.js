@@ -13,6 +13,7 @@ class App extends Component{
         return (<>
          <h1>welcome to class component</h1>
          <h2>{this.context.getLanguage}</h2>
+         <input type="text" onChange={this.context.setLanguageHandler}/>
         </>)
      }
 }
