@@ -46,3 +46,24 @@ To use in class component we need to use below syntax:
 
  static contextType and this context is inbuilt keyword.
  ================================================
+ Fragments in Reactjs:
+ //It helps to wrapped the mulitple elements in single tag without adding extra nodes to the DOM.
+ example:
+    old appoarch:
+       return (<div>
+          <h1></h1>
+          <h2></h2>
+        </div>)
+
+    new approach with fragments 
+         return (<React.Fragment>
+           <h1></h1>
+          <h2></h2>
+         </React.Fragment)
+
+     new approach with fragments 
+         return (<>
+           <h1></h1>
+          <h2></h2>
+         </>) 
+=================================================
