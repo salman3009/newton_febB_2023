@@ -1,8 +1,9 @@
 import {Component} from 'react';
-
+import { UserLanguage } from './LanguageContext';
 
 class App extends Component{
 
+     static contextType = UserLanguage;
      constructor(){
         super();
      }
@@ -11,6 +12,7 @@ class App extends Component{
      render(){
         return (<>
          <h1>welcome to class component</h1>
+         <h2>{this.context.getLanguage}</h2>
         </>)
      }
 }
