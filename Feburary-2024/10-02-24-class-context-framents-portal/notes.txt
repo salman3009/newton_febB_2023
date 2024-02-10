@@ -1,0 +1,39 @@
+Class component:
+
+import {Component} from 'react';
+
+class App extends Component{
+    constructor(){
+        super();
+    }
+
+    render(){
+        return <>
+         <h1>Welcome to class component</h1>
+        </>
+    }
+}
+
+How to use State in class component: 
+
+class App extends Component{
+    constructor(){
+        super();
+        this.state={
+            flag:true
+        }
+    }
+
+    setHandler=()=>{
+        this.setState({flag:!flag});
+    }
+
+    render(){
+        return <>
+         <h1>Welcome to class component</h1>
+         <h1>{this.state.flag}</h1>
+         <button></button>
+        </>
+    }
+}
+============================================
