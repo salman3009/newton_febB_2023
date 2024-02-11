@@ -19,3 +19,24 @@ https://code.newtonschool.co/newton-box/ku3sb40uqzt2/
 With Using useRef 
 https://code.newtonschool.co/newton-box/8gw21wmp0fc3/
 ============================================================
+what is forware ref?
+//It will allow parent component to move down refs to their children component.
+syntax:
+import {forwardRef} from 'react';
+
+export const InputField=forwardRef();
+
+export const InputField=forwardRef((props,ref)=>{
+     return (<div></div>)
+});
+
+export const InputField=forwardRef((props,ref)=>{
+     return (<div>
+      <input type="text" ref={ref}/>
+     </div>)
+});
+
+
+code link:
+https://code.newtonschool.co/newton-box/pp7piy30wfly/
+==============================================================
