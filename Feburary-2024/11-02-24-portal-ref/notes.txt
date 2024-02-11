@@ -1,0 +1,21 @@
+What is Portal?
+A technique used to render a component's output to a different part of the DOM hierarchy
+========================================================================================
+Types of Hooks:
+1.useState 
+2.useEffect 
+3.useContext 
+4.useRef 
+//It is hook that allows you to create reference to an element.
+example;
+import {useRef} from 'react';
+const inputRef = useRef(null);
+<input ref={inputRef} type="text"/>
+//Unlike the useState hook, updating a useRef does not trigger re-render of the component 
+General understand of useRef:
+https://code.newtonschool.co/newton-box/g4q3bnh1gg0t/
+Without useRef Drawback:
+https://code.newtonschool.co/newton-box/ku3sb40uqzt2/
+With Using useRef 
+https://code.newtonschool.co/newton-box/8gw21wmp0fc3/
+============================================================
