@@ -13,4 +13,34 @@ useReducer hooks
 //It will allow to write custom state logic.
 Without useReducer 
 https://code.newtonschool.co/newton-box/4xop1gqlx2eg/
+With useReducer
+https://code.newtonschool.co/newton-box/hhgnbm7olctu/
+syntax:
+import { useReducer } from 'react';
+
+ const initialState = 0;
+
+  //state and action two parameters given by useReducer 
+  //state will have current data 
+  //action will access data from dispatch function 
+  const reducer = (state,action) => {
+    switch (action) {
+      case 'increment':
+        return state+1;
+      case 'decrement':
+        return state-1;
+      case 'multipleFive':
+        return state*5
+      case 'multipleTen':
+        return state*10;
+      case 'initial':
+      return 0;
+    }
+  }
+
+  //count - it will provide current value from state 
+  //dispatch - it is a function to trigger the action 
+  //reducer is a method 
+  //initialState initial state value 
+   const [count,dispatch] = useReducer(reducer,initialState);
 ================================================
