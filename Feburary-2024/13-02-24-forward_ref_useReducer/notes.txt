@@ -43,4 +43,7 @@ import { useReducer } from 'react';
   //reducer is a method 
   //initialState initial state value 
    const [count,dispatch] = useReducer(reducer,initialState);
+
+ useReducer using Object state:
+ https://code.newtonschool.co/newton-box/bwf5l35hf14u/  
 ================================================
