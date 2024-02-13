@@ -1,0 +1,16 @@
+Setup for useRef:
+import {useRef } from 'react';
+export function App() {
+  const inputRef = useRef();
+  return (
+      <input ref={inputRef} type="text"/>
+  );
+}
+================================================
+useReducer hooks 
+//It is also use for state management.
+//It is similar to useState 
+//It will allow to write custom state logic.
+Without useReducer 
+https://code.newtonschool.co/newton-box/4xop1gqlx2eg/
+================================================
