@@ -1,0 +1,2 @@
+forwardingRef:
+//It will allow parent component to move down refs to their children component.
