@@ -1,2 +1,15 @@
 forwardingRef:
 //It will allow parent component to move down refs to their children component.
+=================================================================
+useMemo - hooks 
+//this hooks is for performance improvement.
+without useMemo:
+https://code.newtonschool.co/newton-box/orqhpxav0wj7/
+useMemo:
+https://code.newtonschool.co/newton-box/f89uby1dj5g0/
+
+Memoization:
+//It is concept in general when we don't need to recompute the function next time as it returns from cache result.
+useMemo: it is working with Memoization concept.
+==========================================================
+
