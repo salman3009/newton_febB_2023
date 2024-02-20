@@ -1,22 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import {useState,useEffect} from 'react';
 
 function App() {
+
+  const [getCount,setCount] = useState(0);
+  const [getSalary,setSalary] = useState(0);
+
+  const onLoad=()=>{
+     setCount(getCount+1);
+     setSalary(getSalary+1);
+  }
+
+  useEffect(()=>{
+     console.log("getCount,getSalary");
+  },[getCount,getSalary])
+
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Count:{getCount}</h1>
+        <h1>Salary:{getSalary}</h1>
+        <button onClick={onLoad}>Increment</button>
       </header>
     </div>
   );

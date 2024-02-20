@@ -1,6 +1,7 @@
 React.Memo 
 useCallback function 
 =========================
-State Scheduling:
+Batch State Scheduling:
+//Each useState is asynchronous process
 //React will avoid unwanted rendering of simultenously state. it will group all state together once. then it will rerender.
 ==================================================
