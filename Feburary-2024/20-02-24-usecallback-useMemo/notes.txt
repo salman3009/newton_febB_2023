@@ -1,2 +1,6 @@
 React.Memo 
 useCallback function 
+=========================
+State Scheduling:
+//React will avoid unwanted rendering of simultenously state. it will group all state together once. then it will rerender.
+==================================================
