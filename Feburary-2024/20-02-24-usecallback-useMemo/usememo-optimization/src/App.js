@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {useState} from 'react';
+import {useState,useMemo} from 'react';
 
 function isPrime(num) {
   console.log("isPrime function");
@@ -36,8 +36,8 @@ function App() {
   const [num1, setNum1] = useState(0);
   const [num2, setNum2] = useState(0);
    
-  let prime = isPrime(num1);
-  let arm = armStrong(num2);
+  let prime = useMemo(()=>isPrime(num1),[num1]);
+  let arm = useMemo(()=>armStrong(num2),[num2]);
 
   return (
     <div className="App">
