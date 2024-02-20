@@ -8,4 +8,21 @@
     //1**3 + 5**3 + 3**3 
     //1+125+27 = 153 
     //153 == 153 it is arstrong number
+
+    function armstrong(num){
+
+        let sum=0;
+        let temp = num;
+        let digits = num.toString().length;
+        while(temp>0){
+            let reminder = temp%10;
+            sum+=reminder ** digits;
+            temp = parseInt(temp/10);
+        }
+         
+        return sum == num;
+    }
+
+    let result = armstrong(153);
+    console.log(result);
 </script>
