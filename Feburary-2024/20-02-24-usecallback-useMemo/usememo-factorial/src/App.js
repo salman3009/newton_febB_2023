@@ -1,6 +1,13 @@
-import {useState} from 'react';
+import {useState,useMemo} from 'react';
 
-import FactorialComponent from './FactorialComponent';
+function factorial(n){
+  console.log("factorial",n);
+  if(n<=1){
+      return 1;
+  }
+  return n*factorial(n-1);
+}
+
 function App() {
   const [getNum,setNum] = useState(5);
   const [getFact,setFact] = useState(0);
@@ -8,9 +15,12 @@ function App() {
   const onClickHandler=()=>{
      setFact(Number(getNum));
   }
+
+ let result = useMemo(()=>factorial(getFact),[getFact]);
+
   return (
     <div className="App">
-     <FactorialComponent num={getFact}/>
+    Factorial Number: {result}
      Factorial Number:<input type="number" onChange={(e=>setNum(e.target.value))}/>
      <br/>
      <button onClick={onClickHandler}>Set Factorial</button>
