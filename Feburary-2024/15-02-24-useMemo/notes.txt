@@ -12,4 +12,7 @@ Memoization:
 //It is concept in general when we don't need to recompute the function next time as it returns from cache result.
 useMemo: it is working with Memoization concept.
 ==========================================================
+What are common techniques for optimizing React applications?
+Memoization and memoization libraries like React.memo and useMemo.
+==============================================================
 
