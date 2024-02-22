@@ -7,20 +7,22 @@ function App() {
   const {data,loading,error} = useFetch("https://content.newtonschool.co/v1/pr/63b6c911af4f30335b4b3b89/products?limit=10&page=1");
 
   if(loading){
-    return <h1>Loading</h1>
+    return <h1>Loading..</h1>
   }
 
   if(error){
-    return <h1>Please try after sometime</h1>
+    return <h1>Error: {error}</h1>
   }
 
   return (
     <div className="App">
-      {data.map((obj,index)=>{
-        return (<p key={index}>
+      <ul>
+      {data && data.map((obj,index)=>{
+        return (<li key={index}>
              {obj.title}
-        </p>)
+        </li>)
       })}
+      </ul>  
     </div>
   );
 }
