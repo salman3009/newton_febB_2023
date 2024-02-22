@@ -4,6 +4,7 @@ function useFetch(url){
 
    const [data,setData] = useState([]);
    const [loading,setLoading] = useState(false);
+   const [error,setError] = useState('');
 
    useEffect(()=>{
        initalLoad();
@@ -15,13 +16,15 @@ function useFetch(url){
         let response = await fetch(url);
         let data = await response.json();
         setData(data);
-        setLoading(false);
     }catch(err){
-
+         console.log(err);
+        setError("exception occured");
+    }finally{
+         setLoading(false);
     }     
    }
 
-   return {data,loading}
+   return {data,loading,error}
 }
 
 export default useFetch;
