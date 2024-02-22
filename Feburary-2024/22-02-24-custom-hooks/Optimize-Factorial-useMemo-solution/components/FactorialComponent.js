@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 
 
 function factorial(n) {
@@ -5,9 +6,10 @@ function factorial(n) {
   return n * factorial(n - 1);
 }
 
-export default function FactorialComponent() {
+export default function FactorialComponent({num}) {
+   
+  let result = useMemo(()=>factorial(num),[num])
 
-
-  return <div className='result'>The factorial of {} is {}</div>;
+  return <div className='result'>The factorial of {num} is {result}</div>;
 }
 
