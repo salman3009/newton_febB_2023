@@ -1,0 +1,15 @@
+Types of hooks 
+state management 
+     1. useState 
+     2. useReducer - (custom state logic )
+Life Cycle Hooks 
+     1.useEffect 
+memoized hooks  (cache)
+     1.useMemo  - (value)
+     2.useCallback - (function)
+Direct DOM Access
+      1.useRef (Avoid rerendering)
+            forwardRef 
+Global state Storage 
+      1.useContext
+custom hooks:

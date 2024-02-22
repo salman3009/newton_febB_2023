@@ -23,7 +23,7 @@ function useFetch(url){
          setLoading(false);
     }     
    }
-
+  
    return {data,loading,error}
 }
 
