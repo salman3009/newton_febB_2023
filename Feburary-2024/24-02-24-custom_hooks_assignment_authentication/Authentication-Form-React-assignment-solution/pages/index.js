@@ -4,7 +4,7 @@ import Link from 'next/link';
 import {useRouter} from 'next/navigation';
 
 function Register() {
-  
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState(false);
@@ -18,6 +18,9 @@ function Register() {
      }
      else{
       localStorage.setItem('user',JSON.stringify({email,password}));
+      setError(false);
+      setEmail('');
+      setPassword('');
       router.push('/login');
      }
   }

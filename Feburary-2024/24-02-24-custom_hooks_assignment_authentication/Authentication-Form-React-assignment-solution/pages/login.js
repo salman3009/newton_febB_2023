@@ -22,6 +22,9 @@ const Login = () => {
       const user = JSON.parse(localStorage.getItem('user'));
       if(user && user.email == email && user.password == password){
         localStorage.setItem('loginStatus','true');
+        setError(false);
+        setEmail('');
+        setPassword('');
         router.push('/store');
       }
       else{
