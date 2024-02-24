@@ -25,7 +25,7 @@ const Login = () => {
         router.push('/store');
       }
       else{
-        setError(false);
+        setError(true);
       }
      
      }
