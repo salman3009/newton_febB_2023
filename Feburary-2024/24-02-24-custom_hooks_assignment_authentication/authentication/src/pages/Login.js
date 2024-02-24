@@ -19,6 +19,7 @@ function Login(){
         }
         const user = JSON.parse(localStorage.getItem('user'));
         if(user && user.getEmail == getEmail && user.getPassword == getPassword){
+            localStorage.setItem("loginStatus",'true');
             navigate('/home');
         }
         else{
