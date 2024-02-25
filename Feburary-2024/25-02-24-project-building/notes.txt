@@ -46,3 +46,17 @@ cmd:npm install react-router-dom
 cmd:npm install axios 
 
 =========================================================================
+Reactjs 
+1.routing setup 
+2.useState,useEffect 
+3.component 
+4.map 
+5.passing props from parent to child 
+6.axios 
+7.axios passing headers 
+CSS: 
+1.flex 
+2.color,background-color,font-size,font-weight 
+3.padding,marging,width,height,border-radius
+4.list-style
+============================================
