@@ -38,3 +38,30 @@
 .music-title{
     font-size:16px;
 }
+
+.nav-item{
+    list-style: none;
+}
+
+a{
+    color:black;
+}
+
+a:hover{
+    background-color: #d60017;
+    color:white;
+}
+
+.left-nav{
+    margin-right: 95px;
+}
+
+.fa-solid{
+    color:#d60017;
+    font-size:24px;
+}
+
+.icon-music{
+    padding: 12px;
+    font-weight: 700;
+}
