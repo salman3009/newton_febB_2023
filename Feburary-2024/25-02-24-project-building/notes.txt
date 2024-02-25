@@ -3,7 +3,9 @@ Steps for creating project:
 2.Remove data from app.css and index.css
 3.Remove strictmode from index.js
 4.starting write code from app.js 
+
 5.CSS framework bootstrap 4 setup 
+website:https://getbootstrap.com/docs/4.6/getting-started/introduction/
 setup:
 public/index.html 
 <html>
@@ -15,6 +17,13 @@ public/index.html
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
- 
 
+ 6.font awesome icons setup 
+ website: https://cdnjs.com/libraries/font-awesome
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+</body>
 =========================================================================
