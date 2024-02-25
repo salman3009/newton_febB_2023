@@ -4,6 +4,7 @@ Steps for creating project:
 3.Remove strictmode from index.js
 4.starting write code from app.js 
 
+
 5.CSS framework bootstrap 4 setup 
 website:https://getbootstrap.com/docs/4.6/getting-started/introduction/
 setup:
@@ -18,6 +19,7 @@ public/index.html
 </body>
 </html>
 
+
  6.font awesome icons setup 
  website: https://cdnjs.com/libraries/font-awesome
 <html>
@@ -26,4 +28,17 @@ public/index.html
 </head>
 <body>
 </body>
+
+
+7.routing setup 
+cmd:npm install react-router-dom 
+//create pages folder inside the src 
+//Create following files inside the pages folder 
+1.Home.js 
+2.Login.js 
+3.Register.js 
+4.Library.js 
+//create following files insid ethe components folder 
+1.Sidebar.js 
+2.Navbar.js
 =========================================================================
