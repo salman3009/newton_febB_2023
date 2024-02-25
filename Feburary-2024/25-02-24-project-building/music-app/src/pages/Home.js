@@ -13,7 +13,7 @@ function Home(){
       musicList();
    },[])
 
-   
+
    const musicList = async ()=>{
       try{
          const response = await axios.get('https://academics.newtonschool.co/api/v1/music/song',{
@@ -37,7 +37,21 @@ function Home(){
                <Sidebar/>
           </div>
           <div className="right-sidebar">
-               <MusicCard/>
+            <div className="music-container">
+            {
+               getData.map((obj,index)=>{
+                  return ( <MusicCard
+                     key={index}
+                     title={obj.title}
+                     thumbnail={obj.thumbnail}
+                     artist = {obj.artist}
+                     id={index}
+                   />)
+                 
+               })
+            }    
+            </div>
+            
           </div>
        </div>
     </>)

@@ -11,3 +11,30 @@
 .right-sidebar{
     width: 80%;
 }
+
+.music-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    justify-content: center;
+}
+
+.musicCard{
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    padding:5px;
+    border-radius:5px;
+}
+
+.artist{
+    font-size:14px;
+    width: 50%;;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.music-title{
+    font-size:16px;
+}
