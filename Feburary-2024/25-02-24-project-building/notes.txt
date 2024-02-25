@@ -41,4 +41,8 @@ cmd:npm install react-router-dom
 //create following files insid ethe components folder 
 1.Sidebar.js 
 2.Navbar.js
+
+8.setup axios package 
+cmd:npm install axios 
+
 =========================================================================

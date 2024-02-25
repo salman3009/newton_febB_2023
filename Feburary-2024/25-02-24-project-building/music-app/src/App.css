@@ -1,0 +1,13 @@
+.global-container{
+    display: flex;
+    gap:5px;
+}
+
+.left-sidebar{
+    width: 20%;
+    background-color: #f9f9f9;
+}
+
+.right-sidebar{
+    width: 80%;
+}
