@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
+import {useNavigate} from 'react-router-dom';
 
 function Register() {
 
@@ -11,6 +12,8 @@ function Register() {
     });
 
     const [getError, setError] = useState(null);
+
+    const navigate = useNavigate();
 
     const onChangeHandler = (event) => {
         setData({ ...getData, [event.target.name]: event.target.value })
@@ -37,6 +40,7 @@ function Register() {
             }
         }).then((result) => {
             console.log(result);
+            navigate('/login');
         }).catch((error) => {
             setError("internal server error please try after sometime");
         })
