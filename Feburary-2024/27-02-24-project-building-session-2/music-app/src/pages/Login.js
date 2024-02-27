@@ -5,8 +5,8 @@ import {useNavigate} from 'react-router-dom';
 function Login() {
 
     const [getData, setData] = useState({
-        email: '',
-        password: '',
+        email: 'kamlesh@gmail.com',
+        password: '12345',
         appType: 'music'
     });
 
@@ -34,7 +34,8 @@ function Login() {
                 projectID: 'f104bi07c490'
             }
         }).then((result) => {
-            console.log(result);
+            console.log(result.data.token);
+            console.log(result.data.data.name);
             navigate('/');
         }).catch((error) => {
             setError("internal server error please try after sometime");

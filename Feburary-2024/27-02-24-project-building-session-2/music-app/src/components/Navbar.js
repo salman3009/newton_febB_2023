@@ -1,5 +1,4 @@
-
-
+import {Link} from 'react-router-dom';
 
 function Navbar(){
     return(<>
@@ -16,12 +15,12 @@ function Navbar(){
       </li>
     </ul>
     <li className="nav-item dropdown my-2 my-lg-0 left-nav">
-        <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+        <div className="nav-link dropdown-toggle"  role="button" data-toggle="dropdown" aria-expanded="false">
           User
-        </a>
+        </div>
         <div className="dropdown-menu">
-          <a className="dropdown-item" href="#">Login</a>
-          <a className="dropdown-item" href="#">Register</a>  
+          <Link className="dropdown-item" to="/login">Login</Link>
+          <Link className="dropdown-item" to="/register">Register</Link> 
         </div>
       </li>
   </div>
