@@ -1,0 +1,11 @@
+Application will have Authentication and Authorization:
+
+Authentication:
+register ---> login ---> Home
+Authorization:
+login --> which page you can access or data
+==============================================
+Authentication process:
+1.register component
+
+
