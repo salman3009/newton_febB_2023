@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import axios from 'axios';
 
 function Register() {
 
@@ -30,7 +31,15 @@ function Register() {
             setError('password cannot be empty');
             return;
         }
-        console.log(getData);
+        axios.post('https://academics.newtonschool.co/api/v1/user/signup',getData, {
+            headers: {
+                projectID: 'f104bi07c490'
+            }
+        }).then((result) => {
+            console.log(result);
+        }).catch((error) => {
+            setError("internal server error please try after sometime");
+        })
     }
 
 
