@@ -3,8 +3,13 @@ import { useUser } from '../providers/UserProvider';
 
 function Navbar(){
 
-  const {getToken,getName} = useUser();
-
+  const {getToken,getName,onTokenHandler,onNameHandler} = useUser();
+ 
+   const logoutHandler=()=>{
+    onTokenHandler(null);
+    onNameHandler(null);
+   }
+   
     return(<>
    <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <a className="navbar-brand" href="#"><i class="fa-solid fa-music"></i><span className="icon-music">Music</span></a>
@@ -23,8 +28,14 @@ function Navbar(){
           {getName?getName:"Profile"}
         </div>
         <div className="dropdown-menu">
-          <Link className="dropdown-item" to="/login">Login</Link>
-          <Link className="dropdown-item" to="/register">Register</Link> 
+          {getToken && <>
+            <Link className="dropdown-item" onClick={logoutHandler} to="/login">Logout</Link>
+          </>}
+          {!getToken && <>
+            <Link className="dropdown-item" to="/login">Login</Link>
+          <Link className="dropdown-item" to="/register">Register</Link>
+          </>}
+        
         </div>
       </li>
   </div>
