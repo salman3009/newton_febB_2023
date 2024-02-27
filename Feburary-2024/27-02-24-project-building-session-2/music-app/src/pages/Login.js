@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
+import {useUser} from '../providers/UserProvider';
 
 function Login() {
 
+     const {onTokenHandler,onNameHandler} = useUser();
+     
     const [getData, setData] = useState({
         email: 'kamlesh@gmail.com',
         password: '12345',
@@ -34,8 +37,8 @@ function Login() {
                 projectID: 'f104bi07c490'
             }
         }).then((result) => {
-            console.log(result.data.token);
-            console.log(result.data.data.name);
+            onTokenHandler(result.data.token);
+            onNameHandler(result.data.data.name);
             navigate('/');
         }).catch((error) => {
             setError("internal server error please try after sometime");
