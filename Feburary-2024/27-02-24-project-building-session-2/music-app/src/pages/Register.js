@@ -1,22 +1,35 @@
-import {useState} from 'react';
-
-
+import { useState } from 'react';
 
 function Register() {
-    
-    const [getData,setData] = useState({
-        name:'',
-        email:'',
-        password:'',
-        appType:'music'
+
+    const [getData, setData] = useState({
+        name: '',
+        email: '',
+        password: '',
+        appType: 'music'
     });
 
-    const onChangeHandler=(event)=>{
-      setData({...getData,[event.target.name]:event.target.value})
+    const [getError, setError] = useState(null);
+
+    const onChangeHandler = (event) => {
+        setData({ ...getData, [event.target.name]: event.target.value })
     }
 
-    const onSubmitHandler=(event)=>{
+    const onSubmitHandler = (event) => {
         event.preventDefault();
+        setError(null);
+        if (!getData.name) {
+            setError('userName is mandatory');
+            return;
+        }
+        else if (!getData.email) {
+            setError('email is mandatory');
+            return;
+        }
+        else if (!getData.password) {
+            setError('password cannot be empty');
+            return;
+        }
         console.log(getData);
     }
 
@@ -29,6 +42,9 @@ function Register() {
 
                 </div>
                 <div className="col-4">
+                    {getError && <div class="alert alert-danger" role="alert">
+                        {getError}
+                    </div>}
                     <form onSubmit={onSubmitHandler}>
                         <div class="form-group">
                             <label htmlFor="name">UserName</label>

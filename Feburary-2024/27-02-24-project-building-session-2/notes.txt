@@ -7,5 +7,9 @@ login --> which page you can access or data
 ==============================================
 Authentication process:
 1.register component
+       1.UI 
+       2.State 
+       3.validation 
+       4.integration 
 
 
