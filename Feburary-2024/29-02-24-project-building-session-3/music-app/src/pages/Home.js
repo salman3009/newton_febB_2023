@@ -3,10 +3,12 @@ import Sidebar from '../components/Sidebar';
 import MusicCard from '../components/MusicCard';
 import {useState,useEffect} from 'react';
 import axios from 'axios';
+import { MusicPlayer } from '../components/MusicPlayer';
 
 function Home(){
     
    const [getData,setData] = useState([]);
+   const [getMusic,setMusic] = useState(null);
 
 
    useEffect(()=>{
@@ -30,6 +32,9 @@ function Home(){
    }
 
 
+   const onMusicHandler=(id)=>{
+      console.log(id);
+   }
 
     return(<>
        <div className="global-container">
@@ -46,6 +51,7 @@ function Home(){
                      thumbnail={obj.thumbnail}
                      artist = {obj.artist}
                      id={index}
+                     onMusicHandler={onMusicHandler}
                    />)
                  
                })
@@ -54,6 +60,13 @@ function Home(){
             
           </div>
        </div>
+       {getMusic && (<MusicPlayer
+          title={getMusic.title}
+          thumbnail={getMusic.thumbnail}
+          artist={getMusic.artist}
+          audio_url={getMusic.audio_url}
+       />)}
+
     </>)
  }
  export default Home;
