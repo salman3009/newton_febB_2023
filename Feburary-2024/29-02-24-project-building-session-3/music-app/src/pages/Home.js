@@ -32,8 +32,11 @@ function Home(){
    }
 
 
-   const onMusicHandler=(id)=>{
-      console.log(id);
+   const onMusicHandler=(index)=>{
+      debugger;
+      console.log(index);
+      let list = getData[index];
+      setMusic(list);
    }
 
     return(<>
