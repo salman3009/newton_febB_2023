@@ -1,15 +1,3 @@
-Application will have Authentication and Authorization:
-
-Authentication:
-register ---> login ---> Home
-Authorization:
-login --> which page you can access or data
-==============================================
-Authentication process:
-1.register component
-       1.UI 
-       2.State 
-       3.validation 
-       4.integration 
-
-
+passing data from parent to child and child to parent:
+https://code.newtonschool.co/newton-box/xt1xjcs2fqjk/
+=============================================
