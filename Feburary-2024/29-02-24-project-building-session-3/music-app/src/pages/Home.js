@@ -67,6 +67,7 @@ function Home(){
           title={getMusic.title}
           thumbnail={getMusic.thumbnail}
           artist={getMusic.artist}
+          songId ={getMusic._id}
           audio_url={getMusic.audio_url}
        />)}
 
