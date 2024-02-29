@@ -13,3 +13,7 @@ Direct DOM Access
 Global state Storage 
       1.useContext
 custom hooks:
+Custom Hooks must start with the word 'use' and can't return JSX.
+syntax:
+function useCustomHook() { ... }
+==================================================================
