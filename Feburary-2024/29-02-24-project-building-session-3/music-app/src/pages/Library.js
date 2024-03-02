@@ -12,10 +12,10 @@ function Library(){
             projectID: 'f104bi07c490',
             Authorization:`Bearer ${getToken}`
           }
-       }).then(()=>{
-
-       }).catch(()=>{
-         
+       }).then((result)=>{
+           console.log(result.data)
+       }).catch((err)=>{
+           console.log(err);
        })
    }
 
