@@ -11,6 +11,20 @@ function Library() {
       listOfLibrary();
    }, [])
 
+   const deleteHandler = (songId) => {
+      axios.patch('https://academics.newtonschool.co/api/v1/music/favorites/like', { songId: songId }, {
+        headers: {
+          projectID: 'f104bi07c490',
+          Authorization:`Bearer ${getToken}`
+        }
+      }).then((result) => {
+         listOfLibrary();
+      }).catch((error) => {
+        console.log(error);
+      })
+  
+    }
+
    const listOfLibrary = () => {
       axios.get('https://academics.newtonschool.co/api/v1/music/favorites/like', {
          headers: {
@@ -41,7 +55,7 @@ function Library() {
                            width={"150"}
                            className="bannerImg"
                         />
-                        <div className="music-title">{obj.title}</div>
+                        <div className="music-title">{obj.title} <i onClick={()=>deleteHandler(obj._id)} class="fa-solid fa-trash"></i></div>
                      </div>)
                   })}
             </div>
