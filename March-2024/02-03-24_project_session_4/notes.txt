@@ -2,5 +2,6 @@ To setup for production:
 npm run build
 //build folder will be created
 running build folder
-serve -s build
+cmd:npm install -g serve
+cmd:serve -s build
 ===============================
