@@ -24,3 +24,12 @@ function App() {
 }
 
 export default App;
+================================
+import 
+same path -->./Login/Login.js 
+same path -->./Login.js 
+
+one file below --> ../Home.js 
+two file below --> ../../Home.js 
+three file below --> ../../../Home.js
+=======================================

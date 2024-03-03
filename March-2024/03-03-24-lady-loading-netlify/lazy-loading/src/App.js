@@ -1,8 +1,14 @@
 import './App.css';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import Login from './Login';
-import Register from './Register';
-import Home from './Home';
+import {lazy} from 'react';
+
+// import Login from './Login';
+// import Register from './Register';
+// import Home from './Home';
+
+const Login = lazy(()=>import('./Login'));
+const Register = lazy(()=>import('./Register'));
+const Home = lazy(()=>import('./Home'));
 
 function App() {
   return (
